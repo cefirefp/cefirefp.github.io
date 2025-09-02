@@ -14,7 +14,7 @@ Pàgina creada en mkdocs per a més informació [mkdocs.org](https://www.mkdocs.
 
 * [Noves consideracions sobre formacions](formacions/formaciones.md)
 * [Procés de vida formació](formacions/proces_vida_formacio.md)
-* [Noves consideracions sobre formacions](formacions/FAQ.md)
+* [Preguntes Freqüents](formacions/FAQ.md)
 
 ## Gestió econòmica
 
