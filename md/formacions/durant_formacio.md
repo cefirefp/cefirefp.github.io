@@ -72,17 +72,40 @@ Si ens trobem amb participants que no estan seguint la formació, enviarem un mi
 ## Avaluació de la formació
 
 - Es recomana quan es crea el curs d'Aules de la formació inserir en l'última secció del curs **en ocult** l'enquesta de valoració. Es tracta d'en formulari de Forms.
-- Ací teniu una plantilla, [Plantilla Formulari enquesta valoració.](https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PLANTILLAS/FORMACIONES/Plantilla.encuesta.valoracion.url?csf=1&web=1&e=kpkx1t)
+- Ací teniu una plantilla, [Plantilla Formulari enquesta valoració.](https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PLANTILLAS/FORMACIONES/Plantilla.encuesta.valoracion.url?csf=1&web=1&e=kpkx1t){ :target="_blank" }
 - Heu de modificar algunes preguntes, com el nom del ponent o ponents. Si es considera d'interés afegir alguna entrada pot fer-se, però es recomana no fer l'enquesta molt extensiva i deixar les preguntes que hi ha en la plantilla per fer anàlisi després de les formacions d'una manera estandaritzada.
 - Quinze dies abans de finalitzar la formació activarem l'enquesta de valoració.
-- Enviarem un missatge en el foro de avisos, demanant que emplenen l'enquesta.  Ací teniu una plantilla, [Plantilla missatge enquesta valoriació.](https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/PLANTILLAS/FORMACIONES/Mensaje%20encuesta%20de%20valoraci%C3%B3n.docx?d=w66cea7e70ce24dd4bc3f9add0328c552&csf=1&web=1&e=Y5OlpR)
+- Enviarem un missatge en el foro de avisos, demanant que emplenen l'enquesta.  Ací teniu una plantilla, [Plantilla missatge enquesta valoriació.](https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/PLANTILLAS/FORMACIONES/Mensaje%20encuesta%20de%20valoraci%C3%B3n.docx?d=w66cea7e70ce24dd4bc3f9add0328c552&csf=1&web=1&e=Y5OlpR){ :target="_blank" }
+
+```
+Bon dia a tots i totes, 
+
+Ens trobem en la recta final d'este curs que finalitza el dia  XX de XX.  
+Els agraïm per haver participat en el nostre curs i recordem que es tracta d'un curs molt demandat i s'ha d'assumir el compromís de seguir-lo. 
+ 
+A més, volem sol·licitar la seua col·laboració perquè emplenen l'enquesta de valoració, que trobareu en l'última secció. La seua retroalimentació és fonamental per a nosaltres, ja que ens ajuda a millorar les nostres accions formatives i a oferir-los una millor experiència en futurs cursos. 
+ 
+Agraïm per endavant el seu temps i col·laboració. 
+
+Salutacions. 
+
+---
+
+Buenas a todos y todas, 
+
+Nos encontramos en la recta final de este curso que finaliza el día XX de XX. Les agradecemos haber participado en nuestro curso y recordamos que se trata de un curso muy demandado y se debe asumir el compromiso de seguirlo. 
+
+Además, queremos solicitar su colaboración para que rellenen la encuesta de valoración, que encontraréis en la última sección. Su retroalimentación es fundamental para nosotros, ya que nos ayuda a mejorar nuestras acciones formativas y a ofrecerles una mejor experiencia en futuros cursos. 
+
+Agradecemos de antemano su tiempo y colaboración. 
+
+Un saludo. 
+```
+
 - Uns dies abans d'acabar la formació revisarem si han emplenat l'enquesta de valoració i si cal, recordarem que encara són a temps d'acabar les tasques pendents per a certificar i que si no han emplenat l'enquesta de valoració, per favor que el facen.
 - **Emmagatzemament de resultats:**
-En [Informes.](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/ENCUESTAS%20DE%20VALORACI%C3%93N/INFORMES?csf=1&web=1&e=6x9rAF), deixarem l'informe amb la informació general de les respostes. Cada formació ha d'estar emmagatzemada en la seua família professional.
-En [Resultats individuals.](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/ENCUESTAS%20DE%20VALORACI%C3%93N/RESULTATS%20INDIVIDUALS?csf=1&web=1&e=iWWf82) deixarem una còpia de l'Excel amb tota la informació de les respostes. Cada formació ha d'estar emmagatzemada en la seua família professional.
+En [Informes.](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/ENCUESTAS%20DE%20VALORACI%C3%93N/INFORMES?csf=1&web=1&e=6x9rAF){ :target="_blank" }, deixarem l'informe amb la informació general de les respostes. Cada formació ha d'estar emmagatzemada en la seua família professional.
+En [Resultats individuals.](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/ENCUESTAS%20DE%20VALORACI%C3%93N/RESULTATS%20INDIVIDUALS?csf=1&web=1&e=iWWf82){ :target="_blank" } deixarem una còpia de l'Excel amb tota la informació de les respostes. Cada formació ha d'estar emmagatzemada en la seua família professional.
 - **Dades participants formacions:**
 Durant la formació hem de revisar que totes les dades dels participants són correctes. És molt important que el **nom y cognom dels participants estiguen en majúscules.** En cas d'haver algú participant en minúscules hem d'enviar un correu a compteformacio@gva.es. **Els assessors no podem modificar cap informació de persones en Gesform**
-
-
-
 
