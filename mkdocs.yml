@@ -102,3 +102,4 @@ plugins:
   - search
   - pdf-export
   - autorefs
+  - open-in-new-tab
