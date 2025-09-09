@@ -6,7 +6,7 @@ Algunas formaciones realizadas en cursos anteriores han tenido problemas en el p
     Es muy importante que se sigan las instrucciones que se indican en este documento para evitar problemas en el pago de los ponentes y tutores de la formación en las formaciones. Hay que tener sentido común y aplicar el principio de prudencia en la gestión de los recursos públicos. Hemos de partir de la base que todo pago realizado se debe realizar según la normativa vigente y que se debe justificar documentalmente.
 
 !!! warning "IMPORTANTE"
-    Toda la documentación que vamos a ver en este documento se encuentra en el [ERESAR del CEFIRE de FP](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR?csf=1&web=1&e=9EDXrL){ :target="_blank" } en la carpeta ERESAR.
+    Toda la documentación que vamos a ver en este documento se encuentra en el [ERESAR del CEFIRE de FP](https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR?csf=1&web=1&e=9EDXrL){ :target="_blank" }.
 
 ## Distribución de formaciones
 
@@ -40,7 +40,7 @@ Lo primero que debemos tener en cuenta és qué normativa se aplicaba en el mome
 |-------------------|--------------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------|
 | SÍNCRONA          | Presencial o mediada por tecnología                          | 84 €/hora             | Incluye elaboración de materiales para la docencia, en su caso.                                |
 | A DISTANCIA       | Profesor/a (crea material y tutoriza el curso)               | 84 €/hora             |                                                                                               |
-| A DISTANCIA       | Tutor/a (material existente, atiende 30-45 participantes)    | 45 €/h (parcial)      | Importe completo en cursos de 30h: La coletilla 45€ por participante que certifique, no se aplica. Se cobra curso completo por horas           |
+| A DISTANCIA       | Tutor/a (material existente, atiende 30-45 participantes)    | 45 €/h (parcial)      | Importe completo en cursos de 30h: La coletilla 45€ por participante que certifique, **no se aplica. Se cobra curso completo por horas**           |
 | A DISTANCIA       | Tutor/a (curso de 20h)                                       | 30 €/participante     |                                                                                               |
 | A DISTANCIA       | Tutor/a (curso de 40h)                                       | 60 €/participante     |                                                                                               |
 | ELABORACIÓN       | Material (persona distinta del profesor/a del curso)         | 17 €/hora             | Cesión del uso de los materiales del curso a la administración por escrito.                    |
@@ -52,8 +52,8 @@ Lo primero que debemos tener en cuenta és qué normativa se aplicaba en el mome
 | FORMACIÓN SÍNCRONA | Presencial o mediada por tecnología                          | 67 €/hora                   | Incluye elaboración de materiales para la docencia.                                           |
 | FORMACIÓN A DISTANCIA - Tutorización | Curso de 30 horas, atención a 30-50 participantes       | 40 €/h | Máximo de 1.200 € por curso. No se cobra por certificado                                                                  |
 | FORMACIÓN A DISTANCIA - Tutorización | Otras tutorizaciones, atención 30-45 participantes     | 42 €/hora                   | Máximo de 2.200 €.                                                                             |
-| ELABORACIÓN DE MATERIALES | Para curso de 20 horas                                        | 475 €                       | La autoría firma cesión de uso a la Subdirección General.                                      |
-| ELABORACIÓN DE MATERIALES | Para curso de 30 horas                                        | 600 €                       |                                                                                               |
+| ELABORACIÓN DE MATERIALES | Para curso de 20 horas                                        | 475 €                       | La autoría firma cesión de uso a la Subdirección General. Proporcional a las horas 47'5€/h                                      |
+| ELABORACIÓN DE MATERIALES | Para curso de 30 horas                                        | 600 €                       |   Proporcional a las horas 47'5€/h |
 | ELABORACIÓN DE MATERIALES | Para curso superior a 30 horas                               | 900 €                       |                                                                                               |
 
 * A partir de Octubre de 2024 se aplicará la [siguiente tarificación](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/TARIFAS_OCTUBRE_%202024_firmado.pdf?csf=1&web=1&e=sRxj1C){ :target="_blank" } que resumimos en la siguiente tabla:
@@ -92,18 +92,18 @@ Que podemos resumir de la siguiente manera:
 1. Escoger una formación y revisarla y ver qué tipo de formación es (síncrona, a distancia, elaboración de materiales, etc.) y qué normativa se le aplica.
 2. Debemos conocer el estado de la formación en Gesform. Deberemos ver en presupuesto qué es lo que se tiene que pagar. Antes de contactar con el ponente debemos de analizar bien la formación y si se puede ajustar a pagar minuta hemos de optar por esta opción (por ejemplo si coincide el pago de materiales y tutorización con la tarifa de minuta).
 3. Contactar con el ponente o ponentes de la formación para que nos envíen la documentación necesaria para realizar el pago. 
-   1. En el caso de que sea minuta deberemos contactar con Elena para que nos prepare la minuta. En este caso deberemos crear una tarjeta en el [Kanban de ERESAR](https://planner.cloud.microsoft/webui/plan/xcYAeW1MxEKkdmzYfKgCMJgAHPKG/view/board?tid=73dd1114-ef7d-40c7-8669-569d32e7e29b){ :target="_blank" } y etiquetar a Elena y a Alfredo con el código de la formación y tarea realizar minuta.
+   * En el caso de que sea minuta deberemos contactar con Elena para que nos prepare la minuta. En este caso deberemos crear una tarjeta en el [Kanban de ERESAR](https://planner.cloud.microsoft/webui/plan/xcYAeW1MxEKkdmzYfKgCMJgAHPKG/view/board?tid=73dd1114-ef7d-40c7-8669-569d32e7e29b){ :target="_blank" } y etiquetar a Elena y a Alfredo con el código de la formación y tarea realizar minuta.
 
     ![Kanban de ERESAR](./eresar2.png)
 
-   2. En el caso de que sea factura, deberemos buscar en la carpeta de la formación. En el caso de que no esté, deberemos contactar con el ponente o ponentes para que nos la envíen. En todo caso esa factura deberá atenderse a normativa y deberá estar especificado en la factura. Se creará una tarjeta en el [Kanban de ERESAR](https://planner.cloud.microsoft/webui/plan/xcYAeW1MxEKkdmzYfKgCMJgAHPKG/view/board?tid=73dd1114-ef7d-40c7-8669-569d32e7e29b){ :target="_blank" } y etiquetar a Alfredo cuando estén todas las tareas de la tarjeta hechas. La tarjeta tendrá el nombre del código de la formación y las siguientes tareas:
+   * En el caso de que sea factura, deberemos buscar en la carpeta de la formación. En el caso de que no esté, deberemos contactar con el ponente o ponentes para que nos la envíen. En todo caso esa factura deberá atenderse a normativa y deberá estar especificado en la factura. Se creará una tarjeta en el [Kanban de ERESAR](https://planner.cloud.microsoft/webui/plan/xcYAeW1MxEKkdmzYfKgCMJgAHPKG/view/board?tid=73dd1114-ef7d-40c7-8669-569d32e7e29b){ :target="_blank" } y etiquetar a Alfredo cuando estén todas las tareas de la tarjeta hechas. La tarjeta tendrá el nombre del código de la formación y las siguientes tareas:
 
     ![Kanban de ERESAR](./eresar3.png)
 
 4. Una vez estén realizados los pasos se pasará la tarjeta a la columna de Designa enviado a firma si se ha pasado la formación a minuta o si se ha revisado correctamente, realizado el Informe ERESAR y se tiene la factura correcta, se subirá a la carpeta de la SDGFP.
 
 !!!warning "IMPORTANTE"
-    Esta es la parte más delicada de todas ya que la factura debe cuadrar con algún tipo de tarificación, es posible que haya que negociar con la empresa para que se reduzca la cuantía la factura. Los más fácil **es pasar la factura a minuta** ya que se conrará más rápidamente y no habrá problemas con la factura. En el caso de que no se pueda pasar a minuta, se deberá justificar muy bien la factura en el Informe ERESAR
+    Esta es la parte más delicada de todas ya que la factura debe cuadrar con algún tipo de tarificación, es posible que haya que negociar con la empresa para que se reduzca la cuantía la factura. Los más fácil **es pasar la factura a minuta** ya que se cobrará más rápidamente y no habrá problemas con la factura. En el caso de que no se pueda pasar a minuta, se deberá justificar muy bien la factura en el Informe ERESAR
 
 
 ## Factura
@@ -113,24 +113,28 @@ Las facturas deberán contener:
 * Datos de la empresa  
 * Datos del CEFIRE  
 * Datos del curso: CÓDIGO y NOMBRE  
-* Importe bruto  
+* Importe bruto (Sin IRPF ni IVA)
 * Importe total  
 * Número total de horas de la formación  
 * Número de participantes  
 * Fechas de realización de la formación  
 * Familia profesional  
 * IVA correspondiente: se debe añadir la coletilla "Factura exenta de IVA según art. 20.1.9 de la ley 37-1992 de 28 de diciembre" si la empresa está exenta de IVA.  
-* Número de cuenta bancaria donde se debe realizar el pago
+* Número de cuenta bancaria donde se debe realiza el pago
 
 Además debe detallarse adecuadamente los conceptos según tarifa. En el caso de que se deba realizar algun ajuste se puede añadir la coletilla:
 
-* Materiales necesarios para la realización de la formación.
+* **Materiales didácticos necesarios para la realización de la formación.** Materiales didácticos (debe tener parte en Aules). Si son materiales se debe detallar el material mínimamente y debe tener IVA. Otra posibilidad es añadir **factura de dieta para cuadrar la factura pero solo desplazamiento**. Dos facturas, una de indemnización por desplazamiento, siempre que haya factura con dieta intentar que la factura de dieta sea independiente. **Si hay materiales debe contener IVA.** Ejemplo de tecxto para la factura:
 
-Hay que tener en cuenta que nunca podrá superar la tarificación vigente en el momento de realizar la formación.
+```
+"Indemnización por desplazamiento para la impartación en Valencia de la formación con código 24FP96PD100" y detalle Morella-Valencia a 0,19 €/km x 2 viajes x 100 km = 38 €
+```
+
+Hay que tener en cuenta que nunca podrá superar la tarificación vigente en el momento de realizar la formación. Nunca se superará el importe de la factura.
 
 ## Informe ERESAR
 
-El Informe ERESAR es un documento que se debe realizar para justificar la formación, se trata de un documento que debe justificar porqué no se ha podido pagar la formación, por lo que deberemos ser creativos y justificar bien la formación siendo lo más elocuentes posibles pero siempre ajustándonos a la realidad. Podemos encontrar una plantilla del [Informe ERESAR aquí](https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/CODIGO_INFORME_ERESAR_XXXXXXXXXXXX_DIRECCI%C3%93N_CEFIRE_FP.docx?d=w63ceccfbcca740458b81cbfb024d959c&csf=1&web=1&e=zQk9E5){ :target="_blank" }.
+El Informe ERESAR es un documento que se debe realizar para **justificar la formación**, se trata de un documento que debe justificar porqué no se ha podido pagar la formación, por lo que deberemos ser creativos y justificar bien la formación siendo lo más elocuentes posibles pero siempre ajustándonos a la realidad. Podemos encontrar una plantilla del [Informe ERESAR aquí](https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/CODIGO_INFORME_ERESAR_XXXXXXXXXXXX_DIRECCI%C3%93N_CEFIRE_FP.docx?d=w63ceccfbcca740458b81cbfb024d959c&csf=1&web=1&e=zQk9E5){ :target="_blank" }. **Hay que leer bien la plantilla y rellenarla adecuadamente**. El informe se debe subir a la carpeta de la formación.
 
 ## Conformidad de realización de la formación
 
@@ -138,9 +142,9 @@ El documento para realizar la conformidad lo podemos [encontrar aquí](https://g
 
 ## DESIGNA
 
-Si la formación se ha pasado a minuta, una vez esté realizada la minuta y esté revisada por Elena, se deberá realizar el DESIGNA de la misma manera que se realizan el resto de DESIGNAS, respetando las fechas y detallando los conceptos de la minuta.
+Si la formación se ha pasado a minuta, una vez esté realizada la minuta y esté revisada por Elena, se deberá realizar el DESIGNA y el CERTIFICA de la misma manera que se realizan el resto de DESIGNAS, respetando las fechas y detallando los conceptos de la minuta.
 
-En el caso de que el ponente esté de acuerda en pasar la formación a minuta, se deberá rellenar un documento como que renuncia l cobro por factura:
+En el caso de que el ponente esté de acuerdo en pasar la formación a minuta, se deberá rellenar un documento como que renuncia al cobro por factura:
 
 
 ```
@@ -170,4 +174,4 @@ Atentamente,
 
 ## CONCLUSIONES
 
-Es importante realizar un seguimiento de todas estas formaciones y tener informado en todo momento al ponente. La cuestión es finaliar todos los procedimientos lo antes posible. Para minimizar los problemas, es imprescindible que se realicen los informes con detalle y que se ajuste siempre a normativa.
+Es importante realizar un seguimiento de todas estas formaciones y tener informado en todo momento al ponente. La cuestión es finalizar todos los procedimientos lo antes posible. Para minimizar los problemas, es imprescindible que se realicen los informes con detalle y que se ajuste siempre a normativa.
