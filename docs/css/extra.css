@@ -1,0 +1,81 @@
+.md-content p {
+  text-align: justify;
+}
+
+
+/* Amaga els nivells 3 i 4 del TOC del menú lateral */
+.md-nav__item.md-nav__item--nested .md-nav__list .md-nav__item--nested {
+    display: none;
+}
+
+
+/* Contenidor de la taula centrat horitzontal i verticalment */
+.table-container {
+    display: flex;
+    justify-content: center;  /* centra horitzontalment */
+    align-items: center;      /* centra verticalment */
+    height: auto;
+    margin: 0;
+}
+
+/* Estil general de la taula */
+table {
+    width: 80%;
+    border-collapse: separate; /* necessari per cantonades arrodonides */
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Capçalera de la taula */
+table thead tr {
+    background: linear-gradient(90deg, #1E90FF, #4CA6FF);
+    color: white;
+    text-align: center;
+}
+
+/* Cel·les de la taula */
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Arrodoniment de la capçalera */
+table thead tr th:first-child {
+    border-top-left-radius: 12px;
+}
+table thead tr th:last-child {
+    border-top-right-radius: 12px;
+}
+
+/* Arrodoniment de les cantonades inferiors */
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+/* Files alternes */
+table tbody tr:nth-child(even) {
+    background-color: #e7f0fd;
+}
+
+/* Hover files */
+table tbody tr:hover {
+    background-color: #d0e4fd;
+    transition: background 0.3s;
+}
+
+/* Cel·les amb tick ✓ en blau fosc */
+table td:contains("✓") {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+
+

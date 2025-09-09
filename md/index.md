@@ -1,32 +1,35 @@
-# Benvinguts a la pàgina de tutorials per als usuaris de FP
+# **Inici**
 
-Pàgina creada en mkdocs per a més informació [mkdocs.org](https://www.mkdocs.org). És important que utilitzeu els canals habituals per a comunicar-se.
+### 👋 Benvinguda
 
-* [Pàgina CEFIRE](https://portal.edu.gva.es/cefire/es/inici-2-es/)
-* [Enllaç Telegram a la comunitat de CEFIRE](t.me/GVA_Cefire)
-* [Enllaç a a pàgina FP de GVA](https://ceice.gva.es/va/web/formacion-educacion/formacion)
+Benvinguts i benvingudes a l’espai digital del **CEFIRE de Formació Professional**.
+Aquesta web està pensada especialment per a vosaltres, **assessors i assessores de FP**, amb l’objectiu de tindre un lloc únic on trobar tota la informació, recursos i materials necessaris per al vostre treball diari.
 
-## Tutorials Teams
+El nostre propòsit és que siga una eina **útil, pràctica i sempre actualitzada**, que facilite la comunicació, l’organització i la formació contínua dins del nostre equip.
 
-* [Creació de sessió Teams](teams.md)
+---
 
-## Tutorials Gesform
+### 🎯 Objectius de la web
 
-* [Noves consideracions sobre formacions](formacions/formaciones.md)
-* [Procés de vida formació](formacions/proces_vida_formacio.md)
-* [Preguntes Freqüents](formacions/FAQ.md)
+Aquest espai té com a objectius principals:
 
-## Gestió econòmica
+* **Centralitzar la informació clau** relacionada amb la tasca dels assessors de FP.
+* **Facilitar l’accés a recursos** (tutorials, plantilles, documents oficials, normativa, etc.).
+* **Donar suport al treball col·laboratiu** i la comunicació interna entre assessors i amb la DGFP.
+* **Orientar en la gestió de processos administratius** (comissions de servei, dietes, documentació, etc.).
+* **Impulsar la formació contínua** mitjançant guies, tutorials i bones pràctiques.
 
-* [Comprovació de carpetes de gestió econòmica](ge_comprova.md)
-* [Protocolo Minutas](protocolo_general_minutas_ge.md)
-* [Protococolo facturas](protocolo_general_facturas_ge.md)
-* [Finalización de formaciones](finalizacion_curso_ge.md)
+Amb aquesta web volem aconseguir que el treball de cada assessor/a siga més **àgil, eficient i coherent** amb la missió del CEFIRE de FP i la **Direcció General de Formació Professional**.
 
-## Assistents Aules
+---
 
-* Genera assistent per a respondre preguntes del fòrum:
 
-[:gear: Fòrums](./external_html/baixar_pagina_aportant_dades.html){: .md-button target="_blank"}
+
+### 🎯 Alguns enllaços d'interés
+* [Pàgina CEFIRE]({{ enlaces.pagina_cefire }}){: target="_blank" }
+* [Enllaç Telegram a la comunitat de CEFIRE]({{ enlaces.telegram_cefire }}){: target="_blank" }
+* [Enllaç a a pàgina FP de GVA]({{ enlaces.fp_gva }}){: target="_blank" }
+
+---
 
 

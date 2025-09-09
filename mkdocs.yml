@@ -1,80 +1,45 @@
-# Nom del lloc
-site_name: Breus tutorials per a la gent del CEFIRE
-
-# Carpeta amb el documents fot
+site_name: Tutorials CEFIRE FP
+site_author: Cefire FP
+#site_url: https://github.com/framafra/docker
 docs_dir: 'md'
-
-# Carpeta on es generarà el lloc web (mkdocs build)
 site_dir: 'docs'
+#repo_url: https://github.com/framafra/docker #para mostrar un link al repositorio
+#repo_name: framafra/docker
 
-# Adreça on s'executa el server local (mkdocs serve)
-dev_addr: localhost:4000
+edit_uri: '' #Suprimir el icono de edición (https://www.mkdocs.org/user-guide/configuration/#edit_uri)
 
-# Navegació dels documents
-# nav:
-#   - Títol: Document.md
 nav:
   - Inici: index.md
-  - Formacions:
-      - Generar noves formacions:
-        - Introducció (abans de la formació): formacions/introduccio.md
-        - Tutorial de Gesform: formacions/alta_formacion.md
-        - Consideracions de les Formacions:
-          - FSE: formacions/fse.md
-          - Skills: formacions/skills.md
-          - PAA: formacions/paa.md
-          - C19: formacions/c19.md
-        - Durante de la Formación: formacions/durant_formacio.md
-        - Después de la Formación: formacions/despres_formacio.md
-      - Procés de vida d'una formació:
-        - General: formacions/proces_vida_formacio.md
-      - FAQ: formacions/FAQ.md
-  - ERESAR:
-      - ERESAR: eresar/eresar.md
-  - Tutorials generals:
-      - Creació de sessió Teams: teams.md
+  - Paper de l'assessor/a: assessor.md
+  - Organització: organitzacio.md
+  - Gestió Administrativa: gestio_administrativa.md
+  - Gestió Formacions:
+      - Índex: gestio_formacions.md
+      - Disseny de la formació: gestioformacions/disseny.md
+      - Generar la formació: gestioformacions/generar.md
+      - Preparar la formació: gestioformacions/preparar.md
+      - Seguiment de la formació: gestioformacions/seguiment.md
+      - Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
   - Gestió Econòmica:
-    - Comprova estat gestió econòmica: ge_comprova.md
-    - Protococolo minutas: protocolo_general_minutas_ge.md
-    - Protococolo facturas: protocolo_general_facturas_ge.md
-    - Finalización de formaciones: finalizacion_curso_ge.md
+      - Comprova estat de la gestió econòmica de la formació: gestioeconomica/ge_comprova.md  
+      - Protocol de minutes: gestioeconomica/ge_protocolo_general_minutas.md
+      - Protocol de factures: gestioeconomica/ge_protocolo_general_facturas.md
+      - Finalització de les formacions: gestioeconomica/ge_finalizacion_curso.md
+  - Gestió ERESAR: eresar.md
+  - Tutorials:
+      - Creació de sessió en Teams: tutorials/tutorial_teams.md
+      - Gesform: tutorials/tutorial_gesform.md
 
 
-# Extenions
-markdown_extensions:
-  - admonition
-  - footnotes
-  - tables
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - attr_list         # permet afegir atributs a les etiquetes html 
-  # pymdownx és una col·leccio per escritura tècnica. S'instal·la per defecte
-  - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight:
-      linenums: false
-      # anchor_linenums: true
-      # auto_title: true
-
-# Tema a triar
-theme: 
-  name: material  # selecció del tema
-  icon:
-    logo: material/cast-education
-    annotation: material/arrow-right-circle 
-  palette:    
-   # Boto que canvia a mode oscur
-    - scheme: black
+theme:
+  name: material
+  include_search_page: false
+  font:
+    code: Roboto
+    text: Baloo 2
+  palette:
+    # Boto que canvia a mode oscur
+    - scheme: slate
       toggle:
         icon: material/weather-night
         name: Canvia a mode fosc
@@ -83,23 +48,66 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Canvia a mode clar
+  favicon: images/docker.png
   features:
-    # utilitats de copia de codi
-    - content.code.copy 
+    #- header.autohide
+    - toc.follow  # el toc segueix en la pantalla
+    - toc.integrate # el toc dins de la pàgina, en el menu lateral
+    - search.suggest
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    - content.code.copy
     - content.code.select
     - content.code.annotate
     - navigation.footer       # footer de la pagina, amb navegació
-    - navigation.top    # boto flotant de tornar a dalt 
+    - navigation.top          # boto flotant de tornar a dalt 
     - content.footnote.tooltips
+  logo: images/icono.jpg
+  icon:
+    admonition:
+      note: octicons/alert-24
+      example: octicons/book-16
 
-
-# Altres afegits
 extra_css:
-  - overrides/styles.css
-  
+  - css/extra.css
+
+extra:
+  generator: false #Muestra en el pie de página que se ha realiza
+
+markdown_extensions:
+    - abbr
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - md_in_html
+    - toc:
+        permalink: true
+        toc_depth: 3
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
 
 plugins:
   - search
-  - pdf-export
-  - autorefs
-  - open-in-new-tab
+  - macros:
+      include_yaml:
+        - variables.yml       
+

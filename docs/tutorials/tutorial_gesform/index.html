@@ -1,0 +1,1548 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Cefire FP">
+      
+      
+      
+        <link rel="prev" href="../tutorial_teams/">
+      
+      
+      
+      <link rel="icon" href="../../images/docker.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Gesform - Tutorials CEFIRE FP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M13%2017.5a1%201%200%201%201-2%200%201%201%200%200%201%202%200m-.25-8.25a.75.75%200%200%200-1.5%200v4.5a.75.75%200%200%200%201.5%200z%22/%3E%3Cpath%20d%3D%22M9.836%203.244c.963-1.665%203.365-1.665%204.328%200l8.967%2015.504c.963%201.667-.24%203.752-2.165%203.752H3.034c-1.926%200-3.128-2.085-2.165-3.752Zm3.03.751a1.002%201.002%200%200%200-1.732%200L2.168%2019.499A1.002%201.002%200%200%200%203.034%2021h17.932a1.002%201.002%200%200%200%20.866-1.5L12.866%203.994Z%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%201.75A.75.75%200%200%201%20.75%201h4.253c1.227%200%202.317.59%203%201.501A3.74%203.74%200%200%201%2011.006%201h4.245a.75.75%200%200%201%20.75.75v10.5a.75.75%200%200%201-.75.75h-4.507a2.25%202.25%200%200%200-1.591.659l-.622.621a.75.75%200%200%201-1.06%200l-.622-.621A2.25%202.25%200%200%200%205.258%2013H.75a.75.75%200%200%201-.75-.75Zm7.251%2010.324.004-5.073-.002-2.253A2.25%202.25%200%200%200%205.003%202.5H1.5v9h3.757a3.75%203.75%200%200%201%201.994.574M8.755%204.75l-.004%207.322a3.75%203.75%200%200%201%201.992-.572H14.5v-9h-3.495a2.25%202.25%200%200%200-2.25%202.25%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+2:300,300i,400,400i,700,700i%7CRoboto:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Baloo 2";--md-code-font:"Roboto"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gestio-de-cursos-en-gesform" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Tutorials CEFIRE FP" class="md-header__button md-logo" aria-label="Tutorials CEFIRE FP" data-md-component="logo">
+      
+  <img src="../../images/icono.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tutorials CEFIRE FP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gesform
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Canvia a mode fosc"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Canvia a mode fosc" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Canvia a mode clar"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Canvia a mode clar" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Tutorials CEFIRE FP" class="md-nav__button md-logo" aria-label="Tutorials CEFIRE FP" data-md-component="logo">
+      
+  <img src="../../images/icono.jpg" alt="logo">
+
+    </a>
+    Tutorials CEFIRE FP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inici
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assessor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paper de l'assessor/a
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organitzacio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organització
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestio_administrativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió Administrativa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gestió Formacions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Gestió Formacions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestio_formacions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Índex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioformacions/disseny/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Disseny de la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioformacions/generar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Generar la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioformacions/preparar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Preparar la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioformacions/seguiment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seguiment de la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioformacions/certificacio_tancament/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Certificació i tancament de la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Gestió Econòmica
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Gestió Econòmica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioeconomica/ge_comprova/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Comprova estat de la gestió econòmica de la formació
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioeconomica/ge_protocolo_general_minutas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocol de minutes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioeconomica/ge_protocolo_general_facturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocol de factures
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestioeconomica/ge_finalizacion_curso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Finalització de les formacions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../eresar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestió ERESAR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tutorials
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorial_teams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creació de sessió en Teams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Gesform
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gesform
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#com-crear-un-curs-nou" class="md-nav__link">
+    <span class="md-ellipsis">
+      Com crear un curs nou
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passar-a-confirmar-un-curs-i-barem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passar a confirmar un curs i barem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#llistes-definitives-per-publicar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Llistes definitives per publicar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Llistes definitives per publicar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importa-massivament-participants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importa massivament participants
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sincronitza-participants-en-aules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sincronitza participants en Aules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#baixes-i-altes-curs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Baixes i altes curs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#posar-les-qualificacions-als-assistents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Posar les qualificacions als assistents
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Posar les qualificacions als assistents">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importa-massivament-qualificacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importa massivament qualificacions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="gestio-de-cursos-en-gesform">Gestió de cursos en Gesform<a class="headerlink" href="#gestio-de-cursos-en-gesform" title="Permanent link">&para;</a></h1>
+<p>En aquest tutorial expliquem tot allò que estpa relacionat amb Gesform i la gestió de cursos. És important que seguiu els passos indicats per tal de no tindre problemes a l'hora de gestionar les formacions.</p>
+<p>Voreu que al llarg del procés de vida d'una formació caldrà que vingueu ací per a consultar el procediments corresponent.</p>
+<h2 id="com-crear-un-curs-nou">Com crear un curs nou<a class="headerlink" href="#com-crear-un-curs-nou" title="Permanent link">&para;</a></h2>
+<p>Qual volem crear una formació nova podem duplicar una semblant o crear una des de zero. Si comencem a crear l'edició des de cero cal:</p>
+<p>Anar a <strong>Mis Ediciones -- Ver</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image68.png" /></p>
+<p>Anem al tercer icono <strong>Añadir nuevo Registro</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/65cc93173fd4938ef49b5311339039350c69587a.png" /></p>
+<p>Caldrà omplir la fitxa que apareix:</p>
+<p><img alt="" class="center" src="../../images/gesform/d18b39f360ed7ae64faef53c180791ee1287ae84.png" /></p>
+<p>A continuació hi ha els diferents camps que cal omplir i una fitxa completa amb la informació.</p>
+<ul>
+<li>
+<p><strong>Convocatòria</strong> - Cal escollir una convocatòria segons el tipus de formació que es vol realitzar:</p>
+<ul>
+<li>FSE 2025</li>
+<li>PAA + període en què es realitza la formació (per exemple: PAA Setembre-Desembre 2025)</li>
+<li>Skills 2025</li>
+<li>Competència Digital</li>
+<li>Administracions Públiques</li>
+</ul>
+</li>
+<li>
+<p><strong>Acción Formativa</strong> - "Percha" - Mirar de les diferents perxes quina s'adapta més a la nostra formació.</p>
+</li>
+<li>
+<p><strong>Delegación</strong> - CEFIRE de Formació Professional i ERE</p>
+</li>
+<li>
+<p><strong>Titulo:</strong> Títol del Curs</p>
+</li>
+<li>
+<p><strong>Área</strong></p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Tingueu en compte la família profesional quan poseu el codi i que coincidisca amb la família profesional de la formació.</p>
+</div>
+<ul>
+<li>
+<p><strong>Tipo de acción</strong> - CD (Curs a distància), C (Curso), etc...</p>
+</li>
+<li>
+<p><strong>Nivell</strong> -- CF (En el cas que siga de formació professional)</p>
+</li>
+<li>
+<p><strong>Horas de  duración</strong></p>
+</li>
+<li>
+<p><strong>Plazas</strong> (nombre de places que s'oferten)</p>
+</li>
+<li>
+<p><strong>Lugar Realización</strong> -- ADIST: En el cas que siga 100% a distància, ADISTSINC: En el cas que siga 100% a distància però amb sessions síncrones</p>
+</li>
+<li>
+<p><strong>Fecha inicio y fin</strong> de la formació</p>
+</li>
+<li>
+<p><strong>Dates inscripción inicio i fin, confirmación (final), despublicar</strong> (dos setmanes després de començar)</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Basant-se en les dates d'inscripció inici i fi... es recomana que com a mínim hi haja 1 mes d'inscripció,  1 setmana de confirmació i despublicar dos setmanes després de començar la formació.</p>
+</div>
+<p><img alt="" class="center" src="../../images/gesform/2545e3ae74dbc82c30a4c7214425e6fc71bb8406.png" /></p>
+<p>A continuació <strong>Aplicar</strong> per tal que aparega marcat la X en perfil i tinguem el <strong>codi de referència.</strong></p>
+<p>Ara caldrà introduir les característiques del curs. En la icona que hi ha al costat de la X del perfil i triar l'opció <strong>Mantenimento</strong></p>
+<div class="admonition danger">
+<p class="admonition-title">IMPORTANT</p>
+<ul>
+<li>Este pas és extremadament important, cal vore una X en el perfil, si no apareix la X i modifiques alguna cosa estaràs modificant totes les formacions del CEFIRE que "perxen" d'eixa formació i crearàs un <strong>desastre monumental</strong>.</li>
+<li>Respecteu les normes d'estil que marca la Subdirecció General de Formació del Professorat.</li>
+<li>Cal eliminar tot text en html, més enllà de l'especificat per a afegir l'imatge del fons social europeu. Utilitzeu de base la formació 19FP43CF144 (Didàctica).</li>
+</ul>
+</div>
+<p><img alt="" class="center" src="../../images/gesform/5733dfae122a9456cca90de063224ed5ca3140ef.png" /></p>
+<p>Omplim la <strong>informació</strong> referent al curs. Objectius, Continguts, Material didàctic, Condicions, Observacions, Dirigit a.</p>
+<p><img alt="" class="center" src="../../images/gesform/gesform_informacio.png" /></p>
+<p><strong>OBJECTIUS</strong>: Objectius que es pretenen aconseguir en el curs. Ens els haurà passat el ponent.</p>
+<p><strong>CONTINGUTS</strong>: Continguts que es treballaran al curs. Ens els haurà passat el ponent.</p>
+<p><strong>MATERIAL DIDÀCTIC</strong>: Ens els haurà passat el ponent. Si el curs és online a AULES caldria posar:</p>
+<div class="highlight"><pre><span></span><code>El curs es realitzarà en línia a través de la plataforma d&#39;aula virtual de formació del professorat, on s&#39;allotjaran els materials i es realitzaran les activitats.
+</code></pre></div>
+<p>En cas contrari, s'haurà d'inidcar el material necessari.</p>
+<p><strong>CONDICIONS:</strong> El text de les condicions varia en funció de la campanya de la formació (FSE, Skills, PAA), en els enllaços de més avall podem trobar el text que caldrà possar, segon la campanya.</p>
+<p><a class="md-button" href="../../gestioformacions/fse/#condicions" target="_blank">FSE</a> <a class="md-button" href="../../gestioformacions/skills/#condicions" target="_blank">Skills</a> <a class="md-button" href="../../gestioformacions/paa/#condicions" target="_blank">PAA</a></p>
+<p><strong>OBSERVACIONS:</strong> Es detallen les especificitats en el calendari, sessions síncrones, asíncrones, materials, etc. El text de les observacions varia en funció de la campanya de la formació (FSE, Skills, PAA), en els enllaços de més avall podem trobar el text que caldrà possar, segon la campanya.</p>
+<p><a class="md-button" href="../../gestioformacions/fse/#observacions" target="_blank">FSE</a> <a class="md-button" href="../../gestioformacions/skills/#observacions" target="_blank">Skills</a> <a class="md-button" href="../../gestioformacions/paa/#observacions" target="_blank">PAA</a></p>
+<p><strong>DIRIGIT A:</strong> Es detallen en cas que les activitats de formació estiguen destinades a professorat d'etapes determinades o col·lectius específics.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Cal cambiar la família d'informàtica i comunicacions per la que corresponga a la formació que es va a validar.</p>
+</div>
+<p><strong>Valencià</strong>
+<div class="highlight"><pre><span></span><code>Personal docent i personal tècnic educatiu amb destinació en centres educatius no universitaris de la Comunitat Valenciana en els quals s&#39;impartisquen els ensenyaments regulats per la Llei orgànica d&#39;Educació 
+Personal docent i personal tècnic educatiu que preste servicis tècnics de suport educatiu als centres indicats en l&#39;apartat anterior 
+Personal que haja finalitzat els graus i màster que conduïxen a l&#39;obtenció de la titulació docent, sempre que es troben inscrits en alguna de les bosses de personal docent de la Conselleria d&#39;Educació, Universitats i Ocupació i este personal no supose més del 50% de participació en l&#39;activitat 
+REQUISITS ESPECÍFICS 
+<span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Professorat de Formació Professional de la Família d&#39;Informàtica i Comunicacions<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span> 
+</code></pre></div>
+<strong>Castellà</strong>
+<div class="highlight"><pre><span></span><code>Personal docente y personal técnico educativo con destino en centros educativos no universitarios de la Comunitat Valenciana en los que se impartan las enseñanzas reguladas por la Ley Orgánica de Educación
+Personal docente y personal técnico educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior 
+Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la CConselleria d&#39;Educació, Universitats i Ocupació y este personal no suponga más del 50% de participación en la actividad 
+REQUISITOS ESPECÍFICOS 
+<span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>Profesorado de Formación Profesional de la Familia de Informática y Comunicaciones<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span> 
+</code></pre></div></p>
+<p><strong>IMAGEN PORTADA:</strong> En este apartat, cal pujar el banner que hem creat per al curs. El format de la image ha de ser .png, i el nom de l'arxiu ha de ser 1.png per a valencià i 2.png per a castellà. Els bàners ja no s'afegixen amb codi html, caldrà que afegir l'imatge directament la fitxa de la formació.</p>
+<p><img alt="Afegir baner" src="../../images/gesform/1.png" /></p>
+<p>Per a pujar un baner cal fer clic sobre el botó de pujar fitxer, seleccionar la imatge i fer clic a "pujar fitxer" (<strong>és el botó blau</strong>)</p>
+<div class="admonition info">
+<p class="admonition-title">Crear Banner</p>
+<p>Podeu utilitzar el següent enllaç per a crear un banner (només formacions online de moment): <a class="md-button" href="../../apps/baner/proves.html" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7c0-1.11.89-2 2-2zM5 16h14l-4.5-6-3.5 4.5-2.5-3z"/></svg></span> Banners</a></p>
+</div>
+<p>I <strong>apliquem</strong> i <strong>aceptem</strong>.</p>
+<p>Per últim abans de portar a validar per part del director anem a la <strong>icona que hi ha al costat de Apuntes</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image76.png" /></p>
+<p>I triem l'opció <strong>Presupuesto</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image77.png" /></p>
+<p>Afegim nou registre i omplim la informació</p>
+<p><img alt="" class="center" src="../../images/gesform/d30e950fcd43d0a1c849d937c9e9f2c852cbd040.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Codis</p>
+<ul>
+<li><strong>Código</strong>: 226.06 Gastos diversos, Reuniones, conferencias, celebración de actos y cursos (personal no docente)</li>
+<li><strong>Código</strong>: 233.02 Gastos de formación del personal docente</li>
+<li><strong>Importe</strong>: Import que es preveu gastar en la formació.</li>
+<li><strong>Descripción</strong>: Breu descripció del curs i de les seues característiques (tarifa aplicada)</li>
+</ul>
+</div>
+<p>I <strong>Apliquem</strong> i <strong>Acceptem.</strong> Però abans em de revisar bé la informació introduida.</p>
+<div class="admonition warning">
+<p class="admonition-title">Els problemes més comuns que ens solem trobar són</p>
+<ul>
+<li>Assegureu-se que la formació no té cap error d'ortografia, tant en el títol com en la descripció.</li>
+<li>Assegureu-se que heu afegit correctament la imatge correcta de la formació i que algun company l'ha validada correctament.</li>
+<li>El pressupost té que estar correctament especificat.</li>
+<li>No hi ha que posar centre coordinador mai.</li>
+<li>Heu de deixar al menys una setmana per a confirmar la formació.</li>
+<li>Reviseu bé les tarifes de la fitxa econòmica. <a href="https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/TARIFAS/TARIFAS_JUNIO_%202025_firmado.pdf?csf=1&amp;web=1&amp;e=pEZneE" target="_blank">Tarifes 2025.</a>.</li>
+<li>I el corresponent ANNEX. <a href="https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/TARIFAS/ANEXO%20TARIFAS.pdf?csf=1&amp;web=1&amp;e=S5exhl" target="_blank">Annex Tarifes 2025.</a>.</li>
+</ul>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Traduccions</p>
+<p>Per a les traduccions Podeu utilitzar ferramentes com <a href="https://salt.gva.es/auto/traductor-corrector/salt-correctorweb.html">Salt</a> (1) o <a href="https://www.apertium.org/index.cat.html#?dir=spa-epo&amp;q=">Appertium</a> per a revisar l'ortografia i la gramàtica de la formació.<br />
+Sempre és recomanable utilitzar SALT abans que Appertium, Salt està basat en Appertium, els resultats seran semblants.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Una vegada estiga el curs és important que poseu en Kanban el curs per a que siga validat per part del director. Si no es posa en Kanban no es podrà validar.</p>
+</div>
+<p>Una vegada estiga validat el curs tant per part del director com per part de la SDGFP, ja es podrà publicar i començar a gestionar les inscripcions. No em d'oblidar que si el curs és online a AULES caldrà demanar l'espai en AULES.</p>
+<p><a class="md-button" href="https://forms.office.com/e/7edxrww9GY" target="_blank"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-8 13h-1c-1.61 0-4-1.06-4-4 0-2.93 2.39-4 4-4h1v2h-1c-.46 0-2 .17-2 2 0 1.9 1.67 2 2 2h1zm4-5v2H9v-2zm-1 5h-1v-2h1c.46 0 2-.17 2-2 0-1.9-1.67-2-2-2h-1V8h1c1.61 0 4 1.07 4 4 0 2.94-2.39 4-4 4"/></svg></span> Demanar espai en Aules</a></p>
+<hr />
+<h2 id="passar-a-confirmar-un-curs-i-barem">Passar a confirmar un curs i barem<a class="headerlink" href="#passar-a-confirmar-un-curs-i-barem" title="Permanent link">&para;</a></h2>
+<p>Una vegada finalitzat el període de d'inscripció cal ordenar als participants per passar el curs a <strong>confirmació</strong>.</p>
+<p>Anar a <strong>Mis Ediciones -- Ver -- Extintor - Gestión solicitud de participants</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image79.png" /></p>
+<p>Treballarem en la pantalla que apareix en la que consten tots els inscrits.</p>
+<p><img alt="" class="center" src="../../images/gesform/cfcae6cd16d42aeebe34292ce925d150e4213a7b.png" /></p>
+<p>El primer que farem serà mirar si com a participant apareix alguna persona amb el nom del coordinador. Aquests seran participants que no han sigut trobats per Gesform i els inscriu amb el nom del coordinador.</p>
+<p>Si fem doble clic al nom del coordinador s'obrirà una finestra amb les dades de la persona que hi ha al darrere d'aquesta inscripció.</p>
+<p><img alt="" class="center" src="../../images/gesform/f3e1dc50c883d43ef4800854cdc3177baa9c46e3.png" /></p>
+<p>Copiem el DNI de la persona que hi ha en l'apartat de <strong>Observaciones</strong> i l'enganxem a la casella del DNI de <strong>Persona</strong> (a la mateixa finestra), si no apareix és que no és docent o encara no està donat d'alta.</p>
+<p>Caldrà posar-se en contacte amb la persona per tal de comprovar si és docent o no. Si ho és caldrà donar d'alta a la persona. Escriurem un correu a <strong>compteformacio@gva.es</strong> amb totes les dades de la persona i el DNI per tal que ens donen d'alta a la persona. Cladrà posar-se abans en contacte amb ell per a que ens donen una prova com a que és docent. Recordeu que tots aquells docents de la Comunitat Valenciana (ensenyament reglats no universitaris) tenen dret a fer formació i per tant a inscriure's a les formacions del CEFIRE.</p>
+<p>Una vegada ja tenim a tots els participants localitzats (els casos que tenim pendents el podem deixar per a un vegada acabe el termini de confirmació afegir-los). Anem a <strong>Extintor -- Definir baremo</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/b65c105d5d3d783696dfdf882ea62eb44085de50.png" /></p>
+<p>Si apareix una finestra per solapament donar <strong>Aceptar</strong> per no excloure ara i posteriorment ho mirarem.</p>
+<p><img alt="" class="center" src="../../images/gesform/977f43d3e71367e094797f3af351928bfa6daa16.png" /></p>
+<p>En la següent pantalla caldrà definir les característiques que donen puntuació per tal d'ordenar als participants. <strong>Si el curs té característiques que donen puntuació.</strong></p>
+<p><strong>SITUACIÓN JURÍDICA</strong> (FC -- Func carrera; FI - Interí; FP - Pràctiques; LA -- Laborals; CA - Catedràtics) Per exemple si és administracions públiques podriem posar 5 als interins i 10 als funcionaris de qualsevol tipus.</p>
+<p><img alt="" class="center" src="../../images/gesform/11d1081ae5c1d1ba92172190195095830b39c906.png" /></p>
+<p><strong>ESPECIALIDAD</strong> I <strong>CUERPO</strong> -- Deixarem 0 si és internivell i si no determinar la puntuació a donar a cada especialitat o nivell.</p>
+<p><strong>TIPO DE ENSEÑANZA</strong> - PR -- Privada i PU - Pública</p>
+<p><strong>CONFIRMA Y NO ASISTE</strong> -- Si posa 0 és que no hi ha ningú dels inscrits que en altres formacions haguéren confirmat i no assistit i per tant penalitzariem, en aquest cas en el barém establirem una puntuació negativa. Per tal de penalitzar per aquesta situació.</p>
+<p>Una vegada definit tot el barem <strong>Aplicar -- Aceptar.</strong></p>
+<p><strong>Refrescar</strong> la pàgina, segona Icona.</p>
+<p><img alt="" class="center" src="../../images/gesform/media/image83.png" /></p>
+<p>A continuació caldrà <strong>ordenar</strong> als participants segons el seu barem.</p>
+<p><img alt="" class="center" src="../../images/gesform/31f0369f1269816b997dfc5aafa14ea9475e584e.png" /></p>
+<p>De la finestra que apareix caldrà desmarcar l'opció <strong>Desc. Estado</strong> per que no ho tinga en compte.</p>
+<p><img alt="" class="center" src="../../images/gesform/8c6d05eb38a0da665ad18635e626316efea887c2.png" /></p>
+<p>Quedant de la següent manera la finestra:</p>
+<p><img alt="" class="center" src="../../images/gesform/58639b7061b14ad1388bfc4a2139fb12f30be057.png" /></p>
+<p>En la llista de gent a la part de la dreta en la segona columna, la gent que té un quadradet vermell significa que està actualment en altres formacions amb dates coincidents.</p>
+<p><img alt="" class="center" src="../../images/gesform/118de87b875a665686be7c75eb0bd874ce654557.png" /></p>
+<p>Caldrà excloure a aquells participants que tenen ja 3 formacions (màxim que es pot realitzar). Per fer aquesta acció hi ha l'opció <strong>Excluir solicitud x solapamiento</strong> situada la part superior dreta.</p>
+<p><img alt="" class="center" src="../../images/gesform/media/image88.png" /></p>
+<p>Aquests participants apareixeran al final amb estat <strong>Excluido</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/b3a5b73829cfa87c6ec34af1d770f725ed8abe54.png" /></p>
+<p>Per comprovar si això és correcte cal seleccionar a un participant exclòs i clicar a la part superior <strong>Ver Solicitudes que interfieren en fechas</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image90.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image91.png" /></p>
+<p><strong>NOTA</strong>: Si apareix algun participant amb dues només pot ser que ja estiga admés a un altra però encara no actualitzat.</p>
+<p>Una vegada revisat i ordenat amb relació al barem definit caldrà seleccionar tants participants com places hi ha al curs. En la finestra al costat dret de <strong>Marcar Participantes</strong> caldrà posar aquesta dada (places) i clicar a <strong>Marcar Participantes</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/793fbf8283603af898e3ae2a6c083ca7c1853909.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image93.png" /></p>
+<p><strong>Apliquem</strong>. Ordenem de nou i veurem que ara els participants seleccionats estan en Estat <strong>Seleccionado</strong> i els de llista d'espera estaran en Estat <strong>Inicial</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/f68df0e39dba73b7db3bb36c3d803680bf658703.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/4eecb9f1c47eae14dd9d887ccfe6b9396b993110.png" /></p>
+<p>Per tenir el mail per poder informar de l'inici de la confirmació caldrà exportar un excel de participants.</p>
+<p><img alt="" class="center" src="../../images/gesform/9abe83f2b90de7fceac10932666c13c623cfc351.png" /></p>
+<p>Per tal que el curs estiga ja en confirmació pels participants, caldrà passar a estat confirmació. Per fer aquesta acció anem a <strong>Extintor -- Estados y Cert. - Passar a estado de confirmación</strong></p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación Descripción generada
+automáticamente" class="center" src="../../images/gesform/media/image97.png" /></p>
+<p>Finalment caldrà enviar un <strong>missatge</strong> a <strong>tots els inscrits</strong> informant que comença el període de confirmació.</p>
+<p>El text per la redacció d'aquest correu està en el pdf <strong>Coordinació.pdf</strong> i és el següent:</p>
+<p><strong>Exemple de correu de confirmació (el dia de llistes provisionals)</strong></p>
+<div class="highlight"><pre><span></span><code>Benvolguts i benvolgudes,
+
+Ja està disponible la llista provisional de professorat admés al curs \&quot;YY\&quot; (enllaç <span class="err">&amp;</span>usuario=formacion).
+
+Es tracta d&#39;un curs en línia de 30h que tindrà lloc entre el DD de MM de 202A i el DDde MM de 202A.
+
+Podeu consultar el llistat i confirmar o renunciar la vostra participació seleccionant l&#39;enllaç que apareix al costat del vostre nom, a la dreta de la pàgina.
+Per favor, fins el dia D de MM, confirmeu o renuncieu en funció de les vostres preferències per a deixar places lliures si realment no esteu interessats o interessades.
+
+Es publicarà el llistat definitiu a partir del dia D de MM.
+
+Si voleu fer una consulta, envieu un correu a les assessories coordinadores:
+
+XX@edu.gva.es o YY@edu.gva.es
+
+Salutacions
+
+XX i YY
+</code></pre></div>
+<hr />
+<h2 id="llistes-definitives-per-publicar">Llistes definitives per publicar<a class="headerlink" href="#llistes-definitives-per-publicar" title="Permanent link">&para;</a></h2>
+<p>Una vegada finalitzat el període de CONFIRMACIÓ, cal ordenar els participants i publicar les llistes definitives.</p>
+<p>Abans de començar caldrà <strong>Extintor/Despublicar internet --</strong> A la part inferior apareixerà el quadret de Publicar Internet sense marcar.</p>
+<p><img alt="" class="center" src="../../images/gesform/8b6b8141f47b68ec040602017710ab72812150c9.png" /> </p>
+<p><img alt="Interfaz de usuario gráfica, Texto Descripción generada automáticamente" class="center" src="../../images/gesform/906d3ba979585f987337785a2ebb30579f2b621b.png" /></p>
+<p>Una vegada despublicat cal anar a <strong>Extintor/Gestión Solicitud de Participantes</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/49f56b82c36b7cb53e1f63b86720faef5a60d6b3.png" />"</p>
+<p>I anem a <strong>ordenar</strong> -- deixant els paràmetres que apareixen.</p>
+<p><img alt="" class="center" src="../../images/gesform/31f0369f1269816b997dfc5aafa14ea9475e584e.png" />
+<img alt="Interfaz de usuario gráfica, Texto Descripción generada automáticamente" class="center" src="../../images/gesform/1e9c1420d6bdfa808727605e80c6ad9b92a970c2.png" />"</p>
+<p>En la columna <strong>Descripción Estado</strong> tindrem als participants segons el seu estat:</p>
+<ul>
+<li>Confirmado -- Confirmat amb plaça</li>
+<li>Conf provisional -- Confirmat sense plaça (espera)</li>
+<li>Excluido</li>
+<li>Inicial -- No han fet res abans estaven en lista d'espera</li>
+<li>Seleccionado -- No han fet res, abans estaven en confirmat</li>
+<li>Renuncia</li>
+</ul>
+<p><img alt="" class="center" src="../../images/gesform/a8bf72077f3907084e271c565afbe3c0a918f3d5.png" /></p>
+<p>Mirem si s'ha passat algun en la creació de les llistes provisionals que com a participant tenia el nom del coordinador. Ordenem als participants, si no estem segurs filtrem. Si s'ha fet correctament no hauria d'estar cap participant amb el nom del Coordinador.</p>
+<p>Si queda algú donem doble clic al nom i s'obrirà una finestra amb les dades de la persona que hi ha darrere d'aquesta inscripció.</p>
+<p><img alt="" class="center" src="../../images/gesform/f3e1dc50c883d43ef4800854cdc3177baa9c46e3.png" /></p>
+<p>Copiem el DNI de la persona que hi ha en l'apartat de <strong>Observaciones</strong> i lo copiamos en la casilla del DNI de <strong>Persona (de la mateixa finestra),</strong> si no apareix és que no és docent o encara no està donat d'alta. Caldria trucar per vore la situació en la que es troba, mirar amb aquesta situació quin barem tindria i si no entra al curs -- Eliminar el registre. Si entraria cal demanar-li justificació de la seua situació (per exemple nómina) i donar d'alta en Persones en Gesform.</p>
+<p>Una vegada ja tenim tots els participants amb la identitat correcta. Filtrem per <strong>confirmados</strong> i tindrem els confirmats i confirmats provisionals.</p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación, Tabla Descripción generada automáticamente" class="center" src="../../images/gesform/bf6433860f3dd0cc4bea97148c04e48f931ba32c.png" /></p>
+<p><strong>Ordenem</strong> de nou per estar segurs.</p>
+<p><img alt="Interfaz de usuario gráfica, Tabla Descripción generada automáticamente" class="center" src="../../images/gesform/fe90e113fa0c1888de4ce1456d65e3f56d210868.png" /></p>
+<p>Deixem tal qual apareixen els paràmetres de l'ordre.</p>
+<p><img alt="Interfaz de usuario gráfica, Texto, Aplicación, Tabla Descripción generada automáticamente" class="center" src="../../images/gesform/67fb0dfac2ba16e001cd9aa583466f35f88b10bb.png" /></p>
+<p>Donem a <strong>Excluir solicitud x solapamiento,</strong> per tal que s'eliminen els participants que actualment están en 3 o més formacions i no podríen fer el curs. A les finestres que apareixen donem a <strong>Aceptar</strong>.</p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación, Word Descripción generada automáticamente" class="center" src="../../images/gesform/6df7f731b9831bcdc9d33e55ea529264eb9a0860.png" /></p>
+<p><img alt="Tabla Descripción generada automáticamente" class="center" src="../../images/gesform/befd5276af0a550afec10b2098ee0cc0943bb0a7.png" /></p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación, Word Descripción generada automáticamente" class="center" src="../../images/gesform/a4ac7b6796eb0545e63c1d5983f30de5f8a4f225.png" /></p>
+<p>Mirem les persones que s'han exclòs per vore si tenen els cursos assignats i és correcta l'exclusió (3 cursos). Fem clic en la persona que volem mirar i posteriorment a la part superior a <strong>Ver Solicitudes que interfieren en fechas</strong>. Ens apareixerà la finestra per vore els cursos que té aquesta persona.</p>
+<p><img alt="" class="center" src="../../images/gesform/2c5cef2fa9e73028e12b3e508dce4a09642c8b82.png" /></p>
+<p><strong>Ordenem</strong> de nou per estar segurs.</p>
+<p><img alt="" class="center" src="../../images/gesform/42a14b2f010b384b1f7aa1d8bbaba4b0967a4c36.png" /></p>
+<p><strong>Marquem</strong> els participants que hi haurà en l'edició (en aquest cas 90), posem el 90 i cliquem en <strong>Marcar Participantes</strong>.</p>
+<p><img alt="" class="center" src="../../images/gesform/7fafc63edc815f1dc6f3ea3ef11c75a3647cfdea.png" /></p>
+<p>Con los 90 marcados <strong>exportamos</strong> para tener estos participantes.</p>
+<p><img alt="" class="center" src="../../images/gesform/8f9590ccb49355c1a73e183bce361b49ba3facf8.png" /></p>
+<p>Donem ara a <strong>Generar Participantes</strong> A les següents finestres donem a <strong>Aceptar</strong>. Finalment donar a <strong>Aplicar</strong>.</p>
+<p><img alt="" class="center" src="../../images/gesform/f5394a644ff80b9f322032adc394fc1a99c0d084.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/4d3db5e9a6b4cea58b9f7169a8cff70926bbf0c8.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/fdaddab333df53155463c2d675ce7952a393dc9d.png" /></p>
+<p>Apareixeran en <strong>verd</strong> els participants.</p>
+<p><img alt="" class="center" src="../../images/gesform/0aa339f72aa6affb7d86ec3de246c1fdf1acb29a.png" /></p>
+<p>Si ens hem equivocat i has marcat més participants o li has donat dos cops i hi ha el doble de participants en verd. Caldria eliminar-los tots i tornar a començar, per traure el verd, marquem el nombre de participants que tens en verd i apliquem. Així els eliminaria.</p>
+<p>Finalment comprovar que estan en <strong>Extintor -- Participantes Edición</strong></p>
+<p>Tornar a <strong>publicar</strong>. Comprovar que s'han publicat en la web les llistes.</p>
+<p>Una vegada publicat, cal enviar correu als participants per indicar que ja estan els llistats definitius. Model de <strong>correu</strong> a continuació.</p>
+<p>El text per la redacció d'aquest correu està en el pdf <strong>Coordinació.pdf</strong> i és el següent:</p>
+<p><strong>Exemple de correu de llistes definitives</strong></p>
+<div class="highlight"><pre><span></span><code>Benvolguts i benvolgudes,
+
+Ja està disponible la llista definitiva de professorat admés al curs \&quot;24CD97ES038 -- Aplicaciones de la inteligencia artificial en el aula&quot;
+
+<span class="p">&lt;</span><span class="nt">https:</span><span class="err">//</span><span class="na">cefire</span><span class="err">.</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="err">/</span><span class="na">sfp</span><span class="err">/</span><span class="na">index</span><span class="err">.</span><span class="na">php</span><span class="err">?</span><span class="na">seccion</span><span class="o">=</span><span class="s">edicion&amp;id=11897023%20&amp;usuario=formacion</span><span class="p">&gt;</span>
+
+Podeu consultar-la en el següent enllaç:
+
+<span class="p">&lt;</span><span class="nt">https:</span><span class="err">//</span><span class="na">cefire</span><span class="err">.</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="err">/</span><span class="na">sfp</span><span class="err">/</span><span class="na">index</span><span class="err">.</span><span class="na">php</span><span class="err">?</span><span class="na">seccion</span><span class="o">=</span><span class="s">inscripciones/definitivo&amp;id=11897023&amp;usuario=formacion</span><span class="p">&gt;</span>
+
+Recordeu que es tracta d&#39;un curs en línia de 30h que tindrà lloc entre el 22 d&#39;abril i el 9 de juny de 2024. 
+
+El curs comença el dilluns. Les persones participants rebreu informació per accedir a l&#39;aula virtual.
+
+Informem que degut a l&#39;alta demanda del curs demà eixirà a inscripció una nova convocatòria del mateix curs. Podeu vore la informació al següent enllaç:
+
+<span class="p">&lt;</span><span class="nt">https:</span><span class="err">//</span><span class="na">cefire</span><span class="err">.</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="err">/</span><span class="na">sfp</span><span class="err">/</span><span class="na">index</span><span class="err">.</span><span class="na">php</span><span class="err">?</span><span class="na">seccion</span><span class="o">=</span><span class="s">edicion&amp;id=11965338&amp;usuario=formacion</span><span class="p">&gt;</span>
+
+Si voleu fer alguna consulta, envieu un correu a les assessories coordinadores: <span class="p">&lt;</span><span class="nt">l.ramisherrero</span><span class="err">@</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="p">&gt;</span>, <span class="p">&lt;</span><span class="nt">la.garciagisbert</span><span class="err">@</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="p">&gt;</span> o <span class="p">&lt;</span><span class="nt">s.barbergomez</span><span class="err">@</span><span class="na">edu</span><span class="err">.</span><span class="na">gva</span><span class="err">.</span><span class="na">es</span><span class="p">&gt;</span>
+
+Salutacions, 
+
+Lucía, Luis i Sergio.
+</code></pre></div>
+<h3 id="importa-massivament-participants">Importa massivament participants<a class="headerlink" href="#importa-massivament-participants" title="Permanent link">&para;</a></h3>
+<p>En alguns casos tenim cursos que no pasen pel procés d'inscripció com a tal. Com per exemples els cursos de coordinadors del PAF, cursos d'ACREDITA, etc... Podem importar els participants directament a l'edició sense necessitat de passar per l'apartat d'inscripció. Anirem a "Importar solicitud de participants":</p>
+<p><img alt="" class="center" src="../../images/gesform/3a.png" /></p>
+<p>Ens pareixerà la següent pantalla:</p>
+<p><img alt="" class="center" src="../../images/gesform/4a.png" /></p>
+<p>I farem clic en Importar i ens demanarà un fitxer en format CSV i extensió .txt. És important que el fitxer estiga correctament formatat.</p>
+<p><img alt="" class="center" src="../../images/gesform/5a.png" /></p>
+<p>Un vegada importat l'arxiu li donarem a validar, i ens apareixeran dos possibles estats:</p>
+<ul>
+<li>OK: És correcte i es pot importar.</li>
+<li>NOOK: Hi ha algun error i no es pot importar.</li>
+</ul>
+<p>Cladrà comprovar eixos errors.</p>
+<p>L'arxiu que s'ha d'importar ha de tindre el següent format:</p>
+<div class="highlight"><pre><span></span><code>25FP99CF999 12345678    xx.xxxxxr@edu.gva.es    NOM     COGNOMS
+25FP99CF999 12345678    xx.xxxxxr@edu.gva.es    NOM     COGNOMS
+25FP99CF999 12345678    xx.xxxxxr@edu.gva.es    NOM     COGNOMS
+</code></pre></div>
+<ul>
+<li>Els noms no van entre cometes.</li>
+<li>El primer camp és el codi de referència del curs.</li>
+<li>El segon camp és el DNI del participant.</li>
+<li>El tercer camp és el correu electrònic del participant.</li>
+<li>Els camps següents són el nom i els cognoms del participant.</li>
+<li>Els camps han d'estar separats per tabuladors, no per comes.</li>
+<li>El fitxer ha d'estar en format de text pla (.txt) i no en format Excel (.xlsx o .xls).</li>
+</ul>
+<p>Podeu fer ús un document de Full de càlcul per a LibreOffice per a crear el fitxer CSV. Un cop creat, caldrà exportar-lo com a text pla (.txt) i assegurar-se que els camps estan separats per tabuladors. Podeu descarregar un exemple de plantilla <a href="../../docs/EXEMPLE.csv">ací</a> per a utilitzar-lo com a guia. Caldrà que l'importeu al LibreOffice Calc i el modifiqueu.</p>
+<p>Quan tingueu que crear un fitxer CSV, heu de Guardar como i Editar les opcins d'esportació.:</p>
+<p><img alt="" class="center" src="../../images/gesform/6a.png" /></p>
+<p>Les opcions que heu de seleccionar són:</p>
+<p><img alt="" class="center" src="../../images/gesform/7a.png" /></p>
+<p>Una vegada tingueu guardat el fitxer heu de canviar-li l'extensió a .txt, per exemple: <strong>EXEMPLE.txt</strong>. I ja podeu importar-lo a Gesform.</p>
+<hr />
+<h2 id="sincronitza-participants-en-aules">Sincronitza participants en Aules<a class="headerlink" href="#sincronitza-participants-en-aules" title="Permanent link">&para;</a></h2>
+<p>Una vegada tenim creades i publicades les llistes definitives, ja se podria sincronitzar amb la finalitat de tenir als participants en AULES, però és convenient esperar a que estiga a punt de començar el curs per tal de tenir la llista més real possible (per si ha hagut alguna renúncia des del moment de publicació de les llistes i el començament del curs).</p>
+<p>Anem al nostre curs en <strong>Aules</strong>. I en el bloc administració obrim el desplegable <strong>GVA Aules</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image120.png" /></p>
+<p>Triem l'opció <strong>Gestionar edicions</strong></p>
+<p><img alt="Interfaz de usuario gráfica, Texto, Aplicación Descripción generada automáticamente" class="center" src="../../images/gesform/media/image121.png" /></p>
+<p>Triem el curs que volem sincronitzar</p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente" class="center" src="../../images/gesform/3168d4254effa1c72e3ef4b067e381604a2b526a.png" /></p>
+<p><img alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico Descripción generada automáticamente" class="center" src="../../images/gesform/95971188eb9e7f32a7223ba85c977d71432cc9d2.png" /></p>
+<p>Una vegada tenim el curs anem a <strong>gestionar</strong> a la rodeta dentada.</p>
+<p><img alt="Interfaz de usuario gráfica, Aplicación, Teams Descripción generada automáticamente" class="center" src="../../images/gesform/media/image124.png" /></p>
+<p>Apareix la pantalla amb tots els participants del curs i els que ja estavem. A la part inferior tenim <strong>Gestionar edició,</strong> en el que podem indicar que volem sincronitzar, matriculacions i desmatriculacions. Si ja teníem algun participant matriculat manualment i que no està en gesform, caldrà desmarcar ¿<strong>Sincronitzar desmatriculaciones?</strong></p>
+<p><img alt="Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico Descripción generada automáticamente" class="center" src="../../images/gesform/media/image125.png" /></p>
+<p>I <strong>Actualitzem</strong> curs.</p>
+<hr />
+<h2 id="baixes-i-altes-curs">Baixes i altes curs<a class="headerlink" href="#baixes-i-altes-curs" title="Permanent link">&para;</a></h2>
+<p>Una vegada publicat el llistat definitiu pot haver alguna petició de baixa. Caldrà gestionar la baixa i la posterior alta d'un participant en llista d'espera.</p>
+<p><strong>GESTIÓ DE LA BAIXA</strong> -- Entrar al curs en Gesform a <strong>Gestión Solicitud de Participantes</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image126.png" /></p>
+<p>Buscar la persona que vol donar-se de baixa. En la columna <strong>Desc. Estado</strong> fem doble clic a la paraula <strong>Confirmado</strong>, s'obrirà una finestra per canviaer l'estat a <strong>Renuncia</strong> i acceptem.</p>
+<p><img alt="" class="center" src="../../images/gesform/media/image127.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image128.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/c62615b7cc6a3ee928576d788c0f6e5bc77f2c8a.png" /></p>
+<p>Donem a <strong>Aplicar</strong> i acceptem la finestra emergent que ix. I <strong>Aceptar</strong> i acceptem la finestra emergent que ix.</p>
+<p><img alt="" class="center" src="../../images/gesform/95d63bd3f0d3577368422fcaf3d2b909a3228514.png" /></p>
+<p>Posteriorment cal entrar a <strong>Participantes Edición.</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/9c723afe6302c146469a326f9cec929cf8d8204f.png" /></p>
+<p>Busquem al participant i donem doble clic a la icona de la personeta.</p>
+<p><img alt="" class="center" src="../../images/gesform/81f3a698938fdb3a6d1e0b49fa43f3c2a9047fb0.png" /></p>
+<p>S'obrirà una finestra emergent en la que tindrem que <strong>canviar l'estat a Baja,</strong> <strong>Calificación No apto</strong> i <strong>obrim el desplegable per indicar el motiu.</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/c293d9a5e8993182d5bde7b2b8c7a29e0121192b.png" /></p>
+<p>Busquem com a motiu <strong>Renuncia</strong> i <strong>apliquem aceptem</strong> i per que aparega al requadre caldrà clicar al quadrat que hi ha a la part de sota dels dos quadrats.</p>
+<p><img alt="" class="center" src="../../images/gesform/a2b72202a573ed144ea87ec4881d10cfc3d10b25.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/21fae05a9a61b5d755f7228420c02075b6f625c1.png" /></p>
+<p><strong>Apliquem</strong> i <strong>aceptem</strong> i una vegada <strong>refresquem</strong> ja tindrem la persona de baixa.</p>
+<p><img alt="" class="center" src="../../images/gesform/ae8d87911b795fd4af1c0a3259f51af89796cf89.png" /></p>
+<p><strong>GESTIÓ DE L'ALTA</strong> -- Una vegada tenim al participant de baixa caldrà anar a Gestió Solicitud de Participantes per trucar a la persona que està a continuació en la llista d'espera.</p>
+<p>Una vegada entres està ordenat ja per agafar al primer participant que no estiga en verd.</p>
+<p><img alt="" class="center" src="../../images/gesform/media/image137.png" /></p>
+<p>Per accedir a les dades li donem doble clic al nom i apareix la seua fitxa. On estan les dades per poder posar-se en contacte.</p>
+<p>Si algú diu que no vol, apuntar el nom per tal de tenir clar que no vol per si es produeix altra baixa.</p>
+<p>Quan et diga algú que si copiem el DNI de la persona, anem a <strong>Participantes Edición</strong> li donem a crear nou registre.</p>
+<p><img alt="" class="center" src="../../images/gesform/ef833a9726255a110c247d4aa38b1d52a602834a.png" /></p>
+<p>Si diu "esta fuera de plazo" no pasa res, aceptar. Eixirà una finestra com aquesta en la que cal posar el DNI i donar a intro, posarem <strong>Estado Alta</strong>, <strong>Calificación Apto</strong> i en <strong>Tipo A de assistent.</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image139.png" /></p>
+<p><img alt="" class="center" src="../../images/gesform/media/image140.png" /></p>
+<p><strong>Refresquem</strong> per vore si està en participants. La icona que apareix al costat de Alta serà diferent per que s'ha posat de manera manual.</p>
+<p><img alt="" class="center" src="../../images/gesform/media/image141.png" /></p>
+<p>Una vegada s'ha tramitat la baixa i l'alta caldrà <strong>sincronitzar</strong> a <strong>Aules</strong>.</p>
+<hr />
+<h2 id="posar-les-qualificacions-als-assistents">Posar les qualificacions als assistents<a class="headerlink" href="#posar-les-qualificacions-als-assistents" title="Permanent link">&para;</a></h2>
+<p>Quan els formadors ens passen les qualificacions caldrà introduir-les a GESFORM.</p>
+<p>Entrar a l'edició on volem posar les qualificacions als participants. Anar a <strong>Mis Ediciones -- Ver</strong> i entrar a l'edició.</p>
+<p><img alt="" class="center" src="../../images/gesform/a9076419f4e5216ea1e672dd48ac0377e5db521f.png" /></p>
+<p>Anar a <strong>Extintor -- Participantes Edición</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/6eb0b3e0ebc017bc924f4514c69f334ee79642e5.png" /></p>
+<p>Per defecte tots els participants estan en APTO per tant només caldrà canviar a NO APTO als participants que no han superat el curs. Cerquem al participant que volem canviar a NO APTO i cliquem a la fitxa.</p>
+<p><img alt="" class="center" src="../../images/gesform/c1d360f34a4c6c8f5d35c7d463a3e7ea92b7ec40.png" /></p>
+<p>Una vegada en la fitxa canviem la qualificació a NO APTO i li donem als tres puntets per triar el motiu del NO APTO.</p>
+<p><img alt="" class="center" src="../../images/gesform/a7ca2604905ee5f422ba5e302b4ecc319a164ddd.png" /></p>
+<p>De la finestra que s'obri triem el motiu i li donem a la fletxa verda -- Apliquem i acceptem.</p>
+<p><img alt="" class="center" src="../../images/gesform/01ce2d92ec36400f2f2e1c087e51e08d13958621.png" /></p>
+<p>Finalment per que quede el motiu cliquem al requadre de baix dels tres puntets. I apliquem i acceptem.</p>
+<p><img alt="" class="center" src="../../images/gesform/55283d479a68e044ba12474350ef97d44307548f.png" /></p>
+<h3 id="importa-massivament-qualificacions">Importa massivament qualificacions<a class="headerlink" href="#importa-massivament-qualificacions" title="Permanent link">&para;</a></h3>
+<p>Si el curs disposa de molts participants, este procediment pot ser massa llarg. Per això, si el formador ens ha passat un fitxer amb les qualificacions, podem importar-les de manera massiva. Farem clic en "Modificación masiva de calificaciones".</p>
+<p><img alt="" class="center" src="../../images/gesform/1a.png" /></p>
+<p>Apareixerà una pantalla on podrem importar un fitxer amb les qualificacions. El format del fitxer ha de ser un CSV amb una columna: DNI, la resta d'opcions les seleccionarem em la finestra que apareix:</p>
+<p><img alt="" class="center" src="../../images/gesform/2a.png" /></p>
+<ul>
+<li>Part calificación: Triem la qualificació que volem posar, en aquest cas "No Apto".</li>
+<li>Motivo N.A.: Triem el motiu de la qualificació, en aquest cas "No realiza las actividades completamente".</li>
+<li>DNI: Escollim formato Gesform (Sense la lletra, només els números). Formato oficial sol donar problemes.</li>
+</ul>
+<p>I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb extensió txt, el fitxer només ha de contindre un llistat de DNI, sense comes ni cap altre caràcter. Un exemple de com ha de ser el fitxer:</p>
+<div class="highlight"><pre><span></span><code>12345678
+23456789
+34567890
+45678901
+</code></pre></div>
+<p>Una vegada seleccionat el fitxer, fem clic en "Importar" i apareixerà una pantalla amb els DNI que s'han importat correctament. Si tot és correcte, fem clic en "Aplicar" i les qualificacions es posaran als participants.</p>
+<div class="admonition info">
+<p class="admonition-title">Nota</p>
+<p>Es convenient abans de fer la importació massiva, comprovar si els participants estan tots com a Apto, així al posar el No Apto ja tindrem assegurats que està tot el llistat correcte.</p>
+</div>
+<hr />
+<!--
+## PASSAR A CERTIFICAR I GENERAR CERTIFICATS
+
+!!!warning "IMPORTANT"
+    Aquest procediment no l'ha de realitzar l'assessoria, sinó que és una tasca que realitza el director del CEFIRE. Per tant, caldrà comunicar-ho amb un fitza al Kanban.
+
+Una vegada tenim els alumnes amb la seva qualificació caldrà passar el curs a Certificació, generar els certificats i l'acta i enviar a signar els certificats per part del director del CEFIRE corresponent i Acta (Coordinador del curs).
+
+Ara caldrà passar el curs a certificació (anteriorment estaria en avaluació). Per passar a certificació cal anar a eines **Estados y Cert. / Passar a estado de certificación**
+
+![](../images/gesform/56927266649f405b010902144b72a54bdcd2eeef.png){: .center }
+
+Una vegada està en certificació caldrà generar els certificats. Anem a eines a **Estados i Cert / Generar certificados.**
+
+![](../images/gesform/03ebb1a27df27bd0d4befa8e5238f6d6fa18dcbf.png){: .center }"
+
+Apareixerà una pestanya que cal acceptar.
+
+![](../images/gesform/c5baadf8aad3a5ad8a6f0d8d8697ab872c2db9d3.png){: .center }"
+
+En la següent pantalla revisar que els participants, assistents, ponents o professors i coordinadors tinguin un només, si tenen més d'un cal assegurar-se que no estan marcats en aquests casos **certificado no impreso.**
+
+![](../images/gesform/2ba838be487454335c60ef80988333045c956752.png){: .center }"
+
+Si es una formació massiva caldrà seleccionar els que es certificaran. Si no és massiva marquem a Selecciona todos.
+
+![](../images/gesform/630bd0192a1531f82c3db90487a5e8e7f0ee0c56.png){: .center }
+
+Caldrà indicar quants volem com a màxim 1500. Podem continuar fins a finalitzar els que volem certificar.
+
+Una vegada acceptat i generat els certificats, cal enviar-los a signatura. Cal anar a eines a **Lista Certificados Edición**
+
+![](../images/gesform/6aecd4499a76f44f32562181aa796ef683e8ebdd.png){: .center }"
+
+Ens apareixerà una llista amb tots els certificats. Indicacions a tindre en compte:
+
+![](../images/gesform/9dac8b6c091c426c9177042b11e1e12e05699f0f.png){: .center }"
+
+![](../images/gesform/86e8b348015f9d8c9447ffccb461e8e3f152c96d.png){: .center }"
+
+![](../images/gesform/fb40ec8f492532cb1cc7fba2d5f27281c5422fa7.png){: .center }"
+
+En modelo certificado cal que estigui o certificat amb hores per ponents o certificat general per assistents.
+
+Per tal de generar els certificats filtrem per A (Correcte) per filtrar triem una casella on estigui la A, i anem a la part superior i donem a filtrar.
+
+![](../images/gesform/68bcf084493201706c900e59825525acf2198af0.png){: .center }"
+
+A continuació seleccionem tots (per seleccionar, cal amb la tecla maj polsada clicar al primer i a l'últim registre), si estan seleccionats es posaran en blau.
+
+Anem a la eina i triem **Validar y enviar a la firma**
+
+![](../images/gesform/e9f6f99a9e0661e3cb40c18acd6d287faf5aa385.png){: .center }
+
+S'obrirà una finestra on està un exemple del certificat generat. Cal comprovar:
+
+-   En certificat d'assistent: que estiguin bé els crèdits i les hores.
+
+-   En certificat de ponent: que hi hagi el nom de la ponència.
+
+Si tot ok li donem a **Validar certificado.**
+
+![](../images/gesform/5fe3d6f365368abbeae3f8059502427b61c74435.png){: .center }"
+
+Una vegada validats els certificats comprovar que s'han pujat a signatura de manera correcta. Cal actualitzar i comprovar que ha passat de R a B i posteriorment a F.
+
+Per continuar caldrà treure l'ACTA FINAL, que caldrà ser signada pel coordinador. Cal anar a eines **Informes / Acta final.**
+
+![](../images/gesform/8684915327536e853e56dfa254c33fd495157d2e.png){: .center }"
+
+Configurarem la impressora per tal que tinguem el pdf de l'acta.
+
+!!!warning "IMPORTANT"
+    Recorda que l'acta ha de tenir els logos de FSE, per tant has de marcar la casella de **Imprimir Pack Europeo(Logos FSE)**. Si es tracta d'una formació de Skills cal marcar la mateixa casella.
+
+![](../images/gesform/a419203aa13d8fc6f3e57bfa116c2675ab434dba.png){: .center }"
+
+![](../images/gesform/3f6beab7ac77d88ddeb7ab86f3713f3ad03b6747.png){: .center }"
+
+També podem previsualitzar i si tot és correcte ja li donem a imprimir per guardar l'acta en pdf.
+
+Signar l'acta i arxivar-la a la carpeta del curs.
+
+## ALTA EN GESFORM PONENT NO DOCENT
+
+!!!warning "IMPORTANT"
+    Des d'inici de 2025 no es permetrà l'alta de ponents no docents en Gesform, per a donar d'alta a un ponent o arreglar el nom d'un docent que no apareix bé, caldrà contactar amb compteformacio@gva.es i seran ells qui donen d'alta al ponent o arreglen el nom del docent.
+
+A vegades hi ha ponents que no estan en Gesform, si són no docents només caldrà donar-los d'alta en Gesform, si són docents caldrà una vedada donats d'alta caldrà donar d'alta en amb les Dades docents.
+
+Entrar a l'edició on volem posar com a ponent al participant. Anar a **Mis Ediciones -- Ver** i entrar a l'edició.
+
+![](../images/gesform/media/image142.png){: .center }
+
+Anar a **Extintor -- Participantes Edición**
+
+![](../images/gesform/media/image143.png){: .center }
+
+Cliquem a **Añadir nuevo registro** (3a icona)
+
+![](../images/gesform/media/image144.png){: .center }
+
+Nota ignorar la finestra que apareix -- donar a **Aceptar**
+
+![](../images/gesform/media/image145.png){: .center }
+
+Posem el DNI de la persona per comprovar si ja apareix al sistema -- Si no ho troba és quan s'ha de donar d'alta.
+
+![](../images/gesform/media/image146.png){: .center }
+
+Apareixerà una finestra com aquesta.
+
+![](../images/gesform/media/image147.png){: .center }
+
+Per afegir al nou usuari anem a **Extintor del campo de persona -- Alta**
+
+![](../images/gesform/media/image148.png){: .center }
+
+Omplir les dades de la persona (la lletra del DNI no cal posar-la, si és correcte el nombre, en el quadradet blau apareixerà la lletra), una vegada omplerts els camps donem a **Aplicar -- Aceptar**
+
+![](../images/gesform/9aa94bcdc05a03467ec82c000034ee1f1a89c592.png){: .center }
+
+Una vegada donat d'alta caldrà posar-lo a l'edició, si és ponent, caldrà triar la P de Professor, si és assessor en Derecho a certificación caldrà posar que NO.
+
+![](../images/gesform/media/image150.png){: .center }
+
+En el motiu caldrà buscar la paraula Cefire per identificar més fàcilment i posteriorment donar al botó per que aparega el motiu escrit al camp corresponent.
+
+Finalment donem a **Aplicar -- Aceptar**.
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../tutorial_teams/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creació de sessió en Teams">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Creació de sessió en Teams
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["toc.follow", "toc.integrate", "search.suggest", "content.code.copy", "content.code.select", "content.code.annotate", "navigation.footer", "navigation.top", "content.footnote.tooltips"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>

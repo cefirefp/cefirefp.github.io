@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
+    <mxGraphModel dx="2194" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="DIRECTORA GENERAL DE FORMACIÓN PROFESIONAL&#xa;&#xa;Marta Armendia Santos" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="610" y="200" width="438" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Subdirección General de Formación Profesional&#xa;&#xa;José Muñoz Giner" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Subdirección General de Orientación y Cualificación Profesional&#xa;y del Instituto Valenciano de Cualificaciones Profesionales&#xa;Daniel Arias Fernández" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="920" y="390" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Servicio de Ordenación y&#xa;Planificación e la la FP&#xa;Tania Fernández Navarro" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="190" y="570" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Servicio de Innovación&#xa;y Fondos EEuropeos de FP&#xa;Noelia Ángel Soriano" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="502" y="580" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Servicio del IVCP&#xa;Alberto Gregori Herranz Peris" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="830" y="580" width="212" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Servicio de Orientación Profesional&#xa;David Montalvà Furió" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="570" width="298" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="CEFIRE FP&#xa;Director&#xa;Alfredo Rafael Vicente Boix" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="690" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="ASESORES" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="810" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="772" y="405.5" as="sourcePoint" />
+            <mxPoint x="122" y="165.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="772" y="405.5" as="sourcePoint" />
+            <mxPoint x="122" y="165.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="8" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="772" y="405.5" as="sourcePoint" />
+            <mxPoint x="122" y="165.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="520" />
+              <mxPoint x="552" y="555.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6" target="23" edge="1">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="772" y="405.5" as="sourcePoint" />
+            <mxPoint x="122" y="165.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="23" target="24" edge="1">
+          <mxGeometry x="72" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="72" y="265.5" as="sourcePoint" />
+            <mxPoint x="172" y="165.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="24" target="25" edge="1">
+          <mxGeometry x="72" y="175.5" width="100" height="100" as="geometry">
+            <mxPoint x="72" y="275.5" as="sourcePoint" />
+            <mxPoint x="172" y="175.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rg_jonjxkeRIRivhDZzg-55" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="13">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="630" y="520" as="sourcePoint" />
+            <mxPoint x="420" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="520" />
+              <mxPoint x="692" y="635.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rg_jonjxkeRIRivhDZzg-56" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="18">
+          <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
+            <mxPoint x="1328" y="540" as="sourcePoint" />
+            <mxPoint x="1360" y="706" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
