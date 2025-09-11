@@ -4,6 +4,12 @@ Una vegada tinguen clara la formació i el que necessite caldrà introduïr-la a
 
 [:material-link-variant: Alta Formació en Gesform](../tutorials/tutorial_gesform.md){: .md-button target="_blank"}
 
+!!! note "⏰ Temporització recomanada de les fases d'un curs"
+    * 📝 **Fase d’inscripció** → 4 setmanes.
+    * ✅ **Fase de confirmació** → 1 setmana.
+    * 📋 **Llistat definitiu i inici del curs** → 1 setmana abans de començar.
+
+
 Una vegada donat de alta el curs en Gesform ens donarà un codi semblant a 25FPXXCF0XX que l'haurem d'utilitzar per a identificar el curs.  
 El curs es quedarà en estat  **INICIAL**, i hem d'avisar a través de **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** que ens validen el curs. Per a fer-ho haurem d'omplir una tasca en la targeta "Validar formación" i assignarem la tasca a Gloria i a Alfredo.  
 

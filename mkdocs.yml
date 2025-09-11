@@ -1,10 +1,10 @@
 site_name: Tutorials CEFIRE FP
 site_author: Cefire FP
-#site_url: https://github.com/framafra/docker
+site_url: https://cefirefp.github.io/docs/index.html
 docs_dir: 'md'
 site_dir: 'docs'
-#repo_url: https://github.com/framafra/docker #para mostrar un link al repositorio
-#repo_name: framafra/docker
+#repo_url: https://github.com/cefirefp/cefirefp.github.io #para mostrar un link al repositorio
+#repo_name: cefirefp.github.io
 
 edit_uri: '' #Suprimir el icono de edición (https://www.mkdocs.org/user-guide/configuration/#edit_uri)
 
