@@ -85,7 +85,7 @@ Os recomendamos seguir los siguientes pasos para realizar el pago de las formaci
 
 Dentro de la hoja de cálculo podemos encontrar las siguientes columnas:
 
-![Pasos a seguir](../images/eresar/eresar1.png)
+![Pasos a seguir](images/eresar/eresar1.png)
 
 Que podemos resumir de la siguiente manera:
 
@@ -94,11 +94,11 @@ Que podemos resumir de la siguiente manera:
 3. Contactar con el ponente o ponentes de la formación para que nos envíen la documentación necesaria para realizar el pago. 
    * En el caso de que sea minuta deberemos contactar con Elena para que nos prepare la minuta. En este caso deberemos crear una tarjeta en el [Kanban de ERESAR]( {{enlaces.kanban_eresar}} ){ :target="_blank" } y etiquetar a Elena y a Alfredo con el código de la formación y tarea realizar minuta.
 
-    ![Kanban de ERESAR](../images/eresar/eresar2.png)
+    ![Kanban de ERESAR](images/eresar/eresar2.png)
 
    * En el caso de que sea factura, deberemos buscar en la carpeta de la formación. En el caso de que no esté, deberemos contactar con el ponente o ponentes para que nos la envíen. En todo caso esa factura deberá atenderse a normativa y deberá estar especificado en la factura. Se creará una tarjeta en el [Kanban de ERESAR]( {{enlaces.kanban_eresar}} ){ :target="_blank" } y etiquetar a Alfredo cuando estén todas las tareas de la tarjeta hechas. La tarjeta tendrá el nombre del código de la formación y las siguientes tareas:
 
-    ![Kanban de ERESAR](../images/eresar/eresar3.png)
+    ![Kanban de ERESAR](images/eresar/eresar3.png)
 
 4. Una vez estén realizados los pasos se pasará la tarjeta a la columna de Designa enviado a firma si se ha pasado la formación a minuta o si se ha revisado correctamente, realizado el Informe ERESAR y se tiene la factura correcta, se subirá a la carpeta de la SDGFP.
 
