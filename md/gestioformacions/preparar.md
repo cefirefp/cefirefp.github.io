@@ -15,6 +15,65 @@ Per tal de donar a conéixer la formació, cal:
     [:material-link: Enllac som\_fp de Telegram]( {{enlaces.enllaç_telegram_som_fp}} ){: .md-button target="_blank"}
 
 
+Correu electrònic d'example
+
+```
+Asunto.-  Inscripción curso  25FP32CF023 - Skill 39. Introducción a MikroTik: configuración y administración de redes   / Inscripció curs  25FP32CF023 - Skill 39. Introducció a MikroTik: configuració i administració de xarxes 
+
+Estimados/as jefes/as de departamento,
+
+Me dirijo a ustedes para informarles de la apertura de inscripciones al curso a distancia:
+
+25FP32CF023 - Skill 39. Introducción a MikroTik: configuración y administración de redes
+
+Este curso está especialmente diseñado para el profesorado de ciclos formativos de la familia profesional de Informática y Comunicaciones y tiene como objetivo general dominar los conceptos básicos y avanzados del ecosistema MikroTik, incluyendo RouterOS y su hardware, para diseñar, configurar y gestionar redes eficientes tanto en contextos formativos como en entornos profesionales.
+
+• Plazo de inscripción: Del lunes 14 de julio al domingo 31 de agosto de 2025.
+• Modalidad: A distancia con sesiones síncronas en línea.
+
+Para más detalles y para realizar la inscripción, pueden acceder al siguiente enlace, a partir del lunes próximo:
+
+https://ovifor.edu.gva.es
+
+Les agradecemos que hagan extensiva esta información al profesorado de su departamento que pueda estar interesado.
+
+Nota: Si ha recibido este correo por error y no es jefe/a de departamento de la familia de Informática y Comunicaciones en su centro, le rogamos que nos lo comunique respondiendo a este mensaje e indicándonos el contacto correcto de su centro para poder actualizar nuestra base de datos.
+
+Aprovecho para enlazar nuestro canal de Telegram Gva_SomFP (https://t.me/gvasomfp) al que os podéis subscribir y recibir todas las novedades y la información de la FP de la Comunidad Valenciana.
+
+Quedamos a su disposición para cualquier consulta.
+
+Un cordial saludo,
+
+-------
+
+Estimats/as caps de departament,
+
+Em dirigisc a vostés per a informar-los de l'obertura d'inscripcions al curs a distància:
+
+25FP32CF023 - Skill 39. Introducció a MikroTik: configuració i administració de xarxes
+
+Aquest curs està especialment dissenyat per al professorat de cicles formatius de la família professional d'Informàtica i Comunicacions i té com a objectiu general dominar els conceptes bàsics i avançats de l'ecosistema MikroTik, incloent-hi RouterOS i el seu maquinari, per a dissenyar, configurar i gestionar xarxes eficients tant en contextos educatius com en entorns professionals.
+
+• Termini d'inscripció: Dilluns 14 de juliol al diumenge 31 d'agost de 2025.
+• Modalitat: A distància amb sessions síncrones en línia.
+
+Per a més detalls i per a realitzar la inscripció, poden accedir al següent enllaç, a partir del pròxim dilluns:
+
+https://ovifor.edu.gva.es
+
+Els agraïm que facen extensiva esta informació al professorat del seu departament que puga estar interessat.
+
+Nota: Si ha rebut este correu per error i no és cap/a de departament de la família d'Informàtica i Comunicacions en el seu centre, li preguem que ens el comunique responent a este missatge i indicant-nos el contacte correcte del seu centre per a poder actualitzar la nostra base de dades.
+
+Aprofite per a enllaçar el nostre canal de Telegram Gva_SomFP (https://t.me/gvasomfp) al que us podeu subscriure i rebre totes les novetats  i la informació de l'FP de la Comunitat Valenciana.
+
+Quedem a la seua disposició per a qualsevol consulta.
+
+Salutacions,
+
+```
+
 ---
 
 ### 📚 Sol·licitud d’espai en AULES
