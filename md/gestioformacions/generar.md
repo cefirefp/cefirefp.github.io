@@ -52,7 +52,7 @@ L'ús és molt senzill poseu el vostre nom d'assessor i el codi de la formació 
 ![Aplicació per a crear carpetes de formacions](../images/gesform/8a.png){: .center}
 
 
-[Aplicació per a crear carpetes de formacions en Windows](../apps/carpeta_curso.exe){: .md-button target="_blank"} [Aplicació per a crear carpetes de formacions en Linux](../apps/crea_cursos_linux){: .md-button target="_blank"}
+[Aplicació per a crear carpetes de formacions en Windows]( {{enlaces.crea_cursos_windows}}){: .md-button target="_blank"} [Aplicació per a crear carpetes de formacions en Linux]( {{enlaces.crea_cursos_linux}} ){: .md-button target="_blank"}
 
 
 !!!note "Nota"

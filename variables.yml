@@ -61,3 +61,7 @@ enlaces:
 
   # Telegram
   enllaç_telegram_som_fp: "https://t.me/+tjR_X8RO7cNkODlk"
+
+  # Aplicacions per a crear carpetes de formacions
+  crea_cursos_windows: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/APLICACI%C3%93N/crea_carpeta.exe?csf=1&web=1&e=unbAdf"
+  crea_cursos_linux: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/APLICACI%C3%93N/crea_carpeta_linux?csf=1&web=1&e=kEbACF"
