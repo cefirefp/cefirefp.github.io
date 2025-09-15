@@ -77,7 +77,7 @@ Alguns punts clau:
 
 ![Designa para firmar](../images/kanban/designa_para_firmar.png){: .center}
 
-
+Abans de l'inici de la formació (aproximadament uns 3 dies abans) haurem de comprovar que el designa estiga signat, podrem comprovar-ho en la [carpeta de designes firmats]( {{enlaces.designa_firmado}} ){target="_blank"}.
 
 ---
 
@@ -146,12 +146,19 @@ El protocol de creació de banners es pot consultar en el següent enllaç.
 
 #### Aplicació Banners
 Podeu utilitzar el següent enllaç per a crear un banner.  
-[:material-image-area: Creació de Banners](../apps/baner/proves.html){: .md-button target="_blank"}  
+[:material-image-area: Creació de Banners](../apps/baner/proves.html){:.md-button target="_blank"}  
 
 El banner de la formació ha de pujar-se a la carpeta corresponent per a revisar que no tinga cap errada:
 
-[:material-folder: Carpeta de banners]( {{enlaces.carpeta_banners}} ){: .md-button target="_blank"}
+[:material-folder: Carpeta de banners]( {{enlaces.carpeta_banners}} ){:.md-button target="_blank"}
 
 Una vegada creat i pujat a la carpeta de banners crearem una tasca en **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** en la targeta "Validar Banner" i assignarem la tasca a Gloria per a que revise el banner.  
+
+---
+### Sol·licitut d'espais del centre
+Si la formació es presencial en algún centre, s'haurà de demanar permís al centre en qüestió. Es per allo que haurem d'amplir el [següent document]({{enlaces.solicitut_espais_centre}}){:target="_blank"} i l'il tenim que enviar al director del centre per a que ens el signe.
+El document el guardarem en la carpeta del curs amb en nom **25FPXXCF0XX_Solicitud de Espacios**.
+
+
 
 ---
