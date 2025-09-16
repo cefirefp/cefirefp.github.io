@@ -102,9 +102,11 @@
                         <label for="input2">Dates (en valencià)</label>
                         <input  oninput="fechas_va(this.value)" type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa alguna cosa...">
                         <div class="form-check">
-                            <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s">
-                            <label class="form-check-label" for="checkbox2">Semipresencial</label>
+                            <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
+                            <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
                         </div>
+                        <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
+                        <input  oninput="presencial(this.value)" type="text" class="form-control" id="presencial" placeholder="Ingressa alguna cosa...">
                     </div>
                     <div class="form-group">
                         <label for="input3">Horas / Hores</label>
@@ -353,24 +355,32 @@
 
         function horas(h) {
             const horasElement = document.getElementById('horas');
+            const horasElement1 = document.getElementById('horas1');
             const horasElement_va = document.getElementById('horas_va');
+            const horasElement1_va = document.getElementById('horas1_va');
             if (horasElement) {
                 horasElement.textContent = h+' horas';
+                horasElement1.textContent = h+' horas';
                 horasElement_va.textContent = h+' hores';
+                horasElement1_va.textContent = h+' hores';
             }
         }
 
         function fechas(f) {
             const fElement = document.getElementById('fechas');
+            const fElement1 = document.getElementById('fechas1');
             if (fElement) {
                 fElement.textContent = f;
+                fElement1.textContent = f;
             }
         }
 
         function fechas_va(f) {
             const fElement_va = document.getElementById('fechas_va');
+            const fElement1_va = document.getElementById('fechas1_va');
             if (fElement_va) {
                 fElement_va.textContent = f;
+                fElement1_va.textContent = f;
             }
         }
 
@@ -411,29 +421,49 @@
         }
 
         function semipresencial() {
-            const semi1 = svgElement.getElementById('g52-4');
-            const semi2 = svgElement.getElementById('g39');
-            const semi1_va = svgElement_va.getElementById('g52-4');
-            const semi2_va = svgElement_va.getElementById('g39');
+            const semi1 = svgElement.getElementById('g77');
+            const semi2 = svgElement.getElementById('g2');
+            const semi3 = svgElement.getElementById('g3');
+            const semi4 = svgElement.getElementById('g73');
+            const semi1_va = svgElement_va.getElementById('g77_va');
+            const semi2_va = svgElement_va.getElementById('g2_va');
+            const semi3_va = svgElement_va.getElementById('g3_va');
+            const semi4_va = svgElement_va.getElementById('g73_va');
 
-            const textonline = document.getElementById('text_online');
+            const textonline = document.getElementById('textonline');
             const textonline_va = document.getElementById('text_online_va');
 
             if (document.getElementById('checkbox3s').checked) {
                 semi1.setAttribute('style', 'visibility:visible');
                 semi2.setAttribute('style', 'visibility:visible');
-                textonline.textContent = 'Semipresencial';
+                semi3.setAttribute('style', 'visibility:hidden');
+                semi4.setAttribute('style', 'visibility:hidden');
+                //textonline.textContent = 'Semipresencial';
                 semi1_va.setAttribute('style', 'visibility:visible');
                 semi2_va.setAttribute('style', 'visibility:visible');
-                textonline_va.textContent = 'Semipresencial';
+                semi3_va.setAttribute('style', 'visibility:hidden');
+                semi4_va.setAttribute('style', 'visibility:hidden');
+                //textonline_va.textContent = 'Semipresencial';
             } else {                
                 semi1.setAttribute('style', 'visibility:hidden');
                 semi2.setAttribute('style', 'visibility:hidden');
+                semi3.setAttribute('style', 'visibility:visible');
+                semi4.setAttribute('style', 'visibility:visible');
                 textonline.textContent = 'En línea';
                 semi1_va.setAttribute('style', 'visibility:hidden');
                 semi2_va.setAttribute('style', 'visibility:hidden');
+                semi3_va.setAttribute('style', 'visibility:visible');
+                semi4_va.setAttribute('style', 'visibility:visible');
                 textonline_va.textContent = 'En línia';
             }
+        }
+
+        function presencial(f) {
+            text_presencial = document.getElementById('text_presencial');
+            text_presencial_va = document.getElementById('text_presencial_va');
+
+            text_presencial.textContent = f;
+            text_presencial_va.textContent = f;
         }
 
         function cambiaLogo() {
