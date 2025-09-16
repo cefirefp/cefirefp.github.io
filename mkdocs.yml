@@ -1,6 +1,6 @@
 site_name: Tutorials CEFIRE FP
 site_author: Cefire FP
-site_url: https://cefirefp.github.io/docs/index.html
+site_url: https://cefirefp.github.io/docs/
 docs_dir: 'md'
 site_dir: 'docs'
 #repo_url: https://github.com/cefirefp/cefirefp.github.io #para mostrar un link al repositorio
@@ -29,6 +29,7 @@ nav:
   - Tutorials:
       - Creació de sessió en Teams: tutorials/tutorial_teams.md
       - Gesform: tutorials/tutorial_gesform.md
+  - 📄 Descarregar PDF: pdf/documentacion.pdf
 
 
 theme:
@@ -48,9 +49,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Canvia a mode clar
-  favicon: images/docker.png
+  favicon: images/icono.jpg
   features:
-    #- header.autohide
+    - header.autohide
     - toc.follow  # el toc segueix en la pantalla
     - toc.integrate # el toc dins de la pàgina, en el menu lateral
     - search.suggest
@@ -67,14 +68,21 @@ theme:
     admonition:
       note: octicons/alert-24
       example: octicons/book-16
+  
 
 extra_css:
   - css/extra.css
 
 extra:
   generator: false #Muestra en el pie de página que se ha realiza
+  social:
+    - icon: material/file-pdf-box
+      link: pdf/documentacion.pdf
+      name: Descargar PDF
+
 
 markdown_extensions:
+    - sane_lists
     - abbr
     - admonition
     - attr_list
@@ -88,17 +96,18 @@ markdown_extensions:
         generic: true
     - pymdownx.betterem:
         smart_enable: all
-    - pymdownx.caret
-    - pymdownx.details
+    - pymdownx.blocks.caption #permet afegir captions a les imatges
+    - pymdownx.caret #permet afegir text amb subíndex i superíndex
+    - pymdownx.details #permet afegir detalls desplegables
     - pymdownx.emoji:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
     - pymdownx.highlight
     - pymdownx.inlinehilite
-    - pymdownx.keys
+    - pymdownx.keys #permet afegir text amb l'aparença de tecla
     - pymdownx.mark
     - pymdownx.smartsymbols
-    - pymdownx.superfences
+    - pymdownx.superfences #permet afegir codi amb resaltat de sintaxi
     - pymdownx.tabbed:
         alternate_style: true
     - pymdownx.tasklist:
@@ -109,5 +118,17 @@ plugins:
   - search
   - macros:
       include_yaml:
-        - variables.yml       
-
+        - variables.yml
+  - with-pdf:
+      output_path: pdf/documentacion.pdf
+      cover_logo: images/icono.jpg
+      cover_title: "Tutorials CEFIRE FP"
+      cover_subtitle: "Cefire Formació Professional"
+      back_cover: true
+      toc_title: "Índex" #Canvia el títol de l'índex
+      toc_level: 3 #Nivell de títols que apareixen en l'índex
+      ordered_chapters_level: 2 #Nivell de títols que es numeraran
+      page_numbers: true
+      show_anchors: true
+      verbose: true 
+       
