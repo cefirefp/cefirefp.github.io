@@ -78,4 +78,10 @@ table td:contains("✓") {
 }
 
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
