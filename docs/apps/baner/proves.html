@@ -105,6 +105,10 @@
                             <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
                             <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
                         </div>
+                        <div class="form-check">
+                            <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input" id="checkbox3sincrones">
+                            <label class="form-check-label" for="checkbox3s">Amb sessions síncrones</label>
+                        </div>
                         <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
                         <input  oninput="presencial(this.value)" type="text" class="form-control" id="presencial" placeholder="Ingressa alguna cosa...">
                     </div>
@@ -454,6 +458,20 @@
                 semi2_va.setAttribute('style', 'visibility:hidden');
                 semi3_va.setAttribute('style', 'visibility:visible');
                 semi4_va.setAttribute('style', 'visibility:visible');
+                textonline_va.textContent = 'En línia';
+            }
+        }
+
+        function sessions_sincrones() {
+            
+            const textonline = document.getElementById('textonline');
+            const textonline_va = document.getElementById('textonline_va');
+
+            if (document.getElementById('checkbox3sincrones').checked) {
+                textonline.textContent = 'Online con sesiones síncronas';
+                textonline_va.textContent = 'Online amb sessions síncrones';
+            } else {                
+                textonline.textContent = 'En línea';
                 textonline_va.textContent = 'En línia';
             }
         }
