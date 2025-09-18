@@ -20,6 +20,11 @@ nav:
       - Preparar la formació: gestioformacions/preparar.md
       - Seguiment de la formació: gestioformacions/seguiment.md
       - Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
+  - Perfils:
+      - FSE: perfil/fse.md
+      - Skills: perfil/skills.md
+      - PAA: perfil/paa.md
+      - C19: perfil/C19.md
   - Gestió Econòmica:
       - Comprova estat de la gestió econòmica de la formació: gestioeconomica/ge_comprova.md  
       - Protocol de minutes: gestioeconomica/ge_protocolo_general_minutas.md
