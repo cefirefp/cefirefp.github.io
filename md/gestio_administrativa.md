@@ -98,7 +98,7 @@ Una vegada realitzada la comissió de servei, acceptada i ja ens hem desplaçat 
     !!!warning "Atenció"
         Cal repasar que estiga tot correcte abans de confirmar.  
     
-5.- **Si volem saber el estart de les dietes, hem d'anar a "Mení/Historico de Comisiones"**
+5.- **Si volem saber el estat de les dietes, hem d'anar a "Menú/Historico de Comisiones"**
 
 
 ---

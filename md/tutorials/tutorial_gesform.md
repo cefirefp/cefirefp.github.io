@@ -176,7 +176,7 @@ I omplirem els següents camps:
 
 ![](../images/gesform/campos_participante.png){.center }
 
-* Persona.- Posarem el DNI del ponent, si està donat d'alta en el sistema apareixerà el seu nom. Si no està donat dalta haurem d'enviar un mail a [compte_formacio@gva.es.](mailto:compte_formacio@gva.es?subject=Alta%20Ponent%20Gesform)
+* Persona.- Posarem el DNI del ponent, si està donat d'alta en el sistema apareixerà el seu nom. Si no apareix el seu nom significa que no está donat d'alta, i per tant, hauren de sol·licitar que el donen de alta omplint el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i enviar-lo per mail a [compte_formacio@gva.es.](mailto:compte_formacio@gva.es?subject=Alta%20Ponent%20Gesform)
 * Tipo.- Indicarem el tipus (Assisten, Coordinador, Ponent,...)
 * Derecho Certificado.- Posarem SI, si s'ha de certificar al ponent.
 

@@ -26,10 +26,11 @@ nav:
       - Protocol de factures: gestioeconomica/ge_protocolo_general_facturas.md
       - Finalització de les formacions: gestioeconomica/ge_finalizacion_curso.md
   - Gestió ERESAR: eresar.md
+  - PAF: paf.md
   - Tutorials:
       - Creació de sessió en Teams: tutorials/tutorial_teams.md
       - Gesform: tutorials/tutorial_gesform.md
-  - 📄 Descarregar PDF: pdf/documentacion.pdf
+  #- 📄 Descarregar PDF: pdf/documentacion.pdf
 
 
 theme:
@@ -63,6 +64,7 @@ theme:
     - navigation.footer       # footer de la pagina, amb navegació
     - navigation.top          # boto flotant de tornar a dalt 
     - content.footnote.tooltips
+    - mermaid
   logo: images/icono.jpg
   icon:
     admonition:
@@ -107,7 +109,11 @@ markdown_extensions:
     - pymdownx.keys #permet afegir text amb l'aparença de tecla
     - pymdownx.mark
     - pymdownx.smartsymbols
-    - pymdownx.superfences #permet afegir codi amb resaltat de sintaxi
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format 
     - pymdownx.tabbed:
         alternate_style: true
     - pymdownx.tasklist:
@@ -119,16 +125,18 @@ plugins:
   - macros:
       include_yaml:
         - variables.yml
-  - with-pdf:
-      output_path: pdf/documentacion.pdf
-      cover_logo: images/icono.jpg
-      cover_title: "Tutorials CEFIRE FP"
-      cover_subtitle: "Cefire Formació Professional"
-      back_cover: true
-      toc_title: "Índex" #Canvia el títol de l'índex
-      toc_level: 3 #Nivell de títols que apareixen en l'índex
-      ordered_chapters_level: 2 #Nivell de títols que es numeraran
-      page_numbers: true
-      show_anchors: true
-      verbose: true 
-       
+  # - with-pdf:
+  #     output_path: pdf/documentacion.pdf
+  #     cover_logo: images/icono.jpg
+  #     cover_title: "Tutorials CEFIRE FP"
+  #     cover_subtitle: "Cefire Formació Professional"
+  #     back_cover: true
+  #     toc_title: "Índex" #Canvia el títol de l'índex
+  #     toc_level: 3 #Nivell de títols que apareixen en l'índex
+  #     ordered_chapters_level: 2 #Nivell de títols que es numeraran
+  #     page_numbers: true
+  #     show_anchors: true
+  #     verbose: true #Mostra missatges de depuració a la consola   
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js

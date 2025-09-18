@@ -33,16 +33,18 @@ La carpeta creada tindrà una una sèrie de subcarpetes i arxius per a organitza
 * **25FPXXCF0XX_AutorizacionUsoMaterialesAbierto**:Autorització per a l'ús de materials oberts, és un document que cal omplir i signar per part del ponent. [Podeu trobar el document ací]( {{enlaces.autoritzacio_us_materials}} ).
 * **25FPXXCF0XX_AutorizacionGrabacionYDifusion**: Autorització per a la gravació i difusió de la formació, és un document que cal omplir i signar per part del ponent. [Podeu trobar el document ací]( {{enlaces.autoritzacio_gravacio}} ){target="_blank"}.
 * **25FPXXCF0XX_PROPER_PONENTE**: És necessari que el ponent es done d'alta en la plataforma PROPER abans de començar la formació i que vos facilite el document de confirmació d'alta. Comproveu que el número de compte siga el mateix que el de les dades que ha facilitat en la Fitxa DADES PONENTE. 
-* **25FPXXCF0XX_Modelo informe necesidad_VAL_V3**: Si el ponent no és funcionari GVA cal fer un informe de perquè estàs fent esta contractació. És cert que no hi ha cap ponent en tota la família professional que no puga impartir el curs, cal justificar-ho. [Podeu trobar el document ací]( {{enlaces.informe_necessitats}} ){target="_blank"}.
+* **25FPXXCF0XX_Modelo informe necesidad_VAL_V3**: Si el ponent no és funcionari GVA cal fer un informe de perquè estàs fent esta contractació. És cert que no hi ha cap ponent en tota la família professional que no puga impartir el curs, cal justificar-ho. [Podeu trobar el document ací per a ponet no funcionari]( {{enlaces.informe_contractacio_no_funcionari}} ){target="_blank"} y [ací per a ponent empresa]( {{enlaces.informe_contractacio_contracte_menor}} ){target="_blank"}
 * **25FPXXCF0XX-Tec**: Cal crear una subcarpeta on es posaran totes les evidències necessàries per a justificar la formació. 
-  * **25FPXXCF0XX_CuadroTexto**: Es tracta d'un formulari que cal emplenar.
-  * **25FPXXCF0XX_Evidencias**: On es posaran totes les evidències necessàries per a justificar la formació. Baners, publicació en web, fotos, etc...
-  * **25FPXXCF0XX_FSE_Ficha_seguimiento**: On es posarà la fitxa de seguiment de la formació.
+  * **25FPXXCF0XX_CuadroTexto**: Es tracta d'un formulari que cal emplenar. [Podeu trobar el document ací]( {{enlaces.quadre_text}} ){target="_blank"}.
+  * **25FPXXCF0XX_Evidencias**: On es posaran totes les evidències necessàries per a justificar la formació. Baners, publicació en web, fotos, etc... [Podeu trobar el document ací]( {{enlaces.evidencies}} ){target="_blank"}.
+  * **25FPXXCF0XX_FSE_Ficha_seguimiento**: On es posarà la fitxa de seguiment de la formació. [Podeu trobar el document ací]( {{enlaces.fitxa_seguiment}} ){target="_blank"}.
   * **25FPXXCF0XX_ACTA FINAL.pdf**: Acta amb els APTES i NO APTES de la formació, cal que estiga degudament omplerta i signada per part del ponent, es trau de gesform.
   * **25FPXXCF0XX_ACTA PONENT.pdf**: Acta signada pel ponent on posa els APTES i NO APTES de la formació, la genera ell/a.
   * **25FPXXCF0XX_SIGNATURES.pdf**: Document amb totes les signatures de la formació escanejades.
 * **25FPXXCF0XX_DESIGNA_NOM_PONENT_FSE.pdf**: (Convocatòria FSE) Aquest document és necessari per a designar el ponent de la formació, cal que estiga degudament omplert i signat pel cap de servei de formació i orientació i pel subdirector general, caldrà facilitar-lo per la plataforma Kanban que hem habilitat per a que es signe. [Podeu trobar el document ací]( {{enlaces.designa_fse}} ){target="_blank"}.
 * **25FPXXCF0XX_DESIGNA_NOM_PONENT_SKILLS.pdf**: (Convocatòria SKILLS) Aquest document és necessari per a designar el ponent de la formació, cal que estiga degudament omplert i signat pel cap de servei de formació i orientació i pel subdirector general, caldrà facilitar-lo per la plataforma Kanban que hem habilitat per a que es signe. [Podeu trobar el document ací si és docent GVA]( {{enlaces.designa_skills}} ){target="_blank"}. En el cas que no siga docent GVA, caldrà fer un informe de necessitat de contractació i [utilizar aquest document de DESIGNA]( {{enlaces.designa_skills_no_docent}} ){target="_blank"}.
+* **25FPXXCF0XX_Solicitud de Espacios**: Si la formació es presencial en algún centre, s'haurà de demanar permís al centre en qüestió. Es per allo que haurem d'amplir el [següent document]({{enlaces.solicitut_espais_centre}}){:target="_blank"} i l'il tenim que enviar al director del centre per a que ens el signe. El document el guardarem en la carpeta del curs amb en nom . 
+
 
 #### Aplicació per a crear la carpeta del curs
 

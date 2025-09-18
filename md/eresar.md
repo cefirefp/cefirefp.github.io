@@ -1,177 +1,191 @@
-# INTRODUCCIÓN
+## Introducció
 
-Algunas formaciones realizadas en cursos anteriores han tenido problemas en el pago por diferentes motivos. Normalmente los motivos son que no han estado correctamente justificados los pagos porque el pago no se ajustaba a la normativa vigente o porque no se han aportado los documentos necesarios para justificar el pago.
+Algunes formacions realitzades en cursos anteriors han tingut problemes en el pagament per diferents motius. Normalment els motius són que no han estat correctament justificats els pagaments perquè el pagament no s’ajustava a la normativa de tarifes vigent en el moment de realitzar el curs o perquè no s’han aportat correctament els documents necessaris per a justificar el pagament.
 
-!!! advertencia "ATENCIÓN"
-    Es muy importante que se sigan las instrucciones que se indican en este documento para evitar problemas en el pago de los ponentes y tutores de la formación en las formaciones. Hay que tener sentido común y aplicar el principio de prudencia en la gestión de los recursos públicos. Hemos de partir de la base que todo pago realizado se debe realizar según la normativa vigente y que se debe justificar documentalmente.
+!!! advertència "ATENCIÓ"
+    És molt important que es seguisquen les instruccions que s’indiquen en aquest document per a evitar problemes en el pagament dels ponents i tutors de la formació en les formacions. Cal tindre sentit comú i aplicar el principi de prudència en la gestió dels recursos públics. Hem de partir de la base que tot pagament realitzat s’ha de fer segons la normativa vigent i que s’ha de justificar documentalment.
 
-!!! warning "IMPORTANTE"
-    Toda la documentación que vamos a ver en este documento se encuentra en la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){ :target="_blank" }.
+!!! warning "IMPORTANT"
+    Tota la documentació que veurem en aquest document es troba en la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){:target="_blank"}.
 
-## Distribución de formaciones
+## Distribució de formacions
 
-Todas las formaciones se han distribuido en el [siguiente documento]( {{enlaces.full_calcul_eresar}} ){ :target="_blank" }.
+Totes les formacions s’han distribuït en el [següent document]( {{enlaces.full_calcul_eresar}} ){:target="_blank"}.
 
-Hay que tener en cueta:
+Cal tindre en compte:
 
-* Se trabajará por parejas de asesores dande soporte el uno al otro
-* El asesor asignado 1 será el responsable de la gestión y coordinación del informe
-* Los asesores podrán ser reasignados en función de las necesidades de la formación o de la carga de trabajo
+* Es treballarà per parelles d’assessors donant suport l’u a l’altre
+* L’assessor assignat 1 serà el responsable de la gestió i coordinació de l’informe
+* Els assessors podran ser reassignats en funció de les necessitats de la formació o de la càrrega de treball
 
-## Normativa vigente
+## Tasques a realitzar
+Les tasques a realitzar son les següents:
 
-Lo primero que debemos tener en cuenta és qué normativa se aplicaba en el momento de la realización de la formación. Por eso, según los diferentes cursos que nos encontremos podemos tener las siguientes situaciones:
+1. **Comprovar les tarifes del curs**.- Comprovar si la Minuta o Factura del curs s'adapten a les tarifes.
+   Dins de la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){:target="_blank"} podem trobar dues carpetes on estan les Minutes o les Factures (aquesta distribució s’ha realitzat analitzant les formacions i les possibilitats de pagament de les mateixes).
+  
+1. **Preparar la documentació**.- Preparar la documentació per a que el curs es puga pagar. Hi ha que tindre en compte que el procediment a seguir serà diferent si el curs es paga per Minuta o per Factura.
 
-* Si la formación se ha realizado entre el 15 de diciembre de 2020 y 31 de diciembre de 2023 se aplica la [siguiente tarificación](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/Tarifas%2015%20DIC%202020%20DE%20LA%20SDGFP%20(2020%20a%20dic%202023).pdf?csf=1&web=1&e=3ejMDH){ :target="_blank" }.
+!!! Attention "Factura o Minuta?"
+    Si el curs s'ha de pagar per Factura, el procediment és molt més tediòs i llarg (el ponent tarda més en cobrar). Per tant, en el moment de gestionar el pagament de un curs, si hi ha possibilitat de que el ponent ens canvie la factura per la minuta, serà millor ja que el ponent cobrarà abans i haurem de fer menys paperassa. 
 
-| Modalidad        | Tipo                                                       | Tarifa      | Observaciones                                                               |
-|------------------|------------------------------------------------------------|-------------|-----------------------------------------------------------------------------|
-| SÍNCRONA         | Con elaboración de materiales                              | 65 €/hora   | Sólo primera edición. Cesión y citación de autoría obligatoria.             |
-| SÍNCRONA         | Sin elaboración o cesión de materiales                     | 55 €/hora   |                                                                             |
-| ASÍNCRONA        | Tutorización con elaboración de materiales (≤30 part.)     | 55 €/hora   | Sólo primera edición. Cesión y citación de autoría obligatoria.             |
-| ASÍNCRONA        | Tutorización con elaboración de materiales (>30 part.)     | 65 €/hora   |                                                                             |
-| ASÍNCRONA        | Tutorización sin elaboración de materiales (≤30 part.)     | 45 €/hora   |                                                                             |
-| ASÍNCRONA        | Tutorización sin elaboración de materiales (>30 part.)     | 55 €/hora   |                                                                             |
-| ASÍNCRONA        | Elaboración de materiales sin tutorización                 | 15 €/hora   | Cesión de materiales. Citación de autoría obligatoria para otros usos.      |
+## Comprovar la tarifa
+Per a comprovar la tarifa del curs hem de vore que el que s'ha introduït en Gesform i els documents de pagament (Factura o Minuta) estan acorde en les tarifes vigents del moment de la formació.  
 
-* Si la formación se ha realizado des del 26 de febrero de 2024 se aplica la [siguiente tarificación](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/Tarifas%2026%20febrero%2024_%20Nuria%20soler.pdf?csf=1&web=1&e=vdnyJt){ :target="_blank" } que resuminos en la siguiente tabla:
+Per a això entrem en les [carpetes de MINUTA o FACTURA]({{enlaces.carpeta_eresar}}){:target="_blank"} i busquem mitjançant el codi del curs, la minuta o factura corresponen del curs. Després entrem en GESFORM y comprovem que el presupost coincideix en la MINUTA o FACTURA.
 
-| Modalidad         | Tipo                                                         | Tarifa                | Observaciones                                                                                   |
-|-------------------|--------------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------|
-| SÍNCRONA          | Presencial o mediada por tecnología                          | 84 €/hora             | Incluye elaboración de materiales para la docencia, en su caso.                                |
-| A DISTANCIA       | Profesor/a (crea material y tutoriza el curso)               | 84 €/hora             |                                                                                               |
-| A DISTANCIA       | Tutor/a (material existente, atiende 30-45 participantes)    | 45 €/h (parcial)      | Importe completo en cursos de 30h: La coletilla 45€ por participante que certifique, **no se aplica. Se cobra curso completo por horas**           |
-| A DISTANCIA       | Tutor/a (curso de 20h)                                       | 30 €/participante     |                                                                                               |
-| A DISTANCIA       | Tutor/a (curso de 40h)                                       | 60 €/participante     |                                                                                               |
-| ELABORACIÓN       | Material (persona distinta del profesor/a del curso)         | 17 €/hora             | Cesión del uso de los materiales del curso a la administración por escrito.                    |
+**POSAR CAPTURA DE PANTALLA DEL GESFORM**  
 
-* A partir de septiembre de 2024 se aplicará la [siguiente tarificación](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/TARIFAS_SEPTIEMBRE%202024_firmado.pdf?csf=1&web=1&e=VsT1bd){ :target="_blank" } que resumimos en la siguiente tabla:
+Finalment comprovem si el import coincideix amb el tarifari normatiu segons la data en que es va realitzar el curs.  
 
-| Modalidad          | Tipo                                                         | Tarifa                      | Observaciones                                                                                   |
-|--------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------|
-| FORMACIÓN SÍNCRONA | Presencial o mediada por tecnología                          | 67 €/hora                   | Incluye elaboración de materiales para la docencia.                                           |
-| FORMACIÓN A DISTANCIA - Tutorización | Curso de 30 horas, atención a 30-50 participantes       | 40 €/h | Máximo de 1.200 € por curso. No se cobra por certificado                                                                  |
-| FORMACIÓN A DISTANCIA - Tutorización | Otras tutorizaciones, atención 30-45 participantes     | 42 €/hora                   | Máximo de 2.200 €.                                                                             |
-| ELABORACIÓN DE MATERIALES | Para curso de 20 horas                                        | 475 €                       | La autoría firma cesión de uso a la Subdirección General. Proporcional a las horas 47'5€/h                                      |
-| ELABORACIÓN DE MATERIALES | Para curso de 30 horas                                        | 600 €                       |   Proporcional a las horas 47'5€/h |
-| ELABORACIÓN DE MATERIALES | Para curso superior a 30 horas                               | 900 €                       |                                                                                               |
+Hi ha que tindre en compte el tipus de formació (síncrona, a distància, elaboració de materials, etc.) i quina normativa se li aplica.
 
-* A partir de Octubre de 2024 se aplicará la [siguiente tarificación](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/TARIFAS_OCTUBRE_%202024_firmado.pdf?csf=1&web=1&e=sRxj1C){ :target="_blank" } que resumimos en la siguiente tabla:
-
-| Modalidad          | Tipo                                                         | Tarifa                      | Observaciones                                                                                   |
-|--------------------|--------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------|
-| FORMACIÓN SÍNCRONA | Presencial o mediada por tecnología                          | 67 €/hora                   | Incluye elaboración de materiales para la docencia, en su caso.                                |
-| FORMACIÓN A DISTANCIA - Tutorización | Tutorización, atención a 30-50 participantes              | 42 €/hora                   | Máximo de 2.200 €. En tutorizaciones híbridas, aplicar tarifas según modalidad correspondiente.|
-| ELABORACIÓN DE MATERIALES | Hasta 20 horas                                              | 23,75 €/hora                | Máximo de 475 €. Cesión de uso a la Subdirección General.                                      |
-| ELABORACIÓN DE MATERIALES | Entre 21 y 30 horas                                         | 20 €/hora                   | Máximo de 600 €.                                                                               |
-| ELABORACIÓN DE MATERIALES | Superior a 30 horas                                         | 900 €                       |                                                                                               |
+| Data |
+|------|
+| [Entre el 15/09/2020 i el 31/12/23](#si-la-formacio-2020-2023) |
+| [A partir del 26/02/2024](#a-partir-26-02-2024) |
+| [A partir del 01/09/24](#a-partir-01-09-24) |
+| [A partir del 01/10/24](#a-partir-01-10-24) |
 
 
-!!! warning "IMPORTANTE"
-    Es posible que algunas formaciones no coincidan exactamente con las tarifas indicadas en las tablas anteriores. Es posible que estuviesen aprobadas cuando estaba vigente una normativa anterior. En estos casos, se tratará de aplicar la tarificación que más se aproxime a la formación realizada o que memos dificultades tenga su justificación documental.
 
-## Análisis de la formación
+* <h3 id="si-la-formacio-2020-2023"></h3> Si la formació s’ha realitzat entre el 15 de desembre de 2020 i el 31 de desembre de 2023 s’aplica la [següent tarifació](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/Tarifas%2015%20DIC%202020%20DE%20LA%20SDGFP%20(2020%20a%20dic%202023).pdf?csf=1&web=1&e=3ejMDH){ :target="_blank" }.
 
-Dentro de la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){ :target="_blank" }. podemos encontrar dos carpetas:
+| Modalitat        | Tipus                                                       | Tarifa      | Observacions                                                               |
+|------------------|-------------------------------------------------------------|-------------|-----------------------------------------------------------------------------|
+| SÍNCRONA         | Amb elaboració de materials                                 | 65 €/hora   | Només primera edició. Cessió i citació d’autoria obligatòria.              |
+| SÍNCRONA         | Sense elaboració o cessió de materials                      | 55 €/hora   |                                                                             |
+| ASÍNCRONA        | Tutoria amb elaboració de materials (≤30 part.)             | 55 €/hora   | Només primera edició. Cessió i citació d’autoria obligatòria.              |
+| ASÍNCRONA        | Tutoria amb elaboració de materials (>30 part.)             | 65 €/hora   |                                                                             |
+| ASÍNCRONA        | Tutoria sense elaboració de materials (≤30 part.)           | 45 €/hora   |                                                                             |
+| ASÍNCRONA        | Tutoria sense elaboració de materials (>30 part.)           | 55 €/hora   |                                                                             |
+| ASÍNCRONA        | Elaboració de materials sense tutoria                       | 15 €/hora   | Cessió de materials. Citació d’autoria obligatòria per a altres usos.      |
 
-* FACTURAS
-* MINUTAS
+* <h3 id="a-partir-26-02-2024"></h3> Si la formació s’ha realitzat des del 26 de febrer de 2024 s’aplica la [següent tarifació](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/Tarifas%2026%20febrero%2024_%20Nuria%20soler.pdf?csf=1&web=1&e=vdnyJt){ :target="_blank" } que resumim en la taula següent:
 
-Esta distribución se ha realizado analizando las formaciones y las posibilidades de pago de las mismas.
+| Modalitat         | Tipus                                                         | Tarifa                | Observacions                                                                                   |
+|-------------------|---------------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------|
+| SÍNCRONA          | Presencial o mediada per tecnologia                           | 84 €/hora             | Inclou elaboració de materials per a la docència, si escau.                                   |
+| A DISTÀNCIA       | Professor/a (crea material i tutoritza el curs)               | 84 €/hora             |                                                                                               |
+| A DISTÀNCIA       | Tutor/a (material existent, atén 30-45 participants)          | 45 €/h (parcial)      | En cursos de 30h: la coletilla 45€/participant **no s’aplica.** Es cobra el curs complet per hores. |
+| A DISTÀNCIA       | Tutor/a (curs de 20h)                                         | 30 €/participant      |                                                                                               |
+| A DISTÀNCIA       | Tutor/a (curs de 40h)                                         | 60 €/participant      |                                                                                               |
+| ELABORACIÓ        | Material (persona diferent del professor/a del curs)          | 17 €/hora             | Cessió d’ús dels materials del curs a l’administració per escrit.                             |
 
-## Pasos a seguir
+* <h3 id="a-partir-01-09-24"></h3> A partir de setembre de 2024 s’aplicarà la [següent tarifació](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/TARIFAS_SEPTIEMBRE%202024_firmado.pdf?csf=1&web=1&e=VsT1bd){ :target="_blank" } que resumim en la taula següent:
 
-Os recomendamos seguir los siguientes pasos para realizar el pago de las formaciones. Podemos seguir en procedimiento en la [hoja de cálculo]( {{enlaces.full_calcul_eresar}} ){ :target="_blank" }. que podéis encontrar en la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){ :target="_blank" }.
+| Modalitat                        | Tipus                                            | Tarifa      | Observacions                                                              |
+|----------------------------------|--------------------------------------------------|-------------|----------------------------------------------------------------------------|
+| FORMACIÓ SÍNCRONA                | Presencial o mediada per tecnologia              | 67 €/hora   | Inclou elaboració de materials per a la docència.                         |
+| FORMACIÓ A DISTÀNCIA - Tutoria   | Curs de 30 hores, atenció a 30-50 participants   | 40 €/hora   | Màxim de 1.200 € per curs. No es cobra per certificat.                    |
+| FORMACIÓ A DISTÀNCIA - Tutoria   | Altres tutories, atenció 30-45 participants      | 42 €/hora   | Màxim de 2.200 €.                                                         |
+| ELABORACIÓ DE MATERIALS          | Per a curs de 20 hores                           | 475 €       | Autor/a signa cessió d’ús a la Subdirecció General. Proporcional: 47,5€/h |
+| ELABORACIÓ DE MATERIALS          | Per a curs de 30 hores                           | 600 €       | Proporcional: 47,5€/h                                                      |
+| ELABORACIÓ DE MATERIALS          | Per a curs superior a 30 hores                   | 900 €       |                                                                            |
 
-Dentro de la hoja de cálculo podemos encontrar las siguientes columnas:
+* <h3 id="a-partir-01-10-24"></h3> A partir d’octubre de 2024 s’aplicarà la [següent tarifació](https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/PLANTILLA%20i%20DOC/TARIFAS_OCTUBRE_%202024_firmado.pdf?csf=1&web=1&e=sRxj1C){ :target="_blank" } que resumim en la taula següent:
 
-![Pasos a seguir](images/eresar/eresar1.png)
+| Modalitat                        | Tipus                                            | Tarifa      | Observacions                                                              |
+|----------------------------------|--------------------------------------------------|-------------|----------------------------------------------------------------------------|
+| FORMACIÓ SÍNCRONA                | Presencial o mediada per tecnologia              | 67 €/hora   | Inclou elaboració de materials per a la docència, si escau.                |
+| FORMACIÓ A DISTÀNCIA - Tutoria   | Tutoria, atenció a 30-50 participants            | 42 €/hora   | Màxim de 2.200 €. En tutories híbrides, aplicar tarifes segons modalitat. |
+| ELABORACIÓ DE MATERIALS          | Fins a 20 hores                                  | 23,75 €/h   | Màxim de 475 €. Cessió d’ús a la Subdirecció General.                     |
+| ELABORACIÓ DE MATERIALS          | Entre 21 i 30 hores                              | 20 €/h      | Màxim de 600 €.                                                           |
+| ELABORACIÓ DE MATERIALS          | Superior a 30 hores                              | 900 €       |                                                                            |
 
-Que podemos resumir de la siguiente manera:
+⚠️ És possible que algunes formacions no coincidisquen exactament amb les tarifes indicades en les taules anteriors. És possible que estigueren aprovades quan estava vigent una normativa anterior.  
+En el cas de que les tarifes Minuta-Factura-Gesform VS Tarifes no coincidisquen s’intentarà aplicar la tarifació normativa que més s’aproxime a la formació realitzada o que menys dificultats tinga la seua justificació documental i ens possarem en contacte amb el ponent per a que rectifique la factura o minuta.
 
-1. Escoger una formación y revisarla y ver qué tipo de formación es (síncrona, a distancia, elaboración de materiales, etc.) y qué normativa se le aplica.
-2. Debemos conocer el estado de la formación en Gesform. Deberemos ver en presupuesto qué es lo que se tiene que pagar. Antes de contactar con el ponente debemos de analizar bien la formación y si se puede ajustar a pagar minuta hemos de optar por esta opción (por ejemplo si coincide el pago de materiales y tutorización con la tarifa de minuta).
-3. Contactar con el ponente o ponentes de la formación para que nos envíen la documentación necesaria para realizar el pago. 
-   * En el caso de que sea minuta deberemos contactar con Elena para que nos prepare la minuta. En este caso deberemos crear una tarjeta en el [Kanban de ERESAR]( {{enlaces.kanban_eresar}} ){ :target="_blank" } y etiquetar a Elena y a Alfredo con el código de la formación y tarea realizar minuta.
 
-    ![Kanban de ERESAR](images/eresar/eresar2.png)
+## Minutes. Passos a seguir
 
-   * En el caso de que sea factura, deberemos buscar en la carpeta de la formación. En el caso de que no esté, deberemos contactar con el ponente o ponentes para que nos la envíen. En todo caso esa factura deberá atenderse a normativa y deberá estar especificado en la factura. Se creará una tarjeta en el [Kanban de ERESAR]( {{enlaces.kanban_eresar}} ){ :target="_blank" } y etiquetar a Alfredo cuando estén todas las tareas de la tarjeta hechas. La tarjeta tendrá el nombre del código de la formación y las siguientes tareas:
+Vos recomanem seguir els passos següents per a realitzar el pagament de les formacions. Podem seguir el procediment en el [full de càlcul]( {{enlaces.full_calcul_eresar}} ){:target="_blank"} que podeu trobar en la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){:target="_blank"}.
+
+Dins del full de càlcul podem trobar les columnes següents:
+
+![Passos a seguir](images/eresar/eresar1.png)
+
+Que podem resumir de la manera següent:
+
+1. [Comprovar si la tarifa](#comprovar-la-tarifa) del curs es correcta en funció del tipus de formació (síncrona, a distància, elaboració de materials, etc.) i quina normativa se li aplica. Hem de conéixer l’estat de la formació en Gesform. Haurem de veure en pressupost què és el que s’ha de pagar.
+2. Si la tarifa no s'ajusta a la normativa vigent, haurem de contactar amb el ponent per a explicar-li la nova situació i comunicar-li el nou import per a poder tirar avant amb la tramitació del pagament.
+3. Al mateix temps, dir-li al ponent que es done d'alta en el proper. [Enllaç a PROPER]( {{enlaces.proper}} ){:target="_blank"}
+4. Contactar amb Elena perquè ens prepare la "nova" minuta. En aquest cas haurem de crear una targeta en el [Kanban d’ERESAR]( {{enlaces.kanban_eresar}} ){:target="_blank"} i etiquetar Elena i Alfredo amb el codi de la formació i tasca “Crear minuta”.  
+![Kanban de ERESAR](images/eresar/eresar2.png)
+5. Després, una vegada estiga realitzada la minuta i revisada per Elena, s’haurà de realitzar el **DESIGNA** i el **CERTIFICA** de la mateixa manera que es realitzen la resta de DESIGNES, respectant les dates i detallant els conceptes de la minuta.
+6. Per últim, haurem d'omplir el document de "Conformitat de realització de la formació" que el podem [trobar ací]({{enlaces.eresar_conformidad_empresa}}){:target="_blank"}, i el guardarem en la carpeta de la formació.
+
+
+!!! warning "IMPORTANT"
+    Tota la documentació ha de tindre el codi de la formació per a poder identificar-la correctament. Per exemple:  
+    24FP01CF011_DESIGNA_NOM.pdf, 24FP01CF011_MINUTA_NOM.pdf, 24FP01CF011_FACTURA_NOM.pdf, 24FP01CF011_INFORME_ERESAR_NOM.pdf, etc.
+
+
+#### Cas de passar de Factura a Minuta
+En el cas de que el ponent haja acceptat passar de Factura a Minuta, s'haurà d'emplenar el següent document que tindrà que ser signat digitalment per el ponent.
+```
+[Nom del ponent]
+[Adreça]
+[Correu electrònic]
+[Telèfon]
+
+[Data]
+
+Benvolguts senyors:
+
+Per mitjà d’aquesta, desitge comunicar formalment que renuncie al cobrament mitjançant factura pels meus serveis com a ponent en [indicar esdeveniment, curs o formació], i preferisc que el pagament es realitze a través de minuta.
+
+Aquesta decisió respon a una qüestió administrativa/comptable (opcional: especificar motiu si es desitja), amb la finalitat de facilitar els tràmits i agilitzar el cobrament corresponent.
+
+Agraïsc l’atenció prestada i quede a disposició per a qualsevol consulta o tràmit addicional que siga necessari.
+
+Atentament,
+
+[Nom complet]
+[Firma electrònica]
+```
+
+
+## Factures. Passos a seguir
+
+Vos recomanem seguir els passos següents per a realitzar el pagament de les formacions. Podem seguir el procediment en el [full de càlcul]( {{enlaces.full_calcul_eresar}} ){:target="_blank"} que podeu trobar en la [CARPETA ERESAR del CEFIRE de FP]( {{enlaces.carpeta_eresar}} ){:target="_blank"}.
+
+Dins del full de càlcul podem trobar les columnes següents:
+
+![Passos a seguir](images/eresar/eresar1.png)
+
+Que podem resumir de la manera següent:
+
+1. [Comprovar si la tarifa](#comprovar-la-tarifa) del curs es correcta en funció del tipus de formació (síncrona, a distància, elaboració de materials, etc.) i quina normativa se li aplica. Hem de conéixer l’estat de la formació en Gesform. Haurem de veure en pressupost què és el que s’ha de pagar.
+2. Si no tenim/trobem la factura en la [carpetes de FACTURA]({{enlaces.carpeta_eresar}}) haurem de demanr-li-la al ponent.
+3. Si el import de la factura no s'ajusta a la tarifa de la normativa vigent, haurem de contactar amb el ponent per a explicar-li la nova situació i comunicar-li el nou import, després per a poder tirar avant amb la tramitació del pagament dir-i que ens ha de fer la factura de nou atenent a la normativa i el nou import. **Les factures hauran de contindre**:  
+    * Dades de l’empresa  
+    * Dades del CEFIRE  
+    * Dades del curs: CODI i NOM  
+    * Import brut (Sense IRPF ni IVA)  
+    * Import total  
+    * Nombre total d’hores de la formació  
+    * Nombre de participants  
+    * Dates de realització de la formació  
+    * Família professional  
+    * IVA corresponent: s’ha d’afegir la coletilla “Factura exempta d’IVA segons art. 20.1.9 de la llei 37-1992 de 28 de desembre” si l’empresa està exempta d’IVA.  
+    * Número de compte bancari on s’ha de realitzar el pagament.
+    * A més ha de detallar-se adequadament els conceptes segons tarifa. En cas que s’haja de fer algun ajust, es pot afegir la coletilla:
+        * **Materials didàctics necessaris per a la realització de la formació.** Materials didàctics (ha de tindre part en Aules). Si són materials, s’ha de detallar el material mínimament i ha de tindre IVA. Una altra possibilitat és afegir **factura de dieta per a quadrar la factura però només desplaçament**. Dues factures: una d’indemnització per desplaçament. Sempre que hi haja factura amb dieta, intentar que siga independent. **Si hi ha materials ha de contindre IVA.** Exemple de text per a la factura:
+         ```Indemnització per desplaçament per a la impartició a València de la formació amb codi 24FP96PD100" i detall Morella-València a 0,19 €/km x 2 viatges x 100 km = 38 €```
+
+4. Una vegada tinga'm la factura o bé modificada o l'original, li direm al ponent que ha de pujar la factura al FACE.
+    !!!warning "Atenció - Alta en FACE"
+        Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa: [:material-file: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
+
+5. Després haurem de fer l'informe ERESAR. L’Informe ERESAR és un document que s’ha de realitzar per a **justificar la formació**. Es tracta d’un document que ha de justificar per què no s’ha pogut pagar la formació, per la qual cosa haurem de ser creatius i justificar bé la formació sent el més eloqüents possibles però sempre ajustant-nos a la realitat. Podem trobar una plantilla de l’[Informe ERESAR ací]( {{enlaces.plantilla_informe_eresar}} ){:target="_blank"}. **Cal llegir bé la plantilla i emplenar-la adequadament**. L’informe s’ha de pujar a la carpeta de la formació.
+
+6. Finalment es crearà una targeta en el [Kanban d’ERESAR]({{enlaces.kanban_eresar}}){:target="_blank"} i s'etiquetarà a Alfredo quan estiguen totes les tasques de la targeta fetes. La targeta tindrà el nom del codi de la formació i les tasques següents:
 
     ![Kanban de ERESAR](images/eresar/eresar3.png)
 
-4. Una vez estén realizados los pasos se pasará la tarjeta a la columna de Designa enviado a firma si se ha pasado la formación a minuta o si se ha revisado correctamente, realizado el Informe ERESAR y se tiene la factura correcta, se subirá a la carpeta de la SDGFP.
 
-!!!warning "IMPORTANTE"
-    Esta es la parte más delicada de todas ya que la factura debe cuadrar con algún tipo de tarificación, es posible que haya que negociar con la empresa para que se reduzca la cuantía la factura. Los más fácil **es pasar la factura a minuta** ya que se cobrará más rápidamente y no habrá problemas con la factura. En el caso de que no se pueda pasar a minuta, se deberá justificar muy bien la factura en el Informe ERESAR
-
-
-## Factura
-
-Las facturas deberán contener:
-
-* Datos de la empresa  
-* Datos del CEFIRE  
-* Datos del curso: CÓDIGO y NOMBRE  
-* Importe bruto (Sin IRPF ni IVA)
-* Importe total  
-* Número total de horas de la formación  
-* Número de participantes  
-* Fechas de realización de la formación  
-* Familia profesional  
-* IVA correspondiente: se debe añadir la coletilla "Factura exenta de IVA según art. 20.1.9 de la ley 37-1992 de 28 de diciembre" si la empresa está exenta de IVA.  
-* Número de cuenta bancaria donde se debe realiza el pago
-
-Además debe detallarse adecuadamente los conceptos según tarifa. En el caso de que se deba realizar algun ajuste se puede añadir la coletilla:
-
-* **Materiales didácticos necesarios para la realización de la formación.** Materiales didácticos (debe tener parte en Aules). Si son materiales se debe detallar el material mínimamente y debe tener IVA. Otra posibilidad es añadir **factura de dieta para cuadrar la factura pero solo desplazamiento**. Dos facturas, una de indemnización por desplazamiento, siempre que haya factura con dieta intentar que la factura de dieta sea independiente. **Si hay materiales debe contener IVA.** Ejemplo de tecxto para la factura:
-
-```
-"Indemnización por desplazamiento para la impartación en Valencia de la formación con código 24FP96PD100" y detalle Morella-Valencia a 0,19 €/km x 2 viajes x 100 km = 38 €
-```
-
-Hay que tener en cuenta que nunca podrá superar la tarificación vigente en el momento de realizar la formación. Nunca se superará el importe de la factura.
-
-## Informe ERESAR
-
-El Informe ERESAR es un documento que se debe realizar para **justificar la formación**, se trata de un documento que debe justificar porqué no se ha podido pagar la formación, por lo que deberemos ser creativos y justificar bien la formación siendo lo más elocuentes posibles pero siempre ajustándonos a la realidad. Podemos encontrar una plantilla del [Informe ERESAR aquí]( {{enlaces.plantilla_informe_eresar}} ){ :target="_blank" }. **Hay que leer bien la plantilla y rellenarla adecuadamente**. El informe se debe subir a la carpeta de la formación.
-
-## Conformidad de realización de la formación
-
-El documento para realizar la conformidad lo podemos [encontrar aquí]( {{enlaces.eresar_conformidad_empresa}} ){ :target="_blank" }. Este documento se debe cumplimentar y ponerlo en la carpeta de la formación.
-
-## DESIGNA
-
-Si la formación se ha pasado a minuta, una vez esté realizada la minuta y esté revisada por Elena, se deberá realizar el DESIGNA y el CERTIFICA de la misma manera que se realizan el resto de DESIGNAS, respetando las fechas y detallando los conceptos de la minuta.
-
-En el caso de que el ponente esté de acuerdo en pasar la formación a minuta, se deberá rellenar un documento como que renuncia al cobro por factura:
+!!! warning "IMPORTANT"
+    Aquesta és la part més delicada de totes, ja que la factura ha de quadrar amb algun tipus de tarifació, és possible que calga negociar amb l’empresa perquè es reduïsca l’import. El més fàcil **és passar la factura a minuta** ja que es cobrarà més ràpidament i no hi haurà problemes amb la factura. En cas que no es puga passar a minuta, s’haurà de justificar molt bé la factura en l’Informe ERESAR.
 
 
-```
-[Nombre del ponente]  
-[Dirección]  
-[Correo electrónico]  
-[Teléfono]  
-
-[Fecha]  
-
-Estimados señores:
-
-Por medio de la presente, deseo comunicar formalmente que renuncio al cobro mediante factura por mis servicios como ponente en [indicar evento, curso o formación], y prefiero que el pago se realice a través de minuta.
-
-Esta decisión responde a una cuestión administrativa/contable (opcional: especificar motivo si se desea), con el fin de facilitar los trámites y agilizar el cobro correspondiente.
-
-Agradezco la atención prestada y quedo a disposición para cualquier consulta o trámite adicional que sea necesario.
-
-Atentamente,  
-
-[Nombre completo]  
-[Firma electrónica]  
-```
-
-!!! warning "IMPORTANTE"
-    Toda la documentación debe tener el código de la formación para poder identificarla correctamente. Por ejemplo, 24FP01CF011_DESIGNA_NOMBRE.pdf, 24FP01CF011_MINUTA_NOMBRE.pdf, 24FP01CF011_FACTURA_NOMBRE.pdf, 24FP01CF011_INFORME_ERESAR_NOMBRE.pdf, etc.
-
-## CONCLUSIONES
-
-Es importante realizar un seguimiento de todas estas formaciones y tener informado en todo momento al ponente. La cuestión es finalizar todos los procedimientos lo antes posible. Para minimizar los problemas, es imprescindible que se realicen los informes con detalle y que se ajuste siempre a normativa.

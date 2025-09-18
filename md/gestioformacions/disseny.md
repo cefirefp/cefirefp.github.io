@@ -155,7 +155,7 @@ A continuació podeu vore una taula resum:
 
 ⚠️ **"IMPORTANT - PONENTS ALTA EN PROPER PER A PODER COBRAR"**  
 Els ponents han de donar-se d’alta al procediment **PROPER** i enviar-nos el corresponent justificant. Si són personal de la Generalitat Valenciana (GVA), quan es donen d'alta han de possar el mateix compte bancari de la nòmina. Els comptes que els comptes siguin **personals i nominals**.  
-[Enllaç a PROPER]( {{enlaces.proper}} )
+[Enllaç a PROPER]( {{enlaces.proper}} ){target="_blank"}
 
 
 **És imprescindible que els pagaments s'adeqüen a les tarifes vigents**, per això caldrà que consulteu les tarifes vigents per a l'any en curs. Podeu trobar les tarifes vigents al següent enllaç:
