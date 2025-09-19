@@ -18,7 +18,7 @@ En aquest document vo detallem quin és el text que cal posar en les formacions 
 3. Ordre d'inscripció seguint el següent criteri:  
   Personal docent en actiu en centres sostinguts amb fons públics. (De titularitat pública i privats concertats. Art. 108 LOE 2/2006)  
   Personal tècnic educatiu en actiu en centres sostinguts amb fons públics. (De titularitat pública i privats concertats. Art. 108 LOE 2/2006)  
-  Personal inscrit en alguna de les bosses de personal docent de la Conselleria d'Educació, Universitats i Ocupació.  
+  Personal inscrit en alguna de les borses de personal docent de la Conselleria d'Educació, Universitats i Ocupació.  
   Resta del professorat.
 ```
 
@@ -75,7 +75,7 @@ REQUISITS ESPECÍFICS
 ```html
 Personal docente y personal técnico educativo con destino en centros educativos no universitarios de la Comunitat Valenciana en los que se impartan las enseñanzas reguladas por la Ley Orgánica de Educación.
 Personal docente y personal técnico educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior. 
-Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la CConselleria d'Educació, Universitats i Ocupació y este personal no suponga más del 50% de participación en la actividad. 
+Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la Conselleria d'Educació, Universitats i Ocupació y este personal no suponga más del 50% de participación en la actividad. 
 REQUISITOS ESPECÍFICOS 
 <b>Profesorado de Formación Profesional de la Familia de Informática y Comunicaciones.</b> 
 
