@@ -84,3 +84,17 @@ table td:contains("✓") {
     margin-right: auto;
 }
 
+/* Primer nivell: cercle normal */
+.md-typeset ul > li {
+  list-style-type: disc;  /* o circle, square, etc. */
+}
+
+/* Segon nivell: quadradet */
+.md-typeset ul ul > li {
+  list-style-type: circle;
+}
+
+/* Tercer nivell: cercle buit */
+.md-typeset ul ul ul > li {
+  list-style-type: square;
+}
