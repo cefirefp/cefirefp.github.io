@@ -262,9 +262,9 @@ Si fem doble clic al nom del coordinador s'obrirà una finestra amb les dades de
 
 ![](../images/gesform/f3e1dc50c883d43ef4800854cdc3177baa9c46e3.png){.center }
 
-Copiem el DNI de la persona que hi ha en l'apartat de **Observaciones** i l'enganxem a la casella del DNI de **Persona** (a la mateixa finestra), si no apareix és que no és docent o encara no està donat d'alta.
+Copiem el DNI de la persona que hi ha en l'apartat de **Observaciones** i l'enganxem a la casella del DNI de **Persona** (a la mateixa finestra), **si no apareix és que no és docent o encara no està donat d'alta**.
 
-Caldrà posar-se en contacte amb la persona per tal de comprovar si és docent o no. Si ho és caldrà donar d'alta a la persona. Escriurem un correu a **compteformacio@gva.es** amb totes les dades de la persona i el DNI per tal que ens donen d'alta a la persona. Cladrà posar-se abans en contacte amb ell per a que ens donen una prova com a que és docent. Recordeu que tots aquells docents de la Comunitat Valenciana (ensenyament reglats no universitaris) tenen dret a fer formació i per tant a inscriure's a les formacions del CEFIRE.
+En eixe cas, caldrà posar-se en contacte amb la persona per tal de comprovar si és docent o no. Si ho és caldrà donar d'alta a la persona omplint el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i enviant-lo per mail a [compte_formacio@gva.es.](mailto:compte_formacio@gva.es?subject=Alta%20Ponent%20Gesform) per tal que ens donen d'alta a la persona. També caldrà posar-se en contacte amb ell per a que ens donen una prova com a que és docent (capçalera de la nòmina, credencial, certificat d'Ovidoc,...) i adjuntar-la al mail. Recordeu que tots aquells docents de la Comunitat Valenciana (ensenyament reglats no universitaris) tenen dret a fer formació i per tant a inscriure's a les formacions del CEFIRE.
 
 Una vegada ja tenim a tots els participants localitzats (els casos que tenim pendents el podem deixar per a un vegada acabe el termini de confirmació afegir-los). Anem a **Extintor -- Definir baremo**
 

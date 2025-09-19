@@ -11,7 +11,7 @@ Una vegada tinguen clara la formació i el que necessite caldrà introduïr-la a
 
 
 Una vegada donat de alta el curs en Gesform ens donarà un codi semblant a 25FPXXCF0XX que l'haurem d'utilitzar per a identificar el curs.  
-El curs es quedarà en estat  **INICIAL**, i hem d'avisar a través de **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** que ens validen el curs. Per a fer-ho haurem d'omplir una tasca en la targeta "Validar formación" i assignarem la tasca a Gloria i a Alfredo.  
+El curs es quedarà en estat  **INICIAL**, després d'omplir totes les dades del curs en Gesform y omplits tots el documents el possem en estat **PROPOSTA**, i, aleshores, avisem a través de **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** que ens validen el curs. Per a fer-ho haurem d'omplir una tasca en la targeta "Validar formación" i assignarem la tasca a Gloria i a Alfredo.  
 
 ![Validar formació Gesform](../images/kanban/validar_formacio.png){: .center} 
 

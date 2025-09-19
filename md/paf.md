@@ -1,3 +1,6 @@
+## Llistat PAF Assesor vs Centre Asignat
+[:material-microsoft-excel: Llistat PAF Assesor vs Centre Asignat]( {{enlaces.llistat_excel_paf}} ){: .md-button target="_blank"}
+
 ## Organització de la formació
 - **PAFP (Pla Anual de Formació Permanent del Professorat):** document marc de Conselleria que fixa les línies generals de formació.  
 - **PAA (Pla Anual d’Actuació dels CEFIRE):** concreció anual de la programació formativa de cada CEFIRE.  
@@ -147,7 +150,7 @@ Hores que pot certificar un participant
 ---
 
 ## Manuals
-- Manuals disponibles segons el rol i la modalitat:  
+Manuals disponibles segons el rol i la modalitat:  
   - **[ CFC ]({{enlaces.manual_cfc}}){: target="_blank"}**: concreció del PAF, supervisió i finalització.  
   - Planificació i presentació **[ PROJECTE DE FORMACIÓ CENTRES ]({{enlaces.planificacio_pfc}}){target="_blank"}**
   - Planificació i presentació **[ SEMINARI / GRUP DE TREBALL ]({{enlaces.planificacio_semintari_grup}}){target="_blank"}**
