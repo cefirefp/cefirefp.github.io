@@ -17,7 +17,7 @@ Les formacions que es realitzen amb aquesta campanya significa que es faran a co
 3. Ordre d'inscripció seguint el següent criteri:  
   Personal docent en actiu en centres sostinguts amb fons públics. (De titularitat pública i privats concertats. Art. 108 LOE 2/2006)  
   Personal tècnic educatiu en actiu en centres sostinguts amb fons públics. (De titularitat pública i privats concertats. Art. 108 LOE 2/2006)  
-  Personal inscrit en alguna de les borses de personal docent de la Conselleria d'Educació, Universitats i Ocupació.  
+  Personal inscrit en alguna de les borses de personal docent de la Conselleria d'Educació, Cultura, Universitats i Ocupació.  
   Resta del professorat.
 ```
 
@@ -28,7 +28,7 @@ Les formacions que es realitzen amb aquesta campanya significa que es faran a co
 3. Orden de inscripción siguiendo el siguiente criterio:  
   Personal docente en activo en centros sostenidos con fondos públicos. (De titularidad pública y privados concertados. Art. 108 LOE 2/2006)  
   Personal técnico educativo en activo en centros sostenidos con fondos públicos. (De titularidad pública y privados concertados. Art. 108 LOE 2/2006)  
-  Personal inscrito en alguna de las bolsas de personal docente de la Conselleria de Educación, Universidades y Empleo.  
+  Personal inscrito en alguna de las bolsas de personal docente de la Conselleria de Educación, Cultura, Universidades y Empleo.  
   Resto del profesorado.  
 ```
 
@@ -61,7 +61,7 @@ Es detallen en cas que les activitats de formació estiguen destinades a profess
 ```html
 Personal docent i personal tècnic educatiu amb destinació en centres educatius no universitaris de la Comunitat Valenciana en els quals s'impartisquen els ensenyaments regulats per la Llei orgànica d'Educació. 
 Personal docent i personal tècnic educatiu que preste servicis tècnics de suport educatiu als centres indicats en l'apartat anterior. 
-Personal que haja finalitzat els graus i màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les borses de personal docent de la Conselleria d'Educació, Universitats i Ocupació i este personal no supose més del 50% de participació en l'activitat. 
+Personal que haja finalitzat els graus i màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les borses de personal docent de la Conselleria d'Educació, Cultura, Universitats i Ocupació i este personal no supose més del 50% de participació en l'activitat. 
 REQUISITS ESPECÍFICS 
 <b>Professorat de Formació Professional de la Família d'Informàtica i Comunicacions.</b> 
 ```
@@ -69,7 +69,7 @@ REQUISITS ESPECÍFICS
 ```html
 Personal docente y personal técnico educativo con destino en centros educativos no universitarios de la Comunitat Valenciana en los que se impartan las enseñanzas reguladas por la Ley Orgánica de Educación.
 Personal docente y personal técnico educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior. 
-Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la Conselleria d'Educació, Universitats i Ocupació y este personal no suponga más del 50% de participación en la actividad. 
+Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la Conselleria de Educación, Cultura, Universidades y Empleo y este personal no suponga más del 50% de participación en la actividad. 
 REQUISITOS ESPECÍFICOS 
 <b>Profesorado de Formación Profesional de la Familia de Informática y Comunicaciones.</b> 
 
