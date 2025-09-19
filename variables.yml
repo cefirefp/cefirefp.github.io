@@ -45,16 +45,7 @@ enlaces:
   # Carpetes de gestió de la formació
   carpeta_desgina_per_firmar: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/DESIGNAS%20PARA%20FIRMAR?csf=1&web=1&e=P7o294"
   carpeta_banners: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/BANERS?csf=1&web=1&e=f3Z1y1"
-
-  # FSE
-  normes_estil_fse: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/Normas%20estilo%20GESFORM_CAS_1.0_6_3_23.pdf?csf=1&web=1&e=DhabUu"
-  
-  # Skills
-  normes_estil_skills: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/Normas%20estilo%20GESFORM_CAS_1.0_6_3_23.pdf?csf=1&web=1&e=DhabUu"
-
-  # PAA
-  normes_estil_paa: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/Normas%20estilo%20GESFORM_CAS_1.0_6_3_23.pdf?csf=1&web=1&e=DhabUu"
-
+   
   # ERESAR
   carpeta_eresar: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR?csf=1&web=1&e=9EDXrL"
   full_calcul_eresar: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR/2024_ERESAR_ASIGNACION_DE_ASESORES.xlsx?d=wbaf8387860014c84896c26eb81ae30f7&csf=1&web=1&e=UeIHqo"
@@ -72,6 +63,7 @@ enlaces:
 
 
   # Gesform
+  normes_estil_gesform: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/Normas%20estilo%20GESFORM_CAS_1.0_6_3_23.pdf?csf=1&web=1&e=DhabUu"
   alta_persona_gesform: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/DADES%20INCORPORACI%C3%93%20DOCENTS%20GESFORM_rev270325%20(Autoemplenable)%20(1).pdf?csf=1&web=1&e=zRD7t7"
   
 

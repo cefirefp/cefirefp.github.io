@@ -33,6 +33,9 @@ Anem al tercer icono **Añadir nuevo Registro**
 
 
 ### Omplir dades de la formació
+* Tingueu en compte la família profesional quan poseu el codi i que coincidisca amb la família profesional de la formació.
+* ⚠️ Respecteu les [NORMES D'ESTIL]({{enlaces.normes_estil_gesform}}){target="_blank"} que marca la Subdirecció General de Formació del Professorat. Les podeu trobar ací: [Normes d'estil]({{enlaces.normes_estil_gesform}}){target="_blank"}.
+
 
 Caldrà omplir les següents dades de la formació:
 
@@ -119,12 +122,12 @@ En cas contrari, s'haurà d'inidcar el material necessari.
 
 **CONDICIONS:** El text de les condicions varia en funció de la campanya de la formació (FSE, Skills, PAA), en els enllaços de més avall podem trobar el text que caldrà possar, segon la campanya.
 
-[FSE]( ../gestioformacions/fse.md#condicions ){: .md-button target="_blank"} [Skills]( ../gestioformacions/skills.md#condicions ){: .md-button target="_blank"} [PAA]( ../gestioformacions/paa.md#condicions ){: .md-button target="_blank"}
+[FSE]( ../perfil/fse.md#condicions ){: .md-button target="_blank"} [Skills]( ../perfil/skills.md#condicions ){: .md-button target="_blank"} [PAA]( ../perfil/paa.md#condicions ){: .md-button target="_blank"}
 
 
 **OBSERVACIONS:** Es detallen les especificitats en el calendari, sessions síncrones, asíncrones, materials, etc. El text de les observacions varia en funció de la campanya de la formació (FSE, Skills, PAA), en els enllaços de més avall podem trobar el text que caldrà possar, segon la campanya.
 
-[FSE]( ../gestioformacions/fse.md#observacions ){: .md-button target="_blank"} [Skills]( ../gestioformacions/skills.md#observacions ){: .md-button target="_blank"} [PAA]( ../gestioformacions/paa.md#observacions ){: .md-button target="_blank"}
+[FSE]( ../perfil/fse.md#observacions ){: .md-button target="_blank"} [Skills]( ../perfil/skills.md#observacions ){: .md-button target="_blank"} [PAA]( ../perfil/paa.md#observacions ){: .md-button target="_blank"}
 
 
 **DIRIGIT A:** Es detallen en cas que les activitats de formació estiguen destinades a professorat d'etapes determinades o col·lectius específics.
@@ -202,7 +205,10 @@ Afegim nou registre i omplim la informació
     - **Importe**: Import que es preveu gastar en la formació.
     - **Descripción**: Breu descripció del curs i de les seues característiques (tarifa aplicada)
 
-I **Apliquem** i **Acceptem.** Però abans em de revisar bé la informació introduida.
+I **Apliquem** i **Acceptem.**
+
+
+Finalment, **revisem bé la informació introduida** y PASSEM EL CURS A PROPOSTA.
 
 !!! warning "Els problemes més comuns que ens solem trobar són"
     * Assegureu-se que la formació no té cap error d'ortografia, tant en el títol com en la descripció.
@@ -218,12 +224,19 @@ I **Apliquem** i **Acceptem.** Però abans em de revisar bé la informació intr
     Per a les traduccions Podeu utilitzar ferramentes com [Salt](https://salt.gva.es/auto/traductor-corrector/salt-correctorweb.html) (1) o [Appertium](https://www.apertium.org/index.cat.html#?dir=spa-epo&q=) per a revisar l'ortografia i la gramàtica de la formació.  
     Sempre és recomanable utilitzar SALT abans que Appertium, Salt està basat en Appertium, els resultats seran semblants.
 
+Per a passar el curs a PROPOSTA. Seleccionem de la lista deplegable "proposta" y "APLIQUEM Y ACEPTEM".
+
+![](../images/gesform/passar_a_proposata.png){.center}
+
+
 
 !!!warning "Important"
     Una vegada estiga el curs és important que poseu en Kanban el curs per a que siga validat per part del director. Si no es posa en Kanban no es podrà validar.  
 
 
-#### *DEMANAR ESPAI EN AULES*
+---
+
+## Demanar espai en aules
 
 Una vegada estiga validat el curs tant per part del director com per part de la SDGFP, ja es podrà publicar i començar a gestionar les inscripcions. No em d'oblidar que si el curs és online a AULES caldrà demanar l'espai en AULES.
 
