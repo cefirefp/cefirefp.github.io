@@ -88,19 +88,19 @@
 
                     <div class="form-group">
                         <label for="input1">Título</label>
-                        <input oninput="titular(this.value)" type="text" class="form-control" id="titulo" placeholder="Ingresa algo...">
+                        <input oninput="this.value = this.value.toUpperCase(); titular(this.value)" type="text" class="form-control" id="titulo" placeholder="Ingresa título...">
                     </div>
 
                     <div class="form-group">
                         <label for="input1">Títol en valencià</label>               
-                        <input oninput="titular_va(this.value)" type="text" class="form-control" id="titulo_va" placeholder="Ingressa alguna cosa...">
+                        <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text" class="form-control" id="titulo_va" placeholder="Ingressa títol...">
                     </div>
                     
                     <div class="form-group">
                         <label for="input2">Fechas</label>
-                        <input  oninput="fechas(this.value)" type="text" class="form-control" id="fechas_text" placeholder="Ingresa algo...">
+                        <input oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas(this.value)" type="text" class="form-control" id="fechas_text" placeholder="Ingresa las fechas...">
                         <label for="input2">Dates (en valencià)</label>
-                        <input  oninput="fechas_va(this.value)" type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa alguna cosa...">
+                        <input oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas_va(this.value)" type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa les dates...">
                         <div class="form-check">
                             <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
                             <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
@@ -110,11 +110,11 @@
                             <label class="form-check-label" for="checkbox3s">Amb sessions síncrones</label>
                         </div>
                         <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
-                        <input  oninput="presencial(this.value)" type="text" class="form-control" id="presencial" placeholder="Ingressa alguna cosa...">
+                        <input  oninput="presencial(this.value)" type="text" class="form-control" id="presencial" placeholder="Ingressa lloc de realizació...">
                     </div>
                     <div class="form-group">
                         <label for="input3">Horas / Hores</label>
-                        <input oninput="horas(this.value)" type="text" class="form-control" id="horas" placeholder="Ingresa algo...">
+                        <input oninput="horas(this.value)" type="text" class="form-control" id="horas" placeholder="Ingresa hores...">
                     </div>
                     
                     
