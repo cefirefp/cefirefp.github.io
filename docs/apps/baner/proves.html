@@ -145,7 +145,7 @@
 
     <div class="d-flex justify-content-center my-3">
         <button class="btn btn-success mx-2" onclick="descarrega_tot()">Descargar PNG</button>
-        <button class="btn btn-primary mx-2" onclick="traduce()">Traduce</button>
+        <button class="btn btn-primary mx-2" onclick="descargasvg()">Descarga SVG</button>
 
     </div>
     
@@ -234,6 +234,45 @@
 
 
         // Funcions
+
+
+        function descargasvg() {
+            // Descargar SVG en castellano
+            const svgElement2 = document.getElementById('svg-preview').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
+            const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'baner_castella.svg';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            // Descargar SVG en valenciano
+            const svgElement2_va = document.getElementById('svg-preview-va').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2_va.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+            const blob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(blob_va);
+            const a_va = document.createElement('a');
+            a_va.href = url_va;
+            a_va.download = 'baner_valencia.svg';
+            document.body.appendChild(a_va);
+            a_va.click();
+            document.body.removeChild(a_va);
+            URL.revokeObjectURL(url_va);
+        }
+
+
 
 
 
