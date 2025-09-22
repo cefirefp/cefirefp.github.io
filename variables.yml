@@ -55,11 +55,10 @@ enlaces:
   
 
   # Telegram
-  enllaç_telegram_som_fp: "https://t.me/+tjR_X8RO7cNkODlk"
+  enllaç_telegram_som_fp: "https://t.me/gvasomfp"
 
   # Aplicacions per a crear carpetes de formacions
-  crea_cursos_windows: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/APLICACI%C3%93N/crea_carpeta.exe?csf=1&web=1&e=unbAdf"
-  crea_cursos_linux: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/APLICACI%C3%93N/crea_carpeta_linux?csf=1&web=1&e=kEbACF"
+  crea_carpeta: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/APLICACI%C3%93N?csf=1&web=1&e=3l5qTd"
 
 
   # Gesform
@@ -71,6 +70,13 @@ enlaces:
   llistat_excel_paf: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/CONTACTES/Listado_PAF_CefireFP2.xlsx?d=wb38b9834ae9a48ca8d559ca343762792&csf=1&web=1&e=4mEpqF"
   curs_acompanyament_cfc: "https://aules.edu.gva.es/formaciodelprofessorat/course/view.php?id=27932"
   manual_cfc: "https://ceice.gva.es/documents/162880217/387132489/10.+Manual+FASE+I+PAF_CFC_cas+Nuevo+Dise%C3%B1o.pdf/a17ea060-2ae1-1922-7bc4-853ed67a4e5b?t=1729532845271"
-  planificacio_pfc: "https://ceice.gva.es/documents/162880217/387132489/30.+Manual+FASE+I++PAF_SEMGT_CAF_cas+Nuevo+Dise%C3%B1o.pdf/3c3a7ec6-d2c8-175a-1228-bee4de29f9c6?t=1729532847365"
+  planificacio_pfc: "https://ceice.gva.es/documents/162880217/395059776/21.+Manual+FASE+I+PAF_PFC_CAF_val.pdf/16b3d660-764e-3aa3-1f3e-af8d856fb862?t=1757069066950"
   planificacio_semintari_grup: "https://ceice.gva.es/documents/162880217/387132489/30.+Manual+FASE+I++PAF_SEMGT_CAF_cas+Nuevo+Dise%C3%B1o.pdf/3c3a7ec6-d2c8-175a-1228-bee4de29f9c6?t=1729532847365"
-  paf_secretaria: "https://ceice.gva.es/documents/162880217/387132489/40.+Manual+FASE+I+PAF_SECRETARIA_cas_+Nuevo+Dise%C3%B1o.pdf/6f5e9816-bf86-6e2e-c232-7c9e839fdde4?t=1729532848629"
+  paf_secretaria: "https://ceice.gva.es/documents/162880217/395059776/41.+Manual+FASE+I+PAF_SECRETARIA_val.pdf/411430a4-910e-c006-a436-9c415b4d54bb?t=1753788818124"
+  resolucio_PAF: "https://ceice.gva.es/documents/162880217/395058413/Resoluci%C3%B3+PAF+25-26_Val.pdf/d1b7727e-1ab2-11e4-7c6c-905e9c97b3ab?t=1753787382762"
+  resolucio_PAFP: "https://dogv.gva.es/datos/2025/06/04/pdf/2025_18776_va.pdf"
+  ordre65: "https://portal.edu.gva.es/formaciodelprofessorat/wp-content/uploads/sites/224/2020/12/orden-65-2012-de-26-octubre-modelo-de-formacic3b3n-permanente-del-profesorado.pdf"
+  guia_IA: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/guia%20acciones%20IA_PAF_CFC_val-FINAL.pdf?csf=1&web=1&e=p1JxSE"
+  manual_fase_I: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/1.1%20MANUAL%20GESFORM%20ASSESSORIES%20PAF%20FASE%201_Sol%C2%B7licitud.%20Validaci%C3%B3_VAL.pdf?csf=1&web=1&e=bs0IIK"
+  manual_fase_II: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/0.1%20Manual%20GESFORM%20ASSESSORIES%20PAF%20FASE%202_Desenvolupament%20AF_VAL%20(1).pdf?csf=1&web=1&e=lGSrZx"
+  carpeta_manuals_paf: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS?csf=1&web=1&e=F9tJpq"

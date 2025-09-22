@@ -121,6 +121,11 @@ Hores que pot certificar un participant
 | **Grup de Treball**               | 20 h  | 30 h (per any escolar) |
 
 
+---
+
+## Guia d'AF relacionades amb IA
+Guia d'Accions Formatives relacionades amb Intel·ligència Artificial.  
+Els centres que vulguen fer formació en el marc del PAF relacionada amb IA, ho han de fer seguint aquesta [guia]({{enlaces.guia_IA}}){target="_blank"}.
 
 ---
 
@@ -150,18 +155,23 @@ Hores que pot certificar un participant
 ---
 
 ## Manuals
-Manuals disponibles segons el rol i la modalitat:  
-  - **[ CFC ]({{enlaces.manual_cfc}}){: target="_blank"}**: concreció del PAF, supervisió i finalització.  
-  - Planificació i presentació **[ PROJECTE DE FORMACIÓ CENTRES ]({{enlaces.planificacio_pfc}}){target="_blank"}**
-  - Planificació i presentació **[ SEMINARI / GRUP DE TREBALL ]({{enlaces.planificacio_semintari_grup}}){target="_blank"}**
-  - **[Secretaria]({enlaces.paf_secretaria}){target="_blank"}:** certificació d’AF i presentació del PAF.  
+Manuals disponibles segons el rol i la modalitat:
+
+[:material-folder: Carpeta Manuals PAF]( {{enlaces.carpeta_manuals_paf}}){: .md-button target="_blank"}
+
+* **[ CFC ]({{enlaces.carpeta_manual_cfc}}){: target="_blank"}**: concreció del PAF, supervisió i finalització.
+* Planificació i presentació **[ PROJECTE DE FORMACIÓ CENTRES ]({{enlaces.planificacio_pfc}}){target="_blank"}**  
+* Planificació i presentació **[ SEMINARI / GRUP DE TREBALL ]({{enlaces.planificacio_semintari_grup}}){target="_blank"}**
+* **[Secretaria]({{enlaces.paf_secretaria}}){target="_blank"}:** certificació d’AF i presentació del PAF.  
+*  **[Manual Gesform Fase I]({{enlaces.manual_fase_I}})**
+*  **[Manual Gesform Fase I]({{enlaces.manual_fase_II}})**
 
 ---
 
 ## Normativa
-- **Resolució 15 juliol 2025:** Programa Anual de Formació (PAF).  
-- **Resolució 22 maig 2025:** Pla Anual de Formació del Professorat (PAFP).  
-- **Orde 65/2012:** model de formació permanent del professorat.  
+- **[Resolució 15 juliol 2025:]({{enlaces.resolucio_PAF}}){target="_blank"}** Programa Anual de Formació (PAF).  
+- **[Resolució 22 maig 2025:]({{enlaces.resolucio_PAFP}}){target="_blank"}** Pla Anual de Formació del Professorat (PAFP).  
+- **[Orde 65/2012:]({{enlaces.ordre65}}){target="_blank"}** model de formació permanent del professorat.  
 
 ---
 
