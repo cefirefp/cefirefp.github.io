@@ -347,32 +347,48 @@ automáticamente](../images/gesform/media/image97.png){.center }
 
 Finalment caldrà enviar un **missatge** a **tots els inscrits** informant que comença el període de confirmació.
 
-El text per la redacció d'aquest correu està en el pdf **Coordinació.pdf** i és el següent:
 
 **Exemple de correu de confirmació (el dia de llistes provisionals)**
 
-```html
-Benvolguts i benvolgudes,
+```
+Assumpte.- Confirmació 25FP32CF017 - Jornadas del Cloud 2025
 
-Ja està disponible la llista provisional de professorat admés al curs \"YY\" (enllaç &usuario=formacion).
+Hola,
 
-Es tracta d'un curs en línia de 30h que tindrà lloc entre el DD de MM de 202A i el DDde MM de 202A.
+Des d'ara fins al dia 04 de Maig pots confirmar la teua assistència a l'acció formativa "25FP32CF017 - Jornadas del Cloud 2025”
 
-Podeu consultar el llistat i confirmar o renunciar la vostra participació seleccionant l'enllaç que apareix al costat del vostre nom, a la dreta de la pàgina.
-Per favor, fins el dia D de MM, confirmeu o renuncieu en funció de les vostres preferències per a deixar places lliures si realment no esteu interessats o interessades.
+Si tens previst assistir, és imprescindible que ho confirmes. Si no, és també important que renuncies perquè altres persones puguen aprofitar la plaça.
 
-Es publicarà el llistat definitiu a partir del dia D de MM.
+Pots accedir a la formació a través d'aquest enllaç:
 
-Si voleu fer una consulta, envieu un correu a les assessories coordinadores:
+https://ovifor.edu.gva.es
 
-XX@edu.gva.es o YY@edu.gva.es
+Recorda que a partir del dia següent a la data de fi de confirmació has de consultar si estàs inclòs/a a la llista definitiva de "Participants". Si has confirmat l'assistència però no apareixes com a participant, quedes "En llista d'espera".
+
+Ens posarem en contacte amb tu en cas que alguna persona admesa renuncie finalment a la formació i queden places vacants.
+
 
 Salutacions
 
-XX i YY
-```
+--------------------------------------------------------------------------
 
----
+Asunto.- Confirmación 25FP32CF017 - Jornadas del Cloud 2025
+
+Hola,
+Desde ahora y hasta el día 04 de mayo puedes confirmar tu asistencia a la acción formativa "25FP32CF017 - Jornadas del Cloud 2025”.
+
+Si tienes previsto asistir, es imprescindible que lo confirmes. En caso contrario, también es importante que renuncies para que otras personas puedan aprovechar la plaza.
+
+Puedes acceder a la formación a través de este enlace:
+
+https://ovifor.edu.gva.es
+
+Recuerda que a partir del día siguiente a la fecha de fin de confirmación debes consultar si estás incluido/a en la lista definitiva de "Participantes". Si has confirmado la asistencia pero no apareces como participante, quedas "En lista de espera".
+
+Nos pondremos en contacto contigo en caso de que alguna persona admitida renuncie finalmente a la formación y queden plazas vacantes.
+Saludos.
+
+```
 
 
 ## Llistes definitives per publicar

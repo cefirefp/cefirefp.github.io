@@ -83,6 +83,9 @@ Salutacions,
 
 [:material-link-box: Demanar espai en Aules](https://forms.office.com/e/7edxrww9GY){: .md-button target="_blank"}
 
+* Una vegada tinga'm el Aules creat hem de possar *el banner del curs*. Per tal d'assegurar-nos de que apareguen els **logos institucionals** (FSE, SKILLS, GVA, Ministeri, DGFP, CEFIRE FP)
+
+
 
 ---
 
