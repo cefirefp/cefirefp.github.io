@@ -14,12 +14,12 @@ nav:
   - Organització: organitzacio.md
   - Gestió Administrativa: gestio_administrativa.md
   - Gestió Formacions:
-      - Índex: gestio_formacions.md
-      - Disseny de la formació: gestioformacions/disseny.md
-      - Generar la formació: gestioformacions/generar.md
-      - Preparar la formació: gestioformacions/preparar.md
-      - Seguiment de la formació: gestioformacions/seguiment.md
-      - Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
+      - 📑 Índex: gestio_formacions.md
+      - 📝 Disseny de la formació: gestioformacions/disseny.md
+      - ⚙️ Generar la formació: gestioformacions/generar.md
+      - 🛠️ Preparar la formació: gestioformacions/preparar.md
+      - 👀 Seguiment de la formació: gestioformacions/seguiment.md
+      - 🎓 Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
   - Perfils:
       - FSE: perfil/fse.md
       - Skills: perfil/skills.md
