@@ -264,7 +264,7 @@ Si fem doble clic al nom del coordinador s'obrirà una finestra amb les dades de
 
 Copiem el DNI de la persona que hi ha en l'apartat de **Observaciones** i el peguem a la casella del DNI de **Persona** (a la mateixa finestra), **si no apareix és que no és docent o encara no està donat d'alta**.  
 En eixe cas, caldrà posar-se en contacte amb la persona per tal de comprovar si és docent o no, o per a vore si el DNI que ha possat està mal, o no està donat d'alta en Gesform.  
-Si s'ha de donar d'alta en Gesform, el docent haurà d'omplir el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i l'enviarem per mail a [compte_formacio@gva.es.](mailto:compte_formacio@gva.es?subject=Alta%20Ponent%20Gesform) per tal que ens el donen d'alta. També caldrà demanar-li una document acreditatiu de la seua funció docent (capçalera de la nòmina, credencial, certificat d'Ovidoc,...) i adjuntar-la al mail.  
+Si s'ha de donar d'alta en Gesform, el docent haurà d'omplir el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i l'enviarem per mail a [compteformacio@gva.es.](mailto:compteformacio@gva.es?subject=Alta%20Gesform) per tal que ens el donen d'alta. També caldrà demanar-li una document acreditatiu de la seua funció docent (capçalera de la nòmina, credencial, certificat d'Ovidoc,...) i adjuntar-la al mail.  
 Recordeu que tots aquells docents de la Comunitat Valenciana (ensenyament reglats no universitaris) tenen dret a fer formació i per tant a inscriure's a les formacions del CEFIRE.  
 
 Example de correu electrònic
