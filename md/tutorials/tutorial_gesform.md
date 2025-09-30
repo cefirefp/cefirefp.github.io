@@ -461,7 +461,43 @@ Si queda algú donem doble clic al nom i s'obrirà una finestra amb les dades de
 
 ![](../images/gesform/f3e1dc50c883d43ef4800854cdc3177baa9c46e3.png){.center }
 
-Copiem el DNI de la persona que hi ha en l'apartat de **Observaciones** i lo copiamos en la casilla del DNI de **Persona (de la mateixa finestra),** si no apareix és que no és docent o encara no està donat d'alta. Caldria trucar per vore la situació en la que es troba, mirar amb aquesta situació quin barem tindria i si no entra al curs -- Eliminar el registre. Si entraria cal demanar-li justificació de la seua situació (per exemple nómina) i donar d'alta en Persones en Gesform.
+Copiem el DNI de la persona que hi ha en l'apartat de **Observaciones** i el peguem a la casella del DNI de **Persona** (a la mateixa finestra), **si no apareix és que no és docent o encara no està donat d'alta**.  
+En eixe cas, caldrà posar-se en contacte amb la persona per tal de comprovar si és docent o no, o per a vore si el DNI que ha possat està mal, o no està donat d'alta en Gesform. Si no és docent cal eliminar el registre.  
+Si s'ha de donar d'alta en Gesform, el docent haurà d'omplir el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i l'enviarem per mail a [compteformacio@gva.es.](mailto:compteformacio@gva.es?subject=Alta%20Gesform) per tal que ens el donen d'alta. També caldrà demanar-li una document acreditatiu de la seua funció docent (capçalera de la nòmina, credencial, certificat d'Ovidoc,...) i adjuntar-la al mail.  
+Recordeu que tots aquells docents de la Comunitat Valenciana (ensenyament reglats no universitaris) tenen dret a fer formació i per tant a inscriure's a les formacions del CEFIRE.  
+
+Example de correu electrònic
+```
+Asunto.- Inscripción el curso 25FP25CF011 - Skill50. Diseño y animación de juegos 3D con Blender  // Inscripció al curs 25FP25CF011 - Skill50. Disseny i animació de jocs 3D amb Blender
+
+Hola, te has inscrito al curso 25FP25CF011 - Skill50. Diseño y animación de juegos 3D con Blender con los siguientes datos:
+
+POSAR LES DADES EN LES QUE S'HA INSCRIT 
+
+Pero tu DNI no aparece en la BBDD de gestión de la formación del profesorado por dos posibles motivos:
+
+1.- El DNI no está bien. En este caso envíame el número de tu DNI correcto.
+2.- No estás en la BBDD de gestión de la formación del profesorado. En este caso debes rellenar el archivo adjunto y enviármelo junto con algún documento que justifique tu función docente.
+
+Saludos
+
+
+Hola, t’has inscrit al curs 25FP25CF011 - Skill50. Disseny i animació de jocs 3D amb Blender amb les dades següents:
+
+POSAR LES DADES EN LES QUE S'HA INSCRIT 
+ 
+
+Però el teu DNI no apareix en la BBDD de gestió de la formació del professorat per dos possibles motius:
+
+1.- El DNI no està bé. En aquest cas envia’m el teu numero del teu DNI correcte.
+2.- No estàs en la BBDD de gestió de la formació del professorat. En aquest cas has d’emplenar l’arxiu adjunt i enviar-me’l juntament amb algun document que justifique la teua funció docent.
+
+
+Salutacions
+
+
+
+```
 
 Una vegada ja tenim tots els participants amb la identitat correcta. Filtrem per **confirmados** i tindrem els confirmats i confirmats provisionals.
 
@@ -517,39 +553,47 @@ Finalment comprovar que estan en **Extintor -- Participantes Edición**
 
 Tornar a **publicar**. Comprovar que s'han publicat en la web les llistes.
 
-Una vegada publicat, cal enviar correu als participants per indicar que ja estan els llistats definitius. Model de **correu** a continuació.
+Una vegada publicat, cal enviar correu als participants per indicar que ja estan els llistats definitius.  
 
-El text per la redacció d'aquest correu està en el pdf **Coordinació.pdf** i és el següent:
 
 **Exemple de correu de llistes definitives**
 
 ```html
-Benvolguts i benvolgudes,
+Estimat/da professor/a,
+ 
+T'escric per a notificar-te que les llistes definitives del curs a distància "25FP43CF223 Taller d'IA Generativa. Creació d'aplicacions per a l'Aula"  han eixit i has estat admès/a.
 
-Ja està disponible la llista definitiva de professorat admés al curs \"24CD97ES038 -- Aplicaciones de la inteligencia artificial en el aula"
+El curs començarà dilluns 5 de maig, l'espai s'habilitarà al llarg del dia. Per tant, si intentes accedir ara, no et permetrà:
+Enllaç al curs
+ 
+Et recordem que l'usuari i la contrasenya són els mateixos que utilitzes per a ITACA o per a OVIDOC.
 
-<https://cefire.edu.gva.es/sfp/index.php?seccion=edicion&id=11897023%20&usuario=formacion>
+En cas que la teua situació haja canviat i ja no pugues seguir la planificació del curs, et pregue que el comuniques a aquest correu electrònic al més aviat possible per a tramitar la renúncia al curs i admetre al següent en la llista d'espera.
 
-Podeu consultar-la en el següent enllaç:
+Salutacions,
 
-<https://cefire.edu.gva.es/sfp/index.php?seccion=inscripciones/definitivo&id=11897023&usuario=formacion>
+------------------------------- 
+ 
+Estimado/a profesor/a,
 
-Recordeu que es tracta d'un curs en línia de 30h que tindrà lloc entre el 22 d'abril i el 9 de juny de 2024. 
+Te escribo para notificarte que las listas definitivas del curso a distancia 25FP43CF223 Taller de IA Generativa. Creación de aplicaciones para el Aula  han salido y has sido admitido/a.
 
-El curs comença el dilluns. Les persones participants rebreu informació per accedir a l'aula virtual.
+El curso comenzará el lunes 5 de mayo, el espacio se habilitará a lo largo del día. Por lo tanto, si intentas acceder ahora, no te permitirá:
+Enlace al curso
 
-Informem que degut a l'alta demanda del curs demà eixirà a inscripció una nova convocatòria del mateix curs. Podeu vore la informació al següent enllaç:
+Te recordamos que el usuario y la contraseña son los mismos que utilizas para ITACA o para OVIDOC.
 
-<https://cefire.edu.gva.es/sfp/index.php?seccion=edicion&id=11965338&usuario=formacion>
+En caso de que tu situación haya cambiado y ya no puedas seguir la planificación del curso, te ruego que lo comuniques a este correo electrónico lo antes posible para tramitar la renuncia al curso y admitir al siguiente en la lista de espera.
 
-Si voleu fer alguna consulta, envieu un correu a les assessories coordinadores: <l.ramisherrero@edu.gva.es>, <la.garciagisbert@edu.gva.es> o <s.barbergomez@edu.gva.es>
+Saludos,
 
-Salutacions, 
-
-Lucía, Luis i Sergio.
 ```
+  
 
-### Importa massivament participants
+---
+
+
+## Importa massivament participants
 
 En alguns casos tenim cursos que no pasen pel procés d'inscripció com a tal. Com per exemples els cursos de coordinadors del PAF, cursos d'ACREDITA, etc... Podem importar els participants directament a l'edició sense necessitat de passar per l'apartat d'inscripció. Anirem a "Importar solicitud de participants":
 
@@ -634,7 +678,8 @@ I **Actualitzem** curs.
 
 Una vegada publicat el llistat definitiu pot haver alguna petició de baixa. Caldrà gestionar la baixa i la posterior alta d'un participant en llista d'espera.
 
-**GESTIÓ DE LA BAIXA** -- Entrar al curs en Gesform a **Gestión Solicitud de Participantes**
+### **Gestió de la baixa**
+Entrar al curs en Gesform a **Gestión Solicitud de Participantes**
 
 ![](../images/gesform/media/image126.png){.center }
 
@@ -672,31 +717,18 @@ Busquem com a motiu **Renuncia** i **apliquem aceptem** i per que aparega al req
 
 ![](../images/gesform/ae8d87911b795fd4af1c0a3259f51af89796cf89.png){.center }
 
-**GESTIÓ DE L'ALTA** -- Una vegada tenim al participant de baixa caldrà anar a Gestió Solicitud de Participantes per trucar a la persona que està a continuació en la llista d'espera.
-
-Una vegada entres està ordenat ja per agafar al primer participant que no estiga en verd.
+### **Gestió de l'alta**
+Una vegada tenim al participant de baixa caldrà anar a **Gestió Solicitud de Participantes** per abuscar el següent participant en llista d'espera, per això haurem d'ordenar la llista, si no està ordenada i agafar el primer participant que NO estiga en verd.
 
 ![](../images/gesform/media/image137.png){.center }
 
-Per accedir a les dades li donem doble clic al nom i apareix la seua fitxa. On estan les dades per poder posar-se en contacte.
+Seleccionarem al participant i polsarem "Generar participantes".
 
-Si algú diu que no vol, apuntar el nom per tal de tenir clar que no vol per si es produeix altra baixa.
+![](../images/gesform/Alra_participant.png){.center }
 
-Quan et diga algú que si copiem el DNI de la persona, anem a **Participantes Edición** li donem a crear nou registre.
 
-![](../images/gesform/ef833a9726255a110c247d4aa38b1d52a602834a.png){.center }
 
-Si diu "esta fuera de plazo" no pasa res, aceptar. Eixirà una finestra com aquesta en la que cal posar el DNI i donar a intro, posarem **Estado Alta**, **Calificación Apto** i en **Tipo A de assistent.**
-
-![](../images/gesform/media/image139.png){.center }
-
-![](../images/gesform/media/image140.png){.center }
-
-**Refresquem** per vore si està en participants. La icona que apareix al costat de Alta serà diferent per que s'ha posat de manera manual.
-
-![](../images/gesform/media/image141.png){.center }
-
-Una vegada s'ha tramitat la baixa i l'alta caldrà **sincronitzar** a **Aules**.
+**Una vegada s'ha tramitat la baixa i l'alta caldrà sincronitzar a Aules.**
 
 ---
 
