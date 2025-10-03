@@ -42,7 +42,7 @@ Caldrà omplir les següents dades de la formació:
 * [Fitxa del curs](#fitxa-del-curs)  
 * [Caracterítiques del curs](#caracterítiques-del-curs) 
 * [Afegir el ponent a la formació](#afegir-ponent-a-la-formació)  
-* [Omplir el pressupost de la formació](#presupost)
+* [Omplir el pressupost de la formació](#pressupost)
 * [Demanar espai en Aules](#demanar-espai-en-aules)
 
   
@@ -181,11 +181,15 @@ I omplirem els següents camps:
 
 * Persona.- Posarem el DNI del ponent, si està donat d'alta en el sistema apareixerà el seu nom. Si no apareix el seu nom significa que no está donat d'alta, i per tant, hauren de sol·licitar que el donen de alta omplint el [següent document]({{enlaces.alta_persona_gesform}}){target="_blank"} i enviar-lo per mail a [compte_formacio@gva.es.](mailto:compte_formacio@gva.es?subject=Alta%20Ponent%20Gesform)
 * Tipo.- Indicarem el tipus (Assisten, Coordinador, Ponent,...)
+* Hores d'assitència.- Cal indicar les hores que farà el ponent.
 * Derecho Certificado.- Posarem SI, si s'ha de certificar al ponent.
 
 
+!!!warning "Més d'un ponent"
+    Si tenim més d'un ponent, caldrá introduïr-los a tots indicant les hores s'assitència de cadascun, i si tenen dret a certificat.
 
-#### *PRESUPOST*
+
+#### *PRESSUPOST*
 
 Per últim abans de portar a validar per part del director anem a la **icona que hi ha al costat de Apuntes**
 
