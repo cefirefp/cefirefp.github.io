@@ -114,9 +114,9 @@ Podeu descarregar la fitxa econòmica des d'ací:
 Quan una formació no és impartida per personal de la **GVA**, és obligatori preparar un **informe de necessitat**, ja que aquest document justifica la contractació i és imprescindible per a tramitar el curs.
 
 * **Si el ponent és personal extern (no funcionari):** cal omplir l’**Informe de necesidades de contratación de no funcionario**.
-  [:material-file: Model Informe contractació d'un no funcionari]( {{enlaces.informe_contractacio_no_funcionari}} ){: .md-button target="_blank"}
+  [:material-microsoft-word: Model Informe contractació d'un no funcionari]( {{enlaces.informe_contractacio_no_funcionari}} ){: .md-button target="_blank"}
 * **Si es tracta d’una empresa:** s’ha d’elaborar l’**Informe de necessitat per a contracte menor**, signat pel director del CEFIRE.
-  [:material-file: Model Informe de necessitat per a contracte menor]( {{enlaces.informe_contractacio_contracte_menor}} ){: .md-button target="_blank"}
+  [:material-microsoft-word: Model Informe de necessitat per a contracte menor]( {{enlaces.informe_contractacio_contracte_menor}} ){: .md-button target="_blank"}
 * **Si la formació requereix material específic** també caldrà omplir un informe de necessitats. Una vegada elaborat crearem una tasca en **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** en la targeta "Informe de necesidades (de material)" i assignarem la tasca a Elena.  
 
 En tots els casos, l’informe ha de ser **coherent amb la fitxa econòmica i la factura proforma** i és un requisit previ a l’autorització.
@@ -145,7 +145,7 @@ Este banner ha d’incloure de manera clara i visible la informació següent:
 És molt important que el banner complisca aquests requisits, ja que és la imatge oficial de la formació i garanteix la correcta visibilitat dels programes i institucions que la recolzen.
 
 El protocol de creació de banners es pot consultar en el següent enllaç.  
-[:material-file: Protocolo de banners]( {{enlaces.protocol_banners}} ){: .md-button target="_blank"}
+[:material-microsoft-word: Protocolo de banners]( {{enlaces.protocol_banners}} ){: .md-button target="_blank"}
 
 
 #### Aplicació Banners

@@ -81,7 +81,7 @@ Salutacions,
 * Cal **demanar la creació de l’espai corresponent en AULES**.
 * Una vegada creat, s’ha d’**enviar l’enllaç al ponent** perquè puga configurar els continguts i preparar el curs.
 
-[:material-link-box: Demanar espai en Aules](https://forms.office.com/e/7edxrww9GY){: .md-button target="_blank"}
+[:material-link-box: Demanar espai en Aules]( {{enlaces.demanar_espai_AULES}} ){: .md-button target="_blank"}
 
 * Una vegada tinga'm el Aules creat hem de possar *el banner del curs*. Per tal d'assegurar-nos de que apareguen els **logos institucionals** (FSE, SKILLS, GVA, Ministeri, DGFP, CEFIRE FP)
 
@@ -197,3 +197,21 @@ En el cas de les formacions **online**, cal comprovar que:
 * El **banner del curs** estiga publicat a l’espai d’AULES.
 
 ---
+
+### 📝 **Formularis FSE i Skills**
+
+Per a totes les **accions noves de formació FSE i Skills**, cal utilitzar els següents formularis per a la recollida de dades i gestió de les activitats.
+
+* **Formularis FSE:**
+
+  [:material-link: Formulari FSE (Castellà)]( {{enlaces.formulari_FSE_cas}} ){: .md-button target="_blank"}
+  [:material-link: Formulari FSE (Valencià)]( {{enlaces.formulari_FSE_val}} ){: .md-button target="_blank"}
+
+* **Formularis Skills:**
+
+  * Per a les formacions **Skills**, s’ha de continuar utilitzant **el formulari ràpid proporcionat prèviament**.
+
+💡 **Nota:** Aquests formularis serveixen per garantir **la correcta inscripció i seguiment** dels participants, així com la **validació de la formació** per part del CEFIRE.
+
+
+

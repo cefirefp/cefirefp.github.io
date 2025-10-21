@@ -76,7 +76,7 @@ Amb les necessitats clarament identificades, l’assessor/a defineix la temàtic
                 - Cal insistir que la factura no es pot pujar a la plataforma FACE fins que no s'haja finalitzat la formació.
 
 !!!warning "Atenció - Alta en FACE"
-    Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa: [:material-file: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
+    Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa: [:material-microsoft-word: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
 
 A continuació podeu vore una taula resum:
 
