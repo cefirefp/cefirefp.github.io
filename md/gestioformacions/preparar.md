@@ -225,7 +225,7 @@ En finalitzar cada acció formativa és **obligatori** incloure i gestionar **do
 
 Totes les accions formatives han d’incloure **obligatòriament** el següent formulari de satisfacció general, per tal de recollir la valoració dels participants:
 
-[:material-link: Formulari de satisfacció del curs]( {{enlaces.formulari_satisfacio}} ){: .md-button target="_blank"}
+[:material-link: Formulari de satisfacció del curs]( {{enlaces.formulari_satisfaccio}} ){: .md-button target="_blank"}
 
 Aquest formulari ha d’estar disponible **a l’espai d’AULES del curs**, preferiblement en la secció final o al costat de la informació de tancament del curs.
 
