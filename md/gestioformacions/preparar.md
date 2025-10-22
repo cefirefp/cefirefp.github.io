@@ -198,20 +198,42 @@ En el cas de les formacions **online**, cal comprovar que:
 
 ---
 
+### 🌐 Xarxes socials
+
+Per a cada curs és important **afegir els enllaços a les xarxes socials a l'espai d'AULES** perquè els participants puguen accedir-hi fàcilment i rebre les novetats.  
+
+* **Arxiu amb enllaços:**  
+  Afegiu el fitxer següent al curs per completar la configuració de xarxes socials:  
+  [:material-link: xarxessocials.mbz]( {{enlaces.moodle_xarxes_socials}} ){: .md-button target="_blank"}
+
+* **Videotutorial:**  
+  Per facilitar la configuració i ús de l'arxiu de xarxes socials, podeu consultar aquest petit videotutorial:  
+  [:material-link: Tutorial Xarxes Socials]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
+
+
+
+---
+
 ### 📝 **Formularis FSE i Skills**
 
 Per a totes les **accions noves de formació FSE i Skills**, cal utilitzar els següents formularis per a la recollida de dades i gestió de les activitats.
 
 * **Formularis FSE:**
-
+Per a les formacions **FSE**, s’ha d'utilitzar el següent formulari.  
   [:material-link: Formulari FSE (Castellà)]( {{enlaces.formulari_FSE_cas}} ){: .md-button target="_blank"}
   [:material-link: Formulari FSE (Valencià)]( {{enlaces.formulari_FSE_val}} ){: .md-button target="_blank"}
 
 * **Formularis Skills:**
+Per a les formacions **Skills**, s’ha d'utilitzar el següent formulari, en este cas és un formulari estadístic. Cal duplicar el formulari i possar el codi i nom de la formació.  
+  [:material-link: Formulari Skills]( {{enlaces.formulari_SKILLS}} ){: .md-button target="_blank"}
 
-  * Per a les formacions **Skills**, s’ha de continuar utilitzant **el formulari ràpid proporcionat prèviament**.
+* **Formularis Skills:**
+A continuació podeu vore un video de com possar els qëstionaris en la web:  
+[:material-link: Tutorial Microsoft Forms](2025-10-04%2019-11-45.mp4){: .md-button target="_blank"}
 
-💡 **Nota:** Aquests formularis serveixen per garantir **la correcta inscripció i seguiment** dels participants, així com la **validació de la formació** per part del CEFIRE.
+!!! note "NOTA"
+    Aquests formularis serveixen per garantir **la correcta inscripció i seguiment** dels participants, així com la **validació de la formació** per part del CEFIRE.
+---
 
 
 
