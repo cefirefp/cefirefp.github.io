@@ -206,34 +206,53 @@ Per a cada curs és important **afegir els enllaços a les xarxes socials a l'es
   Afegiu el fitxer següent al curs per completar la configuració de xarxes socials:  
   [:material-link: xarxessocials.mbz]( {{enlaces.moodle_xarxes_socials}} ){: .md-button target="_blank"}
 
-* **Videotutorial:**  
-  Per facilitar la configuració i ús de l'arxiu de xarxes socials, podeu consultar aquest petit videotutorial:  
-  [:material-link: Tutorial Xarxes Socials]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
-
-
+*  **Ajuda per inserir les xarxes socials a Aules**
+  Podeu vore com afegir correctament l'arxiu de xarxes socials a l’espai d’AULES amb aquest videotutorial:  
+  [:material-video: Videotutorial]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
 
 ---
 
-### 📝 **Formularis FSE i Skills**
+### 📝 Formularis de la formació
 
-Per a totes les **accions noves de formació FSE i Skills**, cal utilitzar els següents formularis per a la recollida de dades i gestió de les activitats.
+En finalitzar cada acció formativa és **obligatori** incloure i gestionar **dos tipus de formularis**.
 
-* **Formularis FSE:**
-Per a les formacions **FSE**, s’ha d'utilitzar el següent formulari.  
-  [:material-link: Formulari FSE (Castellà)]( {{enlaces.formulari_FSE_cas}} ){: .md-button target="_blank"}
-  [:material-link: Formulari FSE (Valencià)]( {{enlaces.formulari_FSE_val}} ){: .md-button target="_blank"}
+1. 🟢 **Formulari de satisfacció** (obligatori per a tot tipus de formacions)
+2. 🟣 **Formulari d’efectes estadístics**, que varia segons si la formació és **FSE** o **SKILLS**
 
-* **Formularis Skills:**
-Per a les formacions **Skills**, s’ha d'utilitzar el següent formulari, en este cas és un formulari estadístic. Cal duplicar el formulari i possar el codi i nom de la formació.  
-  [:material-link: Formulari Skills]( {{enlaces.formulari_SKILLS}} ){: .md-button target="_blank"}
-
-* **Formularis Skills:**
-A continuació podeu vore un video de com possar els qëstionaris en la web:  
-[:material-link: Tutorial Microsoft Forms](2025-10-04%2019-11-45.mp4){: .md-button target="_blank"}
-
-!!! note "NOTA"
-    Aquests formularis serveixen per garantir **la correcta inscripció i seguiment** dels participants, així com la **validació de la formació** per part del CEFIRE.
 ---
 
+#### 🟢 Formulari de satisfacció
 
+Totes les accions formatives han d’incloure **obligatòriament** el següent formulari de satisfacció general, per tal de recollir la valoració dels participants:
+
+[:material-link: Formulari de satisfacció del curs]( {{enlaces.formulari_satisfacio}} ){: .md-button target="_blank"}
+
+Aquest formulari ha d’estar disponible **a l’espai d’AULES del curs**, preferiblement en la secció final o al costat de la informació de tancament del curs.
+
+#### 🟣 Formulari per a efectes estadístics
+
+A més del formulari de satisfacció, s’ha d’incloure el formulari estadístic corresponent segons el tipus de finançament de la formació.
+
+##### 🔹 Formacions FSE
+
+Per a les formacions **FSE**, s’ha d’utilitzar un dels següents formularis (segons la llengua):  
+[:material-link: Formulari FSE (Castellà)]({{enlaces.formulari_FSE_cas}}){: .md-button target="_blank"} [:material-link: Formulari FSE (Valencià)]({{enlaces.formulari_FSE_val}}){: .md-button target="_blank"}
+
+##### 🔹 Formacions Skills
+
+Per a les formacions **Skills**, cal utilitzar el següent formulari estadístic.
+Recorda **duplicar-lo** i adaptar el **nom i codi de la formació** abans de publicar-lo:  
+[:material-link: Formulari Skills]({{enlaces.formulari_SKILLS}}){: .md-button target="_blank"}
+
+---
+
+#### 🎥 Ajuda per inserir els formularis
+Podeu vore com afegir correctament els formularis a la web o a l’espai d’AULES amb aquest videotutorial:  
+[:material-video: Videotutorial]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
+
+---
+
+!!!warning "**NOTA IMPORTANT:**"
+    Els dos formularis (satisfacció + estadístic) són **obligatoris** per a totes les accions formatives.
+    Servixen per garantir la **valoració de la qualitat de la formació** i la **validació estadística** davant la DGFP i els organismes finançadors (FSE o SKILLS).
 
