@@ -171,3 +171,66 @@ Els justificants d’assistència serveixen per **acreditar oficialment la parti
  [:material-microsoft-word: Formacions FSE i Skills]( {{enlaces.justificant_assitencia_FSE_SKILLS}} ){: .md-button target="_blank"}
  [:material-microsoft-word: Formacions PAA]( {{enlaces.justificant_assitencia_PAA}} ){: .md-button target="_blank"}
 
+
+### 📝 Formularis de la formació
+
+En finalitzar cada acció formativa és **obligatori** incloure i gestionar **dos tipus de formularis**.
+
+1. 🟢 **Formulari de satisfacció** (obligatori per a tot tipus de formacions)
+2. 🟣 **Formulari d’efectes estadístics**, que varia segons si la formació és **FSE** o **SKILLS**
+
+Una bona pràctica és avisar als participants per el foro quan estiguen disponibles els qüestionaris.  
+Exemple de missatge.-
+```
+Assumpte.- Qüestionaris
+
+Bon dia a tots i totes,
+
+Esperem que el curs us estiga agradant i que esteu gaudint del procés d’aprenentatge amb Unity! 🎮
+
+Vos informem que a AULES ja disposeu dels dos tipus de qüestionaris obligatoris per a finalitzar les accions formatives:
+
+Formulari per a efectes estadístics 🟣.- Es tracta d'un formulari estadístic que ens demana el Ministeri
+
+Formulari de satisfacció 🟢.- Aquest formulari permet recollir la valoració dels participants.
+
+Gràcies per la vostra col·laboració.
+
+✨ Seguim endavant amb la formació, i recordeu que qualsevol dubte o consulta, estem aquí per ajudar-vos a aprofitar al màxim aquesta experiència amb Unity! 🚀
+
+Salutacions
+```
+
+#### 🟣 Formulari per a efectes estadístics
+
+A més del formulari de satisfacció, s’ha d’incloure el formulari estadístic corresponent segons el tipus de finançament de la formació.
+
+##### 🔹 Formacions FSE
+
+Per a les formacions **FSE**, s’ha d’utilitzar un dels següents formularis (segons la llengua):  
+[:material-link: Formulari FSE (Castellà)]({{enlaces.formulari_FSE_cas}}){: .md-button target="_blank"} [:material-link: Formulari FSE (Valencià)]({{enlaces.formulari_FSE_val}}){: .md-button target="_blank"}
+
+##### 🔹 Formacions Skills
+
+Per a les formacions **Skills**, cal utilitzar el següent formulari estadístic.
+Recorda **duplicar-lo** i adaptar el **nom i codi de la formació** abans de publicar-lo:  
+[:material-link: Formulari Skills]({{enlaces.formulari_SKILLS}}){: .md-button target="_blank"}
+
+#### 🎥 Ajuda per inserir els formularis
+Podeu vore com afegir correctament els formularis a la web o a l’espai d’AULES amb aquest videotutorial:  
+[:material-video: Videotutorial]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
+
+
+#### 🟢 Formulari de satisfacció
+
+Totes les accions formatives han d’incloure **obligatòriament** el següent formulari de satisfacció general, per tal de recollir la valoració dels participants:
+
+[:material-link: Formulari de satisfacció del curs]( {{enlaces.formulari_satisfaccio}} ){: .md-button target="_blank"}
+
+Aquest formulari ha d’estar disponible **a l’espai d’AULES del curs**, preferiblement en la secció final o al costat de la informació de tancament del curs.  
+
+!!!warning "**NOTA IMPORTANT:**"
+    Els dos formularis (satisfacció + estadístic) són **obligatoris** per a totes les accions formatives.
+    Servixen per garantir la **valoració de la qualitat de la formació** i la **validació estadística** davant la DGFP i els organismes finançadors (FSE o SKILLS).
+
+
