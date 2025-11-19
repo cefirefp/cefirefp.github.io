@@ -98,7 +98,7 @@ Salutacions,
 ### ✔️ Fase de confirmació
 
 * Realitzar la **baremació** i la **selecció de places**. Vore tutorial de [Gesform](../tutorials/tutorial_gesform.md#passar-a-confirmar-un-curs-i-barem){target="_blank"}.
-* Passar el curs a **estat de confirmació** en [Gesform](../tutorials/tutorial_gesform.md#gestió-de-cursos-en-gesform#passar-a-confirmar-un-curs-i-barem){target="_blank"}.
+* Passar el curs a **estat de confirmació** en [Gesform](../tutorials/tutorial_gesform.md#passar-a-confirmar-un-curs-i-barem){target="_blank"}.
 * Les llistes d’admesos i exclosos es generen automàticament.
 * Enviar un **correu electrònic als inscrits** informant-los (seguint el model establit).
 

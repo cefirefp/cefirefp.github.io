@@ -40,8 +40,8 @@ Anem al tercer icono **Añadir nuevo Registro**
 Caldrà omplir les següents dades de la formació:
 
 * [Fitxa del curs](#fitxa-del-curs)  
-* [Caracterítiques del curs](#caracterítiques-del-curs) 
-* [Afegir el ponent a la formació](#afegir-ponent-a-la-formació)  
+* [Caracterítiques del curs](#caracteristiques-del-curs) 
+* [Afegir el ponent a la formació](#afegir-ponent-a-la-formacio)  
 * [Omplir el pressupost de la formació](#pressupost)
 * [Demanar espai en Aules](#demanar-espai-en-aules)
 
@@ -770,15 +770,8 @@ Si el curs disposa de molts participants, este procediment pot ser massa llarg. 
 
 ![](../images/gesform/1a.png){.center }
 
-Apareixerà una pantalla on podrem importar un fitxer amb les qualificacions. El format del fitxer ha de ser un CSV amb una columna: DNI, la resta d'opcions les seleccionarem em la finestra que apareix:
-
-![](../images/gesform/2a.png){.center }
-
-* Part calificación: Triem la qualificació que volem posar, en aquest cas "No Apto".
-* Motivo N.A.: Triem el motiu de la qualificació, en aquest cas "No realiza las actividades completamente".
-* DNI: Escollim formato Gesform (Sense la lletra, només els números). Formato oficial sol donar problemes.
-
-I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb extensió txt, el fitxer només ha de contindre un llistat de DNI, sense comes ni cap altre caràcter. Un exemple de com ha de ser el fitxer:
+Apareixerà una pantalla on podrem importar un fitxer amb les qualificacions. El format del fitxer ha de ser un **txt** amb una columna: DNI, la resta d'opcions les seleccionarem em la finestra que apareix.  
+El fitxer només ha de contindre un llistat de DNI, sense comes ni cap altre caràcter. Un exemple de com ha de ser el fitxer:
 
 ```
 12345678
@@ -787,6 +780,14 @@ I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb ext
 45678901
 ```
 
+![](../images/gesform/2a.png){.center }
+
+* Part calificación: Triem la qualificació que volem posar, en aquest cas "No Apto".
+* Motivo N.A.: Triem el motiu de la qualificació, en aquest cas "No realiza las actividades completamente".
+* DNI: Escollim formato Gesform (Sense la lletra, només els números). Formato oficial sol donar problemes.
+
+I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb extensió txt,
+
 Una vegada seleccionat el fitxer, fem clic en "Importar" i apareixerà una pantalla amb els DNI que s'han importat correctament. Si tot és correcte, fem clic en "Aplicar" i les qualificacions es posaran als participants.
 
 !!!info "Nota"
@@ -794,18 +795,40 @@ Una vegada seleccionat el fitxer, fem clic en "Importar" i apareixerà una panta
 
 ---
 
-<!--
-## PASSAR A CERTIFICAR I GENERAR CERTIFICATS
 
-!!!warning "IMPORTANT"
-    Aquest procediment no l'ha de realitzar l'assessoria, sinó que és una tasca que realitza el director del CEFIRE. Per tant, caldrà comunicar-ho amb un fitza al Kanban.
+## Passar a certificar el curs
 
-Una vegada tenim els alumnes amb la seva qualificació caldrà passar el curs a Certificació, generar els certificats i l'acta i enviar a signar els certificats per part del director del CEFIRE corresponent i Acta (Coordinador del curs).
+Una vegada tenim els alumnes amb la seva qualificació caldrà passar el curs a certificació.
 
 Ara caldrà passar el curs a certificació (anteriorment estaria en avaluació). Per passar a certificació cal anar a eines **Estados y Cert. / Passar a estado de certificación**
 
 ![](../images/gesform/56927266649f405b010902144b72a54bdcd2eeef.png){.center }
 
+!!!warning "IMPORTANT"
+    Una vegada passat el curs a certificar caldrà comunicar-ho amb un fitxa al Kanban.
+
+## Traure l'acta final
+
+Per continuar caldrà traure l'ACTA FINAL, que caldrà ser signada pel coordinador. Cal anar a eines **Informes / Acta final.**
+
+![](../images/gesform/8684915327536e853e56dfa254c33fd495157d2e.png){.center }"
+
+Configurarem la impressora per tal que tinguem el pdf de l'acta.
+
+!!!warning "IMPORTANT"
+    Recorda que l'acta ha de tenir els logos de FSE, per tant has de marcar la casella de **Imprimir Pack Europeo(Logos FSE)**. Si es tracta d'una formació de Skills cal marcar la mateixa casella.
+
+![](../images/gesform/a419203aa13d8fc6f3e57bfa116c2675ab434dba.png){.center }"
+
+![](../images/gesform/3f6beab7ac77d88ddeb7ab86f3713f3ad03b6747.png){.center }"
+
+També podem previsualitzar i si tot és correcte ja li donem a imprimir per guardar l'acta en pdf.
+
+Signar l'acta i arxivar-la a la carpeta del curs.
+
+
+
+<!-- ## GENERAR CERTIFICATS
 Una vegada està en certificació caldrà generar els certificats. Anem a eines a **Estados i Cert / Generar certificados.**
 
 ![](../images/gesform/03ebb1a27df27bd0d4befa8e5238f6d6fa18dcbf.png){.center }"
@@ -860,22 +883,7 @@ Si tot ok li donem a **Validar certificado.**
 
 Una vegada validats els certificats comprovar que s'han pujat a signatura de manera correcta. Cal actualitzar i comprovar que ha passat de R a B i posteriorment a F.
 
-Per continuar caldrà treure l'ACTA FINAL, que caldrà ser signada pel coordinador. Cal anar a eines **Informes / Acta final.**
 
-![](../images/gesform/8684915327536e853e56dfa254c33fd495157d2e.png){.center }"
-
-Configurarem la impressora per tal que tinguem el pdf de l'acta.
-
-!!!warning "IMPORTANT"
-    Recorda que l'acta ha de tenir els logos de FSE, per tant has de marcar la casella de **Imprimir Pack Europeo(Logos FSE)**. Si es tracta d'una formació de Skills cal marcar la mateixa casella.
-
-![](../images/gesform/a419203aa13d8fc6f3e57bfa116c2675ab434dba.png){.center }"
-
-![](../images/gesform/3f6beab7ac77d88ddeb7ab86f3713f3ad03b6747.png){.center }"
-
-També podem previsualitzar i si tot és correcte ja li donem a imprimir per guardar l'acta en pdf.
-
-Signar l'acta i arxivar-la a la carpeta del curs.
 
 ## ALTA EN GESFORM PONENT NO DOCENT
 

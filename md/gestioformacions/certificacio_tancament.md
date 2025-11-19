@@ -17,31 +17,18 @@ S’han de recopilar les **evidències** de la formació (obligatori en FSE i SK
 
 #### 📁 On guardar-les?
 
-1. A la subcarpeta del curs: [codi_curs]_tec
-2. I en el document: 
+1. A la subcarpeta del curs: **25FPXXCF0XX_tec**
+2. I en el document: **25FPXXCF0XX_Evidencias.docx**
 
 ---
-
-## 📚 2. Omplir documents administratius finals
-
-Els següents documents són obligatoris en el tancament de qualsevol formació:
-
-* **[codi_curs]_CuadroTexto.docx**
-* **[codi_curs]_FSE_Ficha_seguimiento.docx** (en cursos FSE o SKILLS)
-
-Una vegada omplits, s’han de guardar en la carpeta del curs.
-
----
-
-
-## 📄 3. Recollida d’APTES i NO APTES
+## 📄 2. Recollida d’APTES i NO APTES
 
 El primer pas és obtindre la documentació que acredita el resultat de cada participant. Per tant ens fa falta un document per part del ponent amb els APTES i NO APTES.
 
 - Si és **formació online**, normalment, les qualificacions es poden extraure d’**AULES**.
 - Si és **jornada presencial**, cal recollir la **fulla de signatures**.
 
-Tot aquest material s’ha de guardar dins de la carpeta: ``` [codi_curs]_tec ```
+Tot aquest material s’ha de guardar dins de la carpeta: **25FPXXCF0XX_tec**
 
 #### ⚠️ Requisits per a l’emissió d’APTE
 
@@ -55,7 +42,7 @@ Els participants que no compleixen algun d’aquests requisits obtindran la qual
 
 ---
 
-## 📝 4. Introducció d’APTÉS i NO APTÉS en Gesform
+## 📝 3. Introducció d’APTÉS i NO APTÉS en Gesform
 
 Amb tota la documentació recollida:
 
@@ -66,18 +53,28 @@ Amb tota la documentació recollida:
 
 En el següent enllaç pots core com es fa en el tutorial de gesform --> [Possar qualificacions en Gesform]( ../tutorials/tutorial_gesform.md/#posar-les-qualificacions-als-assistents ){:target="_blank"}. 
 
-
-
 ---
 
-## 🖋️ 5. Generar i signar l’acta final
+## 🖋️ 4. Generar i signar l’acta final
 
 Des de Gesform:
 
 1. Genera **l’ACTA FINAL oficial** des de GESFORM.
 2. Signa-la digitalment.
-3. Guarda-la en la carpeta del curs amb el nom: [codi_curs]_ACTA FINAL.pdf
+3. Guarda-la en la carpeta del curs amb el nom: **25FPXXCF0XX_ACTA FINAL.pdf**
 
+En el següent enllaç pots core com es fa en el tutorial de gesform --> [Traure l'acta final]( ../tutorials/tutorial_gesform.md/#traure-lacta-final ){:target="_blank"}. 
+
+---
+
+## 📚 5. Omplir documents administratius finals
+
+Els següents documents són obligatoris en el tancament de qualsevol formació:
+
+* **[codi_curs]_CuadroTexto.docx**
+* **[codi_curs]_FSE_Ficha_seguimiento.docx** (en cursos FSE o SKILLS)
+
+Una vegada omplits, s’han de guardar en la carpeta del curs.
 
 ---
 
@@ -87,6 +84,13 @@ Des de Gesform:
 
 Utilitza l’aplicació **crea_carpeta** per generar automàticament el document **CERTIFICA**.
 
+[Aplicació per a crear carpetes de formacions]( {{enlaces.crea_carpeta}}){: .md-button target="_blank"}
+
+
+!!!note "Nota"
+    En el cas de l'apliació de Linux cal donar permisos per a executar l'aplicació en Linux.  
+    `chmod +x crea_cursos_linux`  
+
 Guarda’l a la carpeta del curs.
 
 ---
@@ -95,12 +99,15 @@ Guarda’l a la carpeta del curs.
 
 Quan tot estiga complet:
 
+✔ Evidències recollides  
 ✔ APTÉS introduïts  
 ✔ Acta final signada  
-✔ Evidències recollides  
 ✔ Documents administratius omplits  
+✔ Certifica creat  
 
 ➡ Passa la formació a l’estat **CERTIFICACIÓ** dins de **Gesform**.
+
+En el següent enllaç pots core com es fa en el tutorial de gesform --> [Passar a certificar una formació]( ../tutorials/tutorial_gesform.md/#passar-a-certificar-el-curs ){:target="_blank"}. 
 
 ---
 
@@ -109,10 +116,10 @@ Quan tot estiga complet:
 Perquè Gloria i Alfredo validen el tancament:
 
 1. Ves al **KANBAN**.
-2. Crea una tasca en la targeta:
+2. Crea una tasca en la targeta KANBAN del curs:
    > **Certificar formació**
 3. Assigna la tasca a **Gloria** i **Alfredo**.
-4. Indica que la carpeta del curs està completament tancada.
+4. Indica que la carpeta del curs està completament tancada, renombrant-la a **25FPXXCF0XX_NOM_ASSESSOR_TERMINADA**.
 
 Quan ells validen, la formació queda **certificada i tancada oficialment**. ✔️
 

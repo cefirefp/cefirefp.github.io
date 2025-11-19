@@ -159,7 +159,7 @@ Manuals disponibles segons el rol i la modalitat:
 
 [:material-folder: Carpeta Manuals PAF]( {{enlaces.carpeta_manuals_paf}}){: .md-button target="_blank"}
 
-* **[ CFC ]({{enlaces.carpeta_manual_cfc}}){: target="_blank"}**: concreció del PAF, supervisió i finalització.
+* **[ CFC ]({{enlaces.manual_cfc}}){: target="_blank"}**: concreció del PAF, supervisió i finalització.
 * Planificació i presentació **[ PROJECTE DE FORMACIÓ CENTRES ]({{enlaces.planificacio_pfc}}){target="_blank"}**  
 * Planificació i presentació **[ SEMINARI / GRUP DE TREBALL ]({{enlaces.planificacio_semintari_grup}}){target="_blank"}**
 * **[Secretaria]({{enlaces.paf_secretaria}}){target="_blank"}:** certificació d’AF i presentació del PAF.  

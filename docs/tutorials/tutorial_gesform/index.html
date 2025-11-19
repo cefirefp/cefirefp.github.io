@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../images/icono.jpg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1073,6 +1073,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#passar-a-certificar-el-curs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passar a certificar el curs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#traure-lacta-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traure l'acta final
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1134,8 +1152,8 @@ Una vegada accedim a ella haruem de canviar el títol i totes les dades que no s
 <p>Caldrà omplir les següents dades de la formació:</p>
 <ul>
 <li><a href="#fitxa-del-curs">Fitxa del curs</a>  </li>
-<li><a href="#caracterítiques-del-curs">Caracterítiques del curs</a> </li>
-<li><a href="#afegir-ponent-a-la-formació">Afegir el ponent a la formació</a>  </li>
+<li><a href="#caracteristiques-del-curs">Caracterítiques del curs</a> </li>
+<li><a href="#afegir-ponent-a-la-formacio">Afegir el ponent a la formació</a>  </li>
 <li><a href="#pressupost">Omplir el pressupost de la formació</a></li>
 <li><a href="#demanar-espai-en-aules">Demanar espai en Aules</a></li>
 </ul>
@@ -1640,37 +1658,47 @@ Saludos,
 <h3 id="importa-massivament-qualificacions">Importa massivament qualificacions<a class="headerlink" href="#importa-massivament-qualificacions" title="Permanent link">&para;</a></h3>
 <p>Si el curs disposa de molts participants, este procediment pot ser massa llarg. Per això, si el formador ens ha passat un fitxer amb les qualificacions, podem importar-les de manera massiva. Farem clic en "Modificación masiva de calificaciones".</p>
 <p><img alt="" class="center" src="../../images/gesform/1a.png" /></p>
-<p>Apareixerà una pantalla on podrem importar un fitxer amb les qualificacions. El format del fitxer ha de ser un CSV amb una columna: DNI, la resta d'opcions les seleccionarem em la finestra que apareix:</p>
+<p>Apareixerà una pantalla on podrem importar un fitxer amb les qualificacions. El format del fitxer ha de ser un <strong>txt</strong> amb una columna: DNI, la resta d'opcions les seleccionarem em la finestra que apareix.<br />
+El fitxer només ha de contindre un llistat de DNI, sense comes ni cap altre caràcter. Un exemple de com ha de ser el fitxer:</p>
+<div class="highlight"><pre><span></span><code>12345678
+23456789
+34567890
+45678901
+</code></pre></div>
 <p><img alt="" class="center" src="../../images/gesform/2a.png" /></p>
 <ul>
 <li>Part calificación: Triem la qualificació que volem posar, en aquest cas "No Apto".</li>
 <li>Motivo N.A.: Triem el motiu de la qualificació, en aquest cas "No realiza las actividades completamente".</li>
 <li>DNI: Escollim formato Gesform (Sense la lletra, només els números). Formato oficial sol donar problemes.</li>
 </ul>
-<p>I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb extensió txt, el fitxer només ha de contindre un llistat de DNI, sense comes ni cap altre caràcter. Un exemple de com ha de ser el fitxer:</p>
-<div class="highlight"><pre><span></span><code>12345678
-23456789
-34567890
-45678901
-</code></pre></div>
+<p>I fem clic en "Importar" lista de DNI. Caldrà que seleccionem un fitxer amb extensió txt,</p>
 <p>Una vegada seleccionat el fitxer, fem clic en "Importar" i apareixerà una pantalla amb els DNI que s'han importat correctament. Si tot és correcte, fem clic en "Aplicar" i les qualificacions es posaran als participants.</p>
 <div class="admonition info">
 <p class="admonition-title">Nota</p>
 <p>Es convenient abans de fer la importació massiva, comprovar si els participants estan tots com a Apto, així al posar el No Apto ja tindrem assegurats que està tot el llistat correcte.</p>
 </div>
 <hr />
-<!--
-## PASSAR A CERTIFICAR I GENERAR CERTIFICATS
-
-!!!warning "IMPORTANT"
-    Aquest procediment no l'ha de realitzar l'assessoria, sinó que és una tasca que realitza el director del CEFIRE. Per tant, caldrà comunicar-ho amb un fitza al Kanban.
-
-Una vegada tenim els alumnes amb la seva qualificació caldrà passar el curs a Certificació, generar els certificats i l'acta i enviar a signar els certificats per part del director del CEFIRE corresponent i Acta (Coordinador del curs).
-
-Ara caldrà passar el curs a certificació (anteriorment estaria en avaluació). Per passar a certificació cal anar a eines **Estados y Cert. / Passar a estado de certificación**
-
-![](../images/gesform/56927266649f405b010902144b72a54bdcd2eeef.png){.center }
-
+<h2 id="passar-a-certificar-el-curs">Passar a certificar el curs<a class="headerlink" href="#passar-a-certificar-el-curs" title="Permanent link">&para;</a></h2>
+<p>Una vegada tenim els alumnes amb la seva qualificació caldrà passar el curs a certificació.</p>
+<p>Ara caldrà passar el curs a certificació (anteriorment estaria en avaluació). Per passar a certificació cal anar a eines <strong>Estados y Cert. / Passar a estado de certificación</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/56927266649f405b010902144b72a54bdcd2eeef.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">IMPORTANT</p>
+<p>Una vegada passat el curs a certificar caldrà comunicar-ho amb un fitxa al Kanban.</p>
+</div>
+<h2 id="traure-lacta-final">Traure l'acta final<a class="headerlink" href="#traure-lacta-final" title="Permanent link">&para;</a></h2>
+<p>Per continuar caldrà traure l'ACTA FINAL, que caldrà ser signada pel coordinador. Cal anar a eines <strong>Informes / Acta final.</strong></p>
+<p><img alt="" class="center" src="../../images/gesform/8684915327536e853e56dfa254c33fd495157d2e.png" />"</p>
+<p>Configurarem la impressora per tal que tinguem el pdf de l'acta.</p>
+<div class="admonition warning">
+<p class="admonition-title">IMPORTANT</p>
+<p>Recorda que l'acta ha de tenir els logos de FSE, per tant has de marcar la casella de <strong>Imprimir Pack Europeo(Logos FSE)</strong>. Si es tracta d'una formació de Skills cal marcar la mateixa casella.</p>
+</div>
+<p><img alt="" class="center" src="../../images/gesform/a419203aa13d8fc6f3e57bfa116c2675ab434dba.png" />"</p>
+<p><img alt="" class="center" src="../../images/gesform/3f6beab7ac77d88ddeb7ab86f3713f3ad03b6747.png" />"</p>
+<p>També podem previsualitzar i si tot és correcte ja li donem a imprimir per guardar l'acta en pdf.</p>
+<p>Signar l'acta i arxivar-la a la carpeta del curs.</p>
+<!-- ## GENERAR CERTIFICATS
 Una vegada està en certificació caldrà generar els certificats. Anem a eines a **Estados i Cert / Generar certificados.**
 
 ![](../images/gesform/03ebb1a27df27bd0d4befa8e5238f6d6fa18dcbf.png){.center }"
@@ -1725,22 +1753,7 @@ Si tot ok li donem a **Validar certificado.**
 
 Una vegada validats els certificats comprovar que s'han pujat a signatura de manera correcta. Cal actualitzar i comprovar que ha passat de R a B i posteriorment a F.
 
-Per continuar caldrà treure l'ACTA FINAL, que caldrà ser signada pel coordinador. Cal anar a eines **Informes / Acta final.**
 
-![](../images/gesform/8684915327536e853e56dfa254c33fd495157d2e.png){.center }"
-
-Configurarem la impressora per tal que tinguem el pdf de l'acta.
-
-!!!warning "IMPORTANT"
-    Recorda que l'acta ha de tenir els logos de FSE, per tant has de marcar la casella de **Imprimir Pack Europeo(Logos FSE)**. Si es tracta d'una formació de Skills cal marcar la mateixa casella.
-
-![](../images/gesform/a419203aa13d8fc6f3e57bfa116c2675ab434dba.png){.center }"
-
-![](../images/gesform/3f6beab7ac77d88ddeb7ab86f3713f3ad03b6747.png){.center }"
-
-També podem previsualitzar i si tot és correcte ja li donem a imprimir per guardar l'acta en pdf.
-
-Signar l'acta i arxivar-la a la carpeta del curs.
 
 ## ALTA EN GESFORM PONENT NO DOCENT
 
