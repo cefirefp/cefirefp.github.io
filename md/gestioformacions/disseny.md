@@ -160,8 +160,8 @@ Els ponents han de donar-se d’alta al procediment **PROPER** i enviar-nos el c
 
 **És imprescindible que els pagaments s'adeqüen a les tarifes vigents**, per això caldrà que consulteu les tarifes vigents per a l'any en curs. Podeu trobar les tarifes vigents al següent enllaç:
 
-* [Tarifes 2025.]( {{enlaces.tarifes_2025}} )
-* [Annex Tarifes 2025.]( {{enlaces.tarifes_2025_annex}} )  
+* [Tarifes 2025.]( {{enlaces.tarifes_2025}} ){: .md-button target="_blank"}  
+* [Annex Tarifes 2025.]( {{enlaces.tarifes_2025_annex}} ){: .md-button target="_blank"}  
 
 ---  
 

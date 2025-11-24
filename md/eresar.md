@@ -175,10 +175,13 @@ Que podem resumir de la manera següent:
          ```Indemnització per desplaçament per a la impartició a València de la formació amb codi 24FP96PD100" i detall Morella-València a 0,19 €/km x 2 viatges x 100 km = 38 €```
 
 4. Una vegada tinga'm la factura o bé modificada o l'original, li direm al ponent que ha de pujar la factura al FACE.
-    !!!warning "Atenció - Alta en FACE"
-        Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa: [:material-microsoft-word: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
+   
+!!!warning "Atenció - Alta en FACE"
+    Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa:  
+     [:material-microsoft-word: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
 
-5. Després haurem de fer l'informe ERESAR. L’Informe ERESAR és un document que s’ha de realitzar per a **justificar la formació**. Es tracta d’un document que ha de justificar per què no s’ha pogut pagar la formació, per la qual cosa haurem de ser creatius i justificar bé la formació sent el més eloqüents possibles però sempre ajustant-nos a la realitat. Podem trobar una plantilla de l’[Informe ERESAR ací]( {{enlaces.plantilla_informe_eresar}} ){:target="_blank"}. **Cal llegir bé la plantilla i emplenar-la adequadament**. L’informe s’ha de pujar a la carpeta de la formació.
+5. Després haurem de fer l'informe ERESAR. L’Informe ERESAR és un document que s’ha de realitzar per a **justificar la formació**. Es tracta d’un document que ha de justificar per què no s’ha pogut pagar la formació, per la qual cosa haurem de ser creatius i justificar bé la formació sent el més eloqüents possibles però sempre ajustant-nos a la realitat.  
+   Podem trobar una plantilla de l’[Informe ERESAR ací]( {{enlaces.plantilla_informe_eresar}} ){:target="_blank"}. **Cal llegir bé la plantilla i emplenar-la adequadament**. L’informe s’ha de pujar a la carpeta de la formació.
 
 6. Finalment es crearà una targeta en el [Kanban d’ERESAR]({{enlaces.kanban_eresar}}){:target="_blank"} i s'etiquetarà a Alfredo quan estiguen totes les tasques de la targeta fetes. La targeta tindrà el nom del codi de la formació i les tasques següents:
 
