@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,36 @@
     <script src="jquery-3.6.0.min.js"></script>
     <link href="bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap.min.js"></script>
+    <!-- <style>
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('RTL-MediaPro-Light.ttf') format('truetype'),
+                url('RTL-MediaPro-Light.woff') format('woff');
+            src: url('RTL-MediaPro-Regular.ttf') format('truetype'),
+                url('RTL-MediaPro-Regular.woff') format('woff');
+            src: url('RTL-MediaPro-Medium.ttf') format('truetype'),
+                url('RTL-MediaPro-Medium.woff') format('woff');
+            /* Add other formats like woff2, eot, svg if needed */
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style> -->
+
     <style>
         .svg-container {
             width: 100%;
-            height: 100vh; /* You can adjust the height as needed */
+            height: 100vh;
+            /* You can adjust the height as needed */
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
         .svg-object {
             width: 100%;
             height: 100%;
         }
+
         .dropZone {
             width: 300px;
             height: 200px;
@@ -31,129 +50,141 @@
             color: #aaa;
             margin: 20px auto;
         }
+
         #dropZone1.hover {
             border-color: #aaa;
             color: #333;
         }
+
         #dropZone2.hover {
             border-color: #aaa;
             color: #333;
         }
     </style>
 </head>
+
 <body>
     <div class="container pb-5 mb-5">
-        <h1 class="text-center my-4">Creador de Baners</h1>     
+        <h1 class="text-center my-4">Creador de Baners</h1>
         <div id="svg-preview" class="svg-object"></div><br>
-        <div id="svg-preview-va" class="svg-object"></div>  
-            <div class="container mt-5">
-                    <!-- Inputs -->
-                    <label for="checkboxes">Tipo de curso</label><br>
-                    <div class="d-flex justify-content-center">
-                        <div class="form-group form-check-inline" id="checkboxes">        
-                            <div class="form-check">
-                                <input onclick="curso('Curso')" type="checkbox" class="form-check-input" id="checkbox11">
-                                <label class="form-check-label" for="checkbox1">Curso</label>
-                            </div>
-                            <div class="form-check">
-                                <input onclick="curso('Jornada')" type="checkbox" class="form-check-input" id="checkbox22">
-                                <label class="form-check-label" for="checkbox2">Jornada</label>
-                            </div>
-                            <div class="form-check">
-                                <input onclick="curso('Taller')" type="checkbox" class="form-check-input" id="checkbox33">
-                                <label class="form-check-label" for="checkbox3">Taller</label>
-                            </div>
-                        </div>
+        <div id="svg-preview-va" class="svg-object"></div>
+        <div class="container mt-5">
+            <!-- Inputs -->
+            <label for="checkboxes">Tipo de curso</label><br>
+            <div class="d-flex justify-content-center">
+                <div class="form-group form-check-inline" id="checkboxes">
+                    <div class="form-check">
+                        <input onclick="curso('Curso')" type="checkbox" class="form-check-input" id="checkbox11">
+                        <label class="form-check-label" for="checkbox1">Curso</label>
                     </div>
+                    <div class="form-check">
+                        <input onclick="curso('Jornada')" type="checkbox" class="form-check-input" id="checkbox22">
+                        <label class="form-check-label" for="checkbox2">Jornada</label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="curso('Taller')" type="checkbox" class="form-check-input" id="checkbox33">
+                        <label class="form-check-label" for="checkbox3">Taller</label>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+
+
+
+
+        <div class="container mt-5">
+            <!-- Inputs -->
+            <div class="form-group d-inline-block mr-3">
+                <label for="colorPicker1">Selecciona color principal</label>
+                <input type="color" class="form-control" id="colorPicker1" value="#0a3c63" oninput="Color(this.value)">
+            </div>
+            <div class="form-group d-inline-block">
+                <label for="colorPicker2">Selecciona color fondo</label>
+                <input type="color" class="form-control" id="colorPicker2" value="#0a3c63" oninput="Color2(this.value)">
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <div id="dropZone1" class="dropZone">Arrastra y suelta la imagen izquierda superior</div>
+                <div id="dropZone2" class="dropZone">Arrastra y suelta la imagen derecha inferior</div>
+            </div>
+
+            <div class="form-group">
+                <label for="input1">Título</label>
+                <input oninput="this.value = this.value.toUpperCase(); titular(this.value)" type="text"
+                    class="form-control" id="titulo" placeholder="Ingresa título...">
+            </div>
+
+            <div class="form-group">
+                <label for="input1">Títol en valencià</label>
+                <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text"
+                    class="form-control" id="titulo_va" placeholder="Ingressa títol...">
+            </div>
+
+            <div class="form-group">
+                <label for="input2">Fechas</label>
+                <input
+                    oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas(this.value)"
+                    type="text" class="form-control" id="fechas_text" placeholder="Ingresa las fechas...">
+                <label for="input2">Dates (en valencià)</label>
+                <input
+                    oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas_va(this.value)"
+                    type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa les dates...">
+                <div class="form-check">
+                    <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
+                    <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
+                </div>
+                <div class="form-check">
+                    <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input"
+                        id="checkbox3sincrones">
+                    <label class="form-check-label" for="checkbox3s">Amb sessions síncrones</label>
+                </div>
+                <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
+                <input oninput="presencial(this.value)" type="text" class="form-control" id="presencial"
+                    placeholder="Ingressa lloc de realizació...">
+            </div>
+            <div class="form-group">
+                <label for="input3">Horas / Hores</label>
+                <input oninput="horas(this.value)" type="text" class="form-control" id="horas"
+                    placeholder="Ingresa horas...">
             </div>
 
 
-
-
-            <div class="container mt-5">
-                    <!-- Inputs -->
-                    <div class="form-group d-inline-block mr-3">
-                        <label for="colorPicker1">Selecciona color principal</label>
-                        <input type="color" class="form-control" id="colorPicker1" value="#0a3c63" oninput="Color(this.value)">
+            <!-- Checkboxes -->
+            <label for="checkboxes">Logotipos</label><br>
+            <div class="d-flex justify-content-center">
+                <div class="form-group form-check-inline" id="checkboxes">
+                    <div class="form-check">
+                        <input onclick="cambiaLogo()" type="checkbox" class="form-check-input" id="checkbox1">
+                        <label class="form-check-label" for="checkbox1">Min+FSE+Cefire+FP</label>
                     </div>
-                    <div class="form-group d-inline-block">
-                        <label for="colorPicker2">Selecciona color fondo</label>
-                        <input type="color" class="form-control" id="colorPicker2" value="#0a3c63" oninput="Color2(this.value)">
+                    <div class="form-check">
+                        <input onclick="cambiaLogo2()" type="checkbox" class="form-check-input" id="checkbox2">
+                        <label class="form-check-label" for="checkbox2">Min+Gen+Cefire+FP</label>
                     </div>
-                    <div style="display: flex; justify-content: space-around;">
-                        <div id="dropZone1" class="dropZone">Arrastra y suelta la imagen izquierda superior</div>
-                        <div id="dropZone2" class="dropZone">Arrastra y suelta la imagen derecha inferior</div>
+                    <div class="form-check">
+                        <input onclick="cambiaLogo3()" type="checkbox" class="form-check-input" id="checkbox3">
+                        <label class="form-check-label" for="checkbox3">Gen+Cefire+FP</label>
                     </div>
-
-                    <div class="form-group">
-                        <label for="input1">Título</label>
-                        <input oninput="this.value = this.value.toUpperCase(); titular(this.value)" type="text" class="form-control" id="titulo" placeholder="Ingresa título...">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="input1">Títol en valencià</label>               
-                        <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text" class="form-control" id="titulo_va" placeholder="Ingressa títol...">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="input2">Fechas</label>
-                        <input oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas(this.value)" type="text" class="form-control" id="fechas_text" placeholder="Ingresa las fechas...">
-                        <label for="input2">Dates (en valencià)</label>
-                        <input oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas_va(this.value)" type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa les dates...">
-                        <div class="form-check">
-                            <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
-                            <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
-                        </div>
-                        <div class="form-check">
-                            <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input" id="checkbox3sincrones">
-                            <label class="form-check-label" for="checkbox3s">Amb sessions síncrones</label>
-                        </div>
-                        <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
-                        <input  oninput="presencial(this.value)" type="text" class="form-control" id="presencial" placeholder="Ingressa lloc de realizació...">
-                    </div>
-                    <div class="form-group">
-                        <label for="input3">Horas / Hores</label>
-                        <input oninput="horas(this.value)" type="text" class="form-control" id="horas" placeholder="Ingresa horas...">
-                    </div>
-                    
-                    
-                    <!-- Checkboxes -->
-                    <label for="checkboxes">Logotipos</label><br>
-                    <div class="d-flex justify-content-center">
-                        <div class="form-group form-check-inline" id="checkboxes">        
-                            <div class="form-check">
-                                <input onclick="cambiaLogo()" type="checkbox" class="form-check-input" id="checkbox1">
-                                <label class="form-check-label" for="checkbox1">Min+FSE+Cefire+FP</label>
-                            </div>
-                            <div class="form-check">
-                                <input onclick="cambiaLogo2()" type="checkbox" class="form-check-input" id="checkbox2">
-                                <label class="form-check-label" for="checkbox2">Min+Gen+Cefire+FP</label>
-                            </div>
-                            <div class="form-check">
-                                <input onclick="cambiaLogo3()" type="checkbox" class="form-check-input" id="checkbox3">
-                                <label class="form-check-label" for="checkbox3">Gen+Cefire+FP</label>
-                            </div>
-                            <!-- 
+                    <!-- 
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="checkbox4">
                                 <label class="form-check-label" for="checkbox4">Checkbox 4</label>
                             </div> -->
-                        </div>
-                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-3">
+            <button class="btn btn-success mx-2" onclick="descarrega_tot()">Descargar PNG</button>
+            <button class="btn btn-primary mx-2" onclick="descargasvg()">Descarga SVG</button>
+
+        </div>
+
+
+        <canvas id="canvas" style="display:none;"></canvas>
+        <canvas id="canvas_va" style="display:none;"></canvas>
+        <div id="pngContainer"></div>
     </div>
-
-    <div class="d-flex justify-content-center my-3">
-        <button class="btn btn-success mx-2" onclick="descarrega_tot()">Descargar PNG</button>
-        <button class="btn btn-primary mx-2" onclick="descargasvg()">Descarga SVG</button>
-
-    </div>
-    
-
-    <canvas id="canvas" style="display:none;"></canvas>
-    <canvas id="canvas_va" style="display:none;"></canvas>
-    <div id="pngContainer"></div>
-</div>
     <script>
         var svgElement = null;
         var svgElement_va = null;
@@ -186,15 +217,15 @@
                     const newImageBase64 = "data:image/png;base64," + base64String;
                     const image = svgElement.querySelector('#image65');
                     const image_va = svgElement_va.querySelector('#image65');
-                    
+
                     image.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
                     image_va.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
-        
+
                 }
 
                 reader1.readAsDataURL(file1);
             }
-        });                         
+        });
 
         //Dropzone2
 
@@ -277,24 +308,24 @@
 
 
         function dividirCadena(texto) {
-                if (texto.length <= 35) {
-                    return [texto];
-                }
+            if (texto.length <= 35) {
+                return [texto];
+            }
 
-                let indice = 35;
+            let indice = 35;
 
-                while (indice > 0 && texto[indice] !== ' ') {
-                    indice--;
-                }
+            while (indice > 0 && texto[indice] !== ' ') {
+                indice--;
+            }
 
-                if (indice === 0) {
-                    indice = 35; // Si no hay espacio, dividimos en el índice 29
-                }
+            if (indice === 0) {
+                indice = 35; // Si no hay espacio, dividimos en el índice 29
+            }
 
-                const primeraParte = texto.substring(0, indice);
-                const segundaParte = texto.substring(indice).trim();
+            const primeraParte = texto.substring(0, indice);
+            const segundaParte = texto.substring(indice).trim();
 
-                return [primeraParte, segundaParte];
+            return [primeraParte, segundaParte];
         }
 
         //titulo1lin
@@ -326,10 +357,10 @@
                 ano2.setAttribute('style', 'visibility:visible');
                 ano1.setAttribute('style', 'visibility:hidden');
                 const [primeraParte, segundaParte] = dividirCadena(t);
-                
+
                 if (textElement) {
                     textElement2.textContent = primeraParte;
-                }   
+                }
                 textElement3.textContent = segundaParte;
             }
 
@@ -360,10 +391,10 @@
                 ano2_va.setAttribute('style', 'visibility:visible');
                 ano1_va.setAttribute('style', 'visibility:hidden');
                 const [primeraParte_va, segundaParte_va] = dividirCadena(t);
-                
+
                 if (textElement_va) {
                     textElement2_va.textContent = primeraParte_va;
-                }   
+                }
                 textElement3_va.textContent = segundaParte_va;
             }
 
@@ -402,10 +433,10 @@
             const horasElement_va = document.getElementById('horas_va');
             const horasElement1_va = document.getElementById('horas1_va');
             if (horasElement) {
-                horasElement.textContent = h+' horas';
-                horasElement1.textContent = h+' horas';
-                horasElement_va.textContent = h+' hores';
-                horasElement1_va.textContent = h+' hores';
+                horasElement.textContent = h + ' horas';
+                horasElement1.textContent = h + ' horas';
+                horasElement_va.textContent = h + ' hores';
+                horasElement1_va.textContent = h + ' hores';
             }
         }
 
@@ -456,11 +487,11 @@
 
         function Color2(col) {
             const r1 = svgElement.getElementById('rect579');
-            r1.setAttribute('style', "fill:"+col);
+            r1.setAttribute('style', "fill:" + col);
 
             const r1_va = svgElement_va.getElementById('rect579');
-            r1_va.setAttribute('style', "fill:"+col);
-   
+            r1_va.setAttribute('style', "fill:" + col);
+
         }
 
         function semipresencial() {
@@ -487,7 +518,7 @@
                 semi3_va.setAttribute('style', 'visibility:hidden');
                 semi4_va.setAttribute('style', 'visibility:hidden');
                 //textonline_va.textContent = 'Semipresencial';
-            } else {                
+            } else {
                 semi1.setAttribute('style', 'visibility:hidden');
                 semi2.setAttribute('style', 'visibility:hidden');
                 semi3.setAttribute('style', 'visibility:visible');
@@ -502,14 +533,14 @@
         }
 
         function sessions_sincrones() {
-            
+
             const textonline = document.getElementById('textonline');
             const textonline_va = document.getElementById('textonline_va');
 
             if (document.getElementById('checkbox3sincrones').checked) {
                 textonline.textContent = 'Online con sesiones síncronas';
                 textonline_va.textContent = 'Online amb sessions síncrones';
-            } else {                
+            } else {
                 textonline.textContent = 'En línea';
                 textonline_va.textContent = 'En línia';
             }
@@ -529,14 +560,14 @@
             if (document.getElementById('checkbox1').checked) {
                 logoElement.setAttribute('style', 'visibility:visible');
                 logoElement_va.setAttribute('style', 'visibility:visible');
-            } else {                
+            } else {
                 logoElement.setAttribute('style', 'visibility:hidden');
                 logoElement_va.setAttribute('style', 'visibility:hidden');
             }
 
-        
+
         }
-        
+
 
         function cambiaLogo2() {
             const logoElement2 = svgElement.getElementById('logo2');
@@ -544,14 +575,14 @@
             if (document.getElementById('checkbox2').checked) {
                 logoElement2.setAttribute('style', 'visibility:visible');
                 logoElement2_va.setAttribute('style', 'visibility:visible');
-            } else {                
+            } else {
                 logoElement2.setAttribute('style', 'visibility:hidden');
                 logoElement2_va.setAttribute('style', 'visibility:hidden');
             }
 
-            
+
         }
-        
+
 
         function cambiaLogo3() {
             const logoElement3 = svgElement.getElementById('logo3');
@@ -559,7 +590,7 @@
             if (document.getElementById('checkbox3').checked) {
                 logoElement3.setAttribute('style', 'visibility:visible');
                 logoElement3_va.setAttribute('style', 'visibility:visible');
-            } else {                
+            } else {
                 logoElement3.setAttribute('style', 'visibility:hidden');
                 logoElement3_va.setAttribute('style', 'visibility:hidden');
             }
@@ -607,132 +638,132 @@
         }
 
 
-            function convertSVGtoSVG() {
-                const svgElement2 = svgElement.cloneNode(true);
+        function convertSVGtoSVG() {
+            const svgElement2 = svgElement.cloneNode(true);
 
-                svgElement2.setAttribute('width', 2040);
-                svgElement2.setAttribute('height', 800);
-                const svgData = new XMLSerializer().serializeToString(svgElement2);
-    
-                const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-                const url = URL.createObjectURL(svgBlob);
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
 
-                const img = new Image();
-                img.onload = function () {
-                    const canvas = document.getElementById('canvas');
-                    canvas.width = img.width;
-                    canvas.height = img.height;
-                    const ctx = canvas.getContext('2d');
-                    ctx.drawImage(img, 0, 0);
+            const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(svgBlob);
 
-                    URL.revokeObjectURL(url);
+            const img = new Image();
+            img.onload = function () {
+                const canvas = document.getElementById('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
 
-                    canvas.toBlob(function (blob) {
-                        const a = document.createElement('a');
-                        a.href = URL.createObjectURL(blob);
-                        a.download = 'baner_castella.png';
-                        document.body.appendChild(a);
-                        a.click();
-                        document.body.removeChild(a);
-                    }, 'image/png');
-                };
-                img.src = url;
+                URL.revokeObjectURL(url);
 
+                canvas.toBlob(function (blob) {
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = 'baner_castella.png';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }, 'image/png');
+            };
+            img.src = url;
+
+        }
+
+        function convertSVGtoSVG_va() {
+            const svgElement2_va = svgElement_va.cloneNode(true);
+
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+
+            const svgBlob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(svgBlob_va);
+
+            const img_va = new Image();
+            img_va.onload = function () {
+                const canvas_va = document.getElementById('canvas_va');
+                canvas_va.width = img_va.width;
+                canvas_va.height = img_va.height;
+                const ctx_va = canvas_va.getContext('2d');
+                ctx_va.drawImage(img_va, 0, 0);
+
+                URL.revokeObjectURL(url_va);
+
+                canvas_va.toBlob(function (blob_va) {
+                    const a_va = document.createElement('a');
+                    a_va.href = URL.createObjectURL(blob_va);
+                    a_va.download = 'baner_valencia.png';
+                    document.body.appendChild(a_va);
+                    a_va.click();
+                    document.body.removeChild(a_va);
+                }, 'image/png');
+            };
+            img_va.src = url_va;
+
+        }
+
+        function traduce() {
+
+            var storedData = localStorage.getItem('inputDataAPI');
+
+            if (!storedData) {
+                alert('No tienes API configurada');
+                return;
             }
 
-            function convertSVGtoSVG_va() {
-                const svgElement2_va = svgElement_va.cloneNode(true);
+            var prompt = "Traduce el siguiente texto al valenciano donde detallo un título y una fecha. La respuesta solo debe incluir el texto traducido: 'titulo: " + document.getElementById('titulo').value + "; fechas: " + document.getElementById('fechas_text').value; + ";'";
 
-                svgElement2_va.setAttribute('width', 2040);
-                svgElement2_va.setAttribute('height', 800);
-                const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
-    
-                const svgBlob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
-                const url_va = URL.createObjectURL(svgBlob_va);
-
-                const img_va = new Image();
-                img_va.onload = function () {
-                    const canvas_va = document.getElementById('canvas_va');
-                    canvas_va.width = img_va.width;
-                    canvas_va.height = img_va.height;
-                    const ctx_va = canvas_va.getContext('2d');
-                    ctx_va.drawImage(img_va, 0, 0);
-
-                    URL.revokeObjectURL(url_va);
-
-                    canvas_va.toBlob(function (blob_va) {
-                        const a_va = document.createElement('a');
-                        a_va.href = URL.createObjectURL(blob_va);
-                        a_va.download = 'baner_valencia.png';
-                        document.body.appendChild(a_va);
-                        a_va.click();
-                        document.body.removeChild(a_va);
-                    }, 'image/png');
-                };
-                img_va.src = url_va;
-
-            }
-
-            function traduce() {
-
-                var storedData = localStorage.getItem('inputDataAPI');
-
-                if (!storedData) {
-                    alert('No tienes API configurada');
-                    return;
-                }
-
-                var prompt = "Traduce el siguiente texto al valenciano donde detallo un título y una fecha. La respuesta solo debe incluir el texto traducido: 'titulo: " + document.getElementById('titulo').value + "; fechas: " + document.getElementById('fechas_text').value; + ";'";
-
-                console.log(prompt);
-                // Show spinner
-                var spinner = $('<div class="spinner-border text-primary" role="status" style="position: fixed; top: 50%; left: 50%; z-index: 9999;"><span class="sr-only">Loading...</span></div>');
-                $('body').append(spinner);
-                //AIzaSyCpD8pTzbtLEq2E89Hk8huSl_6cuXZ4Qy8
-                $.ajax({
-                    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="+storedData,
-                    type: "POST",
-                    contentType: "application/json",
-                    data: JSON.stringify({
-                        contents: [{
+            console.log(prompt);
+            // Show spinner
+            var spinner = $('<div class="spinner-border text-primary" role="status" style="position: fixed; top: 50%; left: 50%; z-index: 9999;"><span class="sr-only">Loading...</span></div>');
+            $('body').append(spinner);
+            //AIzaSyCpD8pTzbtLEq2E89Hk8huSl_6cuXZ4Qy8
+            $.ajax({
+                url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + storedData,
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    contents: [{
                         parts: [{
                             text: prompt
                         }]
-                        }]
-                    }),
-                    success: function(response) {
-                        console.log(response);
-                        var resposta = response.candidates[0].content.parts[0].text;
-                        var parts = resposta.split(';');
-                        var titulo = parts[0].replace('Títol: ', '').trim();
-                        var fechas = parts[1].replace('Dates: ', '').trim();
-                        document.getElementById('titulo_va').value = titulo;
-                        document.getElementById('fechas_text_va').value = fechas;
-                        fechas_va(fechas);
-                        titular_va(titulo);
-                    },
-                    error: function(xhr, status, error) {
-                        console.error("Error: " + error);
-                        alert("Error: " + error);
-                    },
-                    complete: function() {
-                        // Hide spinner
-                        spinner.remove();
-                    }
-                });              
+                    }]
+                }),
+                success: function (response) {
+                    console.log(response);
+                    var resposta = response.candidates[0].content.parts[0].text;
+                    var parts = resposta.split(';');
+                    var titulo = parts[0].replace('Títol: ', '').trim();
+                    var fechas = parts[1].replace('Dates: ', '').trim();
+                    document.getElementById('titulo_va').value = titulo;
+                    document.getElementById('fechas_text_va').value = fechas;
+                    fechas_va(fechas);
+                    titular_va(titulo);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error: " + error);
+                    alert("Error: " + error);
+                },
+                complete: function () {
+                    // Hide spinner
+                    spinner.remove();
+                }
+            });
 
-            }
-        
+        }
+
         // document.addEventListener('DOMContentLoaded', function() {
         //     loadSVG('PROVA-plano.svg');
         //     loadSVG2('PROVA-plano-valencia.svg');
         // });
 
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-                loadSVG('PROVA-plano.svg');
-                loadSVG2('PROVA-plano-valencia.svg');
-            
+            loadSVG('BANER-castella.svg');
+            loadSVG2('BANER-valencia.svg');
+
         });
 
         // // Load the SVG file and modify the text
@@ -740,4 +771,5 @@
         // loadSVG2('PROVA-plano-valencia.svg');
     </script>
 </body>
+
 </html>
