@@ -168,10 +168,9 @@ Els ponents han de donar-se d’alta al procediment **PROPER** i enviar-nos el c
 #### **Proposta de la formació**
 Uan vegada definida la formació, s'omli en un **full de càlcul** tota la informació bàsica: títol del curs, durada, horaris previstos, ponents, nombre de participants estimat i necessitats logístiques; indicant la **campanya a la qual pertany el curs** (SKILLS, FSE o PA), així com la condició de si és gratuït o amb cost. Açò es realitza per a que el cap de servei de formació i orientació o el subdirector general, ens autoritzen a realitzar la formació.
 
-[:material-microsoft-excel: Full de càlcul de les formacions]( {{enlaces.full_calcul_formacions}} ){: .md-button target="_blank"}
+[:material-microsoft-excel: Full de càlcul de les formacions 2025]( {{enlaces.full_calcul_formacions_25}} ){: .md-button target="_blank"}  
+[:material-microsoft-excel: Full de càlcul de les formacions 2026]( {{enlaces.full_calcul_formacions_26}} ){: .md-button target="_blank"}
 
-!!!info "A tenir en compte"
-    Este full de càlcul es per a formacions del curs 24-25, estem a la espera de possar el full de càlcul del curs 25-26.
 
 ---
 
