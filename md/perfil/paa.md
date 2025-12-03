@@ -63,7 +63,7 @@ Personal docent i personal tecnicoeducatiu amb destinació en centres educatius 
 Personal docent i personal tecnicoeducatiu que preste servicis tècnics de suport educatiu als centres indicats en l'apartat anterior. 
 Personal que haja finalitzat els graus i màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les borses de personal docent de la Conselleria d'Educació, Cultura, Universitats i Ocupació i este personal no supose més del 50% de participació en l'activitat. 
 REQUISITS ESPECÍFICS 
-<b>Professorat de Formació Professional de la família d'Informàtica i Comunicacions.</b> 
+  Professorat de Formació Professional de la família d'Informàtica i Comunicacions.
 ```
 **Castellà**
 ```html
@@ -71,7 +71,7 @@ Personal docente y personal técnico-educativo con destino en centros educativos
 Personal docente y personal técnico-educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior. 
 Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la Conselleria de Educación, Cultura, Universidades y Empleo y este personal no suponga más del 50% de participación en la actividad. 
 REQUISITOS ESPECÍFICOS 
-<b>Profesorado de Formación Profesional de la familia de Informática y Comunicaciones.</b> 
+  Profesorado de Formación Profesional de la familia de Informática y Comunicaciones.
 
 ```
 
