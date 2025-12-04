@@ -72,7 +72,7 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 -   **Tipo de acción**
     - **Presencial**: La formació es realitza completament en un lloc físic, amb interacció directa entre el professorat i les persones participants. Després en Gesform en el apartat **Lloc de realització** hi ha que indicar la ubicació física d'on es fa (p. ex. Universitat d’Alacant)
     - **A distància**: La formació es du a terme de manera en línia (síncrona o asíncrona), sense necessitat d’assistir físicament. Després en Gesform en el apartat **Lloc de realització** hi ha que possar **ADIST**.
-    - **Semipresencial**: És una formació que combina sessions presencials (on l’alumnat i el professorat coincideixen en un lloc físic) amb activitats/sessions a distància (síncrones o asíncrones). Després en Gesform en el apartat **Lloc de realització** hi ha que possar **ADIST**.
+    - **Semipresencial**: És una formació que combina sessions presencials (on l’alumnat i el professorat coincideixen en un lloc físic) amb activitats/sessions a distància (síncrones o asíncrones). Després en Gesform en el apartat **Lloc de realització** hi ha que possar **SEMIPRE**.
 !!! info "Observacions"
     En observacions es podrà explicar si les sessions són síncrones i/o asíncrones i tot allò que es considere rellevant. 
 
@@ -86,7 +86,7 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 -   **Lugar Realización** 
     - Si el curs és ***Presencial*** hi ha que indicar la **ubicació física** d'on es fa (p. ex. Universitat d’Alacant)
     - Si el curs és ***A distància*** hi ha que possar **ADIST**.
-    - Si el curs és ***Semipresencial*** hi ha que possar **ADIST**.
+    - Si el curs és ***Semipresencial*** hi ha que possar **SEMIPRE**.
 !!! info "Observacions"
     En observacions es podrà explicar si les sessions són síncrones i/o asíncrones i tot allò que es considere rellevant. 
 
