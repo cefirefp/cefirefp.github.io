@@ -167,7 +167,7 @@ Una vegada estiga fet, segons si la formació es SKILL o ERASMUS, el posarem en 
 ---
 
 
-## 📌 8. Passar el curs a certificació en Gesform
+## 📌 9. Passar el curs a certificació en Gesform
 
 Quan tot estiga complet:
 
@@ -186,7 +186,7 @@ En el següent enllaç pots core com es fa en el tutorial de gesform --> [Passar
 
 ---
 
-## 🧩 9. Actualitzar el Kanban: Validació final
+## 🧩 10. Actualitzar el Kanban: Validació final
 
 Perquè Gloria i Alfredo validen el tancament:
 
