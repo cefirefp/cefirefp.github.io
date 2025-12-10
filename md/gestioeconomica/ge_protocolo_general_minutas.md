@@ -3,7 +3,7 @@
 ## Introducción
 
 
-La **Generalitat Valenciana**, a través de la Conselleria de Educación, Cultura, Universidades y Empleo, establece las pautas para justificar el pago de los cursos organizados por el CEFIRE. Este documento describe los procedimientos y requisitos necesarios.
+La **Generalitat Valenciana**, a través de la Conselleria de Educación, Cultura y Universidades, establece las pautas para justificar el pago de los cursos organizados por el CEFIRE. Este documento describe los procedimientos y requisitos necesarios.
 
 ---
 
@@ -82,4 +82,5 @@ graph LR
   F --> B
   E --> H[Archivar en TEAMS]
 ```
+
 

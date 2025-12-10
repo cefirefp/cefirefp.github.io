@@ -3,7 +3,7 @@
 Documentación Económica para el Pago de los Cursos - 2025
 
 ## Introducción
-Las facturas relacionadas con los cursos de formación, mantenimiento y gastos de los CEFIRES deben gestionarse según los procedimientos establecidos por la Conselleria de Educación, Cultura, Universidades y Empleo.
+Las facturas relacionadas con los cursos de formación, mantenimiento y gastos de los CEFIRES deben gestionarse según los procedimientos establecidos por la Conselleria de Educación, Cultura y Universidades.
 
 !!! important "Tramitación obligatoria en GVA CONTRATOS"
     TODAS las facturas asociadas a un curso de formación se tramitarán mediante el aplicativo **GVA CONTRATOS** y se gestionarán desde la **SDGFP**. Es imprescindible enviar toda la documentación requerida **antes del inicio de la formación** o **prestación del servicio**.
