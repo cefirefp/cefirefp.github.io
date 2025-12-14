@@ -1080,7 +1080,7 @@
             // Show spinner
             var spinner = $('<div class="spinner-border text-primary" role="status" style="position: fixed; top: 50%; left: 50%; z-index: 9999;"><span class="sr-only">Loading...</span></div>');
             $('body').append(spinner);
-            //AIzaSyCpD8pTzbtLEq2E89Hk8huSl_6cuXZ4Qy8
+            
             $.ajax({
                 url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + storedData,
                 type: "POST",
