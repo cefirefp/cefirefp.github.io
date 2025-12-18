@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Página Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <h1>Generador de Pàgina Web per al fòrum d'Aules</h1>
+        <form id="dataForm">
+            <div class="form-group">
+                <label for="aules_sabor" data-toggle="tooltip" title="Selecciona el sabor de Aules.">Sabor d'Aules:</label>
+                <select class="form-control" id="aules_sabor" required>
+                    <option value="fp">FP (Formación Profesional)</option>
+                    <option value="semipresencial">FP Semipresencial</option>
+                    <option value="infantil">Infantil</option>
+                    <option value="primaria">Primària</option>
+                    <option value="eso46">ESO València</option>
+                    <option value="eso03">ESO Alacant</option>
+                    <option value="eso12">ESO Castelló</option>
+                    <option value="batxillerat">Batxillerat</option>
+                    <option value="fpa">FPA (Formación Profesional Adaptada)</option>
+                    <option value="especial">Especial</option>
+                    <option value="eoi">EOI (Escuela Oficial de Idiomas) Virtual</option>
+                    <option value="docent">Docent</option>
+                    <option value="ed">CEED</option>   
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="forum_general_id" data-toggle="tooltip" title="És el Id que has d'extraure al final de la url del fòrum.">Id del fòrum:</label>
+                <input type="number" class="form-control" id="forum_general_id" required>
+            </div>
+            <div class="form-group">
+                <label for="id_curs" data-toggle="tooltip" title="És el Id que has d'extraure al final de la url del curs.">Id del curs:</label>
+                <input type="number" class="form-control" id="forum_general_id" required>
+            </div>
+            <div class="form-group">
+                <label for="prompt" data-toggle="tooltip" title="És el prompt que es posarà al començament de la pregunta que es realitze al fòrum. Acaba este prompt amb. La qüestió és:">Prompt:</label>
+                <textarea class="form-control" id="prompt" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="apikey" data-toggle="tooltip" title="Introdueix la clau API ací. És la que has aconseguit de Google AI Studio">API Key:</label>
+                <input type="text" class="form-control" id="apikey" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Generar i Descarregar</button>
+            <div>
+                <br>
+                    <p>Recorda que has d'afegir aquest codi a la petició:</p>
+                    <p id="msgfinal">
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <footer class="fixed-bottom bg-light text-center py-3">
+        <p class="mb-0">Pàgina creada per la Direcció General de Formació Professional per al curs d'Introducció a la IA.</p>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $('#dataForm').on('submit', function(event) {
+                event.preventDefault();
+                
+                const forum_general_id = $('#forum_general_id').val();
+                const prompt = $('#prompt').val();
+                const apiKey = $('#apikey').val();
+                const id_curs = $('#id_curs').val();
+                const aules_sabor = $('#aules_sabor').val();
+
+                // Generar el código HTML con los valores proporcionados
+                const generatedHtml = `&lt;!DOCTYPE html&gt;&lt;html lang=\"es\"&gt;&lt;head&gt;&lt;meta charset=\"UTF-8\"&gt;&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;&lt;title&gt;Contesta fòrums&lt;/title&gt;&lt;link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\"&gt;&lt;script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"&gt;&lt;/script&gt;&lt;script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js\"&gt;&lt;/script&gt; &lt;script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"&gt;&lt;/script&gt;&lt;script&gt;var response;var cookie;var elements;var doc;var discussionId;var id_pregunta_foro;var sesskey;const forum_general_id = ${forum_general_id};const prompt = \"${prompt}\";const apiKey = \'${apiKey}\';const id_curs = ${id_curs};function getQueryParams() {const params = new URLSearchParams(window.location.search);sesskey = params.get(\'sesskey\');cookie = params.get(\'cookie\');}async function makeRequest(resposta, post_id2) {const url = \'https://aules.edu.gva.es/${aules_sabor}/lib/ajax/service.php?sesskey=\'+sesskey+\'&info=mod_forum_add_discussion_post\';const data = [{index: 0,methodname: \"mod_forum_add_discussion_post\",args: {postid: post_id2,message: resposta,messageformat: 0,subject: \"Resposta IA\",options: [{ name: \"private\", value: false },{ name: \"topreferredformat\", value: true }]}}];try {const response = await fetch(url, {method: \'POST\',headers: {\'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0\',\'Accept\': \'application/json, text/javascript, */*; q=0.01\',\'Accept-Language\': \'zh-TW,es-ES;q=0.8,es;q=0.6,en-US;q=0.4,en;q=0.2\',\'Accept-Encoding\': \'gzip, deflate, br, zstd\',\'Content-Type\': \'application/json\',\'X-Requested-With\': \'XMLHttpRequest\',\'Origin\': \'https://aules.edu.gva.es\',\'Connection\': \'keep-alive\',\'Referer\': \'https://aules.edu.gva.es/${aules_sabor}/mod/forum/discuss.php?d=\'+post_id2,\'Cookie\': cookie,\'Sec-Fetch-Dest\': \'empty\',\'Sec-Fetch-Mode\': \'cors\',\'Sec-Fetch-Site\': \'same-origin\',\'Priority\': \'u=0\'},body: JSON.stringify(data),credentials: \'include\'});if (response.ok) {const jsonResponse = await response.json();console.log(\'Éxito:\', jsonResponse);} else {console.error(\'Error en la petición:\', response.statusText);}} catch (error) {console.error(\'Error:\', error);}}async function fetchDOM(url_fetch) {try {getQueryParams();const response = await fetch(url_fetch, {method: \'GET\',headers: {\'Accept\': \'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\',\'Accept-Language\': \'es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7\',\'Connection\': \'keep-alive\',\'Cookie\': cookie,\'Referer\': \'https://aules.edu.gva.es/${aules_sabor}/course/view.php?id=${id_curs}\',\'Sec-Fetch-Dest\': \'document\',\'Sec-Fetch-Mode\': \'navigate\',\'Sec-Fetch-Site\': \'same-origin\',\'Sec-Fetch-User\': \'?1\',\'Upgrade-Insecure-Requests\': \'1\',\'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\',\'sec-ch-ua\': \'\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"\',\'sec-ch-ua-mobile\': \'?0\',\'sec-ch-ua-platform\': \'\"Windows\"\'},credentials: \'include\'});if (response.ok) {const text = await response.text();const parser = new DOMParser();doc = parser.parseFromString(text, \'text/html\');processDOM(doc);} else {console.error(\'Error en la petició:\', response.statusText);}} catch (error) {console.error(\'Error:\', error);}}function processDOM(doc) {elements = doc.querySelectorAll(\'.post-content-container\');if (elements.length == 1) {const content = elements[0].innerText;var postId = 0;const element = doc.querySelector(\'a[data-post-id]\');if (element) {postId = element.getAttribute(\'data-post-id\');console.log(postId);} else {console.log(\'Elemento no encontrado.\');}envia_pregunta(content, postId);}}function envia_pregunta(question, post_id_resposta) {const url = \"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=\"+apiKey;const data = {contents: [{parts: [{ text: prompt +\" La pregunta es: \"+ question }]}]};$.ajax({url: url,type: \'POST\',contentType: \'application/json\',data: JSON.stringify(data),success: function(response) {answer = response.candidates[0].content.parts[0].text;},error: function(error) {console.error(\'Error:\', error);},complete: function() {makeRequest(answer, post_id_resposta);}});}async function fetchDOM2() {getQueryParams();try {response = await fetch(\'https://aules.edu.gva.es/${aules_sabor}/mod/forum/view.php?id=\'+forum_general_id, {method: \'GET\',headers: {\'Accept\': \'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\',\'Accept-Language\': \'es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7\',\'Connection\': \'keep-alive\',\'Cookie\': cookie,\'Referer\': \'https://aules.edu.gva.es/${aules_sabor}/course/view.php?id=${id_curs}\',\'Sec-Fetch-Dest\': \'document\',\'Sec-Fetch-Mode\': \'navigate\',\'Sec-Fetch-Site\': \'same-origin\',\'Sec-Fetch-User\': \'?1\',\'Upgrade-Insecure-Requests\': \'1\',\'User-Agent\': \'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36\',\'sec-ch-ua\': \'\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"\',\'sec-ch-ua-mobile\': \'?0\',\'sec-ch-ua-platform\': \'\"Windows\"\'},credentials: \'include\'});if (response.ok) {const text = await response.text();const parser = new DOMParser();doc = parser.parseFromString(text, \'text/html\');processDOM2(doc);} else {console.error(\'Error en la petició:\', response.statusText);}} catch (error) {console.error(\'Error:\', error);}}function processDOM2(doc) {rows = doc.querySelectorAll(\'tbody tr\');let progress = 0;numero_preguntes = rows.length;rows.forEach(row =&gt; {discussionId = row.getAttribute(\'data-discussionid\');fetchDOM(\'https://aules.edu.gva.es/${aules_sabor}/mod/forum/discuss.php?d=\'+discussionId);progress += 100/numero_preguntes;$(\'#progressBar\').css(\'width\', progress + \'%\').text(Math.round(progress) + \'%\'); });$(\'#completionMessage\').text(\'Ja he acabat de respondre preguntes del fòrum\');}function inici() {fetchDOM2();}window.onload = inici();&lt;/script&gt;&lt;/head&gt;&lt;body class=\"container d-flex justify-content-center align-items-center vh-100\"&gt;&lt;div class=\"text-center\"&gt;&lt;h1&gt;Resolució de preguntes del fòrum&lt;/h1&gt;&lt;div class=\"progress\" style=\"height: 30px; width: 100%;\"&gt;&lt;div id=\"progressBar\" class=\"progress-bar\" role=\"progressbar\" style=\"width: 0%;\"&gt;0%&lt;/div&gt;&lt;/div&gt;&lt;div id=\"completionMessage\" class=\"mt-3\"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;`;
+
+                // Crear un enlace de descarga
+                const blob = new Blob([generatedHtml.replace(/&lt;/g, '<').replace(/&gt;/g, '>')], { type: 'text/html;charset=utf-8' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = 'pagina_generada.html';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+
+                var resultat = '<button onclick="window.open(`[PÀGINA CARREGADA EN AULES]?sesskey=${encodeURIComponent(M.cfg.sesskey)}&amp;cookie=${encodeURIComponent(document.cookie)}`, \'newwindow\', \'width=800,height=600\')" type="button" class="btn btn-primary" style="padding: 20px;">Polsa ací</button>';
+
+                $('#msgfinal').text(resultat);
+            });
+        });
+    </script>
+</body>
+</html>

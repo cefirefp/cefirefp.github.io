@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creador de Baners</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.min.js"></script>
+    <!-- <style>
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('RTL-MediaPro-Light.ttf') format('truetype'),
+                url('RTL-MediaPro-Light.woff') format('woff');
+            src: url('RTL-MediaPro-Regular.ttf') format('truetype'),
+                url('RTL-MediaPro-Regular.woff') format('woff');
+            src: url('RTL-MediaPro-Medium.ttf') format('truetype'),
+                url('RTL-MediaPro-Medium.woff') format('woff');
+            /* Add other formats like woff2, eot, svg if needed */
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style> -->
+
+    <style>
+        .svg-container {
+            width: 100%;
+            height: 100vh;
+            /* You can adjust the height as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .svg-object {
+            width: 100%;
+            height: 100%;
+        }
+
+        .svg-object2 {
+            width: 100%;
+            height: 100%;
+        }
+
+        .dropZone {
+            width: 300px;
+            height: 200px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #aaa;
+            margin: 20px auto;
+        }
+
+        #dropZone1.hover {
+            border-color: #aaa;
+            color: #333;
+        }
+
+        #dropZone2.hover {
+            border-color: #aaa;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pb-5 mb-5">
+        <h1 class="text-center my-4">Creador de Baners</h1>
+        <div id="svg-preview" class="svg-object"></div><br>
+        <div id="svg-preview-va" class="svg-object"></div><br>
+        <div style="display: flex; justify-content: space-around; align-items: center; gap: 10px;">
+            <div id="svg-preview-inst" class="svg-object2"></div>
+            <div id="svg-preview-inst-va" class="svg-object2"></div>
+        </div>
+
+        <div class="container mt-5">
+            <!-- Inputs -->
+            <label for="checkboxes">Tipo de curso</label><br>
+            <div class="d-flex justify-content-center">
+                <div class="form-group form-check-inline" id="checkboxes">
+                    <div class="form-check">
+                        <input onclick="curso('Curso')" type="checkbox" class="form-check-input" id="checkbox11">
+                        <label class="form-check-label" for="checkbox1">Curso</label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="curso('Jornada')" type="checkbox" class="form-check-input" id="checkbox22">
+                        <label class="form-check-label" for="checkbox2">Jornada</label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="curso('Taller')" type="checkbox" class="form-check-input" id="checkbox33">
+                        <label class="form-check-label" for="checkbox3">Taller</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="container mt-5">
+            <!-- Inputs -->
+            <div class="form-group d-inline-block mr-3">
+                <label for="colorPicker1">Selecciona color principal</label>
+                <input type="color" class="form-control" id="colorPicker1" value="#0a3c63" oninput="Color(this.value)">
+            </div>
+            <div class="form-group d-inline-block">
+                <label for="colorPicker2">Selecciona color fondo</label>
+                <input type="color" class="form-control" id="colorPicker2" value="#0a3c63" oninput="Color2(this.value)">
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <div id="dropZone1" class="dropZone">Arrastra y suelta la imagen izquierda superior</div>
+                <div id="dropZone2" class="dropZone">Arrastra y suelta la imagen derecha inferior</div>
+            </div>
+
+            <div class="form-group">
+                <label for="input1">Título</label>
+                <input oninput="this.value = this.value.toUpperCase(); titular(this.value)" type="text"
+                    class="form-control" id="titulo" placeholder="Ingresa título...">
+            </div>
+
+            <div class="form-group">
+                <label for="input1">Títol en valencià</label>
+                <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text"
+                    class="form-control" id="titulo_va" placeholder="Ingressa títol...">
+            </div>
+
+            <div class="form-group">
+                <label for="input2">Fechas</label>
+                <input
+                    oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas(this.value)"
+                    type="text" class="form-control" id="fechas_text" placeholder="Ingresa las fechas...">
+                <label for="input2">Dates (en valencià)</label>
+                <input
+                    oninput="this.value = this.value.charAt(0).toUpperCase() + this.value.slice(1); fechas_va(this.value)"
+                    type="text" class="form-control" id="fechas_text_va" placeholder="Ingressa les dates...">
+                <div class="form-check">
+                    <input onclick="semipresencial()" type="checkbox" class="form-check-input" id="checkbox3s" checked>
+                    <label class="form-check-label" for="checkbox3s">Online/Presencial</label>
+                </div>
+                <div class="form-check">
+                    <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input"
+                        id="checkbox3sincrones">
+                    <label class="form-check-label" for="checkbox3s">Amb sessions síncrones</label>
+                </div>
+                <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
+                <input oninput="presencial(this.value)" type="text" class="form-control" id="presencial"
+                    placeholder="Ingressa lloc de realizació...">
+            </div>
+            <div class="form-group">
+                <label for="input3">Horas / Hores</label>
+                <input oninput="horas(this.value)" type="text" class="form-control" id="horas"
+                    placeholder="Ingresa horas...">
+            </div>
+
+
+            <!-- Checkboxes -->
+            <label for="checkboxes">Logotipos</label><br>
+            <div class="d-flex justify-content-center">
+                <div class="form-group form-check-inline" id="checkboxes">
+                    <div class="form-check">
+                        <input onclick="cambiaLogo()" type="checkbox" class="form-check-input" id="checkbox1">
+                        <label class="form-check-label" for="checkbox1">Min+FSE+Cefire+FP</label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="cambiaLogo2()" type="checkbox" class="form-check-input" id="checkbox2">
+                        <label class="form-check-label" for="checkbox2">Min+Gen+Cefire+FP</label>
+                    </div>
+                    <div class="form-check">
+                        <input onclick="cambiaLogo3()" type="checkbox" class="form-check-input" id="checkbox3">
+                        <label class="form-check-label" for="checkbox3">Gen+Cefire+FP</label>
+                    </div>
+                    <!-- 
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="checkbox4">
+                                <label class="form-check-label" for="checkbox4">Checkbox 4</label>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-3">
+            <button class="btn btn-success mx-2" onclick="descarrega_tot()">Descargar PNG</button>
+            <button class="btn btn-primary mx-2" onclick="descargasvg()">Descarga SVG</button>
+            <button class="btn btn-danger mx-2" onclick="descarrega_tot_inst()">Descargar PNG Instagram</button>
+            <button class="btn btn-secondary mx-2" onclick="descargasvg_inst()">Descarga SVG Instagram</button>
+
+        </div>
+
+
+        <canvas id="canvas" style="display:none;"></canvas>
+        <canvas id="canvas_va" style="display:none;"></canvas>
+        <div id="pngContainer"></div>
+    </div>
+    <script>
+        var svgElement = null;
+        var svgElement_va = null;
+        var svgElement_instagram = null;
+        var svgElement_instagram_va = null;
+
+        //Dropzone1
+
+        const dropZone1 = document.getElementById('dropZone1');
+        //const base64Output = document.getElementById('base64Output');
+
+        dropZone1.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone1.classList.add('hover');
+        });
+
+        dropZone1.addEventListener('dragleave', () => {
+            dropZone1.classList.remove('hover');
+        });
+
+        dropZone1.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone1.classList.remove('hover');
+
+            const file1 = e.dataTransfer.files[0];
+            if (file1) {
+                const reader1 = new FileReader();
+
+                reader1.onloadend = () => {
+                    const base64String = reader1.result.replace('data:', '').replace(/^.+,/, '');
+                    //base64Output.textContent = base64String;
+                    const newImageBase64 = "data:image/png;base64," + base64String;
+                    const image = svgElement.querySelector('#image65');
+                    const image_va = svgElement_va.querySelector('#image65');
+                    //Instagram
+                    const image_instagram = svgElement_instagram.querySelector('#image65inst');
+                    const image_instagram_va = svgElement_instagram_va.querySelector('#image65inst_va');
+
+                    image.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+                    image_va.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+                    image_instagram.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+                    image_instagram_va.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+
+                }
+
+                reader1.readAsDataURL(file1);
+            }
+        });
+
+        //Dropzone2
+
+        const dropZone2 = document.getElementById('dropZone2');
+        //const base64Output = document.getElementById('base64Output');
+
+        dropZone2.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dropZone2.classList.add('hover');
+        });
+
+        dropZone2.addEventListener('dragleave', () => {
+            dropZone2.classList.remove('hover');
+        });
+
+        dropZone2.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dropZone2.classList.remove('hover');
+
+            const file2 = e.dataTransfer.files[0];
+            if (file2) {
+                const reader2 = new FileReader();
+
+                reader2.onloadend = () => {
+                    const base64String = reader2.result.replace('data:', '').replace(/^.+,/, '');
+                    //base64Output.textContent = base64String;
+                    const newImageBase64 = "data:image/png;base64," + base64String;
+                    const image2 = svgElement.querySelector('#image65-0');
+                    const image2_va = svgElement_va.querySelector('#image65-0');
+                    image2.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+                    image2_va.setAttributeNS('http://www.w3.org/1999/xlink', 'href', newImageBase64);
+                }
+
+                reader2.readAsDataURL(file2);
+            }
+        });
+
+
+        // Funcions
+
+
+        function descargasvg() {
+            // Descargar SVG en castellano
+            const svgElement2 = document.getElementById('svg-preview').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
+            const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'baner_castella.svg';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            // Descargar SVG en valenciano
+            const svgElement2_va = document.getElementById('svg-preview-va').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2_va.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+            const blob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(blob_va);
+            const a_va = document.createElement('a');
+            a_va.href = url_va;
+            a_va.download = 'baner_valencia.svg';
+            document.body.appendChild(a_va);
+            a_va.click();
+            document.body.removeChild(a_va);
+            URL.revokeObjectURL(url_va);
+        }
+
+        //Instagram
+
+        function descargasvg_inst() {
+            // Descargar SVG en castellano
+            const svgElement2 = document.getElementById('svg-preview-inst').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
+            const blob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'baner_castella_instagram.svg';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            // Descargar SVG en valenciano
+            const svgElement2_va = document.getElementById('svg-preview-inst-va').firstElementChild.cloneNode(true);
+            // Remove all elements with style visibility:hidden
+            Array.from(svgElement2_va.querySelectorAll('[style*="visibility:hidden"]')).forEach(el => el.parentNode.removeChild(el));
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+            const blob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(blob_va);
+            const a_va = document.createElement('a');
+            a_va.href = url_va;
+            a_va.download = 'baner_valencia_instagram.svg';
+            document.body.appendChild(a_va);
+            a_va.click();
+            document.body.removeChild(a_va);
+            URL.revokeObjectURL(url_va);
+        }
+
+
+
+
+
+        function dividirCadena(texto) {
+            if (texto.length <= 32) {
+                return [texto];
+            }
+
+            let indice = 32;
+
+            while (indice > 0 && texto[indice] !== ' ') {
+                indice--;
+            }
+
+            if (indice === 0) {
+                indice = 32; // Si no hay espacio, dividimos en el índice 29
+            }
+
+            const primeraParte = texto.substring(0, indice);
+            const segundaParte = texto.substring(indice).trim();
+
+            return [primeraParte, segundaParte];
+        }
+
+        //titulo1lin
+        //titulo2lin1
+        //titulo2lin2
+
+
+        function titular(t) {
+            if (t.length > 66) {
+                alert("El titular es demasiado largo");
+                return;
+            }
+
+            const textElement = document.getElementById('texto1_1l');
+            const textElement2 = document.getElementById('texto1_2la');
+            const textElement3 = document.getElementById('texto1_2lb');
+            const ano1 = document.getElementById('ano1');
+            const ano2 = document.getElementById('ano2');
+
+            if (t.length <= 35) {
+                textElement.setAttribute('style', 'visibility:visible');
+                textElement2.setAttribute('style', 'visibility:hidden');
+                textElement3.setAttribute('style', 'visibility:hidden');
+                ano2.setAttribute('style', 'visibility:hidden');
+                ano1.setAttribute('style', 'visibility:visible');
+                if (textElement) {
+                    textElement.textContent = t;
+                }
+            } else {
+                textElement.setAttribute('style', 'visibility:hidden');
+                textElement2.setAttribute('style', 'visibility:visible');
+                textElement3.setAttribute('style', 'visibility:visible');
+                ano2.setAttribute('style', 'visibility:visible');
+                ano1.setAttribute('style', 'visibility:hidden');
+                const [primeraParte, segundaParte] = dividirCadena(t);
+
+                if (textElement) {
+                    textElement2.textContent = primeraParte;
+                }
+                textElement3.textContent = segundaParte;
+            }
+
+
+            // instagram
+            const textElementinst = document.getElementById('text1inst');
+            const textElementinst2 = document.getElementById('text2inst');
+
+            textElementinst.setAttribute('style', 'visibility:visible');
+            textElementinst2.setAttribute('style', 'visibility:visible');
+            if (t.length <= 40) {
+                textElementinst.setAttribute('style', 'visibility:visible');
+                textElementinst2.setAttribute('style', 'visibility:hidden');
+                if (textElementinst) {
+                    textElementinst.textContent = t;
+                }
+            } else {
+                textElementinst.setAttribute('style', 'visibility:visible');
+                textElementinst2.setAttribute('style', 'visibility:visible');
+                const [primeraParte, segundaParte] = dividirCadena(t);
+
+                if (textElementinst) {
+                    textElementinst.textContent = segundaParte;
+                }
+                textElementinst2.textContent = primeraParte;
+            }
+
+        }
+
+
+        function titular_va(t) {
+
+            if (t.length > 66) {
+                alert("El titular es demasiado largo");
+                return;
+            }
+
+            const textElement_va = document.getElementById('texto1_1l_va');
+            const textElement2_va = document.getElementById('texto1_2la_va');
+            const textElement3_va = document.getElementById('texto1_2lb_va');
+            const ano1_va = document.getElementById('ano1_va');
+            const ano2_va = document.getElementById('ano2_va');
+
+            if (t.length <= 35) {
+                textElement_va.setAttribute('style', 'visibility:visible');
+                textElement2_va.setAttribute('style', 'visibility:hidden');
+                textElement3_va.setAttribute('style', 'visibility:hidden');
+                ano2_va.setAttribute('style', 'visibility:hidden');
+                ano1_va.setAttribute('style', 'visibility:visible');
+                if (textElement_va) {
+                    textElement_va.textContent = t;
+                }
+            } else {
+                textElement_va.setAttribute('style', 'visibility:hidden');
+                textElement2_va.setAttribute('style', 'visibility:visible');
+                textElement3_va.setAttribute('style', 'visibility:visible');
+                ano2_va.setAttribute('style', 'visibility:visible');
+                ano1_va.setAttribute('style', 'visibility:hidden');
+                const [primeraParte_va, segundaParte_va] = dividirCadena(t);
+
+                if (textElement_va) {
+                    textElement2_va.textContent = primeraParte_va;
+                }
+                textElement3_va.textContent = segundaParte_va;
+            }
+            //Instagram
+            const textElementinst_va = document.getElementById('text1inst_va');
+            const textElementinst2_va = document.getElementById('text2inst_va');
+
+            textElementinst_va.setAttribute('style', 'visibility:visible');
+            textElementinst2_va.setAttribute('style', 'visibility:visible');
+            if (t.length <= 40) {
+                textElementinst_va.setAttribute('style', 'visibility:visible');
+                textElementinst2_va.setAttribute('style', 'visibility:hidden');
+                if (textElementinst_va) {
+                    textElementinst_va.textContent = t;
+                }
+            } else {
+                textElementinst_va.setAttribute('style', 'visibility:visible');
+                textElementinst2_va.setAttribute('style', 'visibility:visible');
+                const [primeraParte, segundaParte] = dividirCadena(t);
+
+                if (textElementinst_va) {
+                    textElementinst_va.textContent = segundaParte;
+                }
+                textElementinst2_va.textContent = primeraParte;
+            }
+        }
+
+
+        function curso(c) {
+            const horasElement = document.getElementById('cursot');
+            const horasElement2 = document.getElementById('cursotva');
+            //Instagram
+            const texto_curso_instagram = document.getElementById('cursotinst');
+            const texto_curso_instagram_va = document.getElementById('cursotinst_va');
+
+
+            if (horasElement) {
+                horasElement.textContent = c;
+                texto_curso_instagram.textContent = c;
+            }
+
+            if (horasElement2) {
+                if (c == "Curso") {
+                    horasElement2.textContent = "Curs";
+                    texto_curso_instagram_va.textContent = "Curs";
+                    document.getElementById('checkbox22').checked = false;
+                    document.getElementById('checkbox33').checked = false;
+                } else if (c == "Jornada") {
+                    horasElement2.textContent = "Jornada";
+                    texto_curso_instagram_va.textContent = "Jornada";
+                    document.getElementById('checkbox11').checked = false;
+                    document.getElementById('checkbox33').checked = false;
+                } else if (c == "Taller") {
+                    horasElement2.textContent = "Taller";
+                    texto_curso_instagram_va.textContent = "Taller";
+                    document.getElementById('checkbox22').checked = false;
+                    document.getElementById('checkbox11').checked = false;
+                }
+            }
+        }
+
+
+
+        function horas(h) {
+            const horasElement = document.getElementById('horas');
+            const horasElement1 = document.getElementById('horas1');
+            const horasElement_va = document.getElementById('horas_va');
+            const horasElement1_va = document.getElementById('horas1_va');
+            //Instagram
+            const texto_horas_instagram = document.getElementById('horasinst');
+            const texto_horas_instagram1 = document.getElementById('horas1inst');
+            const texto_horas_instagram_va = document.getElementById('horasinst_va');
+            const texto_horas_instagram1_va = document.getElementById('horas1inst_va');
+
+            if (horasElement) {
+                horasElement.textContent = h + ' horas';
+                horasElement1.textContent = h + ' horas';
+                horasElement_va.textContent = h + ' hores';
+                horasElement1_va.textContent = h + ' hores';
+                //Instagram
+                texto_horas_instagram.textContent = h + ' horas';
+                texto_horas_instagram1.textContent = h + ' horas';
+                texto_horas_instagram_va.textContent = h + ' hores';
+                texto_horas_instagram1_va.textContent = h + ' hores';
+
+            }
+        }
+
+        function fechas(f) {
+            const fElement = document.getElementById('fechas');
+            const fElement1 = document.getElementById('fechas1');
+            //Instagram
+            const texto_fechas_instagram = document.getElementById('fechasinst');
+            const texto_fechas_instagram1 = document.getElementById('fechas1inst');
+
+
+
+            if (fElement) {
+                fElement.textContent = f;
+                fElement1.textContent = f;
+                //Instagram
+                texto_fechas_instagram.textContent = f;
+                texto_fechas_instagram1.textContent = f;
+
+
+            }
+        }
+
+        function fechas_va(f) {
+            const fElement_va = document.getElementById('fechas_va');
+            const fElement1_va = document.getElementById('fechas1_va');
+
+            const texto_fechas_instagram_va = document.getElementById('fechasinst_va');
+            const texto_fechas_instagram1_va = document.getElementById('fechas1inst_va');
+            if (fElement_va) {
+                fElement_va.textContent = f;
+                fElement1_va.textContent = f;
+
+                texto_fechas_instagram_va.textContent = f;
+                texto_fechas_instagram1_va.textContent = f;
+            }
+        }
+
+
+
+
+        function Color(col) {
+            const c1 = svgElement.getElementById('path27');
+            const c2 = svgElement.getElementById('path25');
+            const c3 = svgElement.getElementById('path24');
+            const c4 = svgElement.getElementById('path574');
+            const c5 = svgElement.getElementById('path26');
+            c1.setAttribute('fill', col);
+            c2.setAttribute('fill', col);
+            c3.setAttribute('fill', col);
+            c4.setAttribute('fill', col);
+            c5.setAttribute('fill', col);
+
+            const c1_va = svgElement_va.getElementById('path27');
+            const c2_va = svgElement_va.getElementById('path25');
+            const c3_va = svgElement_va.getElementById('path24');
+            const c4_va = svgElement_va.getElementById('path574');
+            const c5_va = svgElement_va.getElementById('path26');
+            c1_va.setAttribute('fill', col);
+            c2_va.setAttribute('fill', col);
+            c3_va.setAttribute('fill', col);
+            c4_va.setAttribute('fill', col);
+            c5_va.setAttribute('fill', col);
+
+            //Instagram
+            const c1_instagram = svgElement_instagram.getElementById('path27inst');
+            const c2_instagram = svgElement_instagram.getElementById('path25inst');
+            const c3_instagram = svgElement_instagram.getElementById('path24inst');
+            const c4_instagram = svgElement_instagram.getElementById('path574inst');
+            const c5_instagram = svgElement_instagram.getElementById('path26inst');
+            c1_instagram.setAttribute('fill', col);
+            c2_instagram.setAttribute('fill', col);
+            c3_instagram.setAttribute('fill', col);
+            c4_instagram.setAttribute('fill', col);
+            c5_instagram.setAttribute('fill', col);
+
+            const c1_instagram_va = svgElement_instagram_va.getElementById('path27inst_va');
+            const c2_instagram_va = svgElement_instagram_va.getElementById('path25inst_va');
+            const c3_instagram_va = svgElement_instagram_va.getElementById('path24inst_va');
+            const c4_instagram_va = svgElement_instagram_va.getElementById('path574inst_va');
+            const c5_instagram_va = svgElement_instagram_va.getElementById('path26inst_va');
+            c1_instagram_va.setAttribute('fill', col);
+            c2_instagram_va.setAttribute('fill', col);
+            c3_instagram_va.setAttribute('fill', col);
+            c4_instagram_va.setAttribute('fill', col);
+            c5_instagram_va.setAttribute('fill', col);
+        }
+
+        function Color2(col) {
+            const r1 = svgElement.getElementById('rect579');
+            r1.setAttribute('style', "fill:" + col);
+
+            const r1_va = svgElement_va.getElementById('rect579');
+            r1_va.setAttribute('style', "fill:" + col);
+
+            //Instagram
+            const r1_instagram = svgElement_instagram.getElementById('rect579inst');
+            r1_instagram.setAttribute('style', "fill:" + col);
+
+            const r1_instagram_va = svgElement_instagram_va.getElementById('rect579inst_va');
+            r1_instagram_va.setAttribute('style', "fill:" + col);
+
+        }
+
+        function semipresencial() {
+            const semi1 = svgElement.getElementById('g77');
+            const semi2 = svgElement.getElementById('g2');
+            const semi3 = svgElement.getElementById('g3');
+            const semi4 = svgElement.getElementById('g73');
+
+            //Instagram
+            const semi1_instagram = svgElement_instagram.getElementById('g77inst');
+            const semi2_instagram = svgElement_instagram.getElementById('g2inst');
+            const semi3_instagram = svgElement_instagram.getElementById('g3inst');
+            const semi4_instagram = svgElement_instagram.getElementById('g73inst');
+
+            const semi1_instagram_va = svgElement_instagram_va.getElementById('g77inst_va');
+            const semi2_instagram_va = svgElement_instagram_va.getElementById('g2inst_va');
+            const semi3_instagram_va = svgElement_instagram_va.getElementById('g3inst_va');
+            const semi4_instagram_va = svgElement_instagram_va.getElementById('g73inst_va');
+
+
+            //
+            const semi1_va = svgElement_va.getElementById('g77_va');
+            const semi2_va = svgElement_va.getElementById('g2_va');
+            const semi3_va = svgElement_va.getElementById('g3_va');
+            const semi4_va = svgElement_va.getElementById('g73_va');
+
+            const textonline = document.getElementById('textonline');
+            const textonline_va = document.getElementById('text_online_va');
+            const textonline_instagram = document.getElementById('textonlineinst');
+            const textonline_instagram_va = document.getElementById('textonlineinst_va');
+
+
+            if (document.getElementById('checkbox3s').checked) {
+                semi1.setAttribute('style', 'visibility:visible');
+                semi2.setAttribute('style', 'visibility:visible');
+                semi3.setAttribute('style', 'visibility:hidden');
+                semi4.setAttribute('style', 'visibility:hidden');
+                //textonline.textContent = 'Semipresencial';
+                semi1_va.setAttribute('style', 'visibility:visible');
+                semi2_va.setAttribute('style', 'visibility:visible');
+                semi3_va.setAttribute('style', 'visibility:hidden');
+                semi4_va.setAttribute('style', 'visibility:hidden');
+                //textonline_va.textContent = 'Semipresencial';
+                //Instagram
+                semi1_instagram.setAttribute('style', 'visibility:visible');
+                semi2_instagram.setAttribute('style', 'visibility:visible');
+                semi3_instagram.setAttribute('style', 'visibility:hidden');
+                semi4_instagram.setAttribute('style', 'visibility:hidden');
+
+                semi1_instagram_va.setAttribute('style', 'visibility:visible');
+                semi2_instagram_va.setAttribute('style', 'visibility:visible');
+                semi3_instagram_va.setAttribute('style', 'visibility:hidden');
+                semi4_instagram_va.setAttribute('style', 'visibility:hidden');
+                //
+            } else {
+                semi1.setAttribute('style', 'visibility:hidden');
+                semi2.setAttribute('style', 'visibility:hidden');
+                semi3.setAttribute('style', 'visibility:visible');
+                semi4.setAttribute('style', 'visibility:visible');
+                textonline.textContent = 'En línea';
+                semi1_va.setAttribute('style', 'visibility:hidden');
+                semi2_va.setAttribute('style', 'visibility:hidden');
+                semi3_va.setAttribute('style', 'visibility:visible');
+                semi4_va.setAttribute('style', 'visibility:visible');
+                //textonline_va.textContent = 'En línia';
+                //Instagram
+                semi1_instagram.setAttribute('style', 'visibility:hidden');
+                semi2_instagram.setAttribute('style', 'visibility:hidden');
+                semi3_instagram.setAttribute('style', 'visibility:visible');
+                semi4_instagram.setAttribute('style', 'visibility:visible');
+
+                semi1_instagram_va.setAttribute('style', 'visibility:hidden');
+                semi2_instagram_va.setAttribute('style', 'visibility:hidden');
+                semi3_instagram_va.setAttribute('style', 'visibility:visible');
+                semi4_instagram_va.setAttribute('style', 'visibility:visible');
+                //
+            }
+        }
+
+        function sessions_sincrones() {
+
+            const textonline = document.getElementById('textonline');
+            const textonline_va = document.getElementById('textonline_va');
+
+            if (document.getElementById('checkbox3sincrones').checked) {
+                textonline.textContent = 'Online con sesiones síncronas';
+                textonline_va.textContent = 'Online amb sessions síncrones';
+            } else {
+                textonline.textContent = 'En línea';
+                textonline_va.textContent = 'En línia';
+            }
+        }
+
+        function presencial(f) {
+            text_presencial = document.getElementById('text_presencial');
+            text_presencial_va = document.getElementById('text_presencial_va');
+            //Instagram
+            text_presencial_instagram = document.getElementById('text_presencial_inst');
+            text_presencial_instagram_va = document.getElementById('text_presencial_inst_va');
+
+            text_presencial.textContent = f;
+            text_presencial_va.textContent = f;
+            text_presencial_instagram.textContent = f;
+            text_presencial_instagram_va.textContent = f;
+        }
+
+        function cambiaLogo() {
+            const logoElement = svgElement.getElementById('logo1');
+            const logoElement_va = svgElement_va.getElementById('logo1va');
+            //Instagram
+            const logoElement_instagram = svgElement_instagram.getElementById('logo1inst');
+            const logoElement_instagram_va = svgElement_instagram_va.getElementById('logo1inst_va');
+
+
+
+            if (document.getElementById('checkbox1').checked) {
+                logoElement.setAttribute('style', 'visibility:visible');
+                logoElement_va.setAttribute('style', 'visibility:visible');
+                logoElement_instagram.setAttribute('style', 'visibility:visible');
+                logoElement_instagram_va.setAttribute('style', 'visibility:visible');
+
+
+            } else {
+                logoElement.setAttribute('style', 'visibility:hidden');
+                logoElement_va.setAttribute('style', 'visibility:hidden');
+                logoElement_instagram.setAttribute('style', 'visibility:hidden');
+                logoElement_instagram_va.setAttribute('style', 'visibility:hidden');
+
+            }
+
+
+        }
+
+
+        function cambiaLogo2() {
+            const logoElement2 = svgElement.getElementById('logo2');
+            const logoElement2_va = svgElement_va.getElementById('logo2va');
+            //Instagram
+            const logoElement2_instagram = svgElement_instagram.getElementById('logo2inst');
+            const logoElement2_instagram_va = svgElement_instagram_va.getElementById('logo2inst_va');
+
+            if (document.getElementById('checkbox2').checked) {
+                logoElement2.setAttribute('style', 'visibility:visible');
+                logoElement2_va.setAttribute('style', 'visibility:visible');
+                logoElement2_instagram.setAttribute('style', 'visibility:visible');
+                logoElement2_instagram_va.setAttribute('style', 'visibility:visible');
+            } else {
+                logoElement2.setAttribute('style', 'visibility:hidden');
+                logoElement2_va.setAttribute('style', 'visibility:hidden');
+                logoElement2_instagram.setAttribute('style', 'visibility:hidden');
+                logoElement2_instagram_va.setAttribute('style', 'visibility:hidden');
+            }
+
+
+        }
+
+
+        function cambiaLogo3() {
+            const logoElement3 = svgElement.getElementById('logo3');
+            const logoElement3_va = svgElement_va.getElementById('logo3va');
+            //Instagram
+            const logoElement3_instagram = svgElement_instagram.getElementById('logo3inst');
+            const logoElement3_instagram_va = svgElement_instagram_va.getElementById('logo3inst_va');
+            if (document.getElementById('checkbox3').checked) {
+                logoElement3.setAttribute('style', 'visibility:visible');
+                logoElement3_va.setAttribute('style', 'visibility:visible');
+                logoElement3_instagram.setAttribute('style', 'visibility:visible');
+                logoElement3_instagram_va.setAttribute('style', 'visibility:visible');
+            } else {
+                logoElement3.setAttribute('style', 'visibility:hidden');
+                logoElement3_va.setAttribute('style', 'visibility:hidden');
+                logoElement3_instagram.setAttribute('style', 'visibility:hidden');
+                logoElement3_instagram_va.setAttribute('style', 'visibility:hidden');
+            }
+
+        }
+
+        // Function to load the SVG file and modify the text
+        function loadSVG(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    // Create a DOM parser to parse the SVG content
+                    const parser = new DOMParser();
+                    const svgDocument = parser.parseFromString(data, 'image/svg+xml');
+                    svgElement = svgDocument.documentElement;
+
+                    const svgPreviewContainer = document.getElementById('svg-preview');
+                    svgPreviewContainer.innerHTML = '';
+                    svgPreviewContainer.appendChild(svgElement);
+
+                })
+                .catch(error => console.error('Error loading SVG:', error));
+        }
+
+
+        function loadSVG2(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    // Create a DOM parser to parse the SVG content
+                    const parser = new DOMParser();
+                    const svgDocument = parser.parseFromString(data, 'image/svg+xml');
+                    svgElement_va = svgDocument.documentElement;
+
+                    const svgPreviewContainer = document.getElementById('svg-preview-va');
+                    svgPreviewContainer.innerHTML = '';
+                    svgPreviewContainer.appendChild(svgElement_va);
+
+                })
+                .catch(error => console.error('Error loading SVG:', error));
+        }
+
+        function loadSVG2inst1(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    // Create a DOM parser to parse the SVG content
+                    const parser = new DOMParser();
+                    const svgDocument = parser.parseFromString(data, 'image/svg+xml');
+                    svgElement_instagram = svgDocument.documentElement;
+
+                    const svgPreviewContainer = document.getElementById('svg-preview-inst');
+                    svgPreviewContainer.innerHTML = '';
+                    svgPreviewContainer.appendChild(svgElement_instagram);
+
+
+                })
+                .catch(error => console.error('Error loading SVG:', error));
+        }
+
+        function loadSVG2inst2(file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    // Create a DOM parser to parse the SVG content
+                    const parser = new DOMParser();
+                    const svgDocument = parser.parseFromString(data, 'image/svg+xml');
+                    svgElement_instagram_va = svgDocument.documentElement;
+
+                    const svgPreviewContainer = document.getElementById('svg-preview-inst-va');
+                    svgPreviewContainer.innerHTML = '';
+                    svgPreviewContainer.appendChild(svgElement_instagram_va);
+
+
+                })
+                .catch(error => console.error('Error loading SVG:', error));
+        }
+
+        function descarrega_tot() {
+            convertSVGtoSVG();
+            convertSVGtoSVG_va();
+        }
+
+        function descarrega_tot_inst() {
+            convertSVGtoSVG_inst();
+            convertSVGtoSVG_va_inst();
+        }
+
+
+        function convertSVGtoSVG() {
+            const svgElement2 = svgElement.cloneNode(true);
+
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
+
+            const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(svgBlob);
+
+            const img = new Image();
+            img.onload = function () {
+                const canvas = document.getElementById('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+
+                URL.revokeObjectURL(url);
+
+                canvas.toBlob(function (blob) {
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = 'baner_castella.png';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }, 'image/png');
+            };
+            img.src = url;
+
+        }
+
+        function convertSVGtoSVG_va() {
+            const svgElement2_va = svgElement_va.cloneNode(true);
+
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+
+            const svgBlob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(svgBlob_va);
+
+            const img_va = new Image();
+            img_va.onload = function () {
+                const canvas_va = document.getElementById('canvas_va');
+                canvas_va.width = img_va.width;
+                canvas_va.height = img_va.height;
+                const ctx_va = canvas_va.getContext('2d');
+                ctx_va.drawImage(img_va, 0, 0);
+
+                URL.revokeObjectURL(url_va);
+
+                canvas_va.toBlob(function (blob_va) {
+                    const a_va = document.createElement('a');
+                    a_va.href = URL.createObjectURL(blob_va);
+                    a_va.download = 'baner_valencia.png';
+                    document.body.appendChild(a_va);
+                    a_va.click();
+                    document.body.removeChild(a_va);
+                }, 'image/png');
+            };
+            img_va.src = url_va;
+
+        }
+
+
+        //Instagram
+        function convertSVGtoSVG_inst() {
+            const svgElement2 = svgElement_instagram.cloneNode(true);
+
+            svgElement2.setAttribute('width', 2040);
+            svgElement2.setAttribute('height', 800);
+            const svgData = new XMLSerializer().serializeToString(svgElement2);
+
+            const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(svgBlob);
+
+            const img = new Image();
+            img.onload = function () {
+                const canvas = document.getElementById('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+
+                URL.revokeObjectURL(url);
+
+                canvas.toBlob(function (blob) {
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = 'baner_castella_instagram.png';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }, 'image/png');
+            };
+            img.src = url;
+
+        }
+
+        function convertSVGtoSVG_va_inst() {
+            const svgElement2_va = svgElement_instagram_va.cloneNode(true);
+
+            svgElement2_va.setAttribute('width', 2040);
+            svgElement2_va.setAttribute('height', 800);
+            const svgData_va = new XMLSerializer().serializeToString(svgElement2_va);
+
+            const svgBlob_va = new Blob([svgData_va], { type: 'image/svg+xml;charset=utf-8' });
+            const url_va = URL.createObjectURL(svgBlob_va);
+
+            const img_va = new Image();
+            img_va.onload = function () {
+                const canvas_va = document.getElementById('canvas_va');
+                canvas_va.width = img_va.width;
+                canvas_va.height = img_va.height;
+                const ctx_va = canvas_va.getContext('2d');
+                ctx_va.drawImage(img_va, 0, 0);
+
+                URL.revokeObjectURL(url_va);
+
+                canvas_va.toBlob(function (blob_va) {
+                    const a_va = document.createElement('a');
+                    a_va.href = URL.createObjectURL(blob_va);
+                    a_va.download = 'baner_valencia_instagram.png';
+                    document.body.appendChild(a_va);
+                    a_va.click();
+                    document.body.removeChild(a_va);
+                }, 'image/png');
+            };
+            img_va.src = url_va;
+
+        }
+
+        function traduce() {
+
+            var storedData = localStorage.getItem('inputDataAPI');
+
+            if (!storedData) {
+                alert('No tienes API configurada');
+                return;
+            }
+
+            var prompt = "Traduce el siguiente texto al valenciano donde detallo un título y una fecha. La respuesta solo debe incluir el texto traducido: 'titulo: " + document.getElementById('titulo').value + "; fechas: " + document.getElementById('fechas_text').value; + ";'";
+
+            console.log(prompt);
+            // Show spinner
+            var spinner = $('<div class="spinner-border text-primary" role="status" style="position: fixed; top: 50%; left: 50%; z-index: 9999;"><span class="sr-only">Loading...</span></div>');
+            $('body').append(spinner);
+            //AIzaSyCpD8pTzbtLEq2E89Hk8huSl_6cuXZ4Qy8
+            $.ajax({
+                url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + storedData,
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    contents: [{
+                        parts: [{
+                            text: prompt
+                        }]
+                    }]
+                }),
+                success: function (response) {
+                    console.log(response);
+                    var resposta = response.candidates[0].content.parts[0].text;
+                    var parts = resposta.split(';');
+                    var titulo = parts[0].replace('Títol: ', '').trim();
+                    var fechas = parts[1].replace('Dates: ', '').trim();
+                    document.getElementById('titulo_va').value = titulo;
+                    document.getElementById('fechas_text_va').value = fechas;
+                    fechas_va(fechas);
+                    titular_va(titulo);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error: " + error);
+                    alert("Error: " + error);
+                },
+                complete: function () {
+                    // Hide spinner
+                    spinner.remove();
+                }
+            });
+
+        }
+
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     loadSVG('PROVA-plano.svg');
+        //     loadSVG2('PROVA-plano-valencia.svg');
+        // });
+
+        $(document).ready(function () {
+
+            loadSVG('BANER-castella.svg');
+            loadSVG2('BANER-valencia.svg');
+            loadSVG2inst1('BANER-castella-inst.svg');
+            loadSVG2inst2('BANER-valencia-inst.svg');
+
+        });
+
+        // // Load the SVG file and modify the text
+        // loadSVG('PROVA-plano.svg'); // Replace with the path to your SVG file
+        // loadSVG2('PROVA-plano-valencia.svg');
+    </script>
+</body>
+
+</html>
