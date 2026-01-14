@@ -1,13 +1,14 @@
 # Gestió de cursos en Gesform
 
-En aquest tutorial expliquem tot allò que estpa relacionat amb Gesform i la gestió de cursos. És important que seguiu els passos indicats per tal de no tindre problemes a l'hora de gestionar les formacions.
+En aquest tutorial expliquem tot allò que esta relacionat amb Gesform i la gestió de cursos. És important que seguiu els passos indicats per tal de no tindre problemes a l'hora de gestionar les formacions.
 
 Voreu que al llarg del procés de vida d'una formació caldrà que vingueu ací per a consultar el procediments corresponent.
 
 ## Com crear un curs nou
 
 Qual volem crear una formació nova podem:
-- duplicar una formació semblant
+
+- duplicar una formació semblant (han de pertanyer a la mateixa campnay)
 - o crear una des de zero
 
 ### Duplicar una formació
@@ -53,13 +54,12 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 ![](../images/gesform/d18b39f360ed7ae64faef53c180791ee1287ae84.png){.center }
 
 -   **Convocatòria** - Cal escollir una convocatòria segons el tipus de formació que es vol realitzar:
-    -   FSE 2025
-    -   PAA + període en què es realitza la formació (per exemple: PAA Setembre-Desembre 2025)
-    -   Skills 2025
-    -   Competència Digital
-    -   Administracions Públiques
+    -   FSE xxxx
+    -   PAA + període en què es realitza la formació (per exemple: PAA Setembre-Desembre xxxx)
+    -   Skills xxxx
 
--   **Acción Formativa** - "Percha" - Mirar de les diferents perxes quina s'adapta més a la nostra formació.
+-   **Acción Formativa** - Cal polsar "Extintor" i dins buscar la formació "CEFIRE 2026".
+![](../images/gesform/Perfil CEFIRE26.png){.center }
   
 -   **Delegación** - CEFIRE de Formació Professional i ERE
   
@@ -69,14 +69,9 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 !!!warning "Important"
     Tingueu en compte la família profesional quan poseu el codi i que coincidisca amb la família profesional de la formació.
 
--   **Tipo de acción**
-    - **Presencial**: La formació es realitza completament en un lloc físic, amb interacció directa entre el professorat i les persones participants. Després en Gesform en el apartat **Lloc de realització** hi ha que indicar la ubicació física d'on es fa (p. ex. Universitat d’Alacant)
-    - **A distància**: La formació es du a terme de manera en línia (síncrona o asíncrona), sense necessitat d’assistir físicament. Després en Gesform en el apartat **Lloc de realització** hi ha que possar **ADIST**.
-    - **Semipresencial**: És una formació que combina sessions presencials (on l’alumnat i el professorat coincideixen en un lloc físic) amb activitats/sessions a distància (síncrones o asíncrones). Després en Gesform en el apartat **Lloc de realització** hi ha que possar **SEMIPRE**.
+-   **Tipo de acción**.- Indicar el tipo de acció Curs a distància, Jornada,...
 !!! info "Observacions"
     En observacions es podrà explicar si les sessions són síncrones i/o asíncrones i tot allò que es considere rellevant. 
-
-
 -   **Nivell** -- CF (En el cas que siga de formació professional)
 
 -   **Horas de  duración**
@@ -97,7 +92,7 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 !!!warning "Important"
     Basant-se en les dates d'inscripció inici i fi... es recomana que com a mínim hi haja 1 mes d'inscripció,  1 setmana de confirmació i despublicar dos setmanes després de començar la formació.
 
-![](../images/gesform/2545e3ae74dbc82c30a4c7214425e6fc71bb8406.png){.center }
+![](../images/gesform/CursCreat.png){.center }
 
 
 A continuació **Aplicar** per tal que aparega marcat la X en perfil i obtindrem el **codi de referència.**  
@@ -195,6 +190,8 @@ I omplirem els següents camps:
 * Hores d'assitència.- Cal indicar les hores que farà el ponent.
 * Derecho Certificado.- Posarem SI, si s'ha de certificar al ponent.
 
+!!!info "A tenir en compte"
+    Gesform distinguix entre **ponents i professors**, si s'impartixen més de 19h és professor i si són menys de 19h és ponent. Intenteu evitar altres opcions com la de tutor ja que en moltes convocatòries no apareix la paraula tutor i pot fer que no li baremen correctament el mèrit.
 
 !!!warning "Més d'un ponent"
     Si tenim més d'un ponent, caldrá introduïr-los a tots indicant les hores s'assitència de cadascun, i si tenen dret a certificat.
