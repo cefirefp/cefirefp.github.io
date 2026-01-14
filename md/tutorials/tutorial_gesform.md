@@ -58,10 +58,10 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
     -   PAA + període en què es realitza la formació (per exemple: PAA Setembre-Desembre xxxx)
     -   Skills xxxx
 
--   **Acción Formativa** - Cal polsar "Extintor" i dins buscar la formació "CEFIRE 2026".
+-   **Acción Formativa** - Cal polsar "Extintor" i dins buscar la formació "CEFIRE FP 2026". Per a fer-ho cal possar en Àrea el número 43 i en Nivel possar CF, després polsar "Consulta" y buscar "CEFIRE FP 2026"
 ![](../images/gesform/Perfil CEFIRE26.png){.center }
   
--   **Delegación** - CEFIRE de Formació Professional i ERE
+-   **Delegación** - CEFIRE de Formació Professional
   
 -   **Titulo:** Títol del Curs
    
