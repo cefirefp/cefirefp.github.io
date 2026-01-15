@@ -61,6 +61,9 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 **Aspectes clau que cal tindre en compte**
 
 * La fitxa econòmica ha d’estar **correctament omplida en totes les seues parts**.
+* El **títol de la formació** ha de possar-se **en valencià**. (Açò es degut a que a partir de la fitxa econòmica es crea el DESIGNA, el qual està redactat en valencià).
+* El format de les **dates de la formació** ha de seguir el patró **"del DD/MM/AA al DD/MM/AA"**.
+* En cada linea del document, s'ha de possar totes les dades del ponent o de la empresa. Per example, si un ponent a banda de pagar-li per la tutorització se li paga per creació de materials, s'haurà d'omplir dos lines amb totes les dades del ponent.
 * **Tota la documentació administrativa** (contractes, informes, propostes, justificacions…) es genera a partir d’aquesta fitxa, per tant és el **document base**.
 * El **pressupost indicat** ha de coincidir **exactament** amb el que s’ha introduït en GESFORM.
 * Han d’estar inclosos **tots els noms dels ponents**, sense faltes d’ortografia i amb el **format establit en GESFORM** (majúscules).
