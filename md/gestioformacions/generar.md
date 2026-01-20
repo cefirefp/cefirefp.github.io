@@ -36,8 +36,8 @@ L'aplicació crearà una carpeta amb el nom "CODI_FORMACIO_NOM_ASSESOR" que tind
  * **2xFPxxCF0xx_AutorizacionUsoMaterialesAbierto**:Autorització per a l'ús de materials oberts per part del ponent, que haurà de signar digitalment.
  * **2xFPxxCF0xx_AutorizacionGrabacionYDifusion**: Autorització per a la gravació i difusió de la formació, és un document que cal omplir i signar digitalment per part del ponent.
  * **2xFPxxCF0xx_PROPER_PONENTE**: És necessari que el ponent es done d'alta el compte on va a rebre el pagament del curs en la plataforma PROPER quan acabe la formació tal i com s'indica en [Alta en Proper](disseny.md#alta-en-proper){target="_blank"}. 
-  * **2xFPxxCF0xx_Informe motivado de necesidad de ponente NO FUNCIONARIO CAST**: Si el ponent no és funcionari GVA cal fer un informe de perquè estàs fent esta contractació. 
-  * **2xFPxxCF0xx_Modelo informe necesidad_VAL_V3.docx**: Si el ponent no és funcionari GVA cal fer un informe de perquè estàs fent esta contractació. 
+  * **2xFPxxCF0xx_Informe motivado de necesidad de ponente NO FUNCIONARIO CAST**: Quan una formació la impatisca **personal NO GVA** i el pagament vaja a fer-se per **minuta** (és a dir, que no hi haurà una factura del ponent, ja que este no té empresa o no pot facturar), és obligatori preparar un **informe de necessitat**, ja que aquest document justifica la contractació i és imprescindible per a tramitar el curs.
+  * **2xFPxxCF0xx_Modelo informe necesidad_VAL_V3.docx**: Si per a impartir la formació s'ha contractat a un **empresari individual (vulgarment conegut com a autònom) o a una societat empresarial (empresa)**, s'haurà de elaborar un **Informe de necessitat per a fer el contracte menor**. Aquest document ha de ser signat pel director del CEFIRE d'FP, i és necessari per a poder elaborar el contracte menor, el qual designa al empresaro individual o a l'empresa per a impartir la formació.
  * **2xFPxxCF0xx-Tec**: Subcarpeta on es posaran totes les evidències necessàries per a justificar la formació. 
  * **2xFPxxCF0xx_CuadroTexto**: Es troba dins de la carpeta 2xFPxxCF0xx_CuadroTexto, i és un formulari que cal emplenar. 
  * **2xFPxxCF0xx_Evidencias**: Es troba dins de la carpeta 2xFPxxCF0xx_CuadroTexto, i és un document on es posaran captures de totes les evidències necessàries per a justificar la formació. Baners, publicació en web, fotos, etc... .
@@ -100,14 +100,14 @@ Una vegada ho comprovem haurem d'anar al [KANBAN](  {{enlaces.kanban}} ){target=
 
 
 ### **Informe de necessitats de contractació de personal no GVA**
-**2xFPxxCF0xx_Informe motivado de necesidad de ponente NO FUNCIONARIO CAST**  
+Document **2xFPxxCF0xx_Informe motivado de necesidad de ponente NO FUNCIONARIO CAST**  
 
-Quan una formació NO és impartida per personal de la **GVA**, és obligatori preparar un **informe de necessitat**, ja que aquest document justifica la contractació i és imprescindible per a tramitar el curs.
+Quan una formació la impatisca **personal NO GVA** i el pagament vaja a fer-se per **minuta** (és a dir, que no hi haurà una factura del ponent, ja que este no té empresa o no pot facturar), és obligatori preparar un **informe de necessitat**, ja que aquest document justifica la contractació i és imprescindible per a tramitar el curs.
 
 ### **Informe de necessitats de contractació d'una empresa**
-**Documento 25FP25CF015_Modelo informe necesidad_VAL_V3.docx** 
+Document **2xFPxxCF0xx_Modelo informe necesidad_VAL_V3.docx** 
 
-**Si es tracta d’una empresa** que s'ha contractat per a impartir la formació i/o suministrar el material necessari per a realitzar la formació s’ha d’elaborar l’**Informe de necessitat per a fer el contracte menor**. Aquest document ha de ser signat pel director del CEFIRE d'FP.  
+Si per a impartir la formació s'ha contractat a un **empresari individual (vulgarment conegut com a autònom) o a una societat empresarial (empresa)**, s'haurà de elaborar un **Informe de necessitat per a fer el contracte menor**. Aquest document ha de ser signat pel director del CEFIRE d'FP, i és necessari per a poder elaborar el contracte menor, el qual designa al empresaro individual o a l'empresa per a impartir la formació. 
 
 En este cas farà falta un contracte menor, del qual s'encarregarà Elena i ens avisarà a través de la [Tarjeta KANBAN del curs](#tarjeta-kanban){target="_blank"}. Alli possarà el número de contracte menor que haurem de facilitar a l'empresa. Fins que no estiga el contracte menor **no es pot començar la formació**.
 
