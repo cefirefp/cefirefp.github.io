@@ -77,7 +77,7 @@ Amb les necessitats clarament identificades, l’assessor/a defineix la temàtic
 
 
 !!!note "Video explicatiu de com fer una factura electrònica en Facturae i pujar-la a FACE"
-    Video explicatiu per a saber de qué parlem quan demanem a les empreses que ens pugen la factura electrònica a FACE. **Cal tindre en compte que una factura electrònica no és una factura en pdf**. La factura electrònica és realitza mitjançant algún programa de gestió, amb algún programa de comptabilitat (Contaplus, Contasol,...) o amb el programa gratuït de Hisenda FACTURAE. Després, quan tinga'm la factura electrònica, s'ha de pujar a FACE. o bé mitjançant la web de FACE o bé mitjançant el programa FACTURAE.  
+    Video explicatiu per a saber de qué parlem quan demanem a les empreses que ens pugen la factura electrònica a FACE. **Cal tindre en compte que una factura electrònica no és una factura en pdf**. La factura electrònica és realitza mitjançant algún programa de gestió, amb algún programa de comptabilitat (Contaplus, Contasol,...) o amb el programa gratuït de Hisenda FACTURAE. Després, l'empresa ha de pujar a FACE la factura electrònica, o bé mitjançant la web de FACE o bé mitjançant el programa FACTURAE.  
     [:material-youtube: Video explicatiu de com fer una factura electrònica en Facturae i pujar-la a FACE](https://www.youtube.com/watch?v=bd5tSTkyua0){: .md-button target="_blank"} 
 
 A continuació podeu vore una taula resum:
