@@ -52,6 +52,7 @@ enlaces:
   resolc_per_a_signar: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/RESOLC%20PER%20A%20SIGNAR?csf=1&web=1&e=afVUAX"
   conformitat_empresa_skills: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_SKILLS_EMPRESA?csf=1&web=1&e=liGSlE"
   conformitat_empresa_erasmus: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_ERASMUS_EMPRESA?csf=1&web=1&e=XEAi1Q"
+  excel_instagram: "https://gvaes.sharepoint.com/:x:/r/sites/SGORIENTACIIQUALIFICACIPROFESSIONALIDELIVQP_TEAMS-FormaciFP/Documentos%20compartidos/03%20-%20%20PROCESOS%20DE%20APOYO/CURSOS/INSTAGRAM/Publicaciones%20Instagram.xlsx?d=w3a9a20f46fc04df3bd9e5f547c2e66fd&csf=1&web=1&e=cRu2L5"
    
   # ERESAR
   carpeta_eresar: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/ERESAR?csf=1&web=1&e=9EDXrL"
@@ -64,8 +65,8 @@ enlaces:
   # Telegram
   enllaç_telegram_som_fp: "https://t.me/gvasomfp"
 
-  # Aplicacions per a crear carpetes de formacions
-  crea_carpeta: "https://cefire.eu/"
+  # Aplicacions Ferramentes de gestió CEFIRE FP
+  ferramentes_cefire_fp: "https://cefire.eu/"
 
 
   # Gesform

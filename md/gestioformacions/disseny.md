@@ -167,6 +167,10 @@ El **PROPER caduca als 3 mesos**, per tant, han de donar-se d'alta quan acaben l
 * [Tarifes]( {{enlaces.tarifes_2025}} ){: .md-button target="_blank"}  
 * [Annex Tarifes]( {{enlaces.tarifes_2025_annex}} ){: .md-button target="_blank"}  
 
+!!!warning "Tarifes de tutorització"
+    La tarifa base de tutorització cobreix fins a un màxim de 30 hores de curs. En cas que la durada del curs supere les 30 hores, l’import de la tutorització es calcularà de manera proporcional mitjançant una regla de tres, prenent com a referència la tarifa establerta.  
+    Per exemple, si la tarifa base és de 300 € per cada 8 hores de tutorització, en un curs de 33 hores el cost total de la tutorització s’ajustarà proporcionalment, resultant en un import de 1.237,50 €.
+
 ---  
 
 ### **Proposta de la formació**

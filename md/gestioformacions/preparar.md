@@ -5,15 +5,15 @@ Una vegada validada la proposta de la formació, cal dur a terme diverses accion
 
 ### 📢 Difusió curs
 
-Per tal de donar a conéixer la formació, cal:
+La difusió del curs l'haurem de fer aquestes vies:
 
-* **Enviar un correu electrònic** als caps de departament de la família professional corresponent.
-* **Enviar la informació pel canal de Telegram “som\_fp”**. Per a enviar-la cal avisar a David, ja que es ell el que ho ha de possar en el canal de telegram. Recodeu enviar-ho tal i com ha d'aparèixer perquè David no va a revisar la comununicació.
-* **Sol·licitar la publicació al carrusel de banners web** Avisar a Gloria (por WhatsApps o por llamada telefònica).
+* **✉️ [Correu electrònic](#correu-electronic)** als caps de departament de la família professional corresponent.
+* **🌐 [Web del CEFIRE](#web)**.
+* **📸 [Instagram](#instagram)**.
+* **✈️ [Canal de Telegram “som\_fp”](#canal-de-telegram)**. (Opcional/Recomanable)
 
-!!!note "Enllac som\_fp de Telegram"
-    [:material-link: Enllac som\_fp de Telegram]( {{enlaces.enllaç_telegram_som_fp}} ){: .md-button target="_blank"}
-
+#### ✉️ Correu electrònic
+Enviarem un correu electrònic als caps de departament de la família professional corresponent.
 
 Correu electrònic d'example
 
@@ -73,6 +73,60 @@ Quedem a la seua disposició per a qualsevol consulta.
 Salutacions,
 
 ```
+
+#### 🌐 Web
+Per a sol·licitar la publicació del banner del curs en el carrusel de banners web, cal avisar a Gloria mitjançant un WhatsApps, un [Correu Electrònic](mailto:mg.munozgonzalez@edu.gva.es) o una telefonada.
+
+
+#### 📸 Instagram
+La publicació a través d'Instagram es una decisió de la Directora General, però nosaltres haurem de pujar tota la informació, per si ella considera que s'ha de publicar.  
+La informació necesaria per a la publicació és:
+
+* Una imatge descriptiva del curs.
+    * La imatge ha de ser lliure de drets, la podem generar a través de IA o buscar-la en quaselvol banc d'imatges com per example: [Unsplash](https://unsplash.com){target="_blank"}, [Pexels](https://www.pexels.com){target="_blank"}, [Pixabay](https://pixabay.com){target="_blank"}, [Burst (Shopify)](https://burst.shopify.com){target="_blank"}, [Reshot](https://www.reshot.com){target="_blank"},...
+    * La imatge la guardarem en la carpeta del curs amb la següent nomenclatura: 2xFPxxCF0xx_Imatge_Instagram
+* Un breu text descriptiu del curs el qual:
+    * Ha de captar l'atenció de l'observador.
+    * Serà més breu i visual que el de Telegram.
+    * Tenir un enfocament divulgatiu, orientat a donar a conéixer la formació i el treball que s’està realitzant, no tant a la inscripció directa, ja que aquesta funció es cobreix a través de Telegram i OVIFOR.
+    * El text, el posarem en la següent [Excel]( {{enlaces.excel_instagram}} ){target="_blank"}
+
+Exemple de text
+```
+CURS: Criteri visual i control del color en el revelat fotogràfic
+📌 Codi del curs: 26FP25CF008
+
+Si vols millorar el teu criteri visual en el revelat fotogràfic i prendre decisions conscients sobre el color i el to, este és el teu curs.
+Aprendràs a llegir el RAW, a treballar amb coherència cromàtica i a integrar el revelat com una part clau del discurs visual, més enllà de presets i automatismes.
+
+📅 Del 28/02/26 al 25/04/26
+🔗 Informació i inscripció: https://ovifor.edu.gva.es/
+
+📷 Revelar no és ajustar. És decidir.
+
+```
+
+#### ✈️ Canal de Telegram
+La difusió del curs a través de Telegram es de caracter **opcional però totalmente recomanable**, sobretot si el curs no hi ha suficients inscrits.  
+Per a fer difusió del curs a través de Telegram haurem d'enviar un Whatsapp o Telegrama a Gloria o Paco, amb el banner del curs y una breu descripció del curs solicitant la seua publicació en Telegram.
+
+Exemple de la breu descripció del curs
+
+```
+📢 Inscripció oberta per al curs 🎓 26FP20CF001 – Cardio Combat. 
+
+⌛️Termini d’inscripció finalitza el 9 de febrer. 
+🗓️ Del 27 de febrer al 6 de març
+🏫 Modalitat presencial Poliesportiu Camilo Cano "La Nucia"
+⏰ Duració total: 20 hores
+➕ℹ️✍️ Més informació i inscripció ací: 👉 OVIFOR https://ovifor.edu.gva.es/ovifor/
+
+```
+
+!!!note "Enllac som\_fp de Telegram"
+    [:material-link: Enllac som\_fp de Telegram]( {{enlaces.enllaç_telegram_som_fp}} ){: .md-button target="_blank"}
+
+
 
 ---
 

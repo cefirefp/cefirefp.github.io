@@ -17,13 +17,12 @@ El curs es quedarà en estat  **INICIAL**, després d'omplir totes les dades del
 
 ### **Crear la carpeta i documentació de la formació**
 
-Després d'haurà de crear la carpeta del curs, per a fer-ho utilitzarem l'aplicació crea_carpeta.  
-[Aplicació per a crear carpetes de formacions]( {{enlaces.crea_carpeta}}){: .md-button target="_blank"}
+Després d'haurà de crear la CARPETA DEL CURS, per a fer-ho utilitzarem l'aplicació de "Ferramentes de gestió CEFIRE FP".  
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
 
-!!!warning "Comprovar que tenim en el nostre PC la última versió"
-    Si ja tenim l'apliació crea_carpeta baixada en el nostre PC, és molt important comprovar si tenim la última versió, ja que els documents van canviant, i podriem no omplir els que tocara.
+![Aplicació de "Ferramentes de gestió CEFIRE FP](../images/gestioformacions/app.png){: .center}
 
-L'ús és molt senzill, poseu el vostre nom d'assessor i el codi de la formació i es crearà la carpeta amb totes les subcarpetes i documents necessàris.  
+L'ús és molt senzill, heu de polsart en "CREA CARPETA", i s'obrirá una finestra on heu de posar el vostre nom d'assessor i el codi de la formació, després polsar "Crear" i es crearà la carpeta amb totes les subcarpetes i documents necessàris.  
 
 ⚠️ **"IMPORTANT - NO ES POT CANVIAR EL NOM DEL LES CARPETES I DOCUMENTS QUE CREA L'APLICACIÓ"** 
   
@@ -80,7 +79,18 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 
 El **“DESIGNA”** és un document administratiu que serveix per a **formalitzar la designació d’un ponent o formador per a una activitat formativa concreta**, com ara una formació FSE o SKILLS dins del CEFIRE. És una manera oficial de deixar constància que una persona concreta ha estat seleccionada per impartir la formació i que la seva participació està autoritzada i validada per la direcció.  
 
-El document **“DESIGNA”** es genera amb l'aplicació 2xFPxxCF0xx_crea_designa.exe, no obstant, hi ha que revisar-lo per si hi haguerem comés algun error omplint la fitxa econòmica. 
+El DESIGNA es fa en tots els casos menys quan es tracta d'un empresari individual (autònom) o d'una empresa que ens ha de facturar la formació, en este cas es fa un contracte menor, i per tant, no cal DESIGNA.
+
+El document **“DESIGNA”** es genera amb l'aplicació de "Ferramentes de gestió CEFIRE FP".  
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}
+
+En l'apliació, polsarem "CREA DESIGNA" i ens demanarà que pugem el document FITXA ECONÒMICA del curs, una vegada pujat polsarem "Genera DESIGNA".
+
+Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
+
+!!!warning "DESGINA <> FITXA ECONÒMICA"
+    EL DESIGNA es genera a partir de la FITXA ECONÒMICA, per tant, és molt important que la FITXA ECONÒMICA estiga ben omplida.  
+
 
 Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà una còpia en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
 
@@ -92,8 +102,6 @@ Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 die
 
 Una vegada ho comprovem haurem d'anar al [KANBAN](  {{enlaces.kanban}} ){target="_blank"} i anotar-ho el la tasca marcant el check de l'element designa dela tarjeta de la formació. Vore apartat [Tarjeta KANBAN](#tarjeta-kanban){target="_blank"}
 
-!!!warning "Atenció"
-    El Designa es fa en tots els casos menys quan es tracta d'una empresa, que en eixe cas es fa un contracte menor.
 
 
 ---
@@ -119,28 +127,47 @@ En este cas farà falta un contracte menor, del qual s'encarregarà Elena i ens 
 ### **Banner**
 En el cas de les **formacions online**, és obligatori preparar un **banner identificatiu** que s’utilitzarà tant en AULES com en la difusió del curs.
 
-Per a crear el banner és **OBLIGATORI** utilitzar l'aplicació de Creació de Banners.  
-[:material-image-area: Creació de Banners](../apps/baner/proves.html){:.md-button target="_blank"} 
+Per a crear el banner és **OBLIGATORI** utilitzar l'aplicació de "Ferramentes de gestió CEFIRE FP".  
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}
 
 Este banner ha d’incloure de manera clara i visible la informació següent:
 
-* **Codi de la formació**.
-* **Nom complet de la formació**.
+![Aplicació per a crear banners de formacions](../images/gestioformacions/crea_banner.png){: .center}
+
+
+* **Titol de la formació**.
+* **Dates de la formació**. amb el format **del DD/MM al DD/MM**, no cal incloure l'any perque aquest ja apareix indicat al banner.
+* **Tipus de formació** (Online/Presencial, Amb sessions síncrones).
+* **Lloc de la formació**, sol si es presencial, si es online cal deixar-ho en blanc.
 * **Durada total de la formació (hores)**.
-* **Logos institucionals que corresponguen**:
-    * CEFIRE de FP
-    * Generalitat Valenciana (GVA)
-    * Ministeri d’Educació
-    * Direcció General de FP
-    * Fons Social Europeu (FSE)
+* **Logos institucionals que corresponguen**.
 
 És molt important que el banner complisca aquests requisits, ja que és la imatge oficial de la formació i garanteix la correcta visibilitat dels programes i institucions que la recolzen.
 
-Una vegada estiga creat el banner de la formació ha de pujar-se a la carpeta corresponent per a revisar que no tinga cap errada:  
+Una vegada creat el banner el descarregarem i el nombrarem seguint el patró:
+```
+2xFPxxCF0xx_NomCurtFormacio_NomAsessor_baner_castella.png
+2xFPxxCF0xx_NomCurtFormacio_NomAsessor_baner_valencia.png
+2xFPxxCF0xx_NomCurtFormacio_NomAsessor_instagram_castella.png
+2xFPxxCF0xx_NomCurtFormacio_NomAsessor_Instagram_valencia.png
+
+Exemple.-
+26FP25CF008_Color_Paco_baner_castella.png
+26FP25CF008_Color_Paco_baner_valencia.png
+26FP25CF008_Color_Paco_instagram_castella.png
+26FP25CF008_Color_Paco_Instagram_valencia.png
+
+```
+
+Quan els tingam descarregats i correctament nombrats el guardarem el la carpeta del curs, i pujarem una copia a la carpeta "Carpeta Banners" per a que siguen revisats i validats per Gloria:  
 [:material-folder: Carpeta de banners]( {{enlaces.carpeta_banners}} ){:.md-button target="_blank"}
 
+El banner serà revisat i validat per Gloria, en el cas de que siga correcte, Gloria afegirà al nom del banner com a sufixe "_OK". Si el banner crear té algun error s'informarà a través de KANBAN (Vore apartat [Tarjeta KANBAN](#tarjeta-kanban){target="_blank"}) i es s'afegirà al nom del banner com a sufixe "_MODIFICAR". Una vegada subsanat l'errada és renombrarà a "_CORREGIT" i s'avisarà a Gloria. 
 
-El banner serà validat per Gloria, en el cas de que siga correcte, s'afegirà al nom del banner com a sufixe "_OK". Si el banner crear té algun error s'informarà a través de KANBAN (Vore apartat [Tarjeta KANBAN](#tarjeta-kanban){target="_blank"}) i es s'afegirà al nom del banner com a sufixe "_MODIFICAR". Una vegada subsanat l'errada és renombrarà a "_CORREGIT" i s'avisarà a Gloria.  
+**Publicació de banners y difusió del curs**  
+La publicació de banners y difusió del curs, es realitzará una vegada el curs estiga validat per la DG, el procediment està explicat en la següent fase [Preparar la formació](preparar.md){target="_blank"}, en el apartat [Difusió curs](preparar.md#difusio-curs){target="_blank"}.
+
+
 
 ---
 ### **Sol·licitut d'espais del centre**
