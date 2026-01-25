@@ -69,7 +69,11 @@ La fitxa del curs es la següent i caldrà omplir els diferents camps que pots v
 !!!warning "Important"
     Tingueu en compte la família profesional quan poseu el codi i que coincidisca amb la família profesional de la formació.
 
--   **Tipo de acción**.- Indicar el tipo de acció Curs a distància, Jornada,...
+-   **Tipo de acción**.- Indicar el tipo de acció Curs a distància, Jornada,... Cal tindre en compte els següents criteris segons el tipus de formació:
+
+    * **Jornada o jornades:** entre 8 i 20 hores (no es permet la compra de material).
+    * **Taller:** entre 8 i 20 hores.
+    * **Curs:** entre 20 i 100 hores.  
 !!! info "Observacions"
     En observacions es podrà explicar si les sessions són síncrones i/o asíncrones i tot allò que es considere rellevant. 
 -   **Nivell** -- CF (En el cas que siga de formació professional)

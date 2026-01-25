@@ -1,5 +1,5 @@
 
-### **Crear el curs en Gesform**
+### 📘 **Crear el curs en Gesform**
 Una vegada tinguen clara la formació i el que necessite caldrà introduïr-la a Gesform. Per a això, caldrà accedir a la plataforma Gesform i donar d'alta la formació. És important que seguisques els passos correctament i que omplis tots els camps necessaris.
 
 [:material-link-variant: Alta Formació en Gesform](../tutorials/tutorial_gesform.md){: .md-button target="_blank"}
@@ -15,7 +15,7 @@ El curs es quedarà en estat  **INICIAL**, després d'omplir totes les dades del
 
 ---
 
-### **Crear la carpeta i documentació de la formació**
+### 📁 **Crear la carpeta i documentació de la formació**
 
 Després d'haurà de crear la CARPETA DEL CURS, per a fer-ho utilitzarem l'aplicació de "Ferramentes de gestió CEFIRE FP".  
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
@@ -50,7 +50,7 @@ La carpeta creada la guardarem dins de la carpeta de cursos:
 
 ---
 
-### **Fitxa Econòmica**
+### 📑 **Fitxa Econòmica**
 **Document 2xFPxxCF0xx_FITXA ECONÒMICA.xlsx**  
 
 La **fitxa econòmica** és un document **OBLIGATORI** que s’ha d’elaborar en **TOTS ELS CASOS** quan es crea una acció formativa. És l’eina que assegura la coherència entre la planificació pedagògica i la gestió econòmica del curs, ja que de la seua correcta elaboració dependrà tota la documentació posterior (contractes, justificacions, informes, etc.).
@@ -74,7 +74,7 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 
 ---  
 
-### **Designa**
+### 🧑‍💼 **Designa**
 **Document 2xFPxxCF0xx_DESIGNA_Nombre_Apellido1_Apellido2.xlsx**  
 
 El **“DESIGNA”** és un document administratiu que serveix per a **formalitzar la designació d’un ponent o formador per a una activitat formativa concreta**, com ara una formació FSE o SKILLS dins del CEFIRE. És una manera oficial de deixar constància que una persona concreta ha estat seleccionada per impartir la formació i que la seva participació està autoritzada i validada per la direcció.  
@@ -107,12 +107,12 @@ Una vegada ho comprovem haurem d'anar al [KANBAN](  {{enlaces.kanban}} ){target=
 ---
 
 
-### **Informe de necessitats de contractació de personal no GVA**
+### 👤 **Informe de necessitats de contractació de personal no GVA**
 Document **2xFPxxCF0xx_Informe motivado de necesidad de ponente NO FUNCIONARIO CAST**  
 
 Quan una formació la impatisca **personal NO GVA** i el pagament vaja a fer-se per **minuta** (és a dir, que no hi haurà una factura del ponent, ja que este no té empresa o no pot facturar), és obligatori preparar un **informe de necessitat**, ja que aquest document justifica la contractació i és imprescindible per a tramitar el curs.
 
-### **Informe de necessitats de contractació d'una empresa**
+### 🏢 **Informe de necessitats de contractació d'una empresa**
 Document **2xFPxxCF0xx_Modelo informe necesidad_VAL_V3.docx** 
 
 Si per a impartir la formació s'ha contractat a un **empresari individual (vulgarment conegut com a autònom) o a una societat empresarial (empresa)**, s'haurà de elaborar un **Informe de necessitat per a fer el contracte menor**. Aquest document ha de ser signat pel director del CEFIRE d'FP, i és necessari per a poder elaborar el contracte menor, el qual designa al empresaro individual o a l'empresa per a impartir la formació. 
@@ -124,7 +124,7 @@ En este cas farà falta un contracte menor, del qual s'encarregarà Elena i ens 
 
 ---
 
-### **Banner**
+### 🎨 **Banner**
 En el cas de les **formacions online**, és obligatori preparar un **banner identificatiu** que s’utilitzarà tant en AULES com en la difusió del curs.
 
 Per a crear el banner és **OBLIGATORI** utilitzar l'aplicació de "Ferramentes de gestió CEFIRE FP".  
@@ -170,14 +170,14 @@ La publicació de banners y difusió del curs, es realitzará una vegada el curs
 
 
 ---
-### **Sol·licitut d'espais del centre**
+### 🏫 **Sol·licitut d'espais del centre**
 Si la formació es presencial en algún centre, s'haurà de demanar permís al centre en qüestió. Es per allo que haurem d'amplir el [següent document]({{enlaces.solicitut_espais_centre}}){:target="_blank"} i l'il tenim que enviar al director del centre per a que ens el signe.
 El document el guardarem en la carpeta del curs amb en nom **2xFPxxCF0xx_Solicitud de Espacios.PDF**.
 
 
 ---
 
-### **Tarjeta KANBAN**
+### 🟨 **Tarjeta KANBAN**
 Una vegada tinguem la formació introduida en Gesfrom i omplit tota la documentació esmentada abans, avisarem a través de **[KANBAN]( {{enlaces.kanban}} ){target="_blank"}** per a que ens validen la formació.  
 Per a avisar haurem de generar una nova tarjeta (copiant la tarjeta d'exemple) amb el codi de la formació, i la posarem en la columnna **"Per a Revisar per director"**.  
 
