@@ -148,20 +148,19 @@ En cas contrari, s'haurà d'inidcar el material necessari.
 
 **Valencià**
 ```html
-Personal docent i personal tècnic educatiu amb destinació en centres educatius no universitaris de la Comunitat Valenciana en els quals s'impartisquen els ensenyaments regulats per la Llei orgànica d'Educació 
-Personal docent i personal tècnic educatiu que preste servicis tècnics de suport educatiu als centres indicats en l'apartat anterior 
-Personal que haja finalitzat els graus i màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les bosses de personal docent de la Conselleria d'Educació, Universitats i Ocupació i este personal no supose més del 50% de participació en l'activitat 
+Personal docent i personal tecnicoeducatiu amb destinació en centres educatius no universitaris de la Comunitat Valenciana en els quals s'impartisquen els ensenyaments regulats per la Llei orgànica d'educació. 
+Personal docent i personal tecnicoeducatiu que preste servicis tècnics de suport educatiu als centres indicats en l'apartat anterior. 
+Personal que haja finalitzat els graus i màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les borses de personal docent de la Conselleria d'Educació, Cultura i Universitats i este personal no supose més del 50% de participació en l'activitat. 
 REQUISITS ESPECÍFICS 
-<b>Professorat de Formació Professional de la Família d'Informàtica i Comunicacions</b> 
+  Professorat de Formació Professional de la família d'Informàtica i Comunicacions.
 ```
 **Castellà**
 ```html
-Personal docente y personal técnico educativo con destino en centros educativos no universitarios de la Comunitat Valenciana en los que se impartan las enseñanzas reguladas por la Ley Orgánica de Educación
-Personal docente y personal técnico educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior 
-Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la CConselleria d'Educació, Universitats i Ocupació y este personal no suponga más del 50% de participación en la actividad 
+Personal docente y personal técnico-educativo con destino en centros educativos no universitarios de la Comunitat Valenciana en los que se impartan las enseñanzas reguladas por la Ley orgánica de educación.
+Personal docente y personal técnico-educativo que presta servicios técnicos de apoyo educativo en los centros indicados en el apartado anterior. 
+Personal que haya finalizado los grados y máster que conducen a la obtención de la titulación docente, siempre que se encuentran inscritos en alguna de las bolsas de personal docente de la Conselleria de Educación, Cultura y Universidades y este personal no suponga más del 50% de participación en la actividad. 
 REQUISITOS ESPECÍFICOS 
-<b>Profesorado de Formación Profesional de la Familia de Informática y Comunicaciones</b> 
-
+  Profesorado de Formación Profesional de la familia de Informática y Comunicaciones.
 ```
 
 **IMAGEN PORTADA:** En este apartat, cal pujar el banner que hem creat per al curs. El format de la image ha de ser .png, i el nom de l'arxiu ha de ser 1.png per a valencià i 2.png per a castellà. Els bàners ja no s'afegixen amb codi html, caldrà que afegir l'imatge directament la fitxa de la formació.
@@ -171,7 +170,8 @@ REQUISITOS ESPECÍFICOS
 Per a pujar un baner cal fer clic sobre el botó de pujar fitxer, seleccionar la imatge i fer clic a "pujar fitxer" (**és el botó blau**)
 
 !!! info "Crear Banner"
-    Podeu utilitzar el següent enllaç per a crear un banner (només formacions online de moment): [:material-image-area: Banners](../apps/baner/proves.html){: .md-button target="_blank"}
+    Per a crear el banner heu d'utilitzar l'Aplicació de Ferramentes de gestió CEFIRE FP.  
+    [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"} 
 
 
 I **apliquem** i **aceptem**.  
