@@ -754,13 +754,19 @@
 
             const textonline = document.getElementById('textonline');
             const textonline_va = document.getElementById('textonline_va');
+            const textonline_instagram = document.getElementById('textonlineinst');
+            const textonline_instagram_va = document.getElementById('textonlineinst_va');
 
             if (document.getElementById('checkbox3sincrones').checked) {
-                textonline.textContent = 'Online con sesiones síncronas';
-                textonline_va.textContent = 'Online amb sessions síncrones';
+                textonline.textContent = 'En línea con sesiones síncronas';
+                textonline_va.textContent = 'En línia amb sessions síncrones';
+                textonline_instagram.textContent = 'En línea con sesiones síncronas';
+                textonline_instagram_va.textContent = 'En línia amb sessions síncrones';
             } else {
                 textonline.textContent = 'En línea';
                 textonline_va.textContent = 'En línia';
+                textonline_instagram.textContent = 'En línea';
+                textonline_instagram_va.textContent = 'En línia';
             }
         }
 
