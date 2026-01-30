@@ -202,24 +202,132 @@ Tal i com s'ha comentat abans, la tarjeta és dinàmica i anirà movent-se entre
 
 
 
-
-
 ---
 
+### 📋 **Resum de la documentació**
+
+
+A continuació podeu vore una taula resum de la documentació que cal preparar segons el tipus de ponent:
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>📄 Documentació</th>
+        <th>📁 Nom del document</th>
+        <th>🧑‍🏫 Jo mateixa</th>
+        <th>🏛️ Ponent GVA</th>
+        <th>👤 Ponent NO GVA<br>(cobra amb minuta)</th>
+        <th>🏢 Empresa / Autònom<br>(cobra amb factura)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fitxa Econòmica</td>
+        <td>2xFPxxCF0xx_FITXA ECONÒMICA.xlsx<br>2xFPxxCF0xx_FITXA ECONÒMICA.pdf<br>pdf signat digitalment per l'assessor(a)</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Dades del ponent</td>
+        <td>2xFPxxCF0xx_DATOS PONENTE_NOM.pdf</td>
+        <td></td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Autorització d’ús de materials oberts</td>
+        <td>2xFPxxCF0xx_AutorizacionUsoMaterialesAbierto<br>(signat digitalment pel ponent)</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Autorització de gravació i difusió</td>
+        <td>2xFPxxCF0xx_AutorizacionGrabacionYDifusion<br>(signat digitalment pel ponent)</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Alta en PROPER</td>
+        <td>Justificant d'alta en PROPER del ponent</td>
+        <td></td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>DESIGNA</td>
+        <td>2xFPxxCF0xx_DESIGNA_*.xlsx<br>(generat amb l'apliació)</td>
+        <td></td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Informe de necessitats de contractació de personal no GVA</td>
+        <td>2xFPxxCF0xx_Informe motivado de necesidad NO FUNCIONARIO.docx</td>
+        <td></td>
+        <td></td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Informe de necessitats de contractació d'una empresa</td>
+        <td>2xFPxxCF0xx_Modelo informe necesidad_VAL_V3.docx</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Contracte menor</td>
+        <td>Elaborat per Elena<br>Ens farà falta el número</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Banner del curs (AULES i difusió)</td>
+        <td>2xFPxxCF0xx_fff_nnn_baner_idioma.png</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Sol·licitud d’espais del centre (si presencial)</td>
+        <td>No aplica</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Evidències i documentació justificativa</td>
+        <td>Carpeta 2xFPxxCF0xx-Tec<br>
+        Document 26FP00CF000_CuadroTexto.docx<br>
+        Document 26FP00CF000_Evidencias.docx<br>
+        Document 26FP00CF000_FSE_Ficha_seguimiento.docx</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 
 
 
 
-<!--
- * **2xFPxxCF0xx_ACTA FINAL.pdf**: Acta amb els APTES i NO APTES de la formació, cal que estiga degudament omplerta i signada per part del ponent, es trau de gesform.
- * **2xFPxxCF0xx_ACTA PONENT.pdf**: Acta signada pel ponent on posa els APTES i NO APTES de la formació, la genera ell/a.
- * **2xFPxxCF0xx_SIGNATURES.pdf**: Document amb totes les signatures de la formació escanejades.
- * **2xFPxxCF0xx_DESIGNA_NOM_PONENT_FSE.pdf**: (Convocatòria FSE) Aquest document és necessari per a designar el ponent de la formació, cal que estiga degudament omplert i signat pel cap de servei de formació i orientació i pel subdirector general, caldrà facilitar-lo per la plataforma Kanban que hem habilitat per a que es signe. [Podeu trobar el document ací]( {{enlaces.designa_fse}} ){target="_blank"}.
- * **2xFPxxCF0xx_DESIGNA_NOM_PONENT_SKILLS.pdf**: (Convocatòria SKILLS) Aquest document és necessari per a designar el ponent de la formació, cal que estiga degudament omplit i signat pel cap de servei de formació i orientació i pel subdirector general, caldrà facilitar-lo per la plataforma Kanban que hem habilitat per a que es signe.
-     - Si el ponent es **docent GVA** [podeu trobar el document ací]( {{enlaces.designa_skills}} ){target="_blank"}.
-     - En el cas que **NO siga docent GVA**, caldrà fer un **informe de necessitat de contractació** i [utilizar aquest document de DESIGNA]( {{enlaces.designa_skills_no_docent}} ){target="_blank"}.
-  * **2xFPxxCF0xx_Solicitud de Espacios**: Si la formació es presencial en algún centre, s'haurà de demanar permís al centre en qüestió. Es per allo que haurem d'amplir el [següent document]({{enlaces.solicitut_espais_centre}}){:target="_blank"} i l'il tenim que enviar al director del centre per a que ens el signe. El document el guardarem en la carpeta del curs amb en nom . 
 
--->

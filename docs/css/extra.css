@@ -26,7 +26,6 @@ table {
     font-family: Arial, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     border-radius: 12px;
-    overflow: hidden;
 }
 
 /* Capçalera de la taula */
@@ -36,6 +35,14 @@ table thead tr {
     text-align: center;
 }
 
+
+/* Manté la primera fila visible mentre es fa scroll */
+table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: linear-gradient(90deg, #1E90FF, #4CA6FF);
+}
 /* Cel·les de la taula */
 table th, table td {
     padding: 12px 15px;

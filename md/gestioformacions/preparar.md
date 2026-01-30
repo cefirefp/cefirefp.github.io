@@ -7,10 +7,14 @@ Una vegada validada la proposta de la formació, cal dur a terme diverses accion
 
 La difusió del curs l'haurem de fer aquestes vies:
 
-* **✉️ [Correu electrònic](#correu-electronic)** als caps de departament de la família professional corresponent.
-* **🌐 [Web del CEFIRE](#web)**.
-* **📸 [Instagram](#instagram)**.
-* **✈️ [Canal de Telegram “som\_fp”](#canal-de-telegram)**. (Opcional/Recomanable)
+| 📢 Forma de difusió | 📬 Qui ho gestiona / A qui s’envia /  | 📝 Observacions |
+|--------------------|----------------------------------|----------------|
+| ✉️ **Correu electrònic** | Assesor envía un mail als caps de departament de la família professional corresponent | Correu model establit. Demanar que ho difonguen al professorat del departament. |
+| 🌐 **Web del CEFIRE** | Gloria | Avisar per WhatsApp, correu electrònic o telefonada per a publicar el banner al carrusel web. |
+| 📸 **Instagram** | Directora General. Ommplim la [Excel]( {{enlaces.excel_instagram}} ){target="_blank"} | Cal preparar imatge i guardar-la en la carpeta del curs i en la carpeta dels banners, i un text descriptiu en la Excel. <br>Publicació subjecta a decisió de la DG. |
+| ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria o Paco | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br> **Opcional però molt recomanable**. |
+
+
 
 #### ✉️ Correu electrònic
 Enviarem un correu electrònic als caps de departament de la família professional corresponent.
@@ -265,3 +269,4 @@ Per a cada curs és important **afegir els enllaços a les xarxes socials a l'es
   [:material-video: Videotutorial]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
 
 ---
+
