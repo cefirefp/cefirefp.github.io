@@ -16,7 +16,7 @@ A més a
 
 ---  
 
-### **Detecció de necessitats**
+### 🔍 **Detecció de necessitats**
 El primer que has de tenir clar són que el curs responga a unes necessitats formatives reals i que estiga ben dissenyat. Per a això, és important que es realitze un estudi de necessitats formatives i que es tinga en compte la normativa vigent, per això es fa un formulari de necessitats formatives a tots els centres a principi de curs.
 
 [:material-microsoft-excel: Formulari]( {{enlaces.formulari_deteccio_necessitats}} ){: .md-button target="_blank"}  
@@ -26,9 +26,17 @@ El primer que has de tenir clar són que el curs responga a unes necessitats for
 
  ---
 
-### **Definició de la formació**
-Amb les necessitats clarament identificades, l’assessor/a defineix la temàtica de la formació i selecciona els ponents més adequats, **donant preferència als professionals de la GVA**. En aquesta etapa es determinen també els objectius específics del curs, la durada prevista, el nombre de sessions i el tipus de modalitat (presencial, online o híbrida). Aquesta definició inicial és essencial per planificar adequadament els recursos i la logística del curs.    
-És molt important tindre en compte quina documentació haurem de demanar als ponent per a fer el pagament, ja que hi ha varies casuístiques en funció del tipus de ponent:
+### 📝 **Definició de la formació**
+
+Una vegada identificades clarament les necessitats formatives, l’assessor/a defineix la temàtica de la formació i selecciona els ponents més adequats, **prioritzant els professionals de la GVA**. En aquesta fase també s’estableixen els objectius específics del curs, la durada prevista, el nombre de sessions i la modalitat de realització (presencial, en línia o híbrida). Aquesta definició inicial és fonamental per garantir una correcta planificació dels recursos i de la logística necessaris.
+
+Cal tindre en compte els següents criteris segons el tipus de formació:
+
+* **Jornada o jornades:** entre 8 i 20 hores (no es permet la compra de material).
+* **Taller:** entre 8 i 20 hores.
+* **Curs:** entre 20 i 100 hores.
+
+A més, és molt important tindre clar quina documentació caldrà sol·licitar als ponents per tal de poder efectuar el pagament, ja que existeixen diverses casuístiques en funció del tipus de ponent.
 
 * **Jo mateix**: 
     - És recomanable com a assessor del CEFIRE crear algun curs i impartir-lo.
@@ -142,7 +150,7 @@ A continuació podeu vore una taula resum:
 </div>
 
 
-### **Ús de materials que s'utilitzen en la formació**
+### 📚 **Ús de materials que s'utilitzen en la formació**
 
 ⚠️ Si la formació **necessita de materials per a poder realitzar-se** (cables, folis, flores, motoserra, alumini, estany per a soldar, etc...) caldrà especificar-ho a la FITXA ECONÒMICA i adjuntar un informe de necessitat de contractació de materials.
 
@@ -153,7 +161,7 @@ A continuació podeu vore una taula resum:
 !!!warning "Errades comuns"
     És molt habitual crear un informe copiant i pegant del model. **Utilitzeu el model com a referència**, però no copieu i pegueu el text. És important que **el text siga original i que s'adapte a les necessitats del curs**. A més, cal tindre en compte que si es copia i pega el text, pot haver-hi errades de format o de contingut que poden afectar la justificació de les despeses.
 
-### **Alta en PROPER**
+### 🗂️ **Alta en PROPER**
 ⚠️ **"IMPORTANT - PONENTS ALTA EN PROPER PER A PODER COBRAR"**  
 Els ponents han de donar-se d’alta al procediment **PROPER** i enviar-nos el corresponent justificant. Els comptes que els comptes siguin **personals i nominals**.  
 [Enllaç a PROPER]( {{enlaces.proper}} ){target="_blank"}
@@ -161,15 +169,19 @@ Els ponents han de donar-se d’alta al procediment **PROPER** i enviar-nos el c
 El **PROPER caduca als 3 mesos**, per tant, han de donar-se d'alta quan acaben la formació (si ja estan deurien de tornar-se a donar d'alta).
 
 
-### **Tarifes**
+### 💶 **Tarifes**
 **És imprescindible que els pagaments s'adeqüen a les tarifes vigents**, per això caldrà que consulteu les tarifes vigents per a l'any en curs. Podeu trobar les tarifes vigents al següent enllaç:
 
 * [Tarifes]( {{enlaces.tarifes_2025}} ){: .md-button target="_blank"}  
 * [Annex Tarifes]( {{enlaces.tarifes_2025_annex}} ){: .md-button target="_blank"}  
 
+!!!warning "Tarifes de tutorització"
+    La tarifa base de tutorització cobreix fins a un màxim de 30 hores de curs. En cas que la durada del curs supere les 30 hores, l’import de la tutorització es calcularà de manera proporcional mitjançant una regla de tres, prenent com a referència la tarifa establerta.  
+    Per exemple, si la tarifa base és de 300 € per cada 8 hores de tutorització, en un curs de 33 hores el cost total de la tutorització s’ajustarà proporcionalment, resultant en un import de 1.237,50 €.
+
 ---  
 
-### **Proposta de la formació**
+### 📄 **Proposta de la formació**
 Uan vegada definida la formació, s'omli en un **full de càlcul** tota la informació bàsica: títol del curs, durada, horaris previstos, ponents, nombre de participants estimat i necessitats logístiques; indicant la **campanya a la qual pertany el curs** (SKILLS, FSE o PAA). Açò es realitza per a que el cap de servei de formació i orientació o el director del CEFIRE d'FP, ens autoritzen a realitzar la formació.
 
 [:material-microsoft-excel: Full de càlcul de les formacions 2025]( {{enlaces.full_calcul_formacions_25}} ){: .md-button target="_blank"}  
@@ -178,7 +190,7 @@ Uan vegada definida la formació, s'omli en un **full de càlcul** tota la infor
 
 ---
 
-### **Validació**
+### ✔️ **Validació**
 Finalment, la proposta de formació haurà de ser validada per el cap de servei de formació i orientació o el director del CEFIRE d'FP. Aquesta validació és imprescindible abans de començar amb la gestió administrativa, ja que garanteix que la formació s’ajusta a les prioritats de la DGFP i compleix amb els requisits de qualitat establerts.
 
 ---
