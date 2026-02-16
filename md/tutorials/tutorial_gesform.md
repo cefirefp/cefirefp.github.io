@@ -140,32 +140,12 @@ En cas contrari, s'haurà d'inidcar el material necessari.
 [FSE]( ../perfil/fse.md#observacions ){: .md-button target="_blank"} [Skills]( ../perfil/skills.md#observacions ){: .md-button target="_blank"} [PAA]( ../perfil/paa.md#observacions ){: .md-button target="_blank"}
 
 
-**DIRIGIT A:** Es detallen en cas que les activitats de formació estiguen destinades a professorat d'etapes determinades o col·lectius específics.
+**DIRIGIT A:** Es detallen en cas que les activitats de formació estiguen destinades a professorat d'etapes determinades o col·lectius específics. El text varia en funció de la campanya de la formació (FSE, Skills, PAA), en els enllaços de més avall podem trobar el text que caldrà possar, segon la campanya.
 
-!!!important "Important"
-    Cal cambiar la família d'informàtica i comunicacions per la que corresponga a la formació que es va a validar.
+[FSE]( ../perfil/fse.md#dirigit-a ){: .md-button target="_blank"} [Skills]( ../perfil/skills.md#dirigit-a ){: .md-button target="_blank"} [PAA]( ../perfil/paa.md#dirigit-a ){: .md-button target="_blank"}
 
 
-**Valencià**
-```html
-Personal docent i personal tècnic no docent, amb destinació en centres educatius no universitaris de la Comunitat Valenciana, en els quals s'impartisquen els ensenyaments regulats per la Llei orgànica d'educació. 
-Personal docent i personal tècnic no docent, que preste servicis tècnics de suport educatiu als centres indicats en l'apartat anterior. 
-Personal que haja finalitzat els graus i el màster que conduïxen a l'obtenció de la titulació docent, sempre que es troben inscrits en alguna de les borses de personal docent de la Conselleria d'Educació, Cultura i Universitats, i este personal no supose més del 50 % de participació en l'activitat
-
-REQUISITS ESPECÍFICS 
-  Professorat de Formació Professional de la família d'Informàtica i Comunicacions.
-```
-**Castellà**
-```html
-Personal docente y personal técnico no docente, con destino en centros educativos no universitarios de la Comunitat Valenciana, en los que se impartan las enseñanzas reguladas por la Ley orgánica de educación. 
-Personal docente y personal técnico no docente, que preste servicios técnicos de apoyo educativo a los centros indicados en el apartado anterior. 
-Personal que haya finalizado los grados y el máster que conducen a la obtención de la titulación docente, siempre que se encuentren inscritos en alguna de las bolsas de personal docente de la Conselleria de Educación, Cultura y Universidades, y dicho personal no suponga más del 50 % de participación en la actividad.
-
-REQUISITOS ESPECÍFICOS 
-  Profesorado de Formación Profesional de la familia de Informática y Comunicaciones.
-```
-
-**IMAGEN PORTADA:** En este apartat, cal pujar el banner que hem creat per al curs. El format de la image ha de ser .png, i el nom de l'arxiu ha de ser 1.png per a valencià i 2.png per a castellà. Els bàners ja no s'afegixen amb codi html, caldrà que afegir l'imatge directament la fitxa de la formació.
+**IMAGEN PORTADA:** En este apartat, cal pujar el banner que hem creat per al curs. El format de la image ha de ser .png. Els bàners ja no s'afegixen amb codi html, caldrà que afegir l'imatge directament la fitxa de la formació.
 
 ![Afegir baner](../images/gesform/1.png){.center}
 
