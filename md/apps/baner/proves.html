@@ -161,9 +161,12 @@
                 <input type="color" class="form-control" id="colorPicker2" value="#0a3c63" oninput="Color2(this.value)">
             </div>
             <div style="display: flex; justify-content: space-around;">
-                <div id="dropZone1" class="dropZone">Arrossega i deixa anar la imatge de la cantonada superior esquerra.<br>Res. recomanada: 460x180</div>
-                <div id="dropZone2" class="dropZone">Arrossega i deixa anar la imatge de la cantonada inferior dreta.<br>Res. recomanada: 400x180</div>
-                <div id="dropZone3" class="dropZone">Arrossega i deixa anar la imatge de Instagram.<br>Res. recomanada: 115x115</div>
+                <div id="dropZone1" class="dropZone">Arrossega i deixa anar la imatge de la cantonada superior
+                    esquerra.<br>Res. recomanada: 460x180</div>
+                <div id="dropZone2" class="dropZone">Arrossega i deixa anar la imatge de la cantonada inferior
+                    dreta.<br>Res. recomanada: 400x180</div>
+                <div id="dropZone3" class="dropZone">Arrossega i deixa anar la imatge de Instagram.<br>Res. recomanada:
+                    115x115</div>
             </div>
 
             <div class="form-group">
@@ -177,6 +180,56 @@
                 <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text"
                     class="form-control" id="titulo_va" placeholder="Ingressa títol...">
             </div>
+
+            <div class="form-group">
+                <label for="sliderInput">Tamany de lletra (0-10)</label>
+                <input type="range" class="form-control-range" id="sliderInput" min="0" max="10" value="10">
+                <span id="sliderValue">10</span>
+            </div>
+
+            <script>
+                document.getElementById('sliderInput').addEventListener('input', function () {
+                    document.getElementById('sliderValue').textContent = this.value;
+                    const idsCast = ['titol', 'titol2linies1l', 'titol2linies2l'];
+                    const idsCastDirect = ['textinstcast', 'textinstcast2', 'textinstval', 'textinstval2'];
+
+                    // Elementos valenciano
+                    const idsVal = ['titolv', 'titol2linies1lv', 'titol2linies2lv'];
+
+                    // Función helper para aplicar font-weight
+                    function aplicarPeso(elemento, peso) {
+                        if (elemento) {
+                            elemento.style.fontWeight = peso;
+                            // Si tiene tspan anidados, también aplicar
+                            const tspans = elemento.querySelectorAll('tspan');
+                            tspans.forEach(tspan => tspan.style.fontSize = peso + 'px');
+                        }
+                    }
+
+                    // Aplicar a castellano (tspan)
+                    idsCast.forEach(id => {
+                        const elem = document.getElementById(id);
+                        if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                    });
+
+                    // Aplicar a castellano directo
+                    idsCastDirect.forEach(id => {
+                        const elem = document.getElementById(id);
+                        if (elem) elem.style.fontSize = 16 + this.value * 2;
+                    });
+
+                    // Aplicar a valenciano (tspan)
+                    idsVal.forEach(id => {
+                        const elem = document.getElementById(id);
+                        if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                    });
+
+
+
+                });
+
+
+            </script>
 
             <div class="form-group">
                 <label for="input2">Fechas</label>
@@ -213,15 +266,15 @@
                 <div class="form-group form-check-inline" id="checkboxes">
                     <div class="form-check">
                         <input onclick="cambiaLogo()" type="checkbox" class="form-check-input" id="checkbox1">
-                        <label class="form-check-label" for="checkbox1">Min+FSE+Cefire+FP</label>
+                        <label class="form-check-label" for="checkbox1">Min+FSE+Cefire+FP (FSE)</label>
                     </div>
                     <div class="form-check">
                         <input onclick="cambiaLogo2()" type="checkbox" class="form-check-input" id="checkbox2">
-                        <label class="form-check-label" for="checkbox2">Min+Gen+Cefire+FP</label>
+                        <label class="form-check-label" for="checkbox2">Min+Gen+Cefire+FP (PAA o AAPP)</label>
                     </div>
                     <div class="form-check">
                         <input onclick="cambiaLogo3()" type="checkbox" class="form-check-input" id="checkbox3">
-                        <label class="form-check-label" for="checkbox3">Gen+Cefire+FP</label>
+                        <label class="form-check-label" for="checkbox3">Gen+Cefire+FP (PAA cost 0)</label>
                     </div>
                     <!-- 
                             <div class="form-check">
@@ -454,19 +507,19 @@
 
 
 
-        function dividirCadena(texto) {
-            if (texto.length <= 19) {
+        function dividirCadena(texto, largolin) {
+            if (texto.length <= largolin) {
                 return [texto];
             }
 
-            let indice = 19;
+            let indice = largolin;
 
             while (indice > 0 && texto[indice] !== ' ') {
                 indice--;
             }
 
             if (indice === 0) {
-                indice = 19; // Si no hay espacio, dividimos en el índice 19
+                indice = largolin; // Si no hay espacio, dividimos en el índice largolin
             }
 
             const primeraParte = texto.substring(0, indice);
@@ -481,7 +534,53 @@
 
 
         function titular(t) {
-            if (t.length > 38) {
+            largomax = document.getElementById('sliderInput').value;
+            largolin = 0;
+            switch (largomax) {
+                case '0':
+                    largolin = 36;
+                    //27
+                    break;
+                case '1':
+                    largolin = 34;
+
+                    //25
+
+                    break;
+                case '2':
+                    largolin = 32;
+                    //23
+
+                    break;
+                case '3':
+                    largolin = 31;
+                    //21
+                    break;
+                case '4':
+                    largolin = 29;
+                    break;
+                case '5':
+                    largolin = 27;
+                    break;
+                case '6':
+                    largolin = 26;
+                    break;
+                case '7':
+                    largolin = 25;
+                    break;
+                case '8':
+                    largolin = 25;
+                    break;
+                case '9':
+                    largolin = 24;
+                    break;
+                case '10':
+                    largolin = 22;
+            }
+
+
+
+            if (t.length > largolin * 2) {
                 alert("El titular es demasiado largo");
                 return;
             }
@@ -516,8 +615,8 @@
             let currentStyle7 = textElement4aux_2.getAttribute('style') || '';
 
             console.log(t.length);
-            if (t.length < 19) {
-                console.log("Menor de 19 caracteres");
+            if (t.length < largolin) {
+                console.log("Menor de " + largolin + " caracteres");
                 tspan.setAttribute('style', currentStyle + '; visibility:visible');
                 tspan2.setAttribute('style', currentStyle2 + '; visibility:hidden');
                 tspan3.setAttribute('style', currentStyle3 + '; visibility:hidden');
@@ -533,8 +632,8 @@
                     tspan.textContent = t;
                     textElement4aux.textContent = t;
                 }
-            } else if (t.length >= 19 && t.length <= 38) {
-                console.log("Entre 19 y 38 caracteres");
+            } else if (t.length >= largolin) {
+                console.log("Entre " + largolin + " caracteres");
                 tspan.setAttribute('style', currentStyle + '; visibility:hidden');
                 tspan2.setAttribute('style', currentStyle2 + '; visibility:visible');
                 tspan3.setAttribute('style', currentStyle3 + '; visibility:visible');
@@ -545,7 +644,7 @@
                 textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
                 textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:visible');
 
-                const [primeraParte, segundaParte] = dividirCadena(t);
+                const [primeraParte, segundaParte] = dividirCadena(t, largolin);
 
                 if (tspan2) {
                     tspan2.textContent = primeraParte;
@@ -748,13 +847,17 @@
         function fechas(f) {
             const fElement = document.getElementById('data');
             tspan = fElement.querySelector('tspan');
+
+            const fElement2 = document.getElementById('data2');
+            tspan2 = fElement2.querySelector('tspan');
             //Instagram
-            const fElement2 = document.getElementById('datesinstcast');           
+            const fElement3 = document.getElementById('datesinstcast');
 
             if (fElement) {
                 tspan.textContent = f;
                 //Instagram
-                fElement2.textContent = f;
+                tspan2.textContent = f;
+                fElement3.textContent = f;
             }
         }
 
@@ -762,12 +865,16 @@
             const fElement_va = document.getElementById('datav');
             tspan = fElement_va.querySelector('tspan');
 
-            const fElement2 = document.getElementById('datesinstval');
+            const fElement_va2 = document.getElementById('data2v');
+            tspan2 = fElement_va2.querySelector('tspan');
+
+            const fElement_va3 = document.getElementById('datesinstval');
 
 
             if (fElement_va) {
                 tspan.textContent = f;
-                fElement2.textContent = f;
+                tspan2.textContent = f;
+                fElement_va3.textContent = f;
             }
         }
 
@@ -1269,7 +1376,6 @@
             // Show spinner
             var spinner = $('<div class="spinner-border text-primary" role="status" style="position: fixed; top: 50%; left: 50%; z-index: 9999;"><span class="sr-only">Loading...</span></div>');
             $('body').append(spinner);
-
             $.ajax({
                 url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + storedData,
                 type: "POST",
