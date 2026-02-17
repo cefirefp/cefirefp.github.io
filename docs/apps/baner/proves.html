@@ -210,18 +210,20 @@
                     idsCast.forEach(id => {
                         const elem = document.getElementById(id);
                         if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                        titular(document.getElementById('titulo').value);
                     });
 
                     // Aplicar a castellano directo
                     idsCastDirect.forEach(id => {
                         const elem = document.getElementById(id);
-                        if (elem) elem.style.fontSize = 16 + this.value * 2;
+                        if (elem) elem.style.fontSize = 18 + this.value * 1.8;
                     });
 
                     // Aplicar a valenciano (tspan)
                     idsVal.forEach(id => {
                         const elem = document.getElementById(id);
                         if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                        titular_va(document.getElementById('titulo_va').value);
                     });
 
 
@@ -290,6 +292,7 @@
             <button class="btn btn-primary mx-2" onclick="descargasvg()">Descarga SVG</button>
             <button class="btn btn-danger mx-2" onclick="descarrega_tot_inst()">Descargar PNG Instagram</button>
             <button class="btn btn-secondary mx-2" onclick="descargasvg_inst()">Descarga SVG Instagram</button>
+            <button class="btn btn-info mx-2" onclick="descarregaFonts()">Descargar Fonts per a SVG</button>
 
         </div>
 
@@ -303,6 +306,7 @@
         var svgElement_va = null;
         var svgElement_instagram = null;
         var svgElement_instagram_va = null;
+
 
         //Dropzone1
 
@@ -428,6 +432,16 @@
 
         // Funcions
 
+        function descarregaFonts() {
+            // Descargar las fuentes utilizadas en el SVG
+            const fontsUrl = 'fonts.zip';
+            const a = document.createElement('a');
+            a.href = fontsUrl;
+            a.download = 'fonts.zip';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
 
         function descargasvg() {
             // Descargar SVG en castellano
@@ -660,7 +674,53 @@
 
         function titular_va(t) {
 
-            if (t.length > 38) {
+            largomax = document.getElementById('sliderInput').value;
+            largolin = 0;
+            switch (largomax) {
+                case '0':
+                    largolin = 36;
+                    //27
+                    break;
+                case '1':
+                    largolin = 34;
+
+                    //25
+
+                    break;
+                case '2':
+                    largolin = 32;
+                    //23
+
+                    break;
+                case '3':
+                    largolin = 31;
+                    //21
+                    break;
+                case '4':
+                    largolin = 29;
+                    break;
+                case '5':
+                    largolin = 27;
+                    break;
+                case '6':
+                    largolin = 26;
+                    break;
+                case '7':
+                    largolin = 25;
+                    break;
+                case '8':
+                    largolin = 25;
+                    break;
+                case '9':
+                    largolin = 24;
+                    break;
+                case '10':
+                    largolin = 22;
+            }
+
+
+
+            if (t.length > largolin * 2) {
                 alert("El titular es demasiado largo");
                 return;
             }
@@ -695,8 +755,8 @@
             let currentStyle7 = textElement4aux_2.getAttribute('style') || '';
 
             console.log(t.length);
-            if (t.length < 19) {
-                console.log("Menor de 19 caracteres");
+            if (t.length < largolin) {
+                console.log("Menor de " + largolin + " caracteres");
                 tspan.setAttribute('style', currentStyle + '; visibility:visible');
                 tspan2.setAttribute('style', currentStyle2 + '; visibility:hidden');
                 tspan3.setAttribute('style', currentStyle3 + '; visibility:hidden');
@@ -712,8 +772,8 @@
                     tspan.textContent = t;
                     textElement4aux.textContent = t;
                 }
-            } else if (t.length >= 19 && t.length <= 38) {
-                console.log("Entre 19 y 38 caracteres");
+            } else if (t.length >= largolin && t.length <= largolin * 2) {
+                console.log("Entre " + largolin + " y " + (largolin * 2) + " caracteres");
                 tspan.setAttribute('style', currentStyle + '; visibility:hidden');
                 tspan2.setAttribute('style', currentStyle2 + '; visibility:visible');
                 tspan3.setAttribute('style', currentStyle3 + '; visibility:visible');
@@ -724,7 +784,7 @@
                 textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
                 textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:visible');
 
-                const [primeraParte, segundaParte] = dividirCadena(t);
+                const [primeraParte, segundaParte] = dividirCadena(t, largolin);
 
                 if (tspan2) {
                     tspan2.textContent = primeraParte;
@@ -734,29 +794,29 @@
                 textElement4aux_2.textContent = segundaParte;
             }
 
-
-            // instagram
-            const textElementinst = document.getElementById('text1inst');
-            const textElementinst2 = document.getElementById('text2inst');
-
-            textElementinst.setAttribute('style', 'visibility:visible');
-            textElementinst2.setAttribute('style', 'visibility:visible');
-            if (t.length <= 40) {
-                textElementinst.setAttribute('style', 'visibility:visible');
-                textElementinst2.setAttribute('style', 'visibility:hidden');
-                if (textElementinst) {
-                    textElementinst.textContent = t;
-                }
-            } else {
-                textElementinst.setAttribute('style', 'visibility:visible');
-                textElementinst2.setAttribute('style', 'visibility:visible');
-                const [primeraParte, segundaParte] = dividirCadena(t);
-
-                if (textElementinst) {
-                    textElementinst.textContent = segundaParte;
-                }
-                textElementinst2.textContent = primeraParte;
-            }
+            /*
+                        // instagram
+                        const textElementinst = document.getElementById('text1inst');
+                        const textElementinst2 = document.getElementById('text2inst');
+            
+                        textElementinst.setAttribute('style', 'visibility:visible');
+                        textElementinst2.setAttribute('style', 'visibility:visible');
+                        if (t.length <= 40) {
+                            textElementinst.setAttribute('style', 'visibility:visible');
+                            textElementinst2.setAttribute('style', 'visibility:hidden');
+                            if (textElementinst) {
+                                textElementinst.textContent = t;
+                            }
+                        } else {
+                            textElementinst.setAttribute('style', 'visibility:visible');
+                            textElementinst2.setAttribute('style', 'visibility:visible');
+                            const [primeraParte, segundaParte] = dividirCadena(t, 40);
+            
+                            if (textElementinst) {
+                                textElementinst.textContent = segundaParte;
+                            }
+                            textElementinst2.textContent = primeraParte;
+                        }*/
         }
 
 
