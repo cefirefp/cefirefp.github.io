@@ -619,28 +619,26 @@
             const ano2 = document.getElementById('anys2linies');
             const ano2Text = ano2.querySelector('tspan');
 
-            let currentStyle = tspan.getAttribute('style') || '';
-            let currentStyle2 = tspan2.getAttribute('style') || '';
-            let currentStyle3 = tspan3.getAttribute('style') || '';
-            let currentStyle4 = ano1Text.getAttribute('style') || '';
-            let currentStyle5 = ano2Text.getAttribute('style') || '';
-
-            let currentStyle6 = textElement4aux.getAttribute('style') || '';
-            let currentStyle7 = textElement4aux_2.getAttribute('style') || '';
-
             console.log(t.length);
             if (t.length < largolin) {
                 console.log("Menor de " + largolin + " caracteres");
-                tspan.setAttribute('style', currentStyle + '; visibility:visible');
-                tspan2.setAttribute('style', currentStyle2 + '; visibility:hidden');
-                tspan3.setAttribute('style', currentStyle3 + '; visibility:hidden');
+                tspan.style.visibility = 'visible';
+                tspan.style.display = 'inline';
+                tspan2.style.visibility = 'hidden';
+                tspan2.style.display = 'none';
+                tspan3.style.visibility = 'hidden';
+                tspan3.style.display = 'none';
 
-                ano1Text.setAttribute('style', currentStyle4 + '; visibility:visible');
+                ano1Text.style.visibility = 'visible';
+                ano1Text.style.display = 'inline';
 
-                ano2Text.setAttribute('style', currentStyle5 + '; visibility:hidden');
+                ano2Text.style.visibility = 'hidden';
+                ano2Text.style.display = 'none';
 
-                textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
-                textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:hidden');
+                textElement4aux.style.visibility = 'visible';
+                textElement4aux.style.display = 'inline';
+                textElement4aux_2.style.visibility = 'hidden';
+                textElement4aux_2.style.display = 'none';
 
                 if (tspan) {
                     tspan.textContent = t;
@@ -648,15 +646,22 @@
                 }
             } else if (t.length >= largolin) {
                 console.log("Entre " + largolin + " caracteres");
-                tspan.setAttribute('style', currentStyle + '; visibility:hidden');
-                tspan2.setAttribute('style', currentStyle2 + '; visibility:visible');
-                tspan3.setAttribute('style', currentStyle3 + '; visibility:visible');
-                ano1Text.setAttribute('style', currentStyle4 + '; visibility:hidden');
+                tspan.style.visibility = 'hidden';
+                tspan.style.display = 'none';
+                tspan2.style.visibility = 'visible';
+                tspan2.style.display = 'inline';
+                tspan3.style.visibility = 'visible';
+                tspan3.style.display = 'inline';
+                ano1Text.style.visibility = 'hidden';
+                ano1Text.style.display = 'none';
 
-                ano2Text.setAttribute('style', currentStyle5 + '; visibility:visible');
+                ano2Text.style.visibility = 'visible';
+                ano2Text.style.display = 'inline';
 
-                textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
-                textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:visible');
+                textElement4aux.style.visibility = 'visible';
+                textElement4aux.style.display = 'inline';
+                textElement4aux_2.style.visibility = 'visible';
+                textElement4aux_2.style.display = 'inline';
 
                 const [primeraParte, segundaParte] = dividirCadena(t, largolin);
 
@@ -757,16 +762,26 @@
             console.log(t.length);
             if (t.length < largolin) {
                 console.log("Menor de " + largolin + " caracteres");
-                tspan.setAttribute('style', currentStyle + '; visibility:visible');
-                tspan2.setAttribute('style', currentStyle2 + '; visibility:hidden');
-                tspan3.setAttribute('style', currentStyle3 + '; visibility:hidden');
+                tspan.style.visibility = 'visible';
+                tspan.style.display = 'inline';
+                tspan2.style.visibility = 'hidden';
+                tspan2.style.display = 'none';
+                tspan3.style.visibility = 'hidden';
+                tspan3.style.display = 'none';
 
-                ano1Text.setAttribute('style', currentStyle4 + '; visibility:visible');
+                ano1Text.style.visibility = 'visible';
+                ano1Text.style.display = 'inline';
 
-                ano2Text.setAttribute('style', currentStyle5 + '; visibility:hidden');
+                ano2Text.style.visibility = 'hidden';
+                ano2Text.style.display = 'none';
 
-                textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
-                textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:hidden');
+
+                textElement4aux.style.visibility = 'visible';
+                textElement4aux.style.display = 'inline';
+
+                textElement4aux_2.style.visibility = 'hidden';
+                textElement4aux_2.style.display = 'none';
+
 
                 if (tspan) {
                     tspan.textContent = t;
@@ -774,15 +789,23 @@
                 }
             } else if (t.length >= largolin && t.length <= largolin * 2) {
                 console.log("Entre " + largolin + " y " + (largolin * 2) + " caracteres");
-                tspan.setAttribute('style', currentStyle + '; visibility:hidden');
-                tspan2.setAttribute('style', currentStyle2 + '; visibility:visible');
-                tspan3.setAttribute('style', currentStyle3 + '; visibility:visible');
-                ano1Text.setAttribute('style', currentStyle4 + '; visibility:hidden');
+                tspan.style.visibility = 'hidden';
+                tspan.style.display = 'none';
+                tspan2.style.visibility = 'visible';
+                tspan2.style.display = 'inline';
+                tspan3.style.visibility = 'visible';
+                tspan3.style.display = 'inline';
+                ano1Text.style.visibility = 'hidden';
+                ano1Text.style.display = 'none';
 
-                ano2Text.setAttribute('style', currentStyle5 + '; visibility:visible');
+                ano2Text.style.visibility = 'visible';
+                ano2Text.style.display = 'inline';
 
-                textElement4aux.setAttribute('style', currentStyle6 + '; visibility:visible');
-                textElement4aux_2.setAttribute('style', currentStyle7 + '; visibility:visible');
+                textElement4aux.style.visibility = 'visible';
+                textElement4aux.style.display = 'inline';
+
+                textElement4aux_2.style.visibility = 'visible';
+                textElement4aux_2.style.display = 'inline';
 
                 const [primeraParte, segundaParte] = dividirCadena(t, largolin);
 
@@ -995,42 +1018,50 @@
             tspan1 = semi4.querySelector('tspan');
             tspan2 = semi7.querySelector('tspan');
 
-            let currentStyle = semi3.getAttribute('style') || '';
-            let currentStyle2 = semi4.getAttribute('style') || '';
-            let currentStyle3 = semi5.getAttribute('style') || '';
-            let currentStyle4 = semi6.getAttribute('style') || '';
-            let currentStyle5 = semi7.getAttribute('style') || '';
-            let currentStyle6 = semi8.getAttribute('style') || '';
-            let currentStyle7 = semi9.getAttribute('style') || '';
-
-
-
-
 
             if (document.getElementById('checkbox3s').checked) {
-                semi1.setAttribute('style', 'visibility:hidden');
-                semi2.setAttribute('style', 'visibility:visible');
+                semi1.style.visibility = 'hidden';
+                semi2.style.visibility = 'visible';
+                semi1.style.display = 'none';
+                semi2.style.display = 'inline';
 
-                semi3.setAttribute('style', currentStyle + '; visibility:hidden');
-                semi4.setAttribute('style', currentStyle2 + '; visibility:hidden');
-                semi5.setAttribute('style', currentStyle3 + '; visibility:hidden');
-                semi6.setAttribute('style', currentStyle4 + '; visibility:visible');
-                semi7.setAttribute('style', currentStyle5 + '; visibility:visible');
-                semi8.setAttribute('style', currentStyle6 + '; visibility:visible');
-                semi9.setAttribute('style', currentStyle7 + '; visibility:visible');
+
+                semi3.style.visibility = 'hidden';
+                semi3.style.display = 'none';
+                semi4.style.visibility = 'hidden';
+                semi4.style.display = 'none';
+                semi5.style.visibility = 'hidden';
+                semi5.style.display = 'none';
+                semi6.style.visibility = 'visible';
+                semi6.style.display = 'inline';
+                semi7.style.visibility = 'visible';
+                semi7.style.display = 'inline';
+                semi8.style.visibility = 'visible';
+                semi8.style.display = 'inline';
+                semi9.style.visibility = 'visible';
+                semi9.style.display = 'inline';
                 tspan1.textContent = 'Presencial';
                 tspan2.textContent = 'Presencial';
             } else {
-                semi1.setAttribute('style', 'visibility:visible');
-                semi2.setAttribute('style', 'visibility:hidden');
+                semi1.style.visibility = 'visible';
+                semi2.style.visibility = 'hidden';
+                semi1.style.display = 'inline';
+                semi2.style.display = 'none';
 
-                semi3.setAttribute('style', currentStyle + '; visibility:visible');
-                semi4.setAttribute('style', currentStyle2 + '; visibility:visible');
-                semi5.setAttribute('style', currentStyle3 + '; visibility:visible');
-                semi6.setAttribute('style', currentStyle4 + '; visibility:hidden');
-                semi7.setAttribute('style', currentStyle5 + '; visibility:hidden');
-                semi8.setAttribute('style', currentStyle6 + '; visibility:hidden');
-                semi9.setAttribute('style', currentStyle7 + '; visibility:hidden');
+                semi3.style.visibility = 'visible';
+                semi3.style.display = 'inline';
+                semi4.style.visibility = 'visible';
+                semi4.style.display = 'inline';
+                semi5.style.visibility = 'visible';
+                semi5.style.display = 'inline';
+                semi6.style.visibility = 'hidden';
+                semi6.style.display = 'none';
+                semi7.style.visibility = 'hidden';
+                semi7.style.display = 'none';
+                semi8.style.visibility = 'hidden';
+                semi8.style.display = 'none';
+                semi9.style.visibility = 'hidden';
+                semi9.style.display = 'none';
                 tspan1.textContent = 'A distancia';
                 tspan2.textContent = 'A distancia';
             }
@@ -1052,42 +1083,48 @@
             tspan1v = semi4v.querySelector('tspan');
             tspan2v = semi7v.querySelector('tspan');
 
-            let currentStylev = semi3v.getAttribute('style') || '';
-            let currentStyle2v = semi4v.getAttribute('style') || '';
-            let currentStyle3v = semi5v.getAttribute('style') || '';
-            let currentStyle4v = semi6v.getAttribute('style') || '';
-            let currentStyle5v = semi7v.getAttribute('style') || '';
-            let currentStyle6v = semi8v.getAttribute('style') || '';
-            let currentStyle7v = semi9v.getAttribute('style') || '';
-
-
-
-
-
             if (document.getElementById('checkbox3s').checked) {
-                semi1v.setAttribute('style', 'visibility:hidden');
-                semi2v.setAttribute('style', 'visibility:visible');
+                semi1v.style.visibility = 'hidden';
+                semi2v.style.visibility = 'visible';
+                semi1v.style.display = 'none';
+                semi2v.style.display = 'inline';
 
-                semi3v.setAttribute('style', currentStylev + '; visibility:hidden');
-                semi4v.setAttribute('style', currentStyle2v + '; visibility:hidden');
-                semi5v.setAttribute('style', currentStyle3v + '; visibility:hidden');
-                semi6v.setAttribute('style', currentStyle4v + '; visibility:visible');
-                semi7v.setAttribute('style', currentStyle5v + '; visibility:visible');
-                semi8v.setAttribute('style', currentStyle6v + '; visibility:visible');
-                semi9v.setAttribute('style', currentStyle7v + '; visibility:visible');
+                semi3v.style.visibility = 'hidden';
+                semi3v.style.display = 'none';
+                semi4v.style.visibility = 'hidden';
+                semi4v.style.display = 'none';
+                semi5v.style.visibility = 'hidden';
+                semi5v.style.display = 'none';
+                semi6v.style.visibility = 'visible';
+                semi6v.style.display = 'inline';
+                semi7v.style.visibility = 'visible';
+                semi7v.style.display = 'inline';
+                semi8v.style.visibility = 'visible';
+                semi8v.style.display = 'inline';
+                semi9v.style.visibility = 'visible';
+                semi9v.style.display = 'inline';
                 tspan1v.textContent = 'Presencial';
                 tspan2v.textContent = 'Presencial';
             } else {
-                semi1v.setAttribute('style', 'visibility:visible');
-                semi2v.setAttribute('style', 'visibility:hidden');
+                semi1v.style.visibility = 'visible';
+                semi2v.style.visibility = 'hidden';
+                semi1v.style.display = 'inline';
+                semi2v.style.display = 'none';
 
-                semi3v.setAttribute('style', currentStylev + '; visibility:visible');
-                semi4v.setAttribute('style', currentStyle2v + '; visibility:visible');
-                semi5v.setAttribute('style', currentStyle3v + '; visibility:visible');
-                semi6v.setAttribute('style', currentStyle4v + '; visibility:hidden');
-                semi7v.setAttribute('style', currentStyle5v + '; visibility:hidden');
-                semi8v.setAttribute('style', currentStyle6v + '; visibility:hidden');
-                semi9v.setAttribute('style', currentStyle7v + '; visibility:hidden');
+                semi3v.style.visibility = 'visible';
+                semi3v.style.display = 'inline';
+                semi4v.style.visibility = 'visible';
+                semi4v.style.display = 'inline';
+                semi5v.style.visibility = 'visible';
+                semi5v.style.display = 'inline';
+                semi6v.style.visibility = 'hidden';
+                semi6v.style.display = 'none';
+                semi7v.style.visibility = 'hidden';
+                semi7v.style.display = 'none';
+                semi8v.style.visibility = 'hidden';
+                semi8v.style.display = 'none';
+                semi9v.style.visibility = 'hidden';
+                semi9v.style.display = 'none';
                 tspan1v.textContent = 'A distància';
                 tspan2v.textContent = 'A distància';
             }
@@ -1143,17 +1180,22 @@
 
 
             if (document.getElementById('checkbox1').checked) {
-                logoElement.setAttribute('style', 'visibility:visible');
-                logoElement_va.setAttribute('style', 'visibility:visible');
-                //logoElement_instagram.setAttribute('style', 'visibility:visible');
-                //logoElement_instagram_va.setAttribute('style', 'visibility:visible');
+                logoElement.style.visibility = 'visible';
+                logoElement_va.style.visibility = 'visible';
+                logoElement.style.display = 'inline';
+                logoElement_va.style.display = 'inline';
+
+                //logoElement_instagram.style.visibility = 'visible';
+                //logoElement_instagram_va.style.visibility = 'visible';
 
 
             } else {
-                logoElement.setAttribute('style', 'visibility:hidden');
-                logoElement_va.setAttribute('style', 'visibility:hidden');
-                //logoElement_instagram.setAttribute('style', 'visibility:hidden');
-                //logoElement_instagram_va.setAttribute('style', 'visibility:hidden');
+                logoElement.style.visibility = 'hidden';
+                logoElement_va.style.visibility = 'hidden';
+                logoElement.style.display = 'none';
+                logoElement_va.style.display = 'none';
+                //logoElement_instagram.style.visibility = 'hidden';
+                //logoElement_instagram_va.style.visibility = 'hidden';
 
             }
 
@@ -1169,15 +1211,19 @@
             //const logoElement2_instagram_va = svgElement_instagram_va.getElementById('logo2inst_va');
 
             if (document.getElementById('checkbox2').checked) {
-                logoElement2.setAttribute('style', 'visibility:visible');
-                logoElement2_va.setAttribute('style', 'visibility:visible');
-                //logoElement2_instagram.setAttribute('style', 'visibility:visible');
-                //logoElement2_instagram_va.setAttribute('style', 'visibility:visible');
+                logoElement2.style.visibility = 'visible';
+                logoElement2_va.style.visibility = 'visible';
+                logoElement2.style.display = 'inline';
+                logoElement2_va.style.display = 'inline';
+                //logoElement2_instagram.style.visibility = 'visible';
+                //logoElement2_instagram_va.style.visibility = 'visible';
             } else {
-                logoElement2.setAttribute('style', 'visibility:hidden');
-                logoElement2_va.setAttribute('style', 'visibility:hidden');
-                //logoElement2_instagram.setAttribute('style', 'visibility:hidden');
-                //logoElement2_instagram_va.setAttribute('style', 'visibility:hidden');
+                logoElement2.style.visibility = 'hidden';
+                logoElement2_va.style.visibility = 'hidden';
+                logoElement2.style.display = 'none';
+                logoElement2_va.style.display = 'none';
+                //logoElement2_instagram.style.visibility = 'hidden';
+                //logoElement2_instagram_va.style.visibility = 'hidden';
             }
 
 
@@ -1191,15 +1237,19 @@
             //const logoElement3_instagram = svgElement_instagram.getElementById('logo3inst');
             //const logoElement3_instagram_va = svgElement_instagram_va.getElementById('logo3inst_va');
             if (document.getElementById('checkbox3').checked) {
-                logoElement3.setAttribute('style', 'visibility:visible');
-                logoElement3_va.setAttribute('style', 'visibility:visible');
-                //logoElement3_instagram.setAttribute('style', 'visibility:visible');
-                //logoElement3_instagram_va.setAttribute('style', 'visibility:visible');
+                logoElement3.style.visibility = 'visible';
+                logoElement3_va.style.visibility = 'visible';
+                logoElement3.style.display = 'inline';
+                logoElement3_va.style.display = 'inline';
+                //logoElement3_instagram.style.visibility = 'visible';
+                //logoElement3_instagram_va.style.visibility = 'visible';
             } else {
-                logoElement3.setAttribute('style', 'visibility:hidden');
-                logoElement3_va.setAttribute('style', 'visibility:hidden');
-                //logoElement3_instagram.setAttribute('style', 'visibility:hidden');
-                //logoElement3_instagram_va.setAttribute('style', 'visibility:hidden');
+                logoElement3.style.visibility = 'hidden';
+                logoElement3_va.style.visibility = 'hidden';
+                logoElement3.style.display = 'none';
+                logoElement3_va.style.display = 'none';
+                //logoElement3_instagram.style.visibility = 'hidden';
+                //logoElement3_instagram_va.style.visibility = 'hidden';
             }
 
         }
