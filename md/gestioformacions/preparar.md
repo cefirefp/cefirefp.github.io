@@ -3,6 +3,67 @@ Una vegada validada la proposta de la formació, cal dur a terme diverses accion
 
 ---
 
+### 🗺️💻 Mapejat de la Competència Digital Docent (CDD)
+
+El **mapejat de la Competència Digital Docent (CDD)** és un procés obligatori que permet vincular cada acció formativa amb les àrees i nivells del marc de competència digital docent.
+
+#### 📌 En quines formacions és obligatori?
+
+El mapejat s’ha de realitzar de manera **obligatoria** en les formacions:
+
+* Formacions **FSE**
+* Formacions **PAA**
+* Formacions **SKILLS**
+* Altres accions formatives de la mateixa naturalesa
+
+El mapejat s'ha de realitzar indistintament en les formacions presencials com online.
+
+Aquesta obligació afecta totes les formacions:
+
+* Formacions ja aprovades
+* Formacions que s’estan realitzant actualment
+* Noves formacions que es validen a partir d’ara
+
+No és necesari fer el mapejat de les formacions que estan acabades a data 19/02/26.
+
+
+!!!warning "⏳ Aplicació amb caràcter retroactiu"
+    El mapejat s’ha de fer amb **caràcter retroactiu**, per tant, s’ha d’aplicar a totes les formacions que complisquen els requisits indicats, independentment del moment en què hagen sigut aprovades o iniciades.
+
+
+#### 🚫 Excepcions
+
+No s'ha de mapejar (està prohibit):
+
+* Formacions del **PAF**
+* Jornades
+* Congressos
+
+
+#### 📝 Procediment per a realitzar el mapejat
+
+Una vegada el curs haja sigut **validat per la SGFP**, s’haurà d’emplenar el formulari corresponent per a efectuar el mapejat:
+
+👉 Formulari de mapejat de la Competència Digital Docent:  
+[:material-link: Formulari]( {{enlaces.formulari_cdd}} ){: .md-button target="_blank"}
+
+
+!!!warning "El formulari no es pot compartir amb ningú"
+    El formulari no es pot compartir amb ningú. Si que podem fer-lo junt am el ponent del curs per si tenim algun dubte.
+
+#### 📞 Contacte
+
+En cas de dubte, podeu contactar amb:
+
+```
+Carlos Garcia Atienza
+📧 c.garciaatienza@edu.gva.es
+📧 garcia_carati@gva.es
+☎️ 961 970459
+```
+
+---
+
 ### 📢 Difusió curs
 
 La difusió del curs l'haurem de fer aquestes vies:
