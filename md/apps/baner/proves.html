@@ -173,12 +173,14 @@
                 <label for="input1">Título</label>
                 <input oninput="this.value = this.value.toUpperCase(); titular(this.value)" type="text"
                     class="form-control" id="titulo" placeholder="Ingresa título...">
+                <small class="form-text text-muted">Pon espacios para saltar la línea</small>
             </div>
 
             <div class="form-group">
                 <label for="input1">Títol en valencià</label>
                 <input oninput="this.value = this.value.toUpperCase(); titular_va(this.value)" type="text"
                     class="form-control" id="titulo_va" placeholder="Ingressa títol...">
+                <small class="form-text text-muted">Posa espais per canviar de línia</small>
             </div>
 
             <div class="form-group">
@@ -247,13 +249,29 @@
                     <label class="form-check-label" for="checkbox3s">Presencial</label>
                 </div>
                 <div class="form-check">
-                    <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input"
-                        id="checkbox3sincrones">
+                    <input onclick="semi_text()" type="checkbox" class="form-check-input" id="checkbox3sincrones">
                     <label class="form-check-label" for="checkbox3s">Semipresencial</label>
                 </div>
-                <label for="input2">Presencial (Deixa en blanc si no és presencial)</label>
-                <input oninput="presencial(this.value)" type="text" class="form-control" id="presencial"
-                    placeholder="Ingressa lloc de realizació...">
+                <div class="form-check">
+                    <input onclick="sessions_sincrones()" type="checkbox" class="form-check-input"
+                        id="checkbox4sincrones">
+                    <label class="form-check-label" for="checkbox4sincrones">Amb sessions síncrones (Compte! pot solapar
+                        el
+                        text)</label>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="input2">Presencial (lloc en castellà)</label>
+                        <input oninput="presencial(this.value)" type="text" class="form-control" id="presencial"
+                            placeholder="Ingressa lloc de realizació...">
+                    </div>
+                    <div class="col-6">
+                        <label for="input2">Presencial (lloc en valencià)</label>
+                        <input oninput="presencial_va(this.value)" type="text" class="form-control" id="presencial_va"
+                            placeholder="Ingressa lloc de realizació...">
+                    </div>
+                </div>
+
             </div>
             <div class="form-group">
                 <label for="input3">Horas / Hores</label>
@@ -1131,7 +1149,7 @@
 
         }
 
-        function sessions_sincrones() {
+        function semi_text() {
 
             const textonline = document.getElementById('modalitat');
             const textonline2 = document.getElementById('modalitat2');
@@ -1155,20 +1173,59 @@
             }
         }
 
-        function presencial(f) {
-            text_presencial = document.getElementById('ubicacio2');
-            tspan = text_presencial.querySelector('tspan');
+        function sessions_sincrones() {
+
+            const textonline = document.getElementById('modalitat');
+            const textonline2 = document.getElementById('modalitat2');
+            const textonline_va = document.getElementById('modalitatv');
+            const textonline2_va = document.getElementById('modalitat2v');
+            tspan1 = textonline.querySelector('tspan');
+            tspan2 = textonline2.querySelector('tspan');
+            tspan1va = textonline_va.querySelector('tspan');
+            tspan2va = textonline2_va.querySelector('tspan');
+
+            if (document.getElementById('checkbox4sincrones').checked) {
+                tspan1.textContent = 'Semipesencial, sesiones síncronas';
+                tspan2.textContent = 'Semipresencial, sesiones síncronas';
+                tspan1va.textContent = 'Semipresencial, sessions síncrones';
+                tspan2va.textContent = 'Semipresencial, sessions síncrones';
+            } else {
+                tspan1.textContent = 'Presencial';
+                tspan2.textContent = 'Presencial';
+                tspan1va.textContent = 'Presencial';
+                tspan2va.textContent = 'Presencial';
+            }
+        }
+
+        function presencial_va(f) {
+
             text_presencial_va = document.getElementById('ubicacio2v');
             tspan_va = text_presencial_va.querySelector('tspan');
             //Instagram
-            text_presencial_instagram = document.getElementById('text_presencial_inst');
-            text_presencial_instagram_va = document.getElementById('text_presencial_inst_va');
+            //text_presencial_instagram_va = document.getElementById('text_presencial_inst_va');
+
+            tspan_va.textContent = f;
+            //text_presencial_instagram_va.textContent = f;
+        }
+
+
+        function presencial(f) {
+            text_presencial = document.getElementById('ubicacio2');
+            tspan = text_presencial.querySelector('tspan');
+
+
+
+            //Instagram
+            //text_presencial_instagram = document.getElementById('text_presencial_inst');
 
             tspan.textContent = f;
-            tspan_va.textContent = f;
-            text_presencial_instagram.textContent = f;
-            text_presencial_instagram_va.textContent = f;
+            //text_presencial_instagram.textContent = f;
+
+            document.getElementById('presencial_va').value = f;
+            presencial_va(f);
+
         }
+
 
         function cambiaLogo() {
             const logoElement = svgElement.getElementById('logo1');
