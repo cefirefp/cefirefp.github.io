@@ -152,13 +152,59 @@
 
         <div class="container mt-5">
             <!-- Inputs -->
-            <div class="form-group d-inline-block mr-3">
-                <label for="colorPicker1">Selecciona color principal</label>
-                <input type="color" class="form-control" id="colorPicker1" value="#0a3c63" oninput="Color(this.value)">
-            </div>
-            <div class="form-group d-inline-block">
-                <label for="colorPicker2">Selecciona color fondo</label>
-                <input type="color" class="form-control" id="colorPicker2" value="#0a3c63" oninput="Color2(this.value)">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="colorPicker1">Selecciona color principal</label>
+                                <input type="color" class="form-control" id="colorPicker1" value="#0a3c63"
+                                    oninput="Color(this.value)">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="colorPicker2">Selecciona color fondo</label>
+                                <input type="color" class="form-control" id="colorPicker2" value="#0a3c63"
+                                    oninput="Color2(this.value)">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="familiaSelect">Selecciona familia profesional</label>
+                                <select class="form-control" id="familiaSelect" onchange="colorfamilia()">
+                                    <option value="">-- Elige una familia --</option>
+                                    <option value="actividades">Actividades físicas y deportivas</option>
+                                    <option value="administracion">Administración y gestión</option>
+                                    <option value="agraria">Agraria</option>
+                                    <option value="artesgraficas">Artes gráficas</option>
+                                    <option value="artesartesianas">Artes y artesanías</option>
+                                    <option value="comerciomarketing">Comercio y marketing</option>
+                                    <option value="edificacion">Edificación y obra civil</option>
+                                    <option value="electricidad">Electricidad y electrónica</option>
+                                    <option value="energia">Energía y agua</option>
+                                    <option value="fabricacion">Fabricación mecánica</option>
+                                    <option value="hosteleria">Hostelería y turismo</option>
+                                    <option value="imagenpersonal">Imagen personal</option>
+                                    <option value="imagensonido">Imagen y sonido</option>
+                                    <option value="alimentarias">Industrias alimentarias</option>
+                                    <option value="extractivas">Industrias extractivas</option>
+                                    <option value="informatica">Informática y comunicaciones</option>
+                                    <option value="instalacion">Instalación y mantenimiento</option>
+                                    <option value="madera">Madera, mueble y corcho</option>
+                                    <option value="maritimo">Marítimo-pesquera</option>
+                                    <option value="quimica">Química</option>
+                                    <option value="sanidad">Sanidad</option>
+                                    <option value="seguridad">Seguridad y medio ambiente</option>
+                                    <option value="servicios">Servicios socioculturales y a la comunidad</option>
+                                    <option value="textil">Textil, confección y piel</option>
+                                    <option value="transporte">Transporte y mantenimiento de vehículos</option>
+                                    <option value="vidrioceramica">Vidrio y cerámica</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div style="display: flex; justify-content: space-around;">
                 <div id="dropZone1" class="dropZone">Arrossega i deixa anar la imatge de la cantonada superior
@@ -449,6 +495,50 @@
 
 
         // Funcions
+
+        const coloresFamilia = {
+            actividades: { franja: '#E57373', titulo: '#FFCDD2', nombre: 'Actividades físicas y deportivas' },
+            administracion: { franja: '#64B5F6', titulo: '#BBDEFB', nombre: 'Administración y gestión' },
+            agraria: { franja: '#81C784', titulo: '#C8E6C9', nombre: 'Agraria' },
+            artesgraficas: { franja: '#E53935', titulo: '#FFCDD2', nombre: 'Artes gráficas' },
+            artesartesianas: { franja: '#AB47BC', titulo: '#E1BEE7', nombre: 'Artes y artesanías' },
+            comerciomarketing: { franja: '#F06292', titulo: '#F8BBD9', nombre: 'Comercio y marketing' },
+            edificacion: { franja: '#FBC02D', titulo: '#FFF59D', nombre: 'Edificación y obra civil' },
+            electricidad: { franja: '#42A5F5', titulo: '#BBDEFB', nombre: 'Electricidad y electrónica' },
+            energia: { franja: '#4FC3F7', titulo: '#E1F5FE', nombre: 'Energía y agua' },
+            fabricacion: { franja: '#BDBDBD', titulo: '#EEEEEE', nombre: 'Fabricación mecánica' },
+            hosteleria: { franja: '#FFA726', titulo: '#FFE0B2', nombre: 'Hostelería y turismo' },
+            imagenpersonal: { franja: '#EF5350', titulo: '#FFCDD2', nombre: 'Imagen personal' },
+            imagensonido: { franja: '#FFCA28', titulo: '#FFF176', nombre: 'Imagen y sonido' },
+            alimentarias: { franja: '#FF7043', titulo: '#FFCCBC', nombre: 'Industrias alimentarias' },
+            extractivas: { franja: '#A1887F', titulo: '#D7CCC8', nombre: 'Industrias extractivas' },
+            informatica: { franja: '#78909C', titulo: '#CFD8DC', nombre: 'Informática y comunicaciones' },
+            instalacion: { franja: '#BCAAA4', titulo: '#F5F5F5', nombre: 'Instalación y mantenimiento' },
+            madera: { franja: '#FF8A65', titulo: '#FFCCBC', nombre: 'Madera, mueble y corcho' },
+            maritimo: { franja: '#5C6BC0', titulo: '#C5CAE9', nombre: 'Marítimo-pesquera' },
+            quimica: { franja: '#9575CD', titulo: '#D1C4E9', nombre: 'Química' },
+            sanidad: { franja: '#F5F5F5', titulo: '#FAFAFA', nombre: 'Sanidad' },
+            seguridad: { franja: '#66BB6A', titulo: '#C8E6C9', nombre: 'Seguridad y medio ambiente' },
+            servicios: { franja: '#81D4FA', titulo: '#E3F2FD', nombre: 'Servicios socioculturales y a la comunidad' },
+            textil: { franja: '#F48FB1', titulo: '#F8BBD9', nombre: 'Textil, confección y piel' },
+            transporte: { franja: '#EF5350', titulo: '#FFCDD2', nombre: 'Transporte y mantenimiento de vehículos' },
+            vidrioceramica: { franja: '#B0BEC5', titulo: '#ECEFF1', nombre: 'Vidrio y cerámica' }
+        };
+
+        function colorfamilia() {
+            const select = document.getElementById('familiaSelect');
+            const familia = select.value;
+
+            if (familia && coloresFamilia[familia]) {
+                Color(coloresFamilia[familia].franja);
+                Color2(coloresFamilia[familia].titulo);
+
+            }
+        }
+
+
+
+
 
         function descarregaFonts() {
             // Descargar las fuentes utilizadas en el SVG
