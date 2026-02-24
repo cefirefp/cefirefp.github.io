@@ -94,7 +94,7 @@ Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
 
 Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà una còpia en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
 
-Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat** en la [carpeta de designes firmats]( {{enlaces.designa_firmado}} ){target="_blank"}.
+Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat** en la [carpeta de designes firmats]( {{enlaces.carpeta_designa_firmats}} ){target="_blank"}.
 
 !!!warning "Comprovar que el DESIGNA estiga signat abans de começar la formació"
     Si el DESIGNA no està signat NO es pot començar la formació, i caldria possar-se en contacte amb el Director del CEFIRE d'FP per a vore qué ha pasat i canviar les dates
