@@ -73,7 +73,7 @@ La difusió del curs l'haurem de fer aquestes vies:
 | ✉️ **Correu electrònic** | Assesor envía un mail als caps de departament de la família professional corresponent | Correu model establit. Demanar que ho difonguen al professorat del departament. |
 | 🌐 **Web del CEFIRE** | Gloria | Avisar per WhatsApp, correu electrònic o telefonada per a publicar el banner al carrusel web. |
 | 📸 **Instagram** | Directora General. Ommplim la [Excel]( {{enlaces.excel_instagram}} ){target="_blank"} | Cal preparar imatge i guardar-la en la carpeta del curs i en la carpeta dels banners, i un text descriptiu en la Excel. <br>Publicació subjecta a decisió de la DG. |
-| ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria o Paco | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br> **Opcional però molt recomanable**. |
+| ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br> **Opcional però molt recomanable**. |
 
 
 
@@ -173,7 +173,7 @@ Aprendràs a llegir el RAW, a treballar amb coherència cromàtica i a integrar 
 
 #### ✈️ Canal de Telegram
 La difusió del curs a través de Telegram es de caracter **opcional però totalmente recomanable**, sobretot si el curs no hi ha suficients inscrits.  
-Per a fer difusió del curs a través de Telegram haurem d'enviar un Whatsapp o Telegrama a Gloria o Paco, amb el banner del curs y una breu descripció del curs solicitant la seua publicació en Telegram.
+Per a fer difusió del curs a través de Telegram haurem d'enviar un Whatsapp o Telegram a Gloria, amb el banner del curs y una breu descripció del curs solicitant la seua publicació en Telegram.
 
 Exemple de la breu descripció del curs
 
