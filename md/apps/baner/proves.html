@@ -184,6 +184,7 @@
                                     <option value="electricidad">Electricidad y electrónica</option>
                                     <option value="energia">Energía y agua</option>
                                     <option value="fabricacion">Fabricación mecánica</option>
+                                    <option value="fol">FOL</option>
                                     <option value="hosteleria">Hostelería y turismo</option>
                                     <option value="imagenpersonal">Imagen personal</option>
                                     <option value="imagensonido">Imagen y sonido</option>
@@ -497,32 +498,33 @@
         // Funcions
 
         const coloresFamilia = {
-            actividades: { franja: '#E57373', titulo: '#FFCDD2', nombre: 'Actividades físicas y deportivas' },
-            administracion: { franja: '#64B5F6', titulo: '#BBDEFB', nombre: 'Administración y gestión' },
-            agraria: { franja: '#81C784', titulo: '#C8E6C9', nombre: 'Agraria' },
-            artesgraficas: { franja: '#E53935', titulo: '#FFCDD2', nombre: 'Artes gráficas' },
-            artesartesianas: { franja: '#AB47BC', titulo: '#E1BEE7', nombre: 'Artes y artesanías' },
-            comerciomarketing: { franja: '#F06292', titulo: '#F8BBD9', nombre: 'Comercio y marketing' },
-            edificacion: { franja: '#FBC02D', titulo: '#FFF59D', nombre: 'Edificación y obra civil' },
-            electricidad: { franja: '#42A5F5', titulo: '#BBDEFB', nombre: 'Electricidad y electrónica' },
-            energia: { franja: '#4FC3F7', titulo: '#E1F5FE', nombre: 'Energía y agua' },
-            fabricacion: { franja: '#BDBDBD', titulo: '#EEEEEE', nombre: 'Fabricación mecánica' },
-            hosteleria: { franja: '#FFA726', titulo: '#FFE0B2', nombre: 'Hostelería y turismo' },
-            imagenpersonal: { franja: '#EF5350', titulo: '#FFCDD2', nombre: 'Imagen personal' },
-            imagensonido: { franja: '#FFCA28', titulo: '#FFF176', nombre: 'Imagen y sonido' },
-            alimentarias: { franja: '#FF7043', titulo: '#FFCCBC', nombre: 'Industrias alimentarias' },
-            extractivas: { franja: '#A1887F', titulo: '#D7CCC8', nombre: 'Industrias extractivas' },
-            informatica: { franja: '#78909C', titulo: '#CFD8DC', nombre: 'Informática y comunicaciones' },
-            instalacion: { franja: '#BCAAA4', titulo: '#F5F5F5', nombre: 'Instalación y mantenimiento' },
-            madera: { franja: '#FF8A65', titulo: '#FFCCBC', nombre: 'Madera, mueble y corcho' },
-            maritimo: { franja: '#5C6BC0', titulo: '#C5CAE9', nombre: 'Marítimo-pesquera' },
-            quimica: { franja: '#9575CD', titulo: '#D1C4E9', nombre: 'Química' },
-            sanidad: { franja: '#F5F5F5', titulo: '#FAFAFA', nombre: 'Sanidad' },
-            seguridad: { franja: '#66BB6A', titulo: '#C8E6C9', nombre: 'Seguridad y medio ambiente' },
-            servicios: { franja: '#81D4FA', titulo: '#E3F2FD', nombre: 'Servicios socioculturales y a la comunidad' },
-            textil: { franja: '#F48FB1', titulo: '#F8BBD9', nombre: 'Textil, confección y piel' },
-            transporte: { franja: '#EF5350', titulo: '#FFCDD2', nombre: 'Transporte y mantenimiento de vehículos' },
-            vidrioceramica: { franja: '#B0BEC5', titulo: '#ECEFF1', nombre: 'Vidrio y cerámica' }
+            actividades: { franja: '#F5F5F4', titulo: '#F26B38', nombre: 'Actividades físicas y deportivas' },
+administracion: { franja: '#F5F5F4', titulo: '#5DA9E9', nombre: 'Administración y gestión' },
+agraria: { franja: '#F5F5F4', titulo: '#6BBF59', nombre: 'Agraria' },
+artesgraficas: { franja: '#F5F5F4', titulo: '#E84855', nombre: 'Artes gráficas' },
+artesartesanias: { franja: '#F5F5F4', titulo: '#A06CD5', nombre: 'Artes y artesanías' },
+comerciomarketing: { franja: '#F5F5F4', titulo: '#F15BB5', nombre: 'Comercio y marketing' },
+edificacion: { franja: '#F5F5F4', titulo: '#A0A4B8', nombre: 'Edificación y obra civil' },
+electricidad: { franja: '#F5F5F4', titulo: '#48BFE3', nombre: 'Electricidad y electrónica' },
+energia: { franja: '#F5F5F4', titulo: '#2EC4B6', nombre: 'Energía y agua' },
+fabricacion: { franja: '#F5F5F4', titulo: '#9AA0A6', nombre: 'Fabricación mecánica' },
+hosteleria: { franja: '#F5F5F4', titulo: '#C8553D', nombre: 'Hostelería y turismo' },
+imagenpersonal: { franja: '#F5F5F4', titulo: '#ED6A9E', nombre: 'Imagen personal' },
+imagensonido: { franja: '#F5F5F4', titulo: '#3FA7D6', nombre: 'Imagen y sonido' },
+alimentarias: { franja: '#F5F5F4', titulo: '#90BE6D', nombre: 'Industrias alimentarias' },
+extractivas: { franja: '#F5F5F4', titulo: '#C08552', nombre: 'Industrias extractivas' },
+informatica: { franja: '#F5F5F4', titulo: '#084ef1c1', nombre: 'Informática y comunicaciones' },
+instalacion: { franja: '#F5F5F4', titulo: '#7B6CF6', nombre: 'Instalación y mantenimiento' },
+madera: { franja: '#F5F5F4', titulo: '#D08C60', nombre: 'Madera, mueble y corcho' },
+maritimo: { franja: '#F5F5F4', titulo: '#2D7DD2', nombre: 'Marítimo-pesquera' },
+quimica: { franja: '#F5F5F4', titulo: '#9D4EDD', nombre: 'Química' },
+sanidad: { franja: '#F5F5F4', titulo: '#4CC9F0', nombre: 'Sanidad' },
+seguridad: { franja: '#F5F5F4', titulo: '#43AA8B', nombre: 'Seguridad y medio ambiente' },
+servicios: { franja: '#F5F5F4', titulo: '#56CFE1', nombre: 'Servicios socioculturales y a la comunidad' },
+textil: { franja: '#F5F5F4', titulo: '#C77DFF', nombre: 'Textil, confección y piel' },
+transporte: { franja: '#F5F5F4', titulo: '#6C757D', nombre: 'Transporte y mantenimiento de vehículos' },
+vidrioceramica: { franja: '#F5F5F4', titulo: '#669BBC', nombre: 'Vidrio y cerámica' },
+fol: { franja: '#F5F5F4', titulo: '#F9C74F', nombre: 'FOL' }
         };
 
         function colorfamilia() {
@@ -530,8 +532,8 @@
             const familia = select.value;
 
             if (familia && coloresFamilia[familia]) {
-                Color(coloresFamilia[familia].franja);
-                Color2(coloresFamilia[familia].titulo);
+                Color(coloresFamilia[familia].titulo);
+                Color2(coloresFamilia[familia].franja);
 
             }
         }
