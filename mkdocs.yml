@@ -32,8 +32,9 @@ nav:
   - Gestió ERESAR: eresar.md
   - PAF: paf.md
   - Tutorials:
-      - Creació de sessió en Teams: tutorials/tutorial_teams.md
       - Gesform: tutorials/tutorial_gesform.md
+      - Creació de sessió en Teams: tutorials/tutorial_teams.md
+      - Recuperar contrasenya Aules: tutorials/tutorial_recuperar_contrasenya_aules.md
   #- 📄 Descarregar PDF: pdf/documentacion.pdf
 
 

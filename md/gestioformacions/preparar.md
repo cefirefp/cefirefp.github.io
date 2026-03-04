@@ -47,6 +47,9 @@ Una vegada el curs haja sigut **validat per la SGFP**, s’haurà d’emplenar e
 👉 Formulari de mapejat de la Competència Digital Docent:  
 [:material-link: Formulari]( {{enlaces.formulari_cdd}} ){: .md-button target="_blank"}
 
+👉 Formulari i instruccions en pdf:  
+[:material-folder: Formulari i instruccions en pdf]( {{enlaces.mapificacio_cdd}} ){: .md-button target="_blank"}
+
 
 !!!warning "El formulari no es pot compartir amb ningú"
     El formulari no es pot compartir amb ningú. Si que podem fer-lo junt am el ponent del curs per si tenim algun dubte.
