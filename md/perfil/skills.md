@@ -46,12 +46,14 @@ Es detallen les especificitats en el calendari, sessions síncrones, asíncrones
 
 **Valencià**
 ```html
-Esta activitat formativa està cofinançada pel Fons Social Europeu. L'FSE invertix en el teu futur.
+Esta activitat formativa està cofinançada pel Fons Social Europeu. L'FSE invertix en el teu futur.  
+S'establix l'obligatorietat de l'ús de la videocàmera en les formacions de modalitat en línia, regulada en la RESOLUCIÓ de 24 de febrer de 2026, de la Secretaria Autonòmica d'Educació, per la qual es regula l'ús obligatori de càmeres de vídeo en les sessions formatives en línia promogudes pel CEFIRE.  
 El curs es realitzarà en la modalitat a distància. La realització de totes les tasques és obligatòria per a obtindre la certificació. Serà obligatori accedir a l'aula virtual del curs durant els tres primers dies del curs. 
 ```
 **Castellà**
 ```html 
-Esta actividad formativa está cofinanciada por el Fondo Social Europeo. El FSE invierte en tu futuro.
+Esta actividad formativa está cofinanciada por el Fondo Social Europeo. El FSE invierte en tu futuro.  
+Se establece la obligatoriedad del uso de la videocámara en las formaciones de modalidad en línea, regulada en la RESOLUCIÓN de 24 de febrero de 2026, de la Secretaría Autonómica de Educación, por la que se regula el uso obligatorio de videocámaras en las sesiones formativas en línea promovidas por el CEFIRE.  
 El curso se realizará en la modalidad a distancia. La realización de todas las tareas es obligatoria para obtener la certificación. Será obligatorio acceder al aula virtual del curso durante los tres primeros días del curso.
 ```
 
