@@ -10,13 +10,20 @@ L’organització del **CEFIRE de FP** està estructurada per assegurar una coor
 
 ### 👥 Qui som
 
-📌 Aquest apartat inclou informació bàsica de cada assessor/a:
-
-* Nom complet
-* Correu electrònic corporatiu
-* Telèfon
-* Àrea d’especialització
-* Ubicació
+| Asesor                 | Mail                                                      | Sector                      | Families                                                                                 | Mail Sector                                                     |
+| ---------------------- | --------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Alfredo Rafael Vicente | [ar.vicenteboix@edu.gva.es](mailto:ar.vicenteboix@edu.gva.es)         | Direcció |       | [46402871@edu.gva.es](mailto:46402871@edu.gva.es)               |
+| Gloria Muñoz           | [gloria.munoz@gva.es](mailto:gloria.munoz@gva.es)         | Tecnològic                  | Electricitat i electrònica                                                               | [fp_tecnologic@gva.es](mailto:fp_tecnologic@gva.es)             |
+| Santiago Peiró         | [santiago.peiro@gva.es](mailto:santiago.peiro@gva.es)     | Tecnològic                  | Informàtica i comunicacions<br>Transport i manteniment de vehicles                       | [fp_tecnologic2@gva.es](mailto:fp_tecnologic2@gva.es)           |
+| Anna Guasp             | [anna.guasp@gva.es](mailto:anna.guasp@gva.es)             | Serveis                     | Administració i gestió<br>Comerç i màrqueting<br>Serveis socioculturals i a la comunitat | [fp_serveis@gva.es](mailto:fp_serveis@gva.es)                   |
+| José Carlos Denia      | [josecarlos.denia@gva.es](mailto:josecarlos.denia@gva.es) | Industrial                  | Fabricació mecànica<br>Instal·lació i manteniment<br>Energia i aigua                     | [fp_industrial@gva.es](mailto:fp_industrial@gva.es)             |
+| Patricia Fuster        | [patricia.fuster@gva.es](mailto:patricia.fuster@gva.es)   | Gestió, comerç i turisme    | Comerç i màrqueting<br>Hostaleria i turisme<br>Administració i gestió                    | [fp_gescomturisme@gva.es](mailto:fp_gescomturisme@gva.es)       |
+| Camilo Gisbert         | [camilo.gisbert@gva.es](mailto:camilo.gisbert@gva.es)     | Industrial 2                | Edificació i obra civil<br>Fusta, moble i suro<br>Tèxtil, confecció i pell               | [fp_industrial2@gva.es](mailto:fp_industrial2@gva.es)           |
+| Gemma Cerezo           | [gemma.cerezo@gva.es](mailto:gemma.cerezo@gva.es)         | Creatiu                     | Arts gràfiques<br>Imatge personal<br>Imatge i so<br>Vidre i ceràmica                     | [fp_creatiu@gva.es](mailto:fp_creatiu@gva.es)                   |
+| Lorena Muñoz           | [lorena.munoz@gva.es](mailto:lorena.munoz@gva.es)         | Químic i alimentari         | Química<br>Indústries alimentàries                                                       | [fp_quimicalimentari@gva.es](mailto:fp_quimicalimentari@gva.es) |
+| Lourdes Ferrando       | [lourdes.ferrando@gva.es](mailto:lourdes.ferrando@gva.es) | Medi ambient                | Agrària<br>Maritimopesquera<br>Seguretat i medi ambient                                  | [fp_mediambient@gva.es](mailto:fp_mediambient@gva.es)           |
+| Vera Felip             | [vera.felip@gva.es](mailto:vera.felip@gva.es)             | Sanitat                     | Sanitat<br>Activitats físiques i esportives                                              | [fp_sanitat@gva.es](mailto:fp_sanitat@gva.es)                   |
+| Paco Mañó              | [paco.mano@gva.es](mailto:paco.mano@gva.es)               | Imatge i so                 | Imatge i so                                                                              | [fp_imatgeiso@gva.es](mailto:fp_imatgeiso@gva.es)               |
 
 
 ---
