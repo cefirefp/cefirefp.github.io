@@ -46,12 +46,12 @@ theme:
     text: Baloo 2
   palette:
     # Boto que canvia a mode oscur
-    - scheme: slate
+    - scheme: default
       toggle:
         icon: material/weather-night
         name: Canvia a mode fosc
     # Botó que canvia a mode clar
-    - scheme: default
+    - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Canvia a mode clar

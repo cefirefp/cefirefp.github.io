@@ -105,3 +105,16 @@ table td:contains("✓") {
 .md-typeset ul ul ul > li {
   list-style-type: square;
 }
+
+/* Bloques de código: ajustar líneas y evitar scroll horizontal */
+.md-typeset pre {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+}
+
+.md-typeset pre code {
+  white-space: inherit !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+}

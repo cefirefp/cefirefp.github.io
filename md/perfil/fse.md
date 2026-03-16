@@ -24,6 +24,14 @@ Per a poder realitzar el curs, les persones participants han de tindre domini de
 
 ```
 
+
+Si la **formació és en línia**, també cal afegir el següent text:
+```
+En les formacions en línia, les persones participants hauran de disposar dels mitjans tècnics i de connectivitat necessaris per a poder seguir l’activitat amb normalitat, incloent equip informàtic o dispositiu compatible, connexió a internet amb ample de banda suficient i els dispositius de vídeo i àudio requerits (càmera i micròfon), així com accés a les plataformes i eines digitals utilitzades en el desenvolupament del curs.
+La responsabilitat de disposar d’aquests mitjans tècnics correspon a la persona participant. La manca d’aquests requisits o les incidències tècniques que impedisquen el seguiment normal de les sessions podran afectar l’assistència, la participació i, si escau, la certificació de l’activitat formativa.
+
+```
+
 **Castellà**
 ```html 
 1. Desempeño de un puesto de trabajo relacionado directamente con la temática de la actividad. 
@@ -39,6 +47,15 @@ Para poder realizar el curso las personas participantes deben tener dominio de l
 
 ```
 
+Si la **formación es en línea**, hay que añadir el siguiente texto:
+
+```
+En las formaciones en línea, las personas participantes deberán disponer de los medios técnicos y de conectividad necesarios para poder seguir la actividad con normalidad, incluyendo equipo informático o dispositivo compatible, conexión a internet con ancho de banda suficiente y los dispositivos de vídeo y audio requeridos (cámara y micrófono), así como acceso a las plataformas y herramientas digitales utilizadas en el desarrollo del curso.
+
+La responsabilidad de disponer de estos medios técnicos corresponde a la persona participante. La falta de estos requisitos o las incidencias técnicas que impidan el seguimiento normal de las sesiones podrán afectar a la asistencia, la participación y, en su caso, la certificación de la actividad formativa.
+
+```
+
 
 
 ### **Observacions**
@@ -51,6 +68,7 @@ Esta activitat formativa està cofinançada pel Fons Social Europeu. L'FSE inver
 S'establix l'obligatorietat de l'ús de la videocàmera en les formacions de modalitat en línia, regulada en la RESOLUCIÓ de 24 de febrer de 2026, de la Secretaria Autonòmica d'Educació, per la qual es regula l'ús obligatori de càmeres de vídeo en les sessions formatives en línia promogudes pel CEFIRE.  
 El curs es realitzarà en la modalitat a distància. La realització de totes les tasques és obligatòria per a obtindre la certificació. Serà obligatori accedir a l'aula virtual del curs durant els tres primers dies del curs. 
 ```
+
 **Castellà**
 ```html
 Esta actividad formativa está cofinanciada por el Fondo Social Europeo. El FSE invierte en tu futuro.  

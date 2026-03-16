@@ -80,35 +80,35 @@ Una vegada omplits, s’han de guardar en la carpeta del curs.
 
 
 
-## 🧾 6. Obtindre el CERTIFICA (aplicació)
+## 🧾 6. Obtindre el CERTIFICA
 
 Una vegada tancada tota la documentació administrativa prèvia, cal generar el document **CERTIFICA** utilitzant l’aplicació **crea_designa**.
 
-[Aplicació per a crear carpetes de formacions]( {{enlaces.crea_carpeta}}){: .md-button target="_blank"}
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
 
-
-!!!note "Nota"
-    En el cas de l'apliació de Linux cal donar permisos per a executar l'aplicació en Linux.  
-    `chmod +x crea_cursos_linux`  
 
 Guarda’l a la carpeta de "Certifica per a signar".  
 [:material-folder: Carpeta certifica per a signar]( {{enlaces.certifica_per_a_signar}} ){: .md-button target="_blank"}
 
 ---
 
-## 📝 7. Crear la MINUTA (amb l’aplicació)
+## 📝 7. Crear la MINUTA
 
-La **Minuta** s'ha de realitzar quan es compleixen les següent condicions:
-
-* La formació es d'Skills o d'Erasmus.
-* El ponent NO és una empresa o un treblladaro autònom, i per tant, no hi ha factura. Es a dir, el ponent es funcionari de carrera o funcionari interí. 
+La **Minuta** s'ha de realitzar quan la formació es impartida per un **ponent GVA o ponent no GVA que cobra per minuta**.
 
 Per tant, si no està en aquest cas, pasa al punt següent [Generar el **RESOLC** o l’**INFORME DE CONFORMITAT.**](#resolc-conformitat)
 
-!!!note "Nota"
-    Quan la formació es d'FSE i el ponent NO és una empresa. La minuta la fa Elena, nosaltres no em de fer res.
-
 La minuta s’ha de generar també mitjançant l’aplicació.  
+
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
+
+En l'aplicació premem el botó "crea designa FSE" o "crea designa AAPP/PAA" segons el fons que paga el curs.
+
+![App](../images/gestioformacions/app.png){: .center }
+
+Després pugem la fitxa econòmica, i premem el botó "genera minuta".
+
+![genera_docs](../images/gestioformacions/genera_docs.png){: .center }
 
 Quan la generem, per defecte l'aplicació omplirà alguns del camps, el altres hem d'omplir-los nosaltres. 
 
@@ -143,9 +143,54 @@ La minuta li la enviarem al ponent per a que ens la signe digitalment i després
 
 Segons el tipus de ponent, cal preparar la documentació corresponent a la justificació econòmica de l’acció formativa:
 
-#### 🔹 Si el ponent és **persona física** --> RESOLC
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>📄 Documentació</th>
+        <th>🏛️ Ponent GVA</th>
+        <th>👤 Ponent NO GVA<br>(cobra amb minuta)</th>
+        <th>🏢 Empresa / Autònom<br>(cobra amb factura)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Resolc</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Informe de conformitat</td>
+        <td></td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+#### 🔹 Si el ponent és **ponent GVA** o **ponent no GVA que cobra amb minuta** --> RESOLC
 
 S’ha de generar el document **RESOLC** utilitzant l’aplicació i posar-lo en la carpeta "Resolc per a signar".
+
+[Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
+
+En l'aplicació premem el botó "crea designa FSE" o "crea designa AAPP/PAA" segons el fons que paga el curs.
+
+![App](../images/gestioformacions/app.png){: .center }
+
+Després pugem la fitxa econòmica, i premem el botó "genera resolc".
+
+![genera_docs](../images/gestioformacions/genera_docs.png){: .center }
+
+Quan la generem he d'omplir alguns del camps, entre altres serà la **data de informe cap de servei**, qué serà la data de signatura del cap de servei del del certifica. Per tant, no pordrem generar el resolc fins que no tinga'm signat el certifica. 
+
+![Generar Minuta](../images/gestioformacions/genera_resolc.png){: .center }
+
+Una vegada generat el posarame en la carpeta de resolc per a signar.
 
 [:material-folder: Carpeta resolc per a signar]( {{enlaces.resolc_per_a_signar}} ){: .md-button target="_blank"}
 
@@ -159,10 +204,10 @@ Per tant, haurem d'omplir el següent document:
 [:material-microsoft-word: Informe de Conformitat]( {{enlaces.informe_conformitat_empresa}} ){: .md-button target="_blank"}
 
 
-Una vegada estiga fet, segons si la formació es SKILL o ERASMUS, el posarem en la seua carpeta corresponent.  
+Una vegada estiga fet, segons si la formació es FSE o PAA o AAPP, el posarem en la seua carpeta corresponent.  
 
-[:material-folder: Carpeta conformitat empresa - Formació SKILLS]( {{enlaces.conformitat_empresa_skills}} ){: .md-button target="_blank"}
-[:material-folder: Carpeta conformitat empresa - Formació ERASMUS]( {{enlaces.conformitat_empresa_erasmus}} ){: .md-button target="_blank"}
+[:material-folder: Carpeta conformitat empresa - Formació FSE]( {{enlaces.conformitat_empresa_fse}} ){: .md-button target="_blank"}
+[:material-folder: Carpeta conformitat empresa - Formació PAA / AAPP]( {{enlaces.conformitat_empresa_paa}} ){: .md-button target="_blank"}
 
 ---
 
