@@ -258,7 +258,7 @@
                     // Aplicar a castellano (tspan)
                     idsCast.forEach(id => {
                         const elem = document.getElementById(id);
-                        if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                        if (elem) aplicarPeso(elem, 60 + (this.value * 5));
                         titular(document.getElementById('titulo').value);
                     });
 
@@ -271,7 +271,7 @@
                     // Aplicar a valenciano (tspan)
                     idsVal.forEach(id => {
                         const elem = document.getElementById(id);
-                        if (elem) aplicarPeso(elem, 70 + (this.value * 5));
+                        if (elem) aplicarPeso(elem, 60 + (this.value * 5));
                         titular_va(document.getElementById('titulo_va').value);
                     });
 
@@ -703,12 +703,16 @@ fol: { franja: '#F5F5F4', titulo: '#F9C74F', nombre: 'FOL' }
             }
 
 
-
+            /*            if (t.length > largolin) {
+                alert("El titular es demasiado largo para una sola línea");
+                return;
+            }
+  
             if (t.length > largolin * 2) {
                 alert("El titular es demasiado largo");
                 return;
             }
-
+          */
             const textElementaux = document.getElementById('titol');
             const tspan = textElementaux.querySelector('tspan');
             //tspan.textContent = t;
@@ -834,12 +838,15 @@ fol: { franja: '#F5F5F4', titulo: '#F9C74F', nombre: 'FOL' }
             }
 
 
-
+/*            if (t.length > largolin) {
+                alert("El titular es demasiado largo para una sola línea");
+                return;
+            }           
             if (t.length > largolin * 2) {
                 alert("El titular es demasiado largo");
                 return;
             }
-
+*/
             const textElementaux = document.getElementById('titolv');
             const tspan = textElementaux.querySelector('tspan');
             //tspan.textContent = t;
