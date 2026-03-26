@@ -16,10 +16,9 @@ Les **comissions de servei** són autoritzacions temporals que permeten als asse
 
 L’objectiu és garantir que aquests desplaçaments estiguen **formalment autoritzats** i comptin amb la cobertura administrativa i econòmica corresponent.
 
-Les comissions es poden autoritzar per diferents vies (per ordre de preferència):
+Les comissions es poden autoritzar per diferents vies:
 
-* Telemàtica
-* Telefònica
+* Escrita
 * Oral
 
 La persona que autoritza és la mateixa que confirma.  
@@ -51,36 +50,13 @@ En el document de la comisió de servei ha de quedar constància:
 
 3. **Omplirem totes les dades necesaries**
     - És important indicar amb claretat el objecte de la comissió i el itinerari.
-    - Cal clicar Norm. vigente
+    - S'ha indicar si l'autorització es oral o escrita.
     - Una vegada introduides totes les dades (dates, vehicle, kilometres, etc..), polsarem ![](images/calcular.png)
     - I després guardar.  
       
     ![Comisió de Servei Example](images/comissio_plena.png){: .center}
 
-4. **Imprimirem la autorització** polsant el botó ![](images/boto_autoritzacio_de_servei.png) i ens apareixerà una finestra que tindrem que omplir.  
-      
-    !!!warning "Atenció"
-        Cada assesor/a, haurà d'omplir els camps de la comissió de servei segons indique el director del CEFIRE de FP o el Cap de Servei.
-
-5. **Generarem el pdf que guardarem per a la firma** abans de realitzar el desplaçament.
-      
-    !!!tip "Recomanació"
-        💡 Es recomana guardar una còpia de la comissió aprovada per a qualsevol comprovació posterior.
-
-6. **Ara entrarem en el [Portal de Firmes de GVA]({{enlaces.firmas_gva}} ){: target="_blank"}** on ens loguejarem amb el certificat digital  
-    ![Portal firmes GVA](images/porta_firmes.png){: .center}
-
-7. **Redactem una nova petició**
-    - En missatge hem de detallar clarament el motiu de la comissió de servei
-    - En firma, deurem de possar les persones que ens han de signar la comissió. Normalment, la signatura anirà en cascada
-    - En documents, pugem el pdf de la comissió que hem generat abans
-    - Una vegada estiguen tots els camps plens, l'enviem per a signar
-
-    ![Portal firmes GVA](images/porta_firmes_ple.png){: .center}
-
-7. S'obri una nova finestra on seleccionarem el nostre nom y polsarem finalitza
-
-8. **Una vegada ja ens hagam desplaçat** haurem de demanar la dieta --> Seguent apartat
+4. **Una vegada ja ens hagam desplaçat** haurem de demanar la dieta --> Seguent apartat
 
 
 ---
