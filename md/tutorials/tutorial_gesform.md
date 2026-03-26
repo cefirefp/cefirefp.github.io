@@ -720,7 +720,7 @@ Una vegada tenim al participant de baixa caldrà anar a **Gestió Solicitud de P
 
 ![](../images/gesform/media/image137.png){.center }
 
-Seleccionarem al participant i polsarem "Generar participantes".
+Seleccionarem al participant, i cal canviar el seu estat i posar-lo en estat "Confirmado", després, en el participant seleccionat, polsarem "Generar participantes".
 
 ![](../images/gesform/Alra_participant.png){.center }
 

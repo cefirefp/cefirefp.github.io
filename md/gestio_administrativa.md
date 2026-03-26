@@ -16,21 +16,30 @@ Les **comissions de servei** són autoritzacions temporals que permeten als asse
 
 L’objectiu és garantir que aquests desplaçaments estiguen **formalment autoritzats** i comptin amb la cobertura administrativa i econòmica corresponent.
 
----
+Les comissions es poden autoritzar per diferents vies (per ordre de preferència):
 
-## 💰 Dieta i despeses de desplaçament
+* Telemàtica
+* Telefònica
+* Oral
 
-#### Normativa
+La persona que autoritza és la mateixa que confirma.  
+La confirmació pot fer-se:
+* Abans o després del desplaçament
 
-Les dietes i despeses de desplaçament es gestionen segons la **normativa vigent de la Generalitat Valenciana**, que estableix:
+**Després és obligatori registrar i confirmar la comissió en l’aplicació encara que s’haja comunicat per altres mitjans.**
 
-* Quantitat diària segons tipus de desplaçament.
-* Possibilitat de justificar despeses de transport, allotjament i manutenció.
-* Procediment de presentació de documents i justificants.
+En el document de la comisió de servei ha de quedar constància:
+* De la data real de l’autorització
+* Del mitjà utilitzat (oral, email, etc.)
 
----
+📌 Exemple pràctic  
+1. Es dona una ordre oral per fer una comissió (ex: 1 de febrer)  
+2. Es realitza el desplaçament  
+3. Es registra la comissió dies després  
+4. Es genera i envia el document per a signar  
+5. Es firma posteriorment, però reflectint la data original de l’ordre  
 
-## ⚙️ Procediment pas a pas per a demanar una comissió de servei
+### ⚙️ Procediment pas a pas per a demanar una comissió de servei
 
 1. **Accedir a l’aplicació [GVADietas]({{ enlaces.gva_dietas }} "GVADietas"){: target="_blank" }**
     - Has d'estar dins de la xarxa de la GVA.
@@ -74,7 +83,28 @@ Les dietes i despeses de desplaçament es gestionen segons la **normativa vigent
 8. **Una vegada ja ens hagam desplaçat** haurem de demanar la dieta --> Seguent apartat
 
 
-## ⚙️ Procediment pas a pas per a demanar una dieta
+---
+
+## 💰 Dieta i despeses de desplaçament
+
+#### Normativa
+
+Les dietes i despeses de desplaçament es gestionen segons la **normativa vigent de la Generalitat Valenciana**, que estableix:
+
+* Quantitat diària segons tipus de desplaçament.
+* Possibilitat de justificar despeses de transport, allotjament i manutenció.
+* Procediment de presentació de documents i justificants.
+
+Les despeses que no siguen despeses de transport i manutenció s'han de justificar mitjançant:  
+
+* Factures
+* Justificants electrònics
+
+L’administració pot requerir en qualsevol moment:  
+
+* Els documents originals de les despeses
+
+### ⚙️ Procediment pas a pas per a demanar una dieta
 
 Una vegada realitzada la comissió de servei, acceptada i ja ens hem desplaçat i hem tornat. Podem demanar la dieta. Els passos per a demanar-la son:
 
