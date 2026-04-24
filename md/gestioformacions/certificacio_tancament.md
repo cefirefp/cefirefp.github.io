@@ -90,6 +90,11 @@ Una vegada tancada tota la documentació administrativa prèvia, cal generar el 
 Guarda’l a la carpeta de "Certifica per a signar".  
 [:material-folder: Carpeta certifica per a signar]( {{enlaces.certifica_per_a_signar}} ){: .md-button target="_blank"}
 
+Una vegada estiga signat, podrem fer el [el **RESOLC** o l’**INFORME DE CONFORMITAT**](#resolc-conformitat), segons siga el cas.  
+
+Els certifica signats els podrem trobar en la carpeta.  
+[:material-folder: Carpeta certifica signats]( {{enlaces.certifica_signats}} ){: .md-button target="_blank"}
+
 ---
 
 ## 📝 7. Crear la MINUTA
