@@ -77,11 +77,14 @@ A més, és molt important tindre clar quina documentació caldrà sol·licitar 
             <!-- * IVA corresponent: cal afegir la coletilla  
               "Factura exenta de IVA según art. 20.1.9 de la ley 37-1992 de 28 de diciembre" si l'empresa està exempta d'IVA. -->
             * Número de compte bancari on s'ha de fer el pagament
-        - Cal advertir a l'empresa que haurà de ppujar la **factura a la plataforma FACE**, que és la plataforma de gestió de factures electròniques del Ministeri d'Hisenda. Teniu tota la documentació als [següent document que caldrà facilitar a l'empresa]( {{enlaces.instruccions_FACE}} ){target="_blank"}. Per tant és important que l'empresa tinga un usuari registrat en aquesta plataforma i que puga pujar la factura correctament.
+        - Cal advertir a l'empresa que haurà de pujar la **factura a la plataforma FACE**, que és la plataforma de gestió de factures electròniques del Ministeri d'Hisenda. Per tant és important que l'empresa tinga un usuari registrat en aquesta plataforma i que puga pujar la factura correctament.
+            - **Si la formació es del FSE** en el [següent document teniu tota la informació que caldrà facilitar a l'empresa]( {{enlaces.instruccions_FACE_DGFP}} ){target="_blank"}.
+            - **Si la formació es de PAA o AAPP** en [este altre document teniu tota la informació que caldrà facilitar a l'empresa]( {{enlaces.instruccions_FACE_SDGFP}} ){target="_blank"} 
         - **Cal insistir que la factura no es pot pujar a la plataforma FACE fins que no s'haja finalitzat la formació**.
 
 !!!warning "Atenció - Alta en FACE"
-    Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa:   [:material-microsoft-word: Documentació per a l'empresa FACe]( {{enlaces.instruccions_FACE}} ){: .md-button target="_blank"} 
+    Heu de tenir en compte que les factures han d'estar donades d'alta en FACE, per tant, l'empresa suministradora serà l'encarregada de donar d'alta la factura en el sistema. El sistema FACE és un sistema de gestió de factures electròniques que permet a les empreses presentar les seues factures a l'administració pública de manera electrònica. Se li pot facilitar la següent documentació a la empresa:  
+    [:material-microsoft-word: Documentació FACe per a l'empresa per a formacions FSE]( {{enlaces.instruccions_FACE_DGFP}} ){: .md-button target="_blank"} [:material-microsoft-word: Documentació FACe per a l'empresa per a formacions PAA / AAPP]( {{enlaces.instruccions_FACE_SDGFP}} ){: .md-button target="_blank"}
 
 
 !!!note "Video explicatiu de com fer una factura electrònica en Facturae i pujar-la a FACE"
