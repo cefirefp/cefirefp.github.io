@@ -80,28 +80,78 @@ Una vegada omplits, s’han de guardar en la carpeta del curs.
 
 
 
-## 🧾 6. Obtindre el CERTIFICA
+## 🧾 6. Justificació econòmica de l'acció formativa (Certifica - Minuta  - Resolc - Informe de Conformitat)
 
-Una vegada tancada tota la documentació administrativa prèvia, cal generar el document **CERTIFICA** utilitzant l’aplicació **crea_designa**.
+Segons el tipus de ponent, cal preparar la documentació corresponent a la justificació econòmica de l’acció formativa:
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>📄 Documentació</th>
+        <th>🏛️ Ponent GVA</th>
+        <th>👤 Ponent NO GVA<br>(cobra amb minuta)</th>
+        <th>🏢 Empresa / Autònom<br>(cobra amb factura)</th>
+      </tr>
+    </thead>
+    <tbody>
+            <tr>
+        <td>Certifica</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+            <tr>
+        <td>Minuta</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Resolc</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Informe de conformitat</td>
+        <td></td>
+        <td></td>
+        <td>✓</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+### 📝 6.1. Obtindre el CERTIFICA
+
+Una vegada tancada tota la documentació administrativa prèvia, cal generar el document **CERTIFICA** utilitzant l’aplicació **crea_designa** quan la formació es impartida per un **ponent GVA o ponent no GVA que cobra per minuta**.
+
 
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
 
+En l'aplicació premem el botó "crea designa FSE" o "crea designa AAPP/PAA" segons el fons que paga el curs.
+
+![App](../images/gestioformacions/app.png){: .center }
+
+Després pugem la fitxa econòmica, i premem el botó "genera certifica".
+
+![genera_docs](../images/gestioformacions/genera_docs.png){: .center }
 
 Guarda’l a la carpeta de "Certifica per a signar".  
 [:material-folder: Carpeta certifica per a signar]( {{enlaces.certifica_per_a_signar}} ){: .md-button target="_blank"}
 
-Una vegada estiga signat, podrem fer el [el **RESOLC** o l’**INFORME DE CONFORMITAT**](#resolc-conformitat), segons siga el cas.  
+Una vegada estiga signat, podrem fer el [**RESOLC**](#resolc).  
 
 Els certifica signats els podrem trobar en la carpeta.  
 [:material-folder: Carpeta certifica signats]( {{enlaces.certifica_signats}} ){: .md-button target="_blank"}
 
 ---
 
-## 📝 7. Crear la MINUTA
+### 📝 6.2. Crear la MINUTA
 
 La **Minuta** s'ha de realitzar quan la formació es impartida per un **ponent GVA o ponent no GVA que cobra per minuta**.
-
-Per tant, si no està en aquest cas, pasa al punt següent [Generar el **RESOLC** o l’**INFORME DE CONFORMITAT.**](#resolc-conformitat)
 
 La minuta s’ha de generar també mitjançant l’aplicació.  
 
@@ -139,47 +189,17 @@ Alcaració d'alguns dels camps:
     L'aplicació ens crea un document de word, que deurem de revisar per a assegurar-nos que està ben creada la Minuta, i que podrem canviar en cas de que siga necessari rectificar alguna cosa.
 
 
-La minuta li la enviarem al ponent per a que ens la signe digitalment i després haurem de posar-la en la carpeta "minutes signades".  
+La minuta li la enviarem al **ponent** per a que ens la **signe digitalment** i després haurem de posar-la en la carpeta "minutes signades".  
 [:material-folder: Carpeta minutes signades]( {{enlaces.minutes_signades}} ){: .md-button target="_blank"}
 
 ---
 
-## 📄 8. Generar el RESOLC o INFORME DE CONFORMITAT { #resolc-conformitat }
-
-Segons el tipus de ponent, cal preparar la documentació corresponent a la justificació econòmica de l’acció formativa:
-
-<div class="table-container">
-  <table>
-    <thead>
-      <tr>
-        <th>📄 Documentació</th>
-        <th>🏛️ Ponent GVA</th>
-        <th>👤 Ponent NO GVA<br>(cobra amb minuta)</th>
-        <th>🏢 Empresa / Autònom<br>(cobra amb factura)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Resolc</td>
-        <td>✓</td>
-        <td>✓</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Informe de conformitat</td>
-        <td></td>
-        <td></td>
-        <td>✓</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+### 📄 6.3. Generar el RESOLC { #resolc }
 
 
+🔹 Si el ponent és **ponent GVA** o **ponent no GVA que cobra amb minuta** haurem de fer el RESOLC.
 
-#### 🔹 Si el ponent és **ponent GVA** o **ponent no GVA que cobra amb minuta** --> RESOLC
-
-S’ha de generar el document **RESOLC** utilitzant l’aplicació i posar-lo en la carpeta "Resolc per a signar".
+El document **RESOLC** es genera utilitzant l’aplicació i posar-lo en la carpeta "Resolc per a signar".
 
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
 
@@ -195,18 +215,19 @@ Quan la generem he d'omplir alguns del camps, entre altres serà la **data de in
 
 ![Generar Minuta](../images/gestioformacions/genera_resolc.png){: .center }
 
-Una vegada generat el posarame en la carpeta de resolc per a signar.
+Una vegada generat el RESOLC el posarem en la carpeta de resolc per a signar junt amb el certifica signat.
 
 [:material-folder: Carpeta resolc per a signar]( {{enlaces.resolc_per_a_signar}} ){: .md-button target="_blank"}
 
 
-#### 🔹 Si el ponent és **empresa** --> INFORME DE CONFORMITAT
+### 📄 6.4. Generar INFORME DE CONFORMITAT { #conformitat }
 
-En aquest cas **no es fa RESOLC**, sinó un **Informe de Conformitat**.  
+🔹 Si el ponent és **empresa** es fa un **Informe de Conformitat**.  
 
-Per tant, haurem d'omplir el següent document:
+Per tant, haurem d'omplir el següent document segons si la formació es FSE o PAA/AAPP:
 
-[:material-microsoft-word: Informe de Conformitat]( {{enlaces.informe_conformitat_empresa}} ){: .md-button target="_blank"}
+[:material-microsoft-word: Informe de Conformitat  - Formació FSE]( {{enlaces.informe_conformitat_empresa_fse}} ){: .md-button target="_blank"} 
+[:material-microsoft-word: Informe de Conformitat  - Formació PAA / AAPP]( {{enlaces.informe_conformitat_empresa_paa}} ){: .md-button target="_blank"}
 
 
 Una vegada estiga fet, segons si la formació es FSE o PAA o AAPP, el posarem en la seua carpeta corresponent.  
@@ -214,10 +235,12 @@ Una vegada estiga fet, segons si la formació es FSE o PAA o AAPP, el posarem en
 [:material-folder: Carpeta conformitat empresa - Formació FSE]( {{enlaces.conformitat_empresa_fse}} ){: .md-button target="_blank"}
 [:material-folder: Carpeta conformitat empresa - Formació PAA / AAPP]( {{enlaces.conformitat_empresa_paa}} ){: .md-button target="_blank"}
 
+
+
 ---
 
 
-## 📌 9. Passar el curs a certificació en Gesform
+## 📌 7. Passar el curs a certificació en Gesform
 
 Quan tot estiga complet:
 
@@ -236,7 +259,7 @@ En el següent enllaç pots core com es fa en el tutorial de gesform --> [Passar
 
 ---
 
-## 🧩 10. Actualitzar el Kanban: Validació final
+## 🧩 8. Actualitzar el Kanban: Validació final
 
 Perquè Gloria i Alfredo validen el tancament:
 
