@@ -8,7 +8,7 @@ Esta pàgina recull configuracions internes i procediments tècnics que cal tind
 
 Quan Gesform publique una nova versió, cal descarregar-la i deixar-la disponible en el servidor per a que quan executem els scripts d'actulització descarreguen la versió correcta.
 
-**PROCEDIMENT*
+**PROCEDIMENT**
 
 #### 1. Descarregar la nova versió de Gesform
 
