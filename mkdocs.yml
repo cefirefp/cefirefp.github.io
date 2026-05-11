@@ -24,11 +24,7 @@ nav:
       - FSE: perfil/fse.md
       - Skills: perfil/skills.md
       - PAA: perfil/paa.md
-  - Gestió Econòmica:
-      - Comprova estat de la gestió econòmica de la formació: gestioeconomica/ge_comprova.md  
-      - Protocol de minutes: gestioeconomica/ge_protocolo_general_minutas.md
-      - Protocol de factures: gestioeconomica/ge_protocolo_general_facturas.md
-      - Finalització de les formacions: gestioeconomica/ge_finalizacion_curso.md
+
   - Gestió ERESAR: eresar.md
   - PAF: paf.md
   - Tutorials:
@@ -36,7 +32,13 @@ nav:
       - Creació de sessió en Teams: tutorials/tutorial_teams.md
       - Recuperar contrasenya Aules: tutorials/tutorial_recuperar_contrasenya_aules.md
       - Anonimització de vídeos amb DefaceCefire: tutorials/tutorial_defacecefire.md
+  - Configuracions: configuracions.md
   #- 📄 Descarregar PDF: pdf/documentacion.pdf
+  #- Gestió Econòmica:
+  #    - Comprova estat de la gestió econòmica de la formació: gestioeconomica/ge_comprova.md  
+  #    - Protocol de minutes: gestioeconomica/ge_protocolo_general_minutas.md
+  #    - Protocol de factures: gestioeconomica/ge_protocolo_general_facturas.md
+  #    - Finalització de les formacions: gestioeconomica/ge_finalizacion_curso.md
 
 
 theme:
@@ -131,6 +133,21 @@ plugins:
   - macros:
       include_yaml:
         - variables.yml
+  - encryptcontent:
+      password_file: passwords.yml
+      title_prefix: ''
+      summary: 'Contingut protegit'
+      placeholder: 'Contrasenya'
+      password_button: true
+      password_button_text: 'Accedir'
+      decryption_failure_message: 'Contrasenya incorrecta.'
+      encryption_info_message: 'Introdueix la contrasenya per a accedir a aquesta pàgina.'
+      remember_password: false
+      cache_file: ''
+      webcrypto: true
+      search_index: encrypted
+      encrypted_something:
+        md-nav--secondary: [nav, class]
   # - with-pdf:
   #     output_path: pdf/documentacion.pdf
   #     cover_logo: images/icono.jpg

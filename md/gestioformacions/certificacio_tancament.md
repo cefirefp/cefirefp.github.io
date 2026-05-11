@@ -215,10 +215,13 @@ Quan la generem he d'omplir alguns del camps, entre altres serà la **data de in
 
 ![Generar Minuta](../images/gestioformacions/genera_resolc.png){: .center }
 
-Una vegada generat el RESOLC el posarem en la carpeta de resolc per a signar junt amb el certifica signat.
+Una vegada generat el RESOLC el posarem en la carpeta de resolc per a signar junt amb el *CERTIFICA* signat.
 
 [:material-folder: Carpeta resolc per a signar]( {{enlaces.resolc_per_a_signar}} ){: .md-button target="_blank"}
 
+Podem comprovar els RESOLC signat en la següent carpeta:
+
+[:material-folder: Carpeta resolc signats]( {{enlaces.resolc_signats}} ){: .md-button target="_blank"}
 
 ### 📄 6.4. Generar INFORME DE CONFORMITAT { #conformitat }
 
