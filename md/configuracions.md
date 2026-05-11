@@ -1,4 +1,6 @@
-
+---
+level: configuracions
+---
 
 Esta pàgina recull configuracions internes i procediments tècnics que cal tindre localitzats per al manteniment de les eines del CEFIRE de Formació Professional.
 
