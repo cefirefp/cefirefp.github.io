@@ -78,6 +78,11 @@ La difusió del curs l'haurem de fer aquestes vies:
 <!-- | 📸 **Instagram** | Directora General. Ommplim la [Excel]( {{enlaces.excel_instagram}} ){target="_blank"} | Cal preparar imatge i guardar-la en la carpeta del curs i en la carpeta dels banners, i un text descriptiu en la Excel. <br>Publicació subjecta a decisió de la DG. |
 | ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br **Opcional però molt recomanable**. | -->
 
+!!!warning "Com obtintre l'enllaç a Ovifor de la formació?"
+    Per a crear este enllaç directe a la formació en Ovifor, cal afegir a l’enllaç d’Ovifor el paràmetre següent: &curso_id=codi_de_la_formació  
+    Exemple d’estructura:  
+    https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=25FP32CF023
+
 
 
 #### ✉️ Correu electrònic
@@ -101,7 +106,7 @@ Este curso está especialmente diseñado para el profesorado de ciclos formativo
 
 Para más detalles y para realizar la inscripción, pueden acceder al siguiente enlace, a partir del lunes próximo:
 
-https://ovifor.edu.gva.es
+https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=25FP32CF023
 
 Les agradecemos que hagan extensiva esta información al profesorado de su departamento que pueda estar interesado.
 
@@ -128,7 +133,7 @@ Aquest curs està especialment dissenyat per al professorat de cicles formatius 
 
 Per a més detalls i per a realitzar la inscripció, poden accedir al següent enllaç, a partir del pròxim dilluns:
 
-https://ovifor.edu.gva.es
+https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=25FP32CF023
 
 Els agraïm que facen extensiva esta informació al professorat del seu departament que puga estar interessat.
 
