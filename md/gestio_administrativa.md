@@ -63,12 +63,23 @@ En el document de la comisió de servei ha de quedar constància:
     !!!warning "Atenció"
         Cada assesor/a, haurà d'omplir els camps de la comissió de servei segons indique el director del CEFIRE de FP o el Cap de Servei.
 
-5. **Generarem el pdf que guardarem per a la firma** abans de realitzar el desplaçament.
+5. **Generarem el pdf que guardarem per a la firma** abans de realitzar el desplaçament. Quan generem el pdf haurem de posar a la subdirectora.  
+
+    ![Selecció subdirectora](images/seleccion_firma.png){: .center}  
+
+    Ens hem d'asegurar que en el pdf aprèixen el director i la subdirectora.  
+    
+    ![Firmants](images/firmantes_comision.png){: .center}  
+
       
     !!!tip "Recomanació"
         💡 Es recomana guardar una còpia de la comissió aprovada per a qualsevol comprovació posterior.
 
-6. **Ara entrarem en el [Portal de Firmes de GVA]({{enlaces.firmas_gva}} ){: target="_blank"}** on ens loguejarem amb el certificat digital  
+6. **Firmarem digitalment el pdf i li'l enviarem per mail a Alfredo**. Cal també enviar-li WhatsApp per a avisar-lo.
+
+7. Alfredo enviarà la comissió a Carolina i a Armando per a que la signen i una vegada signada ens la enviarà, per a que ens la guardem.
+
+<!-- 6. **Ara entrarem en el [Portal de Firmes de GVA]({{enlaces.firmas_gva}} ){: target="_blank"}** on ens loguejarem amb el certificat digital  
     ![Portal firmes GVA](images/porta_firmes.png){: .center}
 
 7. **Redactem una nova petició**
@@ -80,6 +91,8 @@ En el document de la comisió de servei ha de quedar constància:
     ![Portal firmes GVA](images/porta_firmes_ple.png){: .center}
 
 7. S'obri una nova finestra on seleccionarem el nostre nom y polsarem finalitza
+
+-->
 
 8. **Una vegada ja ens hagam desplaçat** haurem de demanar la dieta --> Seguent apartat
 

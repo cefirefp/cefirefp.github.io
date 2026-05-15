@@ -75,8 +75,8 @@ La difusió del curs l'haurem de fer aquestes vies:
 |--------------------|----------------------------------|----------------|
 | ✉️ **Correu electrònic** | Assesor envía un mail als caps de departament de la família professional corresponent | Correu model establit. Demanar que ho difonguen al professorat del departament. |
 | 🌐 **Web del CEFIRE** | Gloria | Avisar per WhatsApp, correu electrònic o telefonada per a publicar el banner al carrusel web. |
-| 📸 **Instagram** | Directora General. Ommplim la [Excel]( {{enlaces.excel_instagram}} ){target="_blank"} | Cal preparar imatge i guardar-la en la carpeta del curs i en la carpeta dels banners, i un text descriptiu en la Excel. <br>Publicació subjecta a decisió de la DG. |
-| ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br> **Opcional però molt recomanable**. |
+<!-- | 📸 **Instagram** | Directora General. Ommplim la [Excel]( {{enlaces.excel_instagram}} ){target="_blank"} | Cal preparar imatge i guardar-la en la carpeta del curs i en la carpeta dels banners, i un text descriptiu en la Excel. <br>Publicació subjecta a decisió de la DG. |
+| ✈️ **Canal de Telegram [som_fp]( {{enlaces.enllaç_telegram_som_fp}} ){target="_blank"}** | Gloria | Enviar banner del curs i breu descripció sol·licitant la publicació via Whatsapp o Telegram.<br **Opcional però molt recomanable**. | -->
 
 
 
@@ -145,7 +145,7 @@ Salutacions,
 #### 🌐 Web
 Per a sol·licitar la publicació del banner del curs en el carrusel de banners web, cal avisar a Gloria mitjançant un WhatsApps, un [Correu Electrònic](mailto:mg.munozgonzalez@edu.gva.es) o una telefonada.
 
-
+<!--
 #### 📸 Instagram
 La publicació a través d'Instagram es una decisió de la Directora General, però nosaltres haurem de pujar tota la informació, per si ella considera que s'ha de publicar.  
 La informació necesaria per a la publicació és:
@@ -197,6 +197,8 @@ Exemple de la breu descripció del curs
 
 
 ---
+
+-->
 
 ### 📚 Sol·licitud d’espai en AULES
 
@@ -319,7 +321,7 @@ En el cas de les formacions **online**, cal comprovar que:
 * El **banner del curs** estiga publicat a l’espai d’AULES.
 
 ---
-
+<!--
 ### 🌐 Xarxes socials
 
 Per a cada curs és important **afegir els enllaços a les xarxes socials a l'espai d'AULES** perquè els participants puguen accedir-hi fàcilment i rebre les novetats.  
@@ -333,4 +335,4 @@ Per a cada curs és important **afegir els enllaços a les xarxes socials a l'es
   [:material-video: Videotutorial]( {{enlaces.videotutorial_xarxes_socials_formularis}} ){: .md-button target="_blank"}
 
 ---
-
+-->

@@ -84,7 +84,7 @@ El DESIGNA es fa en tots els casos menys quan es tracta d'un empresari individua
 El document **“DESIGNA”** es genera amb l'aplicació de "Ferramentes de gestió CEFIRE FP".  
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}
 
-En l'apliació, polsarem "CREA DESIGNA" i ens demanarà que pugem el document FITXA ECONÒMICA del curs, una vegada pujat polsarem "Genera DESIGNA".
+En l'aplicació, polsarem "CREA DESIGNA" i ens demanarà que pugem el document FITXA ECONÒMICA del curs, una vegada pujat polsarem "Genera DESIGNA".
 
 Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
 
@@ -92,7 +92,7 @@ Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
     EL DESIGNA es genera a partir de la FITXA ECONÒMICA, per tant, és molt important que la FITXA ECONÒMICA estiga ben omplida.  
 
 
-Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà una còpia en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
+Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà el **DESIGNA** i la **FITXA ECONÒMICA** en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
 
 Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat** en la [carpeta de designes firmats]( {{enlaces.carpeta_designa_firmats}} ){target="_blank"}.
 
