@@ -199,7 +199,7 @@ Afegim nou registre i omplim la informació
 
 !!!info "Codis"
     - **Código**: 226.06 Gastos diversos, Reuniones, conferencias, celebración de actos y cursos (personal no docente)
-    - **Código**: 233.02 Gastos de formación del personal docente
+    - **Código**: 233.01 Gastos de formación del personal docente
     - **Importe**: Import que es preveu gastar en la formació.
     - **Descripción**: Breu descripció del curs i de les seues característiques (tarifa aplicada)
 

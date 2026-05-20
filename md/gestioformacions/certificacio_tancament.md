@@ -151,7 +151,7 @@ Els certifica signats els podrem trobar en la carpeta.
 
 ### 📝 6.2. Crear la MINUTA
 
-La **Minuta** s'ha de realitzar quan la formació es impartida per un **ponent GVA o ponent no GVA que cobra per minuta**.
+La **Minuta** s'ha de realitzar quan el **Certifica estiga signat** i quan la formació es impartida per un **ponent GVA o ponent no GVA que cobra per minuta**.
 
 La minuta s’ha de generar també mitjançant l’aplicació.  
 
@@ -199,7 +199,7 @@ La minuta li la enviarem al **ponent** per a que ens la **signe digitalment** i 
 
 🔹 Si el ponent és **ponent GVA** o **ponent no GVA que cobra amb minuta** haurem de fer el RESOLC.
 
-El document **RESOLC** es genera utilitzant l’aplicació i posar-lo en la carpeta "Resolc per a signar".
+El document **RESOLC** s'ha de realitzar quan el **Certifica estiga signat**, i es genera utilitzant l’aplicació i posar-lo en la carpeta "Resolc per a signar".
 
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}  
 
@@ -227,7 +227,9 @@ Podem comprovar els RESOLC signat en la següent carpeta:
 
 🔹 Si el ponent és **empresa** es fa un **Informe de Conformitat**.  
 
-Per tant, haurem d'omplir el següent document segons si la formació es FSE o PAA/AAPP:
+El **Informe de Conformitat** s'ha de realitzar quan el **Certifica estiga signat**.
+
+Per a realitzar el informe de conformitat haurem d'omplir el següent document segons si la formació es FSE o PAA/AAPP:
 
 [:material-microsoft-word: Informe de Conformitat  - Formació FSE]( {{enlaces.informe_conformitat_empresa_fse}} ){: .md-button target="_blank"} 
 [:material-microsoft-word: Informe de Conformitat  - Formació PAA / AAPP]( {{enlaces.informe_conformitat_empresa_paa}} ){: .md-button target="_blank"}

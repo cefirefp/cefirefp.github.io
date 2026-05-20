@@ -67,6 +67,7 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 * El **pressupost indicat** ha de coincidir **exactament** amb el que s’ha introduït en GESFORM.
 * Han d’estar inclosos **tots els noms dels ponents**, sense faltes d’ortografia i amb el **format establit en GESFORM** (majúscules).
 * Cal comprovar que hi consten totes les **dades requerides**: hores de docència, tarificació, preu per hora, i el **preu total** de la formació.
+* Cal indicar en observacions, si la persona que imparteix el curs es funcionari(a) o no.
 * La fitxa econòmica ha d’estar **signada tant per l’assessor/a responsable com pel director/a del CEFIRE**, a través del Porta Firmes. Per tant, caldrà pujar-la en format pdf a Porta Firmes y signar-lo i posa
 * El document s’ha de lliurar en **dos formats**:
     - Excel (editable).
