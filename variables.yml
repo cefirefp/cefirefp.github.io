@@ -18,7 +18,9 @@ enlaces:
   #Gestió de la Formació
   carpeta_cursos: "https://gvaedu.sharepoint.com/sites/Section_46402871-C/Documentos%20compartidos/Forms/AllItems.aspx?csf=1&web=1&e=3prB4o&CID=ee6b076e%2Dea34%2D452d%2Dab99%2Dc6854dbbb1e6&FolderCTID=0x01200042CD37219C1B3140B8EF4E357167D68D&id=%2Fsites%2FSection%5F46402871%2DC%2FDocumentos%20compartidos%2FCEFIRE%20FP%2025%2D26%2FCARPETAS%20DOC%20CURSOS"
   full_calcul_formacions_25: "https://gvaes.sharepoint.com/:x:/r/sites/SGORIENTACIIQUALIFICACIPROFESSIONALIDELIVQP_TEAMS-FormaciFP/Documentos%20compartidos/A_ordenar/Planificaci%C3%B3%20Formacions/Planificaci%C3%B3_formaci%C3%B3_families.xlsx?d=w8b95a273f3a84a3e97b12d24e4652bf9&csf=1&web=1&e=xqk4JM"
-  full_calcul_formacions_26: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/PLANIFICACIO%20FORMACIONS%202026.url?csf=1&web=1&e=4CnNwO"
+  full_calcul_formacions_26_fse: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
+  full_calcul_formacions_26_paa: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
+  full_calcul_formacions_26_aapp: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
   formulari_deteccio_necessitats: "https://forms.office.com/Pages/ShareFormPage.aspx?id=FBHdc33vx0CGaVadMufim-53VF1PiF9KodJQVufWGMhUMFJBM1pDUVFVSzlSWjQzQVgwNklSRVhRTi4u&sharetoken=ErDoALdVfa4IPKvpU4BH https://forms.office.com/Pages/ShareFormPage.aspx?id=FBHdc33vx0CGaVadMufim-53VF1PiF9KodJQVufWGMhUMFJBM1pDUVFVSzlSWjQzQVgwNklSRVhRTi4u&sharetoken=ErDoALdVfa4IPKvpU4BH "
   instruccions_FACE_DGFP: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/INSTRUCCIONES%20FACTURACION%20FACE_2025_DGFP.docx?d=w4c74554cf5634bb698197d539a8b2250&csf=1&web=1&e=Tf086Y"
   instruccions_FACE_SDGFP: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/INSTRUCCIONES%20FACTURACION%20FACE_2025_sdgfp.docx?d=w557af291226c4e8183a7249a7d86cb2c&csf=1&web=1&e=9lgfbw"
@@ -93,6 +95,7 @@ enlaces:
   manual_fase_I: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/1.1%20MANUAL%20GESFORM%20ASSESSORIES%20PAF%20FASE%201_Sol%C2%B7licitud.%20Validaci%C3%B3_VAL.pdf?csf=1&web=1&e=bs0IIK"
   manual_fase_II: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/0.1%20Manual%20GESFORM%20ASSESSORIES%20PAF%20FASE%202_Desenvolupament%20AF_VAL%20(1).pdf?csf=1&web=1&e=lGSrZx"
   carpeta_manuals_paf: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS?csf=1&web=1&e=F9tJpq"
+  carpeta_actes_finals: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/ACTES%20FINALS?csf=1&web=1&e=MSDBaS"
 
 
   # Competencia Digital Docent

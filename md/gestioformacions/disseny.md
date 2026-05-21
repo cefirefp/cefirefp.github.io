@@ -188,7 +188,12 @@ El **PROPER caduca als 3 mesos**, per tant, han de donar-se d'alta quan acaben l
 Uan vegada definida la formació, s'omli en un **full de càlcul** tota la informació bàsica: títol del curs, durada, horaris previstos, ponents, nombre de participants estimat i necessitats logístiques; indicant la **campanya a la qual pertany el curs** (SKILLS, FSE o PAA). Açò es realitza per a que el cap de servei de formació i orientació o el director del CEFIRE d'FP, ens autoritzen a realitzar la formació.
 
 [:material-microsoft-excel: Full de càlcul de les formacions 2025]( {{enlaces.full_calcul_formacions_25}} ){: .md-button target="_blank"}  
-[:material-microsoft-excel: Full de càlcul de les formacions 2026]( {{enlaces.full_calcul_formacions_26}} ){: .md-button target="_blank"}
+
+[:material-microsoft-excel: Full de càlcul de les formacions 2026 - FSE]( {{enlaces.full_calcul_formacions_26_fse}} ){: .md-button target="_blank"}  
+
+[:material-microsoft-excel: Full de càlcul de les formacions 2026 - PAA]( {{enlaces.full_calcul_formacions_26_paa}} ){: .md-button target="_blank"}  
+
+[:material-microsoft-excel: Full de càlcul de les formacions 2026 - AAPP]( {{enlaces.full_calcul_formacions_26_aapp}} ){: .md-button target="_blank"}
 
 
 ---

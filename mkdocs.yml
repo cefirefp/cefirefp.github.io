@@ -29,6 +29,7 @@ nav:
   - PAF: paf.md
   - Tutorials:
       - Gesform: tutorials/tutorial_gesform.md
+      - Certificació AF PAF: tutorials/certificació_AF_PAF.md
       - Creació de sessió en Teams: tutorials/tutorial_teams.md
       - Recuperar contrasenya Aules: tutorials/tutorial_recuperar_contrasenya_aules.md
       - Anonimització de vídeos amb DefaceCefire: tutorials/tutorial_defacecefire.md
