@@ -104,3 +104,7 @@ enlaces:
 
   # DefaceCefire
   deface: "https://github.com/arvicenteboix/cefirecares/releases/tag/v1.0.0"
+
+
+  # Comissions de serveis
+  carpeta_comissions: ""

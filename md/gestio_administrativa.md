@@ -51,10 +51,22 @@ En el document de la comisió de servei ha de quedar constància:
     ![Comisió de Servei](images/comissio.png){: .center}
 
 3. **Omplirem totes les dades necesaries**
-    - És important indicar amb claredat el objecte de la comissió i el itinerari.
-    - S'ha indicar si l'autorització es oral o escrita.
-    - Una vegada introduides totes les dades (dates, vehicle, kilometres, etc..), polsarem ![](images/calcular.png)
-    - I després guardar.  
+
+    ![Comisió de Servei](images/comissio_buida.jpg){: .center}
+
+    <ol type="1">
+      <li><strong>En l'apartat de COMISSIÓ DE SERVEI</strong>, hem d'introduir les dates de la comissió, l'objecte d'esta, així com les característiques pròpies, com ara la destinació (nacional o internacional) o si hem utilitzat un mitjà de locomoció propi.
+        <ul>
+          <li>És important posar en la <strong>DATA D'ORDRE</strong> la data en què es va donar l'ordre d'eixida, <strong>indicant la forma de la comunicació</strong> (oral, escrita, telefònica, etc.), encara que la comissió s'estiga registrant en l'aplicació després de l'eixida.</li>
+          <li>En l'apartat <strong>OBJECTE/ITINERARI</strong>, s'ha d'indicar el motiu (objecte) del desplaçament i l'itinerari que es realitzarà. En l'itinerari cal indicar els centres d'origen i de destinació i la localitat. L'origen del desplaçament serà el <strong>CENTRE DE TREBALL</strong>. Exemple: CEFIRE XXXX - CEIP/IES XXX (localitat) - CEFIRE XXXX.</li>
+          <li>En l'apartat <strong>LOCOMOCIÓ</strong>, s'ha d'indicar si el mitjà és vehicle propi, vehicle oficial o altres / cap. En cas de desplaçament amb vehicle propi, es genera dieta per quilometratge i s'habilita la casella de <strong>Km</strong> en l'apartat de locomoció. Cal omplir el tipus de vehicle, la matrícula i la marca del vehicle (es guarda automàticament per a pròximes vegades).</li>
+        </ul>
+      </li>
+      <li><strong>HOSTALATGE / RESTAURACIÓ</strong>: es calcula <strong>automàticament</strong> quan polses la pestanya <strong>CALCULAR</strong> <img src="images/calcular.png" alt="Calcular">, situada baix a la dreta, una vegada introduïdes les dates.</li>
+      <li><strong>LOCOMOCIÓ</strong>: en GVA Dietes s'han de posar manualment els quilòmetres. Per a fer-ho, podeu utilitzar Google Maps i <strong>s'optarà sempre per la ruta més curta en quilòmetres</strong>.</li>
+    </ol>
+
+    Després de revisar totes les dades, cal guardar la comissió.  
       
     ![Comisió de Servei Example](images/comissio_plena.png){: .center}
 
@@ -119,29 +131,72 @@ L’administració pot requerir en qualsevol moment:
 
 ### ⚙️ Procediment pas a pas per a demanar una dieta
 
-Una vegada realitzada la comissió de servei, acceptada i ja ens hem desplaçat i hem tornat. Podem demanar la dieta. Els passos per a demanar-la son:
+Una vegada realitzada la comissió de servei, acceptada i ja ens hem desplaçat i hem tornat. Podem demanar la dieta. 
 
-1. **Accedir a l’aplicació [GVADietas]({{ enlaces.gva_dietas }} "GVADietas"){: target="_blank" }**
+!!!warning "IMPORTANT"
+    Es generaran **TOTES les dietes EN FINALITZAR EL MES**.  
+    **Les seleccionarem totes i generarem la dieta.**  
+    En **"Generar Dieta"**, esteu confirmant que el desplaçament **SÍ** que s'ha realitzat. Per això, reviseu bé les comissions seleccionades abans de fer este pas, per a evitar generar dietes per desplaçaments no efectuats.
+
+Els passos per a generar-les son:
+
+
+1. **Accedirem a l’aplicació [GVADietas]({{ enlaces.gva_dietas }} "GVADietas"){: target="_blank" }**
     - Has d'estar dins de la xarxa de la GVA.
     - T'has de loguejar amb el teu certificat digital.
     ![GVADietas](images/gvadietas.png){: .center}
 
-2. **Entrar en Indemnizaciones/Comisiones** y polsar buscar per a que aparega la comissió de la qual volem demanar la dieta. Seleccionar la dieta y polsar   
+2. **Entrarem en Indemnizaciones/Comisiones**, **seleccionarem TOTES les dietes del mes**, polsarem **Generar Dieta**.   
     ![Generar Dieta](images/generar_dieta.png){: .center}
 
-3. **Omplirem les dades** y polsarem "Generar"  
-   ![Generacio Dieta](images/generacio_dieta.png){: .center}  
+3. **Omplirem les dades** y polsarem "Generar Dieta"  
+    
+    ![Generacio Dieta](images/generacio_dieta.png){: .center}  
       
     !!!warning "Atenció"
         Cada assesor/a, haurà d'omplir els camps de la dieta segons indique el director del CEFIRE de FP o el Cap de Servei.
 
 4. **Confirmarem la dieta**  
-   ![Confirmació Dieta](images/confirmacio_dieta.png){: .center}
+    ![Confirmació Dieta](images/confirmacio_dieta.png){: .center}
 
     !!!warning "Atenció"
         Cal repasar que estiga tot correcte abans de confirmar.  
     
-5.- **Si volem saber el estat de les dietes, hem d'anar a "Menú/Historico de Comisiones"**
+5. **Registrarem les dietes en l'Excel mensual**
+
+    Cada assessor/a haurà de registrar les comissions que realitze cada mes en una **Excel mensual de registre de dietes**, que es troba en la següent carpeta:  
+    [:material-folder: Carpeta Comissions de Servei]({{enlaces.carpeta_comissions}}){: .md-button target="_blank"}
+
+    Este fitxer permet portar un control global de les dietes i tramitar, des de **Gestió Econòmica**, el pagament de les que corresponguen al mes en què s'han realitzat.
+
+    En l'Excel s'ha d'indicar obligatòriament:
+
+    - Número de **NEFIS**.
+    - **DNI** de l'assessor/a.
+    - **Nom i cognoms**.
+    - **Import** de les dietes.
+    - **Data** de la comissió.
+
+    El número de **NEFIS** i el **DNI** són necessaris per a localitzar correctament les dietes en NEFIS.
+
+    !!!warning "Obtenció del núm. NEFIS en Dietes GVA"
+        Per a obtindre el número **NEFIS** de la dieta, cal seguir estos passos:
+
+        1. Anar a **Pantalla d'inici → Indemnizaciones → Seguimiento de Dietas**.
+        2. Indicar la data d'inici i la data de fi, i fer clic en **"Buscar"**.
+
+            Per defecte, si no es modifiquen les dates, la cerca es realitza des dels **9 mesos anteriors**.
+
+        3. En el llistat de dietes generades, un dels camps que apareix és el número **NEFIS**.  
+
+        ![](images/nefis.jpg){: .center}
+
+
+    !!!warning "IMPORTANT"
+        **Només es pagaran les dietes que estiguen incloses en esta Excel resum.**
+
+6. **Si volem saber l'estat de les dietes, hem d'anar a "Menú/Historico de Comisiones"**
+
 
 
 ---
