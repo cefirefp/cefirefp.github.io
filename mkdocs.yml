@@ -12,7 +12,7 @@ nav:
   - Inici: index.md
   - Paper de l'assessor/a: assessor.md
   - Organització: organitzacio.md
-  - Gestió Administrativa: gestio_administrativa.md
+  #- Gestió Administrativa: gestio_administrativa.md
   - Gestió Formacions:
       - 📑 Índex: gestio_formacions.md
       - 📝 Disseny de la formació: gestioformacions/disseny.md

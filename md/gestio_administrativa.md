@@ -175,7 +175,6 @@ Els passos per a generar-les son:
     - **DNI** de l'assessor/a.
     - **Nom i cognoms**.
     - **Import** de les dietes.
-    - **Data** de la comissió.
 
     El número de **NEFIS** i el **DNI** són necessaris per a localitzar correctament les dietes en NEFIS.
 
