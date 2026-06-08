@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Cefire FP" name="author"/>
+<link href="https://cefirefp.github.io/docs/configuracions/" rel="canonical"/>
+<link href="../tutorials/tutorial_defacecefire/" rel="prev"/>
+<link href="../images/icono.jpg" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.43" name="generator"/>
+<title>Configuracions - Tutorials CEFIRE FP</title>
+<link href="../assets/stylesheets/main.0253249f.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 17.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-.25-8.25a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0z"/><path d="M9.836 3.244c.963-1.665 3.365-1.665 4.328 0l8.967 15.504c.963 1.667-.24 3.752-2.165 3.752H3.034c-1.926 0-3.128-2.085-2.165-3.752Zm3.03.751a1.002 1.002 0 0 0-1.732 0L2.168 19.499A1.002 1.002 0 0 0 3.034 21h17.932a1.002 1.002 0 0 0 .866-1.5L12.866 3.994Z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.74 3.74 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574M8.755 4.75l-.004 7.322a3.75 3.75 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25"/></svg>');}</style>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Baloo+2:300,300i,400,400i,700,700i%7CRoboto:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Baloo 2";--md-code-font:"Roboto"}</style>
+<link href="../css/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#actualitzacio-de-la-versio-de-gesform-en-el-servidor-dactualitzacions">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Tutorials CEFIRE FP" class="md-header__button md-logo" data-md-component="logo" href=".." title="Tutorials CEFIRE FP">
+<img alt="logo" src="../images/icono.jpg"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Tutorials CEFIRE FP
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Configuracions
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Canvia a mode fosc" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Canvia a mode fosc">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+</label>
+<input aria-label="Canvia a mode clar" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Canvia a mode clar">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--integrated" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Tutorials CEFIRE FP" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Tutorials CEFIRE FP">
+<img alt="logo" src="../images/icono.jpg"/>
+</a>
+    Tutorials CEFIRE FP
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+<span class="md-ellipsis">
+    Inici
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../assessor/">
+<span class="md-ellipsis">
+    Paper de l'assessor/a
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../organitzacio/">
+<span class="md-ellipsis">
+    Organització
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Gestió Formacions
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Gestió Formacions
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestio_formacions/">
+<span class="md-ellipsis">
+    📑 Índex
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestioformacions/disseny/">
+<span class="md-ellipsis">
+    📝 Disseny de la formació
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestioformacions/generar/">
+<span class="md-ellipsis">
+    ⚙️ Generar la formació
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestioformacions/preparar/">
+<span class="md-ellipsis">
+    🛠️ Preparar la formació
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestioformacions/seguiment/">
+<span class="md-ellipsis">
+    👀 Seguiment de la formació
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gestioformacions/certificacio_tancament/">
+<span class="md-ellipsis">
+    🎓 Certificació i tancament de la formació
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Perfils
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Perfils
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../perfil/fse/">
+<span class="md-ellipsis">
+    FSE
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../perfil/skills/">
+<span class="md-ellipsis">
+    Skills
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../perfil/paa/">
+<span class="md-ellipsis">
+    PAA
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../eresar/">
+<span class="md-ellipsis">
+    Gestió ERESAR
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../paf/">
+<span class="md-ellipsis">
+    PAF
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+<span class="md-ellipsis">
+    Tutorials
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_8">
+<span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorials/tutorial_gesform/">
+<span class="md-ellipsis">
+    Gesform
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorials/certificaci%C3%B3_AF_PAF/">
+<span class="md-ellipsis">
+    Certificació AF PAF
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorials/tutorial_teams/">
+<span class="md-ellipsis">
+    Creació de sessió en Teams
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorials/tutorial_recuperar_contrasenya_aules/">
+<span class="md-ellipsis">
+    Recuperar contrasenya Aules
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../tutorials/tutorial_defacecefire/">
+<span class="md-ellipsis">
+    Anonimització de vídeos amb DefaceCefire
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    Configuracions
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Configuracions
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary" style="display:none !important">OdX5qa9ZgOW2KhmjJt1cqQ==;R6mkqtvAU9EJXR1UfBZESHvezjM8ZgDah13FwWc12JG9WcKSVRcmB7YzrafEKVoUCGQCyy86esvzmeRbH0UrEubwdcLCtPb7+L48PwcNXz85+Vb1scZ5CwthjzRkdKn0sqpOWwRfIJjv2os7YcUFhvQY7UsB1vMkrx2BmRh4E9I49dS8oW2rmNv5WO5JTsBaIC08qfNB2ebaW/oHy7Ru22aKOZtjLDppVLkPJYBDPF21yHfYDI3noNutgMKGKjsYplO1vfweQ42+En7rUtTlfvhXplLJ+topVVGZ+un/9dFlHrdcoEeMCG9upFeyzYIwTZ9x4itSQBLWwG15JVmVM6776gUp5FvZG599oXNwQjj27J7HNqFB1E8WgYjc1TfmkYkrrH1b8ytF+tvIbEm5TXTmBk6OIX7Wf09IGo40Zf8BXvBgZSgGdy9TOt6EwMyqK6GcVpQO030Y2sr+pfHI6VpXAED4MUKjZksw8tZ2ITanbPbKnTqUWMQv9d18HhyOtesa/sLROz/sHPgKcZl0chGz5PlonjlXAdM5nkt+6mzSfAGkdqasOBFNOSnyGe9bzt/yzoPIJ+ZV9AcMQy14iEZrkooKbIjLJgFiLzBlSUU=</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<div id="mkdocs-encrypted-content" style="display:none">5iFIax7lLkfmPQhDWyCGPQ==;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</div>
+<div id="mkdocs-decrypted-content" style="display:none">
+<form class="md-content__inner md-typeset" id="mkdocs-decrypt-form">
+<h1>Contingut protegit</h1>
+<p>Introdueix la contrasenya per a accedir a aquesta pàgina.</p>
+<input class="md-input" id="mkdocs-content-password" placeholder="Contrasenya" type="password"/>
+<button class="md-button md-button--primary" id="mkdocs-decrypt-button">Accedir</button>
+<p id="mkdocs-decrypt-msg"></p>
+</form>
+</div>
+<script type="text/javascript">
+var encryptcontent_id = "encryptcontent_1";
+var encryptcontent_path = "docs/configuracions/";
+var decryption_failure_message = "Contrasenya incorrecta.";
+var encryptcontent_keystore = ["5ryTDV6jTvap7q8FgkdbQQ==;H4bViio6TSD8fvuHBv63p2qRYMMg+d2iYjzUHh+oDXyqu6IUORFvdr+TpgqvKjgIWxCHCF852wuzgAvtP3uIgQjbBsqpnaYz3c4zmp/ttVv/FqK/Ngnag2aqRoM96iDY;53OFxDBKBznpRsrx2+qhlw=="];
+var encryptcontent_obfuscate = 0;
+
+const encryptcontent_event = new Event("encryptcontent_event");
+var encryptcontent_done = false;
+</script>
+<script type="module">
+if (!window.hasOwnProperty("init_decryptor")) {
+    import("../assets/javascripts/decrypt-contents.js");
+} else {
+    init_decryptor();
+}
+</script>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Anonimització de vídeos amb DefaceCefire" class="md-footer__link md-footer__link--prev" href="../tutorials/tutorial_defacecefire/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                Anonimització de vídeos amb DefaceCefire
+              </div>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+<div class="md-social">
+<a class="md-social__link" href="pdf/documentacion.pdf" rel="noopener" target="_blank" title="Descargar PDF">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-9.5 8.5c0 .8-.7 1.5-1.5 1.5H7v2H5.5V9H8c.8 0 1.5.7 1.5 1.5zm5 2c0 .8-.7 1.5-1.5 1.5h-2.5V9H13c.8 0 1.5.7 1.5 1.5zm4-3H17v1h1.5V13H17v2h-1.5V9h3zm-6.5 0h1v3h-1zm-5 0h1v1H7z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "toc.follow", "toc.integrate", "search.suggest", "content.code.copy", "content.code.select", "content.code.annotate", "navigation.footer", "navigation.top", "content.footnote.tooltips", "mermaid"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</body>
+</html>
