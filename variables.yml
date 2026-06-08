@@ -18,9 +18,12 @@ enlaces:
   #Gestió de la Formació
   carpeta_cursos: "https://gvaedu.sharepoint.com/sites/Section_46402871-C/Documentos%20compartidos/Forms/AllItems.aspx?csf=1&web=1&e=3prB4o&CID=ee6b076e%2Dea34%2D452d%2Dab99%2Dc6854dbbb1e6&FolderCTID=0x01200042CD37219C1B3140B8EF4E357167D68D&id=%2Fsites%2FSection%5F46402871%2DC%2FDocumentos%20compartidos%2FCEFIRE%20FP%2025%2D26%2FCARPETAS%20DOC%20CURSOS"
   full_calcul_formacions_25: "https://gvaes.sharepoint.com/:x:/r/sites/SGORIENTACIIQUALIFICACIPROFESSIONALIDELIVQP_TEAMS-FormaciFP/Documentos%20compartidos/A_ordenar/Planificaci%C3%B3%20Formacions/Planificaci%C3%B3_formaci%C3%B3_families.xlsx?d=w8b95a273f3a84a3e97b12d24e4652bf9&csf=1&web=1&e=xqk4JM"
-  full_calcul_formacions_26: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/PLANIFICACIO%20FORMACIONS%202026.url?csf=1&web=1&e=4CnNwO"
+  full_calcul_formacions_26_fse: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
+  full_calcul_formacions_26_paa: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
+  full_calcul_formacions_26_aapp: "https://gvaedu.sharepoint.com/:x:/r/sites/Section_46402871-C/Documentos%20compartidos/DOCUMENTACIO%20DE%20DGFP/Planificacio%CC%81%20Formacions/PLANIFICACIO2026.xlsx?d=wd0012e89ead24818b4306251aae4605c&csf=1&web=1&e=OnnNHt"
   formulari_deteccio_necessitats: "https://forms.office.com/Pages/ShareFormPage.aspx?id=FBHdc33vx0CGaVadMufim-53VF1PiF9KodJQVufWGMhUMFJBM1pDUVFVSzlSWjQzQVgwNklSRVhRTi4u&sharetoken=ErDoALdVfa4IPKvpU4BH https://forms.office.com/Pages/ShareFormPage.aspx?id=FBHdc33vx0CGaVadMufim-53VF1PiF9KodJQVufWGMhUMFJBM1pDUVFVSzlSWjQzQVgwNklSRVhRTi4u&sharetoken=ErDoALdVfa4IPKvpU4BH "
-  instruccions_FACE: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/MI%20CURSO%20TIENE%20FACTURAS/INSTRUCCIONES%20FACTURACION%20FACE_2025_sdgfp.pdf?csf=1&web=1&e=QTUKOq"
+  instruccions_FACE_DGFP: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/INSTRUCCIONES%20FACTURACION%20FACE_2025_DGFP.docx?d=w4c74554cf5634bb698197d539a8b2250&csf=1&web=1&e=Tf086Y"
+  instruccions_FACE_SDGFP: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/INSTRUCCIONES%20FACTURACION%20FACE_2025_sdgfp.docx?d=w557af291226c4e8183a7249a7d86cb2c&csf=1&web=1&e=9lgfbw"
   conformitat_servei: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/MI%20CURSO%20TIENE%20FACTURAS/24FPXXCFXX_CONFORMIDAD_NOMBREEMPRESA.docx?d=w4fdda2776f394e959a03b6e87042e5e0&csf=1&web=1&e=2QVNeS"
   tarifes_2025: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/TARIFAS/TARIFAS_JUNIO_%202025_firmado.pdf?csf=1&web=1&e=pEZneE"
   tarifes_2025_annex: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/TARIFAS/ANEXO%20TARIFAS_JUNIO_2025_V.octubre.pdf?csf=1&web=1&e=IneUWR"
@@ -41,7 +44,8 @@ enlaces:
   demanar_espai_AULES: "https://forms.office.com/e/7edxrww9GY"
   moodle_xarxes_socials: "https://gvaedu-my.sharepoint.com/:u:/g/personal/ar_vicenteboix_edu_gva_es/EeMkRofx_N1Htv82eVvj1VQB6PBfCakJ2nmocU3Rx3J6Vg?e=CbatYW"
   videotutorial_xarxes_socials_formularis: "https://gvaedu.sharepoint.com/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/JUSTIFICACI%C3%93N/2025-10-04%2019-11-45.mp4"
-  informe_conformitat_empresa: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/DOCUMENTACI%C3%93N%20PARA%20EDICIONES/GESTI%C3%93N%20ECON%C3%93MICA/DESIGNA_CONFORMIDAD_CERTIFICA/SKILLS/25FPxxCFxx_CONFORMIDAD_nomempresa.docx?d=w6ed3457f783742e399222cab9e5a6656&csf=1&web=1&e=ywT5Gb"
+  informe_conformitat_empresa_fse: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_EMPRESA/FSE_CODI_Modelo%20certificado%20conformidad%20co.docx?d=wb38b713e38b14b36a3251f7eea3c7e47&csf=1&web=1&e=KUFjqp"
+  informe_conformitat_empresa_paa: "https://gvaedu.sharepoint.com/:w:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_EMPRESA/PAA_AAPP_26FPXXCFXX_CONFORMIDAD_NOMBREEMPRESA.docx?d=wf943b28fc64248048d2fd155d36a43bb&csf=1&web=1&e=9eAiEy"
   mapificacio_cdd: "https://gvaedu.sharepoint.com/sites/Section_46402871-C/Documentos%20compartidos/Forms/AllItems.aspx?csf=1&web=1&e=j0Jha3&CID=3491cbb2%2D26ae%2D4ce4%2D9eab%2D3c212014b941&FolderCTID=0x01200042CD37219C1B3140B8EF4E357167D68D&id=%2Fsites%2FSection%5F46402871%2DC%2FDocumentos%20compartidos%2FCEFIRE%20FP%2025%2D26%2FDOCUMENTACI%C3%93N%20PARA%20EDICIONES%2FMAPIFICACI%C3%93%20COMPET%C3%88NCIES%20DIGITALS"
   
   # Carpetes de gestió de la formació
@@ -52,6 +56,7 @@ enlaces:
   certifica_signats: "https://gvaedu.sharepoint.com/sites/Section_46402871-C-GESTIECONMICA/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FSection%5F46402871%2DC%2DGESTIECONMICA%2FDocumentos%20compartidos%2FGESTI%C3%93%20ECON%C3%92MICA%2FCERTIFICAS&viewid=881d91f6%2D8e76%2D4756%2Da401%2Da97dc08d339b&csf=1&siteid=%7BB157782F%2D03EE%2D4BF0%2DAD5E%2D7FF336988E09%7D&webid=%7B7B42C39B%2D7BC7%2D4375%2D8E88%2D08F1254DD9B0%7D&uniqueid=%7BB4DB04A6%2DA9C4%2D4340%2D85EA%2DC2AFA75349B4%7D&FolderCTID=0x0120004E4E834FFAB09D439A20BE76EE8CEF96"
   minutes_signades: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/MINUTAS%20FIRMADAS?csf=1&web=1&e=xTePAG"
   resolc_per_a_signar: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/RESOLC%20PER%20A%20SIGNAR?csf=1&web=1&e=afVUAX"
+  resolc_sigants: "https://gvaedu.sharepoint.com/:u:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/RESOLC_signats.url?csf=1&web=1&e=pI0jk3"
   conformitat_empresa_fse: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_EMPRESA/FSE?csf=1&web=1&e=vfcfhj"
   conformitat_empresa_paa: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/CARPETAS%20DOC%20CURSOS/CONFORMIDAD_EMPRESA/PAA%20y%20AAPP?csf=1&web=1&e=goCukP"
   excel_instagram: "https://gvaes.sharepoint.com/:x:/r/sites/SGORIENTACIIQUALIFICACIPROFESSIONALIDELIVQP_TEAMS-FormaciFP/Documentos%20compartidos/03%20-%20%20PROCESOS%20DE%20APOYO/CURSOS/INSTAGRAM/Publicaciones%20Instagram.xlsx?d=w3a9a20f46fc04df3bd9e5f547c2e66fd&csf=1&web=1&e=cRu2L5"
@@ -90,6 +95,7 @@ enlaces:
   manual_fase_I: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/1.1%20MANUAL%20GESFORM%20ASSESSORIES%20PAF%20FASE%201_Sol%C2%B7licitud.%20Validaci%C3%B3_VAL.pdf?csf=1&web=1&e=bs0IIK"
   manual_fase_II: "https://gvaedu.sharepoint.com/:b:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS/0.1%20Manual%20GESFORM%20ASSESSORIES%20PAF%20FASE%202_Desenvolupament%20AF_VAL%20(1).pdf?csf=1&web=1&e=lGSrZx"
   carpeta_manuals_paf: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/DOCUMENTACI%C3%93%20I%20MANUALS?csf=1&web=1&e=F9tJpq"
+  carpeta_actes_finals: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/PAF/ACTES%20FINALS?csf=1&web=1&e=MSDBaS"
 
 
   # Competencia Digital Docent
@@ -98,3 +104,7 @@ enlaces:
 
   # DefaceCefire
   deface: "https://github.com/arvicenteboix/cefirecares/releases/tag/v1.0.0"
+
+
+  # Comissions de serveis
+  carpeta_comissions: "https://gvaedu.sharepoint.com/:f:/r/sites/Section_46402871-C/Documentos%20compartidos/CEFIRE%20FP%2025-26/COMISSIONS_DE_SERVEI?csf=1&web=1&e=8AgcrE"

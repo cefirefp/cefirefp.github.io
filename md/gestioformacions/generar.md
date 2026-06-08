@@ -61,16 +61,17 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 
 * La fitxa econòmica ha d’estar **correctament omplida en totes les seues parts**.
 * El **títol de la formació** ha de possar-se **en valencià**. (Açò es degut a que a partir de la fitxa econòmica es crea el DESIGNA, el qual està redactat en valencià).
-* El format de les **dates de la formació** ha de seguir el patró **"del DD/MM/AA al DD/MM/AA"**.
+* El format de les **dates de la formació** ha de seguir el patró **"del DD/MM/AAAA al DD/MM/AAAA"**.
 * En cada linea del document, s'ha de possar totes les dades del ponent o de la empresa. Per example, si un ponent a banda de pagar-li per la tutorització se li paga per creació de materials, s'haurà d'omplir dos lines amb totes les dades del ponent.
 * **Tota la documentació administrativa** (contractes, informes, propostes, justificacions…) es genera a partir d’aquesta fitxa, per tant és el **document base**.
 * El **pressupost indicat** ha de coincidir **exactament** amb el que s’ha introduït en GESFORM.
 * Han d’estar inclosos **tots els noms dels ponents**, sense faltes d’ortografia i amb el **format establit en GESFORM** (majúscules).
 * Cal comprovar que hi consten totes les **dades requerides**: hores de docència, tarificació, preu per hora, i el **preu total** de la formació.
-* La fitxa econòmica ha d’estar **signada tant per l’assessor/a responsable com pel director/a del CEFIRE**.
+* Cal indicar en observacions, si la persona que imparteix el curs es funcionari(a) o no.
+* La fitxa econòmica ha d’estar **signada tant per l’assessor/a responsable com pel director/a del CEFIRE**, a través del Porta Firmes. Per tant, caldrà pujar-la en format pdf a Porta Firmes y signar-lo i posa
 * El document s’ha de lliurar en **dos formats**:
     - Excel (editable).
-    - PDF signat digitalment per l'assessor (versió oficial).  
+    - PDF.  
 
 ---  
 
@@ -84,7 +85,7 @@ El DESIGNA es fa en tots els casos menys quan es tracta d'un empresari individua
 El document **“DESIGNA”** es genera amb l'aplicació de "Ferramentes de gestió CEFIRE FP".  
 [Aplicació Ferramentes de gestió CEFIRE FP]( {{enlaces.ferramentes_cefire_fp}}){: .md-button target="_blank"}
 
-En l'apliació, polsarem "CREA DESIGNA" i ens demanarà que pugem el document FITXA ECONÒMICA del curs, una vegada pujat polsarem "Genera DESIGNA".
+En l'aplicació, polsarem "CREA DESIGNA" i ens demanarà que pugem el document FITXA ECONÒMICA del curs, una vegada pujat polsarem "Genera DESIGNA".
 
 Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
 
@@ -92,7 +93,7 @@ Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
     EL DESIGNA es genera a partir de la FITXA ECONÒMICA, per tant, és molt important que la FITXA ECONÒMICA estiga ben omplida.  
 
 
-Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà una còpia en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
+Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà el **DESIGNA** i la **FITXA ECONÒMICA** en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
 
 Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat** en la [carpeta de designes firmats]( {{enlaces.carpeta_designa_firmats}} ){target="_blank"}.
 
