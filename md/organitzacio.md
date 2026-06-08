@@ -28,7 +28,7 @@ L’organització del **CEFIRE de FP** està estructurada per assegurar una coor
 
 ---
 
-### ⏰ Horari d’atenció
+### ⏰ Horari d’atenció de cada assessoria
 
 * **Atenció presencial i virtual:** de dilluns a divendres, de 8:30 a 14:30.  
 (o de dilluns a divendres, de 9:00 a 14:00 i una vesprada)

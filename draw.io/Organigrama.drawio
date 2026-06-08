@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="1678" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3124" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,10 @@
         <mxCell id="8" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio de Ordenación &#xa;de la la FP&#xa;Tania Fernández Navarro" vertex="1">
           <mxGeometry height="60" width="220" x="228" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="13" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio de Planificación&#xa;de la FP&#xa;David Montalvà Furió" vertex="1">
+        <mxCell id="13" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio de Planificación&#xa;de la FP&#xa;" vertex="1">
           <mxGeometry height="60" width="250" x="540" y="571" as="geometry" />
         </mxCell>
-        <mxCell id="18" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio del Innovación&#xa;e Internacionalización de la FP&#xa;Noelia Ángel Soriano" vertex="1">
+        <mxCell id="18" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio del Innovación&#xa;e Internacionalización de la FP&#xa;" vertex="1">
           <mxGeometry height="60" width="244" x="826" y="573" as="geometry" />
         </mxCell>
         <mxCell id="23" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Servicio de Orientación&#xa;y Acreditación Profesional&#xa;Alberto Gregori Herranz Peris" vertex="1">
@@ -96,6 +96,17 @@
             <mxPoint x="1328" y="540" as="sourcePoint" />
             <mxPoint x="1360" y="706" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Cm7hhR8DVo6Ij494QYsm-53" edge="1" parent="1" source="Cm7hhR8DVo6Ij494QYsm-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;curved=0;strokeColor=#23445D;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="415" />
+            </Array>
+            <mxPoint x="1530" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cm7hhR8DVo6Ij494QYsm-51" parent="1" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" value="Subdirección General de &#xa;Formación del profesorado&#xa;Mercedes Castro Almudéver" vertex="1">
+          <mxGeometry height="60" width="360" x="1340" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
