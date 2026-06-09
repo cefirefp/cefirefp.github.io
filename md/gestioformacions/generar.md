@@ -61,6 +61,7 @@ Per això és fonamental que **estiga omplida amb rigor i SENSE ERRORS**, ja que
 
 * La fitxa econòmica ha d’estar **correctament omplida en totes les seues parts**.
 * El **títol de la formació** ha de possar-se **en valencià**. (Açò es degut a que a partir de la fitxa econòmica es crea el DESIGNA, el qual està redactat en valencià).
+* En el apartat **asessoria responsable** heu de possar el vostre nom.
 * El format de les **dates de la formació** ha de seguir el patró **"del DD/MM/AAAA al DD/MM/AAAA"**.
 * En cada linea del document, s'ha de possar totes les dades del ponent o de la empresa. Per example, si un ponent a banda de pagar-li per la tutorització se li paga per creació de materials, s'haurà d'omplir dos lines amb totes les dades del ponent.
 * **Tota la documentació administrativa** (contractes, informes, propostes, justificacions…) es genera a partir d’aquesta fitxa, per tant és el **document base**.
@@ -95,7 +96,10 @@ Un vegada creat caldrà revisar-lo per a comprovar que s'ha creat correctament.
 
 Este document ha de ser signat per el/la director(a) de la Direcció General de Formació Professional. Per tant, una vegada generat es possarà el **DESIGNA** i la **FITXA ECONÒMICA** en la carpeta [DESIGNA POR FIRMAR]( {{enlaces.carpeta_desgina_per_firmar}} ){target="_blank"}.  
 
-Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat** en la [carpeta de designes firmats]( {{enlaces.carpeta_designa_firmats}} ){target="_blank"}.
+Posteriorment, **abans de que comence la formació** (aproximadament uns 3-5 dies abans), l'assessor haurà de **comprovar que el DESIGNA estiga signat**.  
+
+En la següent carpeta podrem trobar els designa sigants:  
+ [:material-folder: Carpeta de Contractes Menors]( {{enlaces.carpeta_designa_firmats}} ){: .md-button target="_blank"}
 
 !!!warning "Comprovar que el DESIGNA estiga signat abans de começar la formació"
     Si el DESIGNA no està signat NO es pot començar la formació, i caldria possar-se en contacte amb el Director del CEFIRE d'FP per a vore qué ha pasat i canviar les dates
@@ -122,6 +126,10 @@ En este cas farà falta un contracte menor, del qual s'encarregarà Elena i ens 
 
 !!!warning "Contracte menor"
     Fins que no estiga el contracte menor NO es pot començar la formació.
+
+En la següent carpeta podrem trobar els contractes menor signats:  
+ [:material-folder: Carpeta de Contractes Menors]( {{enlaces.carpeta_contractes_menors}} ){: .md-button target="_blank"}
+
 
 ---
 
