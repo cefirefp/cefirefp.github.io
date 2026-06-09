@@ -182,7 +182,23 @@ Quan la comissió de servei estiga relacionada amb una jornada, curs o activitat
 
 8. S'obri una nova finestra on seleccionarem el nostre nom i polsarem finalitza
    
-9.  **Una vegada ja ens hagam desplaçat** i a final de mes haurem de demanar que ens paguen totes les dietes d'eixe mes --> Seguent apartat
+9.  Cada assessor/a haurà de registrar **les comissions relacionades amb el CEFIRE** que realitze cada mes en una **Excel mensual de registre de dietes**, que es troba en la següent carpeta:  
+    [:material-folder: Carpeta Comissions de Servei]({{enlaces.carpeta_comissions}}){: .md-button target="_blank"}
+
+    La nomenclatura del fitxer Excel es 26xx_Dietas_CEFIRE_FP, on xx és el número de mes de les dietes. Per example, per les dietes de juny l'arxiu s'anomenarà 2606_Dietas_CEFIRE_FP.xlsx.  
+
+    En eixa Excel es registrarà cadascuna de les comissions i permet portar un control global de les dietes i tramitar, des de **Gestió Econòmica**, el pagament de les que corresponguen al mes en què s'han realitzat.
+
+    En l'Excel s'ha d'indicar obligatòriament:
+
+    - Número de **NEFIS**. (L'obtindrem a final de mes quan demanem la dieta de TOTES les comissions juntes)
+    - **DNI** de l'assessor/a.
+    - **Nom i cognoms**.
+    - **Import** de les dietes.
+    - **Data de la comissió**
+
+   
+10. **Una vegada ja ens hagam desplaçat** i A FINAL DE MES haurem de demanar que ens paguen TOTES les dietes d'eixe mes --> Seguent apartat
 
 
 
@@ -241,7 +257,7 @@ Els passos per a generar-les son:
     !!!warning "Atenció"
         Cal repassar que estiga tot correcte abans de confirmar.  
     
-5. **Registrarem les dietes en l'Excel mensual**
+5. **Posarem el número de NEFIS en el registre de comissions en l'Excel mensual**
 
     Cada assessor/a haurà de registrar les comissions que realitze cada mes en una **Excel mensual de registre de dietes**, que es troba en la següent carpeta:  
     [:material-folder: Carpeta Comissions de Servei]({{enlaces.carpeta_comissions}}){: .md-button target="_blank"}
@@ -256,6 +272,7 @@ Els passos per a generar-les son:
     - **DNI** de l'assessor/a.
     - **Nom i cognoms**.
     - **Import** de les dietes.
+    - **Data de la comissió**
 
     El número de **NEFIS** i el **DNI** són necessaris per a localitzar correctament les dietes en NEFIS.
 
