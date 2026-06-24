@@ -928,3 +928,46 @@ Finalment donem a **Aplicar -- Aceptar**.
 
 
 -->
+
+
+## Generar minuta per a enviar a ponent
+
+Para generar la minuta de cada formació, accedim a la finestra de l'edició i anem a *Lista de Pagos Edición*:
+
+![Lista de pagos edición](./../images/gesform/min1.png){.center}
+
+Ens apareixerà una finestra on veurem els ponents donats d'alta, en aquest cas cap. Caldrà apretar el botó de *Añadir nuevo registro*:
+
+![Añadir nuevo registro](./../images/gesform/min2.png){.center}
+
+Omplirem la dieta segons s'indica en la imatge:
+
+![Omplir dieta](./../images/gesform/min3.png){.center}
+
+!!! warning "IMPORTANT"
+    Pot tenir diferents conceptes de pagament com tutorització i ponència. En Func. NEFIS cal posar **FORMACIÓN DEL PROFESORADO** com a concepte.
+
+En el cas de que hi hagin diferents conceptes anirem a *Detalle de Dietas*:
+
+![Detalle de dietas](./../images/gesform/min4.png){.center}
+
+Una vegada ja tinguen la dieta creada només queda generar el PDF. Anirem a *Informes de Pago*:
+
+![Informes de pago](./../images/gesform/min5.png){.center}
+
+I sleccionarem *Minuta: Informe Minuta*:
+
+![Minuta: Informe Minuta](./../images/gesform/min6.png){.center}
+
+!!! warning "IMPORTANT"
+    Recordeu seleccionar el Logos FSE si es tracta d'una minuta amb fons FSE.
+
+Forem clic en *Previsualizar* i després imprimirem la minuta:
+
+![Previsualizar minuta](./../images/gesform/min7.png){.center}
+
+Cal recordar tenir sempre el gesform actualitzat a l'última versió i que la impressora estiga configurada per a poder imprimir PDF:
+
+![Configuración impresora](./../images/gesform/min8.png){.center}
+
+
