@@ -20,12 +20,12 @@ nav:
       - 🛠️ Preparar la formació: gestioformacions/preparar.md
       - 👀 Seguiment de la formació: gestioformacions/seguiment.md
       - 🎓 Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
+      - 💶 Gestió dietes ponents: tutorials/dietes_ponents.md
   - Perfils:
       - FSE: perfil/fse.md
       - Skills: perfil/skills.md
       - PAA: perfil/paa.md
 
-  - Gestió ERESAR: eresar.md
   - PAF: paf.md
   - Tutorials:
       - Gesform: tutorials/tutorial_gesform.md
