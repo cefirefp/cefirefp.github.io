@@ -10,20 +10,19 @@ L’organització del **CEFIRE de FP** està estructurada per assegurar una coor
 
 ### 👥 Qui som
 
-| Asesor                 | Mail                                                      | Sector                      | Families                                                                                 | Mail Sector                                                     |
-| ---------------------- | --------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Alfredo Rafael Vicente | [ar.vicenteboix@edu.gva.es](mailto:ar.vicenteboix@edu.gva.es) | Direcció |       | [46402871@edu.gva.es](mailto:46402871@edu.gva.es)               |
-| Gloria Muñoz           | [mg.munozgonzalez@edu.gva.es](mailto:mg.munozgonzalez@edu.gva.es) | Tecnològic                  | Informàtica i Comunicacions                                                               | [fp_tecnologic@gva.es](mailto:fp_tecnologic@gva.es)             |
-| Santiago Peiró         | [s.peiroturpin@edu.gva.es](mailto:s.peiroturpin@edu.gva.es) | Tecnològic II                  | Electricitat i Electrònica <br> Edificació i Obra Civil                 | [fp_tecnologic2@gva.es](mailto:fp_tecnologic2@gva.es)           |
-| Anna Guasp             | [a.guasp@edu.gva.es](mailto:a.guasp@edu.gva.es) | Serveis                     | Hoteleria i Turisme <br> Activitats Físiques i Esportives <br> Servicis Socioculturals i a la Comunitat | [fp_serveis@gva.es](mailto:fp_serveis@gva.es)                   |
-| José Carlos Denia      | [jc.deniaabad@edu.gva.es](mailto:jc.deniaabad@edu.gva.es) | Industrial                  | Transport i Manteniment de Vehicles <br> Fabricació Mecànica <br> Fusta, Moble i Suro                     | [fp_industrial@gva.es](mailto:fp_industrial@gva.es)             |
-| Patricia Fuster        | [p.fusterfort@edu.gva.es](mailto:p.fusterfort@edu.gva.es) | Gestió, comerç i turisme    | Administració i Gestió <br> Comerç i Màrketing <br> IPO            | [fp_gescomturisme@gva.es](mailto:fp_gescomturisme@gva.es)       |
-| Camilo Gisbert         | [c.gisbertgarcia@edu.gva.es](mailto:c.gisbertgarcia@edu.gva.es) | Industrial 2                | Instal·lació i Manteniment <br> Energia i Aigua <br> Indústries Extractives               | [fp_industrial2@gva.es](mailto:fp_industrial2@gva.es)           |
-| Gemma Cerezo           | [g.cerezo@edu.gva.es](mailto:g.cerezo@edu.gva.es) | Creatiu                     | Imatge Personal <br> Arts Gràfiques <br> Arts i Artesanies <br> Vidre i Ceràmica                     | [fp_creatiu@gva.es](mailto:fp_creatiu@gva.es)                   |
-| Lorena Muñoz           | [l.munozcatala@edu.gva.es](mailto:l.munozcatala@edu.gva.es) | Químic i alimentari         | Química<br>Indústries alimentàries                                                       | [fp_quimicalimentari@gva.es](mailto:fp_quimicalimentari@gva.es) |
-| Lourdes Ferrando       | [l.ferrandoyuste@edu.gva.es](mailto:l.ferrandoyuste@edu.gva.es) | Medi ambient                | Agrària<br>Maritimopesquera<br>Seguretat i medi ambient                                  | [fp_mediambient@gva.es](mailto:fp_mediambient@gva.es)           |
-| Vera Felip             | [v.feliporus@edu.gva.es](mailto:v.feliporus@edu.gva.es) | Sanitat                     | Sanitat <br> Tèxtil, Confecció i Pell                                        | [fp_sanitat@gva.es](mailto:fp_sanitat@gva.es)                   |
-| Paco Mañó              | [fj.manofrasquet@edu.gva.es](mailto:fj.manofrasquet@edu.gva.es) | Imatge i so                 | Imatge i so                                                                              | [fp_imatgeiso@gva.es](mailto:fp_imatgeiso@gva.es)               |
+| Assessor | E-mail | Famílies professionals i càrrecs | Coordinadores de família |
+| --- | --- | --- | --- |
+| Alfredo Rafael Vicente Boix | [ar.vicenteboix@edu.gva.es](mailto:ar.vicenteboix@edu.gva.es) | DIRECCIÓ<br>COORDINADOR DE PAF | |
+| Maria Gloria Muñoz González | [mg.munozgonzalez@edu.gva.es](mailto:mg.munozgonzalez@edu.gva.es) | Informàtica i comunicacions<br>HABILITADA DE GESTIÓ ECONÒMICA<br>COORDINADORA TIC<br>ENCARREGADA DE BANNERS I WEB | Gloria / Santi |
+| Jesica Soler Medina | [j.solermedina@edu.gva.es](mailto:j.solermedina@edu.gva.es) | Vidre i ceràmica<br>Imatge personal<br>Tèxtil, confecció i pell | Jesica / José Carlos |
+| Iván Gamiz Viosca | [i.gamizviosca@edu.gva.es](mailto:i.gamizviosca@edu.gva.es) | Instal·lació i manteniment<br>Energia i aigua<br>Indústries extractives | Iván / Patri |
+| Vera Felip Orus | [v.feliporus@edu.gva.es](mailto:v.feliporus@edu.gva.es) | Sanitat<br>Arts gràfiques<br>Arts i artesanies | Vera / Lorena |
+| Francisco Javier Mañó Frasquet | [fj.manofrasquet@edu.gva.es](mailto:fj.manofrasquet@edu.gva.es) | Imatge i so<br>Agrària<br>Marítim pesquera | Paco / Anna |
+| Lorena Muñoz Català | [l.munozcatala@edu.gva.es](mailto:l.munozcatala@edu.gva.es) | Química<br>Indústries alimentàries<br>Seguretat i medi ambient | Lorena / Vera |
+| Santiago Peiró Turpín | [s.peiroturpin@edu.gva.es](mailto:s.peiroturpin@edu.gva.es) | Electricitat i electrònica<br>Edificació i obra civil | Santi / Gloria |
+| Jose Carlos Denia Abad | [jc.deniaabad@edu.gva.es](mailto:jc.deniaabad@edu.gva.es) | Transport i manteniment de vehicles<br>Fabricació mecànica<br>Fusta, moble i suro | José Carlos / Jesica |
+| Patricia Fuster Fort | [p.fusterfort@edu.gva.es](mailto:p.fusterfort@edu.gva.es) | Administració i gestió<br>Comerç i marketing<br>IPE | Patri / Iván |
+| Anna Guasp Vidal | [a.guasp@edu.gva.es](mailto:a.guasp@edu.gva.es) | Hoteleria i turisme<br>Activitats físiques i esportives<br>Serveis socioculturals i a la comunitat | Anna / Paco |
 
 
 ---
@@ -31,7 +30,6 @@ L’organització del **CEFIRE de FP** està estructurada per assegurar una coor
 ### ⏰ Horari d’atenció de cada assessoria
 
 * **Atenció presencial i virtual:** de dilluns a divendres, de 8:30 a 14:30.  
-(o de dilluns a divendres, de 9:00 a 14:00 i una vesprada)
 
 
 ---

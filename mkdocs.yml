@@ -15,8 +15,9 @@ nav:
   - Gestió Administrativa: gestio_administrativa.md
   - Gestió Formacions:
       - 📑 Índex: gestio_formacions.md
-      - 📝 Disseny de la formació: gestioformacions/disseny.md
-      - ⚙️ Generar la formació: gestioformacions/generar.md
+      - 🔍 Detecció de necessitats: gestioformacions/detecció_de_necessitats.md
+      - 📝 Disseny i planificació de la formació: gestioformacions/disseny_i_planificacio.md
+      - ⚙️ Gestió de la formació: gestioformacions/gestio_formacio.md
       - 🛠️ Preparar la formació: gestioformacions/preparar.md
       - 👀 Seguiment de la formació: gestioformacions/seguiment.md
       - 🎓 Certificació i tancament de la formació: gestioformacions/certificacio_tancament.md
