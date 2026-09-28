@@ -1,6 +1,23 @@
-# **Gestió administrativa**
+# Gestió administrativa
 
-La gestió administrativa és una part fonamental del treball de l’assessor/a, ja que permet organitzar i tramitar correctament totes les activitats i desplaçaments relacionats amb la seva tasca professional. Aquesta secció recull informació sobre **comissions de servei, dietes i despeses de desplaçament**, així com els procediments i documents necessaris.
+La gestió administrativa és una part fonamental del treball de l’assessor/a, ja que permet organitzar i tramitar correctament les activitats i els desplaçaments relacionats amb la seua tasca professional.
+
+Per a gestionar un desplaçament, cal distingir **dos tràmits diferents**:
+
+- **Demanar una comissió de servei** significa sol·licitar el **permís per a desplaçar-se** i realitzar una activitat fora del lloc habitual de treball. S’ha de tramitar i confirmar **abans del desplaçament**, indicant el motiu, les dates, l’horari i l’itinerari. **És obligatòria encara que el desplaçament no genere cap despesa ni done dret a indemnització.**
+- **Demanar les dietes i les despeses de desplaçament** significa sol·licitar el **pagament de les despeses que corresponguen** per un desplaçament ja realitzat del qual ja hem demanat una **comissió de servei**. Este tràmit només es fa quan hi ha despeses indemnitzables i, segons el procediment descrit en esta pàgina, es realitza **en finalitzar el mes**, agrupant les comissions corresponents i aportant els justificants necessaris.
+
+!!! info "Cal demanar la comissió encara que no hi haja despeses"
+    El permís per a desplaçar-se és necessari independentment de si correspon alguna indemnització. Per exemple:
+
+    - Si et desplaces **dins de la mateixa ciutat on treballes** i no et correspon cap indemnització, has de demanar igualment la comissió de servei.
+    - Si viatges **amb un company o companya compartint vehicle**, també has de demanar la teua comissió de servei, encara que no et corresponga cobrar el quilometratge. Només la persona que aporta el vehicle pot sol·licitar esta despesa, sense perjudici d’altres despeses que puguen correspondre a cada persona.
+
+!!! tip "Recorda"
+    **La comissió de servei autoritza el desplaçament; la sol·licitud de dietes demana el pagament de les despeses.** Una comissió de servei pot no generar cap indemnització econòmica.
+
+Esta secció explica els procediments i els documents necessaris per a completar els dos tràmits.
+
 
 ---
 
@@ -182,21 +199,43 @@ Quan la comissió de servei estiga relacionada amb una jornada, curs o activitat
 
 8. S'obri una nova finestra on seleccionarem el nostre nom i polsarem finalitza
    
-9.  Cada assessor/a haurà de registrar **les comissions relacionades amb el CEFIRE** que realitze cada mes en una **Excel mensual de registre de dietes**, que es troba en la següent carpeta:  
-    [:material-folder: Carpeta Comissions de Servei]({{enlaces.carpeta_comissions}}){: .md-button target="_blank"}
+9. Cada assessor/a haurà de guardar **les comissions relacionades amb el CEFIRE** signades que realitze cada mes i haurà de registrar-les en una **Excel mensual de registre de dietes** que es troba en la següent carpeta:
+
+    [:material-folder: Carpeta Comissions de Servei]({{ enlaces.carpeta_comissions }}){: .md-button target="_blank"}
+
+    Una vegada la comissió de servei haja sigut **firmada pel director/a en el Portal de Firmes**, cada assessor/a haurà de descarregar el document pdf firmat i guardar-lo dins de la carpeta mensual corresponent.
+
+    El nom del document seguirà la nomenclatura:
+
+    **26mmdd_NomAssessor.pdf**
+
+    on:
+
+    - `26` correspon a l'any 2026.
+    - `mm` correspon al mes de la comissió.
+    - `dd` correspon al dia de la comissió.
+    - `NomAssessor` correspon al nom de l'assessor/a.
+
+    !!! example "Exemple"
+        Si Paco realitza una comissió de servei el **2 d'octubre de 2026**, una vegada firmada i descarregada del Portal de Firmes, el document es guardarà com:
+
+        **261002_Paco.pdf**
+
+        i es guardarà dins de la carpeta:
+
+        **2610_Dietas_CEFIRE_FP**
+    
+    A més a més en l'**Excel mensual de registre de dietes** es registrarà cadascuna de les comissions realitzades en eixe mes. Este registre permet portar un control global de les dietes i tramitar, des de **Gestió Econòmica**, el pagament de les que corresponguen al mes en què s'han realitzat.
 
     La nomenclatura del fitxer Excel es 26xx_Dietas_CEFIRE_FP, on xx és el número de mes de les dietes. Per example, per les dietes de juny l'arxiu s'anomenarà 2606_Dietas_CEFIRE_FP.xlsx.  
 
-    En eixa Excel es registrarà cadascuna de les comissions i permet portar un control global de les dietes i tramitar, des de **Gestió Econòmica**, el pagament de les que corresponguen al mes en què s'han realitzat.
-
     En l'Excel s'ha d'indicar obligatòriament:
 
-    - Número de **NEFIS**. (L'obtindrem a final de mes quan demanem la dieta de TOTES les comissions juntes)
+    - Número de **NEFIS**. *(L'obtindrem a final de mes quan generem la dieta de TOTES les comissions juntes.)*
     - **DNI** de l'assessor/a.
     - **Nom i cognoms**.
-    - **Import** de les dietes.
-    - **Data de la comissió**
-
+    - **Import** de la dieta.
+    - **Data de la comissió**.
    
 10. **Una vegada ja ens hagam desplaçat** i A FINAL DE MES haurem de demanar que ens paguen TOTES les dietes d'eixe mes --> Seguent apartat
 
