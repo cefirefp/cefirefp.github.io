@@ -147,41 +147,22 @@ Quan la comissió de servei estiga relacionada amb una jornada, curs o activitat
       
     ![Comisió de Servei Example](images/comissio_plena.png){: .center}  
 
-4. Després cal tornar a entrar en la comissió perquè aparega el botó ![](images/boto_autoritzacio_de_servei.png) i poder **imprimir l'autorització**. Una vegada polsem el botó, ens apareixerà una finestra que haurem d'omplir. Caldrà tindre en compte dos possibles casos:
+4. Després cal tornar a entrar en la comissió perquè aparega el botó ![](images/boto_autoritzacio_de_servei.png) i poder **imprimir l'autorització**. Una vegada polsem el botó, ens apareixerà una finestra que haurem d'omplir. 
 
-    1. **Comissions relacionades amb el CEFIRE**
-
-        - Servicio solicitante: CEFIRE
-        - Libro caja: LIBRO 0010
-        - Responsable funcional: DIRECTOR/A CEFIRE ESPECÍFICO FORMACIÓN PROFESIONAL
-        - Subsecretario o cargo equivalente: J.S. PLANIFICACIÓN Y GESTIÓN DE LA FORMACIÓN PERMANENTE DEL PROFESORADO
+    - Servicio solicitante: CEFIRE
+    - Libro caja: LIBRO 0010
+    - Responsable funcional: DIRECTOR/A CEFIRE ESPECÍFICO FORMACIÓN PROFESIONAL
+    - Subsecretario o cargo equivalente: J.S. PLANIFICACIÓN Y GESTIÓN DE LA FORMACIÓN PERMANENTE DEL PROFESORADO
 
         ![](images/generacio_dieta.png){: .center}
-
-    2. **Comissions relacionades amb projectes de la DGFP**
-
-        - Servicio solicitante: D.G. de Formación Profesional
-        - Libro caja: LIBRO 0012
-        - Responsable funcional: S.G. ORIENTACIÓN Y CUALIFICACIÓN PROF. Y DEL IVQP
-        - Subsecretario o cargo equivalente: D.G. DE FORMACIÓ PROFESSIONAL
-
-        ![](images/generacio_dieta_DGFP.png){: .center}
-
 
 
 5. **Generarem el pdf que guardarem per a la firma** abans de realitzar el desplaçament. Quan generem el pdf haurem de posar a la subdirectora.    
 
-    Ens hem d'asegurar que en el pdf  
-
-    
-    1. **Comissions relacionades amb el CEFIRE** --> apareixen director Alfredo Rafael Vicente i la cap de servei Carmen de la Santa
+    Ens hem d'asegurar que en el pdf apareixen director Alfredo Rafael Vicente i la cap de servei Carmen de la Santa
 
         ![](images/firmantes_comision.png){: .center}
-
-    2. **Comissions relacionades amb projectes de la DGFP** --> apareixen la subdirectora Carolina Part i el director Armando
-
-        ![](images/firmantes_comision_DGFP.png){: .center}
-    
+  
 
 6. **Ara entrarem en el [Portal de Firmes de GVA]({{enlaces.firmas_gva}} ){: target="_blank"}** on ens loguejarem amb el certificat digital  
     ![Portal firmes GVA](images/porta_firmes.png){: .center}
@@ -189,13 +170,8 @@ Quan la comissió de servei estiga relacionada amb una jornada, curs o activitat
 7. **Redactem una nova petició**
     - En missatge hem de detallar clarament el motiu de la comissió de servei
     - En documents, pugem el pdf de la comissió que hem generat abans
-    - En firma, tindrem dos casos:
-        - **Comissions relacionades amb el CEFIRE**.- En este cas les firmes han de ser: ![Portal firmes GVA](images/firmes.png){: .center}
-        - **Comissions relacionades amb projectes de la DGFP**.- En este cas les firmes han de ser: ![Portal firmes GVA](images/firmes_DGFP.png){: .center}
+    - En firma, posarem: ![Portal firmes GVA](images/firmes.png){: .center}
     - Una vegada estiguen tots els camps plens, l'enviem per a signar
-    - Example
-
-    ![Portal firmes GVA](images/porta_firmes_ple.png){: .center}
 
 8. S'obri una nova finestra on seleccionarem el nostre nom i polsarem finalitza
    
@@ -286,9 +262,10 @@ Els passos per a generar-les son:
 2. **Entrarem en Indemnizaciones/Comisiones**, **seleccionarem TOTES les dietes del mes**, polsarem **Generar Dieta**.   
     ![Generar Dieta](images/generar_dieta.png){: .center}
 
-3. **Omplirem les dades** i polsarem "Generar Dieta". Hi ha dos casos:  
-    - **Comissions relacionades amb el CEFIRE**.- En este cas hem d'omplir les següents dades: ![Portal firmes GVA](images/generacio_dieta.png){: .center}
-    - **Comissions relacionades amb projectes de la DGFP**.- En este cas hem d'omplir les següents dades: ![Portal firmes GVA](images/generacio_dieta_DGFP.png){: .center}  
+3. **Omplirem les dades** i polsarem "Generar Dieta".  
+    
+    En este cas hem d'omplir les següents dades: ![Portal firmes GVA](images/generacio_dieta.jpg){: .center}
+
     
 4. **Confirmarem la dieta**  
     ![Confirmació Dieta](images/confirmacio_dieta.png){: .center}
@@ -351,136 +328,3 @@ Els passos per a generar-les son:
 ---
 
 
-
-
-
-
-
-
-<!-- DESDE AQUI LO NUEVO 
-
-# **Gestió administrativa**
-
-La gestió administrativa és una part fonamental del treball de l’assessor/a, ja que permet organitzar i tramitar correctament totes les activitats i desplaçaments relacionats amb la seva tasca professional. Aquesta secció recull informació sobre **comissions de servei, dietes i despeses de desplaçament**, així com els procediments i documents necessaris.
-
----
-
-## 📝 Comissions de servei
-
-#### Què són i per a què serveixen
-
-Les **comissions de servei** són autoritzacions temporals que permeten als assessors/des realitzar activitats **fora del seu lloc habitual de treball**, com ara:
-
-* Desplaçaments a centres de FP.
-* Assistència a jornades o seminaris.
-* Reunions de coordinació amb altres CEFIREs o amb la DGFP.
-
-L’objectiu és garantir que aquests desplaçaments estiguen **formalment autoritzats** i comptin amb la cobertura administrativa i econòmica corresponent.
-
-Les comissions es poden autoritzar per diferents vies:
-
-* Escrita
-* Oral
-
-La persona que autoritza és la mateixa que confirma.  
-La confirmació pot fer-se:
-* Abans o després del desplaçament
-
-**Després és obligatori registrar i confirmar la comissió en l’aplicació encara que s’haja comunicat per altres mitjans.**
-
-En el document de la comissió de servei ha de quedar constància:
-* De la data real de l’autorització
-* Del mitjà utilitzat (oral, email, etc.)
-
-📌 Exemple pràctic  
-1. Es dona una ordre oral per fer una comissió (ex: 1 de febrer)  
-2. Es realitza el desplaçament  
-3. Es registra la comissió dies després  
-4. Es genera i envia el document per a signar  
-5. Es firma posteriorment, però reflectint la data original de l’ordre  
-
-### ⚙️ Procediment pas a pas per a demanar una comissió de servei
-
-1. **Accedir a l’aplicació [GVADietas]({{ enlaces.gva_dietas }} "GVADietas"){: target="_blank" }**
-    - Has d'estar dins de la xarxa de la GVA.
-    - T'has de loguejar amb el teu certificat digital.
-    ![GVADietas](images/gvadietas.png){: .center}
-
-2. **Entrar en Indemnizaciones/Comisiones** i polsar buscar per a que aparega el botó de ![](images/boto_mas.png), que polsarem per a crear una nova comissió de servei.  
-    ![Comisió de Servei](images/comissio.png){: .center}
-
-3. **Omplirem totes les dades necessàries**
-    - És important indicar amb claretat el objecte de la comissió i el itinerari.
-    - S'ha indicar si l'autorització es oral o escrita.
-    - Una vegada introduides totes les dades (dates, vehicle, kilometres, etc..), polsarem ![](images/calcular.png)
-    - I després guardar.  
-      
-    ![Comisió de Servei Example](images/comissio_plena.png){: .center}
-
-4. **Una vegada ja ens hagam desplaçat** haurem de demanar la dieta -> Seguent apartat
-
-
----
-
-## 💰 Dieta i despeses de desplaçament
-
-#### Normativa
-
-Les dietes i despeses de desplaçament es gestionen segons la **normativa vigent de la Generalitat Valenciana**, que estableix:
-
-* Quantitat diària segons tipus de desplaçament.
-* Possibilitat de justificar despeses de transport, allotjament i manutenció.
-* Procediment de presentació de documents i justificants.
-
-Les despeses que no siguen despeses de transport i manutenció s'han de justificar mitjançant:  
-
-* Factures
-* Justificants electrònics
-
-L’administració pot requerir en qualsevol moment:  
-
-* Els documents originals de les despeses
-
-### ⚙️ Procediment pas a pas per a demanar una dieta
-
-Una vegada realitzada la comissió de servei, acceptada i ja ens hem desplaçat i hem tornat. Podem demanar la dieta. Els passos per a demanar-la son:
-
-1. **Accedir a l’aplicació [GVADietas]({{ enlaces.gva_dietas }} "GVADietas"){: target="_blank" }**
-    - Has d'estar dins de la xarxa de la GVA.
-    - T'has de loguejar amb el teu certificat digital.
-    ![GVADietas](images/gvadietas.png){: .center}
-
-2. **Entrar en Indemnizaciones/Comisiones** i polsar buscar per a que aparega la comissió de la qual volem demanar la dieta. Seleccionar la dieta i polsar   
-    ![Generar Dieta](images/generar_dieta.png){: .center}
-
-3. **Omplirem les dades** i polsarem "Generar"  
-   ![Generacio Dieta](images/generacio_dieta.png){: .center}  
-      
-    !!!warning "Atenció"
-        Cada assessor/a, haurà d'omplir els camps de la dieta segons indique el director del CEFIRE de FP o el Cap de Servei.
-
-4. **Confirmarem la dieta**  
-   ![Confirmació Dieta](images/confirmacio_dieta.png){: .center}
-
-    !!!warning "Atenció"
-        Cal repassar que estiga tot correcte abans de confirmar.  
-    
-5.- **Si volem saber el estat de les dietes, hem d'anar a "Menú/Historico de Comisiones"**
-
-
----
-
-## ❓Preguntes freqüents
-
-* **Què faig si canvio la data del desplaçament?**  
-  Cal modificar la comissió existent a l’aplicació i enviar-la novament per a aprovació.  
-
-* **Puc fer una comissió per més d’un dia?**  
-  Sí, sempre indicant les dates exactes i el motiu per cada jornada.  
-
-* **Quins documents he de conservar?**  
-  Sempre guardar còpia de la comissió aprovada i dels justificants de despeses.  
-
----
-
- -->

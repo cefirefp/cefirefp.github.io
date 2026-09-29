@@ -88,11 +88,57 @@ Quan s’hagen pujat correctament totes les autoritzacions signades, aquest apar
 
 ---
 
-### 📋 CDD
+### 🗺️💻 Competència Digital Docent (CDD)
 
-El CDD correspon al **qüestionari de competència digital docent**. Cal descarregar-lo des de l’aplicació i enviar-lo als ponents perquè l’emplenen i el signen digitalment. Després, cal pujar el document signat a l’aplicació.
+El **mapejat de la Competència Digital Docent (CDD)** és un procés obligatori que permet vincular cada acció formativa amb les àrees i nivells del marc de competència digital docent.
 
-Quan s’hagen pujat tots els CDD signats, aquest apartat quedarà completat.
+##### En quines formacions és obligatori?
+
+El mapejat s'ha de realitzar obligatòriament en:
+
+* Formacions **FSE**
+* Formacions **PAA**
+* Formacions **SKILLS**
+* Altres accions formatives de la mateixa naturalesa
+
+El mapejat s'ha de realitzar independentment de la modalitat de la formació, tant en formacions **presencials** com **en línia**.
+
+
+##### 🚫 Excepcions
+
+**No s'ha de realitzar el mapejat** en:
+
+* Formacions del **PAF**.
+* Jornades.
+* Congressos.
+
+
+#### 📄 Procediment per a completar la CDD
+
+El procediment per a completar la **Competència Digital Docent (CDD)** consta de **dos passos**:
+
+**1. El ponent emplena el qüestionari CDD**
+
+Des de l'aplicació, l'assessor/a haurà de **descarregar el qüestionari CDD corresponent a cada ponent** i enviar-li'l.
+
+El **ponent haurà d'emplenar el qüestionari amb les dades de la formació i signar-lo digitalment**. Una vegada emplenat i signat, haurà de retornar-lo a l'assessor/a.
+
+L'assessor/a haurà de **pujar el document rebut a l'aplicació**.
+
+!!! warning "Important"
+    **No s'ha de modificar el nom del fitxer**, ja que el document que es puge a l'aplicació ha de mantindre exactament el mateix nom que tenia quan es va descarregar.
+
+
+**2. L'assessor/a emplena el formulari CDD**
+
+Una vegada rebuts els qüestionaris emplenats pels ponents, l'assessor/a haurà d'**obrir el formulari CDD disponible en l'aplicació i emplenar-lo amb les dades que han facilitat els ponents** en els seus qüestionaris.
+
+Per tant, cal tindre en compte que:
+
+* **El ponent emplena i signa el seu qüestionari CDD.**
+* **L'assessor/a utilitza la informació facilitada pel ponent per a emplenar el formulari CDD en l'aplicació.**
+
+Quan s'hagen pujat tots els qüestionaris dels ponents i l'assessor/a haja emplenat el formulari CDD amb les dades corresponents, **el procediment quedarà completat**.
 
 ![CDD](../images/gestioformacions/cdd.png){: .center}
 
