@@ -1,3 +1,7 @@
+.md-grid {
+    max-width: 100%;
+}
+
 .md-content p {
   text-align: justify;
 }
