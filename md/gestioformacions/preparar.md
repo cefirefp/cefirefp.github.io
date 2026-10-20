@@ -27,57 +27,67 @@ Enviarem un correu electrònic als caps de departament de la família profession
 Correu electrònic d'example
 
 ```
-Asunto.-  Inscripción curso  25FP32CF023 - Skill 39. Introducción a MikroTik: configuración y administración de redes   / Inscripció curs  25FP32CF023 - Skill 39. Introducció a MikroTik: configuració i administració de xarxes 
+Asunto.-  Inscripción curso 26FP19CF005 - Análisis de datos con visores cartográficos / Inscripció curs 26FP19CF005 - Anàlisi de dades amb visors cartogràfics  
 
-Estimados/as jefes/as de departamento,
+Estimado/a jefe/a de departamento,
 
-Me dirijo a ustedes para informarles de la apertura de inscripciones al curso a distancia:
+Te escribo para informarte de la apertura de inscripciones al curso:
 
-25FP32CF023 - Skill 39. Introducción a MikroTik: configuración y administración de redes
+26FP19CF005 - Análisis de datos con visores cartográficos
 
-Este curso está especialmente diseñado para el profesorado de ciclos formativos de la familia profesional de Informática y Comunicaciones y tiene como objetivo general dominar los conceptos básicos y avanzados del ecosistema MikroTik, incluyendo RouterOS y su hardware, para diseñar, configurar y gestionar redes eficientes tanto en contextos formativos como en entornos profesionales.
+Este curso está dirigido al profesorado de ciclos formativos de la familia profesional de Agraria y tiene como objetivo acercar al profesorado al uso de visores cartográficos como herramientas para la consulta, visualización y análisis de información geográfica, facilitando su aplicación en el ámbito educativo y en actividades relacionadas con el sector agrario.
 
-• Plazo de inscripción: Del lunes 14 de julio al domingo 31 de agosto de 2025.
-• Modalidad: A distancia con sesiones síncronas en línea.
+Datos del curso:
 
-Para más detalles y para realizar la inscripción, pueden acceder al siguiente enlace, a partir del lunes próximo:
+Plazo de inscripción: Del 21 de octubre al 4 de noviembre de 2026.
 
-https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=25FP32CF023
+Fecha de confirmación: 4 de noviembre de 2026.
 
-Les agradecemos que hagan extensiva esta información al profesorado de su departamento que pueda estar interesado.
+Publicación de listas definitivas: 11 de noviembre de 2026.
 
-Nota: Si ha recibido este correo por error y no es jefe/a de departamento de la familia de Informática y Comunicaciones en su centro, le rogamos que nos lo comunique respondiendo a este mensaje e indicándonos el contacto correcto de su centro para poder actualizar nuestra base de datos.
+Fechas de realización: Del 16 al 29 de noviembre de 2026.
 
-Aprovecho para enlazar nuestro canal de Telegram Gva_SomFP (https://t.me/gvasomfp) al que os podéis subscribir y recibir todas las novedades y la información de la FP de la Comunidad Valenciana.
+Para obtener más información y realizar la inscripción, puedes acceder al siguiente enlace:
 
-Quedamos a su disposición para cualquier consulta.
+https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=26FP19CF005
 
-Un cordial saludo,
+Te agradecería que hicieras extensiva esta información al profesorado de tu departamento que pueda estar interesado.
 
--------
+Nota: Si has recibido este correo por error y no eres jefe/a de departamento de la familia profesional de Agraria en tu centro, te agradecería que me lo comunicaras respondiendo a este mensaje e indicándome el contacto correcto para poder actualizar nuestra base de datos.
 
-Estimats/as caps de departament,
+Si tienes cualquier duda o consulta, estoy a tu disposición.
 
-Em dirigisc a vostés per a informar-los de l'obertura d'inscripcions al curs a distància:
+Un saludo,
 
-25FP32CF023 - Skill 39. Introducció a MikroTik: configuració i administració de xarxes
+----
 
-Aquest curs està especialment dissenyat per al professorat de cicles formatius de la família professional d'Informàtica i Comunicacions i té com a objectiu general dominar els conceptes bàsics i avançats de l'ecosistema MikroTik, incloent-hi RouterOS i el seu maquinari, per a dissenyar, configurar i gestionar xarxes eficients tant en contextos educatius com en entorns professionals.
+Estimat/da caps de departament,
 
-• Termini d'inscripció: Dilluns 14 de juliol al diumenge 31 d'agost de 2025.
-• Modalitat: A distància amb sessions síncrones en línia.
+T'escric per a informar-te de l'obertura d'inscripcions al curs:
 
-Per a més detalls i per a realitzar la inscripció, poden accedir al següent enllaç, a partir del pròxim dilluns:
+26FP19CF005 - Anàlisi de dades amb visors cartogràfics
 
-https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=25FP32CF023
+Este curs està dirigit al professorat de cicles formatius de la família professional d'Agrària i té com a objectiu acostar al professorat l'ús de visors cartogràfics com a ferramentes per a la consulta, visualització i anàlisi d'informació geogràfica, facilitant-ne l'aplicació en l'àmbit educatiu i en activitats relacionades amb el sector agrari.
 
-Els agraïm que facen extensiva esta informació al professorat del seu departament que puga estar interessat.
+Dades del curs:
 
-Nota: Si ha rebut este correu per error i no és cap/a de departament de la família d'Informàtica i Comunicacions en el seu centre, li preguem que ens el comunique responent a este missatge i indicant-nos el contacte correcte del seu centre per a poder actualitzar la nostra base de dades.
+Termini d'inscripció: Del 21 d'octubre al 4 de novembre de 2026.
 
-Aprofite per a enllaçar el nostre canal de Telegram Gva_SomFP (https://t.me/gvasomfp) al que us podeu subscriure i rebre totes les novetats  i la informació de l'FP de la Comunitat Valenciana.
+Data de confirmació: 4 de novembre de 2026.
 
-Quedem a la seua disposició per a qualsevol consulta.
+Publicació de llistes definitives: 11 de novembre de 2026.
+
+Dates de realització: Del 16 al 29 de novembre de 2026.
+
+Per a obtindre més informació i formalitzar la inscripció, pots accedir al següent enllaç:
+
+https://ovifor.edu.gva.es/ovifor/?lang=es&curso_id=26FP19CF005
+
+T'agrairia que feres extensiva esta informació al professorat del teu departament que puga estar interessat.
+
+Nota: Si has rebut este correu per error i no eres cap de departament de la família professional d'Agrària del teu centre, t'agrairia que m'ho comunicares responent a este missatge i indicant-me el contacte correcte per a poder actualitzar la nostra base de dades.
+
+Si tens qualsevol dubte o consulta, estic a la teua disposició.
 
 Salutacions,
 
