@@ -204,8 +204,6 @@ async function reload_js(src) {
     }
 };
 
-
-
 /* Decrypt speficique html entry from mkdocs configuration */
 async function decrypt_somethings(key, encrypted_something) {
     var html_item = '';
@@ -220,7 +218,7 @@ async function decrypt_somethings(key, encrypted_something) {
         if (html_item[0]) {
             for (let i = 0; i < html_item.length; i++) {
                 // grab the cipher bundle if something exist
-                if (html_item[i].style.display == "none") {
+                if (String(html_item[i].style.display).startsWith("none")) {
                     let content = await decrypt_content_from_bundle(key, html_item[i].innerHTML);
                     if (content !== false) {
                         // success; display the decrypted content
@@ -279,7 +277,6 @@ async function decryptor_reaction(key_or_keys, password_input, decrypted_content
         if (typeof key_or_keys === "object") {
             key = key_or_keys[encryptcontent_id];
             setKeys(key_or_keys);
-            
         } else {
             key = key_or_keys;
         }
@@ -305,6 +302,9 @@ async function decryptor_reaction(key_or_keys, password_input, decrypted_content
         if (window.location.hash) { //jump to anchor if hash given after decryption
             window.location.href = window.location.hash;
         }
+        //If we got keys then dispatch encryptcontent_event
+        encryptcontent_done = true;
+        window.dispatchEvent(encryptcontent_event);
     } else {
         // remove item on sessionStorage if decryption process fail (Invalid item)
         if (!fallback_used) {
@@ -340,7 +340,12 @@ async function init_decryptor() {
         
         decryptor_reaction(content_decrypted, password_input, decrypted_content, true);
     }
-    
+        
+    if (!content_decrypted) {
+        //If nothing got decrypted, still dispatch encryptcontent_event
+        encryptcontent_done = true;
+        window.dispatchEvent(encryptcontent_event);
+    }
     /* If password_button is set, try decrypt content when button is press */
     let decrypt_button = document.getElementById("mkdocs-decrypt-button");
     if (decrypt_button) {
