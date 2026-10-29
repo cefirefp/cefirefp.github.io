@@ -640,8 +640,8 @@ Les opcions que heu de seleccionar són:
 
 Una vegada tingueu guardat el fitxer heu de canviar-li l'extensió a .txt, per exemple: **EXEMPLE.txt**. I ja podeu importar-lo a Gesform.
 
-> [!WARNING]
-> NO TOQUES RES I LLIG!!!!! Veuràs que tots els participants estan en el llistat. És important que es queden en estat **Inicial** o sense estat. Els selecciones tots i li done a **Generar participantes**. **MAI APLIQUES, NI ELS PASES A ESTAT SELECCIONAT SINO NO VAS A PODER FER LA IMPORTACIÓ**.
+!!!danger "IMPORTANT"
+NO TOQUES RES I LLIG!!!!! Veuràs que tots els participants estan en el llistat. És important que es queden en estat **Inicial** o sense estat. Els selecciones tots i li done a **Generar participantes**. **MAI APLIQUES, NI ELS PASES A ESTAT SELECCIONAT SINO NO VAS A PODER FER LA IMPORTACIÓ**.
 
 
 Una vegada importat podeu anar al curs que heu importat i aneu a "Gestión Solicitud participantes"
