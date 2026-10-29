@@ -229,7 +229,7 @@ Per a passar el curs a PROPOSTA. Seleccionem de la lista deplegable "proposta" y
 
 
 !!!warning "Important"
-    Una vegada estiga el curs és important que poseu en Kanban el curs per a que siga validat per part del director. Si no es posa en Kanban no es podrà validar.  
+    Una vegada estiga el curs és important que actualitzeu en la app el curs per a que siga validat per part del director. Si no es posa en la app no es podrà validar.  
 
 
 ---
@@ -641,7 +641,7 @@ Les opcions que heu de seleccionar són:
 Una vegada tingueu guardat el fitxer heu de canviar-li l'extensió a .txt, per exemple: **EXEMPLE.txt**. I ja podeu importar-lo a Gesform.
 
 !!!danger "IMPORTANT"
-NO TOQUES RES I LLIG!!!!! Veuràs que tots els participants estan en el llistat. És important que es queden en estat **Inicial** o sense estat. Els selecciones tots i li done a **Generar participantes**. **MAI APLIQUES, NI ELS PASES A ESTAT SELECCIONAT SINO NO VAS A PODER FER LA IMPORTACIÓ**.
+    NO TOQUES RES I LLIG!!!!! Veuràs que tots els participants estan en el llistat. És important que es queden en estat **Inicial** o sense estat. Els selecciones tots i li done a **Generar participantes**. **MAI APLIQUES, NI ELS PASES A ESTAT SELECCIONAT SINO NO VAS A PODER FER LA IMPORTACIÓ**.
 
 
 Una vegada importat podeu anar al curs que heu importat i aneu a "Gestión Solicitud participantes"
@@ -805,7 +805,7 @@ Ara caldrà passar el curs a certificació (anteriorment estaria en avaluació).
 ![](../images/gesform/56927266649f405b010902144b72a54bdcd2eeef.png){.center }
 
 !!!warning "IMPORTANT"
-    Una vegada passat el curs a certificar caldrà comunicar-ho amb un fitxa al Kanban.
+    Una vegada passat el curs a certificar caldrà canviar l'estat de la APP.
 
 ## Traure l'acta final
 
@@ -828,7 +828,7 @@ Signar l'acta i arxivar-la a la carpeta del curs.
 
 
 
-<!-- ## GENERAR CERTIFICATS
+## GENERAR CERTIFICATS
 Una vegada està en certificació caldrà generar els certificats. Anem a eines a **Estados i Cert / Generar certificados.**
 
 ![](../images/gesform/03ebb1a27df27bd0d4befa8e5238f6d6fa18dcbf.png){.center }"
@@ -933,7 +933,6 @@ En el motiu caldrà buscar la paraula Cefire per identificar més fàcilment i p
 Finalment donem a **Aplicar -- Aceptar**.
 
 
--->
 
 
 ## Generar minuta per a enviar a ponent
